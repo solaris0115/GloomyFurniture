@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>GlommyFurniture</name>
+	<author>GlommyLynx NukaFrog</author>
+	<targetVersion>1.0.0</targetVersion>
+	<description>
+	Old Style FurniturePack
+	
+	Feature
+	- Add New Old Style Furnitures
+	- Add New Functional Furniture: JukeBox
+	
+	The jukebox plays several country songs. You can buy it through a exotic merchant ship.
+	</description>
+</ModMetaData>

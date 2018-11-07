@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!--
+		TimeOfDay = Night,Day,Any
+		Season = Undefined,	Spring,Summer,Fall,Winter,PermanentSummer,PermanentWinter		
+	-->
+	<SongDef>
+		<clipPath>Songs/Above_It_All</clipPath>
+		<volume>1</volume>
+		<playOnMap/>
+		<commonality/>
+		<tense/>
+		<allowedTimeOfDay>Any</allowedTimeOfDay>
+		<allowedSeasons>
+			<li>Undefined</li>		
+		</allowedSeasons>
+	</SongDef>
+
+	<SongDef>
+		<clipPath>Songs/Campfire_Song</clipPath>
+		<volume>1</volume>
+		<playOnMap/>
+		<commonality/>
+		<tense/>
+		<allowedTimeOfDay>Any</allowedTimeOfDay>
+		<allowedSeasons>
+			<li>Undefined</li>		
+		</allowedSeasons>
+	</SongDef>
+
+	<SongDef>
+		<clipPath>Songs/Dome_Sweet_Dome</clipPath>
+		<volume>1</volume>
+		<playOnMap/>
+		<commonality/>
+		<tense/>
+		<allowedTimeOfDay>Any</allowedTimeOfDay>
+		<allowedSeasons>
+			<li>Undefined</li>		
+		</allowedSeasons>
+	</SongDef>
+
+	<SongDef>
+		<clipPath>Songs/Moonshine_Town</clipPath>
+		<volume>1</volume>
+		<playOnMap/>
+		<commonality/>
+		<tense/>
+		<allowedTimeOfDay>Any</allowedTimeOfDay>
+		<allowedSeasons>
+			<li>Undefined</li>		
+		</allowedSeasons>
+	</SongDef>
+
+	<SongDef>
+		<clipPath>Songs/Nitpicky_Picnic</clipPath>
+		<volume>1</volume>
+		<playOnMap/>
+		<commonality/>
+		<tense/>
+		<allowedTimeOfDay>Any</allowedTimeOfDay>
+		<allowedSeasons>
+			<li>Undefined</li>		
+		</allowedSeasons>
+	</SongDef>
+	
+	<SongDef>
+		<clipPath>Songs/Rocking_Chair</clipPath>
+		<volume>1</volume>
+		<playOnMap/>
+		<commonality/>
+		<tense/>
+		<allowedTimeOfDay>Any</allowedTimeOfDay>
+		<allowedSeasons>
+			<li>Undefined</li>		
+		</allowedSeasons>
+	</SongDef>
+	
+	<SongDef>
+		<clipPath>Songs/Whistling_Down_the_Road</clipPath>
+		<volume>1</volume>
+		<playOnMap/>
+		<commonality/>
+		<tense/>
+		<allowedTimeOfDay>Any</allowedTimeOfDay>
+		<allowedSeasons>
+			<li>Undefined</li>		
+		</allowedSeasons>
+	</SongDef>
+	
+	<SongDef>
+		<clipPath>Songs/Stop</clipPath>
+		<volume>1</volume>
+		<playOnMap/>
+		<commonality/>
+		<tense/>
+		<allowedTimeOfDay>Any</allowedTimeOfDay>
+		<allowedSeasons>
+			<li>Undefined</li>		
+		</allowedSeasons>
+	</SongDef>
+
+
+</Defs>

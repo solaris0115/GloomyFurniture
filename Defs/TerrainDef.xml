@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<TerrainDef  ParentName="FloorBase">
+		<defName>RGK_Terrain</defName>
+		<label>wood floor</label>
+		<renderPrecedence>250</renderPrecedence>
+		<description>Wood plank flooring for that warm, homey feeling. While it is quick to lay, it is also very flammable.</description>
+		<texturePath>Things/Building/RGK_Terrain</texturePath>
+		<burnedDef>BurnedWoodPlankFloor</burnedDef>
+		<color>(108,78,55)</color>
+		<statBases>
+			<WorkToBuild>85</WorkToBuild>
+			<Flammability>0.2</Flammability>
+			<Beauty>1</Beauty>
+		</statBases>
+		<costList>
+			<WoodLog>3</WoodLog>
+		</costList>
+		<constructEffect>ConstructWood</constructEffect>
+		<designationHotKey>Misc7</designationHotKey>
+	</TerrainDef>
+	</Defs>
