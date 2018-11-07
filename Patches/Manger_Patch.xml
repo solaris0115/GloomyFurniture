@@ -22,9 +22,15 @@
 	<Operation Class="PatchOperationAdd">
 		<xpath>*/ThingDef[defName="Beer"]</xpath>
 		<value>
-		<thingCategories>
-			<li>Alcohol</li>
-		</thingCategories>
+			<thingCategories>
+				<li>Alcohol</li>
+			</thingCategories>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/WorkGiverDef[defName="DoBillsCook"]/fixedBillGiverDefs</xpath>
+		<value>
+			<li>RGK_FueledStove</li>
 		</value>
 	</Operation>
 </Patch>
