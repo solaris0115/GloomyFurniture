@@ -1563,12 +1563,15 @@
 		</statBases>
 		<graphicData>
 			<texPath>Things/Building/Furniture/WoodFenceGate_Mover</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
+			<graphicClass>Graphic_Multi</graphicClass>
 			<damageData>
 				<enabled>false</enabled>
 			</damageData>
 		</graphicData>
 		<uiIconPath>Things/Building/Furniture/WoodFenceGate_icon</uiIconPath>
+		<stuffCategories Inherit="False">
+			<li>Woody</li>
+		</stuffCategories>
 		<costStuffCount>25</costStuffCount>
 		<designationHotKey>Misc1</designationHotKey>
 		<building>
