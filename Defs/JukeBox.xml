@@ -3,6 +3,7 @@
 	<ThingDef ParentName="BuildingBase">
 		<defName>JukeBox</defName>
 		<label>juke box</label>
+		<thingClass>Building</thingClass>
 		<description>It's a raggedy music player. It has several records.</description>
 		<graphicData>
 			<texPath>Things/Building/Joy/RGK_Jukebox</texPath>

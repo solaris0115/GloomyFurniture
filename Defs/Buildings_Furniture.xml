@@ -2,6 +2,7 @@
 <Defs>
 	<ThingDef Name="RGKFurnitureBase" ParentName="BuildingBase" Abstract="True">
 		<designationCategory>OldStyleFurniture</designationCategory>
+		<thingClass>Building</thingClass>
 		<minifiedDef>MinifiedThing</minifiedDef>
 		<thingCategories>
 			<li>BuildingsFurniture</li>
@@ -9,6 +10,7 @@
 	</ThingDef>
 
 	<ThingDef Name="RGKFurnitureWithQualityBase" ParentName="RGKFurnitureBase" Abstract="True">
+		<thingClass>Building</thingClass>
 		<comps>
 			<li>
 				<compClass>CompQuality</compClass>
@@ -636,7 +638,7 @@
 			</li>
 		</comps>
 	</ThingDef>-->
-	
+
 	<!--<ThingDef ParentName="RGKArtableFurnitureBase">
 		<defName>RGK_Fireplace</defName>
 		<label>Fireplace</label>
@@ -1100,6 +1102,7 @@
 		<label>lamp</label>
 		<description>It's a small lamp. I think I can use it safely even when it rains.</description>
 		<category>Building</category>
+		<thingClass>Building</thingClass>
 		<graphicData>
 			<texPath>Things/Building/Furniture/RGK_lamp2</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -1554,6 +1557,7 @@
 		<defName>RGK_Door</defName>
 		<label>door</label>
 		<description>Divides rooms. Simple doors must be manually opened, which slows people down. The amount of slowdown depends on what the door is made of.</description>
+		<thingClass>Building</thingClass>
 		<statBases>
 			<WorkToBuild>850</WorkToBuild>
 		</statBases>
@@ -1581,6 +1585,7 @@
 		<label>street lamp</label>
 		<description>It's a street lamp. It lights the way in the dark.</description>
 		<category>Building</category>
+		<thingClass>Building</thingClass>
 		<graphicData>
 			<texPath>Things/Building/Furniture/RGK_Street_Lamp</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -1645,6 +1650,7 @@
 		<label>street lamp</label>
 		<description>It's a street lamp. It lights the way in the dark.</description>
 		<category>Building</category>
+		<thingClass>Building</thingClass>
 		<graphicData>
 			<texPath>Things/Building/Furniture/RGK_Lamp_Seven</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
