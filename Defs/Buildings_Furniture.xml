@@ -1425,8 +1425,8 @@
 		<description>A fence to trap livestock or protect it from outside beasts.</description>
 		<graphicData>
 			<texPath>Things/Building/Linked/RGK_WoodFence</texPath>
-			<graphicClass>Graphic_Appearances</graphicClass>
-			<linkType>CornerFiller</linkType>
+			<graphicClass>Graphic_Single</graphicClass>
+			<linkType>Basic</linkType>
 			<linkFlags>
 				<li>Custom1</li>
 			</linkFlags>
@@ -1464,7 +1464,7 @@
 		<selectable>true</selectable>
 		<neverMultiSelect>true</neverMultiSelect>
 		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
-		<holdsRoof>false</holdsRoof>
+		<holdsRoof>true</holdsRoof>
 		<designationCategory>Structure</designationCategory>
 		<staticSunShadowHeight>1</staticSunShadowHeight>
 		<blockLight>false</blockLight>
@@ -1477,10 +1477,11 @@
 		</building>
 	</ThingDef>
 
+
 	<ThingDef ParentName="RKGFence">
 		<defName>RGK_VentWall</defName>
 		<label>vent wall</label>
-		<thingClass>Building</thingClass>
+		<thingClass>Building_Vent</thingClass>
 		<category>Building</category>
 		<description>It's a wall where air can come in and out.</description>
 		<graphicData>
@@ -1506,7 +1507,7 @@
 		<uiIconPath>Things/Building/Linked/RGK_VentWall_MenuIcon</uiIconPath>
 		<statBases>
 			<Beauty>3</Beauty>
-			<MaxHitPoints>250</MaxHitPoints>
+			<MaxHitPoints>200</MaxHitPoints>
 			<WorkToBuild>180</WorkToBuild>
 			<Flammability>1.0</Flammability>
 		</statBases>
@@ -1528,7 +1529,7 @@
 		<holdsRoof>true</holdsRoof>
 		<designationCategory>Structure</designationCategory>
 		<staticSunShadowHeight>1</staticSunShadowHeight>
-		<blockLight>True</blockLight>		
+		<blockLight>true</blockLight>		
 		<placeWorkers>
 			<li>PlaceWorker_Vent</li>
 		</placeWorkers>
@@ -1544,7 +1545,7 @@
 			<canPlaceOverWall>true</canPlaceOverWall>
 		</building>
 		<comps>
-			<li Class="CompProperties_Flickable">
+			<li Class="Gloomylynx.CompProperties_FlickableVent">
 				<commandTexture>UI/Commands/Vent</commandTexture>
 				<commandLabelKey>CommandDesignateOpenCloseVentLabel</commandLabelKey>
 				<commandDescKey>CommandDesignateOpenCloseVentDesc</commandDescKey>

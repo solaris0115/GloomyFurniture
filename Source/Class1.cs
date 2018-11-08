@@ -438,4 +438,18 @@ namespace Gloomylynx
             base.WatchTickAction();
         }
     }
+    public class CompProperties_FlickableVent : CompProperties_Flickable
+    {
+        public CompProperties_FlickableVent()
+        {
+            this.compClass = typeof(CompFlickableVent);
+        }
+    }
+    public class CompFlickableVent : CompFlickable
+    {
+        public override IEnumerable<Gizmo> CompGetGizmosExtra()
+        {
+            yield break;
+        }
+    }
 }
