@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingDef ParentName="RGKTableBase">
+		<defName>RGK_TableE</defName>
+		<label>celtic table (2x1)</label>
+		<graphicData>
+			<texPath>Things/Building/Table/RGK_Table2x1</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(4,4)</drawSize>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+		</graphicData>
+		<uiIconScale>0.8</uiIconScale>
+		<statBases>
+			<MaxHitPoints>150</MaxHitPoints>
+			<WorkToBuild>5000</WorkToBuild>
+			<Mass>10</Mass>
+			<Flammability>1.0</Flammability>
+			<Beauty>30</Beauty>
+		</statBases>
+		<size>(2,1)</size>		
+		<stuffCategories>
+			<li>Woody</li>
+		</stuffCategories>
+		<costStuffCount>100</costStuffCount>
+		<rotatable>true</rotatable>
+		<comps>
+			<li>
+				<compClass>CompGatherSpot</compClass>
+			</li>
+		</comps>
+		<researchPrerequisites>
+			<li>ComplexFurniture</li>
+		</researchPrerequisites>
+		<constructionSkillPrerequisite>7</constructionSkillPrerequisite>
+	</ThingDef>
+	
+	<ThingDef ParentName="RGKTableBase">
+		<defName>RGK_TableF</defName>
+		<label>celtic table (3x2)</label>
+		<graphicData>
+			<texPath>Things/Building/Table/RGK_Tableb3x2</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(4,4)</drawSize>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+		</graphicData>
+		<uiIconScale>0.8</uiIconScale>
+		<statBases>
+			<MaxHitPoints>250</MaxHitPoints>
+			<WorkToBuild>8000</WorkToBuild>
+			<Mass>10</Mass>
+			<Flammability>1.0</Flammability>
+			<Beauty>75</Beauty>
+		</statBases>
+		<size>(3,2)</size>		
+		<stuffCategories>
+			<li>Woody</li>
+		</stuffCategories>
+		<costStuffCount>180</costStuffCount>
+		<rotatable>true</rotatable>
+		<comps>
+			<li>
+				<compClass>CompGatherSpot</compClass>
+			</li>
+		</comps>
+		<researchPrerequisites>
+			<li>ComplexFurniture</li>
+		</researchPrerequisites>
+		<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
+	</ThingDef>
+
+	
+	
+</Defs>
+

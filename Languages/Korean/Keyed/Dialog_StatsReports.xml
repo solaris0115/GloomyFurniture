@@ -3,6 +3,7 @@
 	<previousSong>이전곡</previousSong>
 	<previousSongDesc>이전에 재생한 곡을 선택합니다.</previousSongDesc>
 	<play>재생</play>
+	<Play>재생중</Play>
 	<playCurrentMusic>현재 선택된 노래를 재생합니다</playCurrentMusic>
 	<stop>정지</stop>
 	<stopCurrentMusic>현재 재생중인 노래를 멈춥니다.</stopCurrentMusic>

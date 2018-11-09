@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingDef Name="RGKRugBase" Abstract="True">
+		<category>Building</category>
+		<thingClass>Building</thingClass>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<selectable>true</selectable>
+		<drawerType>MapMeshAndRealTime</drawerType>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<repairEffect>Repair</repairEffect>
+		<leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+		<filthLeaving>Filth_RubbleBuilding</filthLeaving>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<thingCategories>
+			<li>BuildingsFurniture</li>
+		</thingCategories>
+		<comps>
+			<li>
+				<compClass>CompQuality</compClass>
+			</li>
+		</comps>
+		<designationCategory>OldStyleFurniture</designationCategory>
+		<tradeTags>
+			<li>Furniture</li>
+		</tradeTags>
+	</ThingDef>
+
+	<ThingDef ParentName="RGKRugBase">
+		<defName>RugTest</defName>
+		<label>RugTest</label>
+		<thingClass>Building</thingClass>
+		<graphicData>
+			<texPath>Things/Building/Rug/RugTest</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(4,4)</drawSize>
+			<damageData>
+				<rect>(0.2,0.2,0.6,0.6)</rect>
+			</damageData>
+		</graphicData>
+		<building>    
+			<isEdifice>false</isEdifice>
+		</building>
+		<altitudeLayer>FloorEmplacement</altitudeLayer>
+		<passability>Standable</passability>
+		<statBases>
+			<MaxHitPoints>140</MaxHitPoints>
+			<WorkToBuild>650</WorkToBuild>
+			<Flammability>1.0</Flammability>
+			<Beauty>20</Beauty>
+			<Cleanliness>0.5</Cleanliness>
+			<Mass>10</Mass>
+		</statBases>
+		<size>(4,4)</size>
+		<stuffCategories>
+			<li>Leathery</li>
+			<li>Fabric</li>
+		</stuffCategories>
+		<costStuffCount>120</costStuffCount>
+		<description>Rug from the "RIMkea Cozy Rugs Collection" 4x4</description>
+		<leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+		<rotatable>false</rotatable>
+		<comps>
+			<li Class="CompProperties_RoomIdentifier">
+				<roomStat>Impressiveness</roomStat>
+			</li>
+		</comps>
+		<clearBuildingArea>false</clearBuildingArea>
+		<saveCompressible>false</saveCompressible>
+		<researchPrerequisites>
+			<li>ComplexFurniture</li>
+		</researchPrerequisites>
+	</ThingDef>
+
+	<ThingDef ParentName="RGKRugBase">
+		<defName>RugTestT</defName>
+		<label>RugTestT</label>
+		<thingClass>Building</thingClass>
+		<graphicData>
+			<texPath>Things/Building/Rug/RugTest2</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(4,4)</drawSize>
+			<damageData>
+				<rect>(0.2,0.2,0.6,0.6)</rect>
+			</damageData>
+		</graphicData>
+		<building>    
+			<isEdifice>false</isEdifice>
+		</building>
+		<altitudeLayer>FloorEmplacement</altitudeLayer>
+		<passability>Standable</passability>
+		<statBases>
+			<MaxHitPoints>140</MaxHitPoints>
+			<WorkToBuild>650</WorkToBuild>
+			<Flammability>1.0</Flammability>
+			<Beauty>20</Beauty>
+			<Cleanliness>0.5</Cleanliness>
+			<Mass>10</Mass>
+		</statBases>
+		<size>(4,4)</size>
+		<stuffCategories>
+			<li>Leathery</li>
+			<li>Fabric</li>
+		</stuffCategories>
+		<costStuffCount>120</costStuffCount>
+		<description>Rug from the "RIMkea Cozy Rugs Collection" 4x4</description>
+		<leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+		<rotatable>false</rotatable>
+		<comps>
+			<li Class="CompProperties_RoomIdentifier">
+				<roomStat>Impressiveness</roomStat>
+			</li>
+		</comps>
+		<clearBuildingArea>false</clearBuildingArea>
+		<saveCompressible>false</saveCompressible>
+		<researchPrerequisites>
+			<li>ComplexFurniture</li>
+		</researchPrerequisites>
+	</ThingDef>
+</Defs>
+

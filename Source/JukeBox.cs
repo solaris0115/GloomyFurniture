@@ -17,6 +17,7 @@ namespace Gloomylynx
     public class CompJukeBox : ThingComp
     {
         //string assemblyFile = (new System.Uri(Assembly.GetExecutingAssembly().CodeBase)).AbsolutePath;
+
         public CompPowerTrader compPower;
         public bool currentPlayState = false;
         public static SongDef currentSong;
@@ -183,16 +184,18 @@ namespace Gloomylynx
                         }
                     }
                 };
-                /*yield return new Command_Action
+                yield return new Command_Action
                 {
                     defaultLabel = "loadFromShip",
                     defaultDesc = "loadFromShipDesc",
                     icon = ContentFinder<Texture2D>.Get("UI/Commands/Next", true),
                     action = delegate ()
                     {
-                        //DoSome
+                        Log.Message("Location: " + JukeBoxCore.jukeBoxMod.RootDirectory);
+                        JukeBoxCore.scanMusicPath();
+                        /*Log.Message("Location: " + Directory.GetCurrentDirectory());*/
                     }
-                };*/
+                };
             }
             yield break;
         }
@@ -270,38 +273,61 @@ namespace Gloomylynx
             Find.MusicManagerPlay.ForceStartSong(currentSong, false);
         }
     }
-    
-    
-    /*
-    public class CustomMusicCore
+
+    [StaticConstructorOnStartup]
+    public class JukeBoxMod: Mod
     {
-        public const string musicPath = "Songs/";
-        public CustomMusicCore()
+        JukeBoxMod instance;
+        public string RootDirectory
+        {
+            get
+            {
+                return Content.RootDir;
+            }
+        }
+
+        public JukeBoxMod(ModContentPack content) : base(content)
+		{
+            if(instance==null)
+            {
+                instance = this;
+            }
+            JukeBoxCore.jukeBoxMod = instance;
+        }
+    }
+
+    public class JukeBoxCore
+    {
+        public static JukeBoxMod jukeBoxMod;
+        public const string musicPath = @"\Sounds\Songs";
+
+        public JukeBoxCore()
         {
             Current.Root_Play.musicManagerPlay = new MusicManagerPlay();
         }
 
         public static void scanMusicPath()
         {
-
-            if (!Directory.Exists(CustomMusicCore.settings.musicPath))
+            string[] files = Directory.GetFiles(jukeBoxMod.RootDirectory+musicPath, "*.*", SearchOption.AllDirectories);
+            foreach(string s in files)
             {
-                Find.WindowStack.Add(new Dialog_MessageBox("CustomMusic_dirNotExist".Translate(), null, null, null, null, null, false, null, null));
-                return;
+                Log.Message("name: " + s);
             }
 
-            string[] files = Directory.GetFiles(CustomMusicCore.settings.musicPath, "*.ogg", SearchOption.AllDirectories);
+
+
+            /*
             IEnumerable<string> enumerable = from file in files
-                                             where CustomMusicCore.settings.songs.FindIndex((SongEntry song) => song.clipPath == file) == -1
+                                             where JukeBoxCore.settings.songs.FindIndex((SongEntry song) => song.clipPath == file) == -1
                                              select file;
-            IEnumerable<string> removedFiles = from song in (from song in CustomMusicCore.settings.songs
+            IEnumerable<string> removedFiles = from song in (from song in JukeBoxCore.settings.songs
                                                              select song.clipPath).ToList<string>()
                                                where !files.Contains(song)
                                                select song;
             foreach (string clipPath in enumerable)
             {
-                CustomMusicCore.settings.songs.Add(new SongEntry());
-                SongEntry songEntry = CustomMusicCore.settings.songs.Last<SongEntry>();
+                JukeBoxCore.settings.songs.Add(new SongEntry());
+                SongEntry songEntry = JukeBoxCore.settings.songs.Last<SongEntry>();
                 songEntry.clipPath = clipPath;
                 songEntry.PostLoad();
                 songEntry.ResolveReferences();
@@ -314,13 +340,83 @@ namespace Gloomylynx
                     string file = enumerator.Current;
                     typeof(DefDatabase<SongDef>).GetMethod("Remove", BindingFlags.Static | BindingFlags.NonPublic).Invoke(null, new object[]
                     {
-                        CustomMusicCore.settings.songs.Find((SongEntry song) => song.clipPath == file)
+                        JukeBoxCore.settings.songs.Find((SongEntry song) => song.clipPath == file)
                     });
                 }
             }
-            CustomMusicCore.settings.songs.RemoveAll((SongEntry song) => removedFiles.Contains(song.clipPath));
+            JukeBoxCore.settings.songs.RemoveAll((SongEntry song) => removedFiles.Contains(song.clipPath));*/
         }
-    }*/
+    }
+
+    public class SongEntry : SongDef, IExposable
+    {
+        public WWW source;
+
+        public SongEntry()
+        {
+            this.allowedSeasons = new List<Season>(3);
+        }
+
+        public void ExposeData()
+        {
+            Scribe_Values.Look<string>(ref this.clipPath, "clipPath", null, false);
+            Scribe_Values.Look<string>(ref this.defName, "defName", null, false);
+            Scribe_Collections.Look<Season>(ref this.allowedSeasons, "allowedSeasons", LookMode.Undefined, new object[0]);
+            Scribe_Values.Look<TimeOfDay>(ref this.allowedTimeOfDay, "allowedTimeOfDay", TimeOfDay.Any, false);
+            Scribe_Values.Look<bool>(ref this.tense, "tense", false, false);
+            Scribe_Values.Look<float>(ref this.commonality, "commonality", 1f, false);
+            Scribe_Values.Look<bool>(ref this.playOnMap, "playOnMap", true, false);
+            Scribe_Values.Look<float>(ref this.volume, "volume", 1f, false);
+            if (Scribe.mode == LoadSaveMode.PostLoadInit)
+            {
+                this.PostLoad();
+            }
+            if (Scribe.mode == LoadSaveMode.ResolvingCrossRefs)
+            {
+                this.ResolveReferences();
+            }
+        }
+
+        public override void PostLoad()
+        {
+            if (this.defName == "UnnamedDef")
+            {
+                this.defName = Regex.Replace(Path.GetFileNameWithoutExtension(this.clipPath), "[^\\w-]", "_", RegexOptions.IgnoreCase);
+            }
+        }
+
+        public override void ResolveReferences()
+        {
+            LongEventHandler.ExecuteWhenFinished(delegate
+            {
+                this.source = new WWW("file://" + this.clipPath);
+            });
+        }
+      
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     /*
     public class MusicSettings : ModSettings
