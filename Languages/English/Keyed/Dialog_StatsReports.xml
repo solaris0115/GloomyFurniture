@@ -1,3 +1,14 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
+	<previousSong>prev</previousSong>
+	<previousSongDesc>Select previous song</previousSongDesc>
+	<play>play</play>
+	<playCurrentMusic>Playing current selected song</playCurrentMusic>
+	<stop>stop</stop>
+	<stopCurrentMusic>stop current playing music</stopCurrentMusic>
+	<nextSong>next</nextSong>
+	<nextSongDesc>Select next song</nextSongDesc>
+	<State>State</State>
+	<Pause>Pause</Pause>
+	<CurrentSong>Current Song</CurrentSong>
 </LanguageData>

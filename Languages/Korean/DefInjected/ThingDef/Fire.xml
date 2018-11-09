@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <RGK_Fireplace.label>벽난로</RGK_Fireplace.label>
+  <RGK_Fireplace.description>방을 따듯하게 데워주는 벽난로입니다.</RGK_Fireplace.description>
+  <RGK_Fireplace_Blueprint.label>벽난로 (blueprint)</RGK_Fireplace_Blueprint.label>
+  <RGK_Fireplace_Frame.label>벽난로 (building)</RGK_Fireplace_Frame.label>
+  <RGK_Fireplace_Frame.description>방을 따듯하게 데워주는 벽난로입니다.</RGK_Fireplace_Frame.description>
+
+
+</LanguageData>

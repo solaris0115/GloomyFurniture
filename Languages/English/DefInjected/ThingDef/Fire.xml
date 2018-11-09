@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <RGK_Fireplace.label>fire place</RGK_Fireplace.label>
+  <RGK_Fireplace.description>It's a warm fireplace that warms the room.</RGK_Fireplace.description>
+  <RGK_Fireplace_Blueprint.label>fire place (blueprint)</RGK_Fireplace_Blueprint.label>
+  <RGK_Fireplace_Frame.label>fire place (building)</RGK_Fireplace_Frame.label>
+  <RGK_Fireplace_Frame.description>It's a warm fireplace that warms the room.</RGK_Fireplace_Frame.description>
+
+
+</LanguageData>
