@@ -16,88 +16,129 @@ namespace Gloomylynx
 {
     public class CompJukeBox : ThingComp
     {
-        //string assemblyFile = (new System.Uri(Assembly.GetExecutingAssembly().CodeBase)).AbsolutePath;
-
-        public CompPowerTrader compPower;
-        public bool currentPlayState = false;
-        public static SongDef currentSong;
-        public List<SongDef> songList = new List<SongDef>();
-        public static int index = 0;
+        public static bool currentState=false;
+        public CompPowerTrader compPowerTrader;
 
         public override void PostSpawnSetup(bool respawningAfterLoad)
         {
             base.PostSpawnSetup(respawningAfterLoad);
-            compPower = parent.GetComp<CompPowerTrader>();
-            songList = ((CompProperties_JukeBox)props).songList;
-            if (currentSong == null)
-            {
-                currentSong = songList[0];
-            }
+            JukeBoxCore.AddJukeBox(this);
+            compPowerTrader = parent.GetComp<CompPowerTrader>();
         }
         public override void PostDeSpawn(Map map)
         {
             base.PostDeSpawn(map);
-            StopMusic();
+            JukeBoxCore.RemoveJukeBox(this);
+            //마지막 한대면 복구
         }
         public override void PostExposeData()
         {
+            //이미 존재하는 개체
             base.PostExposeData();
-            Scribe_Defs.Look<SongDef>(ref currentSong, "currentSong");
-            Scribe_Values.Look<bool>(ref currentPlayState, "currentPlayState");
-            Scribe_Collections.Look<SongDef>(ref songList, "songList", LookMode.Def, new object[0]);
-        }
-        public override void CompTick()
-        {
-            base.CompTick();
-            if (!compPower.PowerOn)
+            if (Scribe.mode == LoadSaveMode.ResolvingCrossRefs)
             {
-                if (currentPlayState)
+                if(JukeBoxCore.orignalSongList.Count>0)
                 {
-                    currentPlayState = false;
-                    StopMusic();
+                    DefDatabase<SongDef>.Clear();
+                    DefDatabase<SongDef>.Add(JukeBoxCore.orignalSongList);
                 }
+                JukeBoxCore.jukeBoxList.Clear();
             }
-        }
-        public override string CompInspectStringExtra()
-        {
-            if (compPower != null && currentSong != null)
+            if (Scribe.mode==LoadSaveMode.PostLoadInit)
             {
-                if (compPower.connectParent != null)
+                compPowerTrader = parent.GetComp<CompPowerTrader>();
+                if (compPowerTrader.PowerOn)
                 {
-                    string str;
-                    str = "State".Translate() + ": ";
-                    if (currentPlayState)
-                    {
-                        str += "Play".Translate()+ "\n";
-                    }
-                    else
-                    {
-                        str += "Pause".Translate()+"\n";
-                    }
-                    str = str + "CurrentSong".Translate() + ": " + currentSong.defName;
-                    return str;
+                    JukeBoxCore.AddJukeBox(this);
                 }
+                currentState = false;
             }
-            return string.Empty;
-
-
         }
         public override void ReceiveCompSignal(string signal)
         {
             base.ReceiveCompSignal(signal);
-            if (signal == "FlickedOff" || signal == "ScheduledOff" || signal == "Breakdown")
+            if (signal == "PowerTurnedOff")
             {
-                currentPlayState = false;
-                StopMusic();
-            }
-            if (signal == "FlickedOn")
-            {
-                if (currentPlayState)
+                if(JukeBoxCore.orignalSongList.Count<=0)
                 {
-                    currentPlayState = true;
-                    PlayMusic();
+                    JukeBoxCore.orignalSongList.AddRange(DefDatabase<SongDef>.AllDefs);
+                }
+                JukeBoxCore.RemoveJukeBox(this);
+            }
+            if (signal == "PowerTurnedOn")
+            {
+                JukeBoxCore.AddJukeBox(this);
+            }
+        }
+        public void PlaySong()
+        {
+            currentState = true;
+            if(JukeBoxCore.orignalSongList.Count<=0)
+            {
+                JukeBoxCore.orignalSongList.AddRange(DefDatabase<SongDef>.AllDefs);
+            }
+            if(JukeBoxCore.customSongList.Count<=0)
+            {
+                JukeBoxCore.Scanning();
+                if (JukeBoxCore.customSongList.Count <= 0)
+                {
+                    Log.Error("Songs Folder is Empty");
+                    return;
                 }
             }
+            DefDatabase<SongDef>.Clear();
+            DefDatabase<SongDef>.Add(JukeBoxCore.customSongList);
+            Find.MusicManagerPlay.ForceStartSong(DefDatabase<SongDef>.GetRandom(),false);
+        }
+        public void NextSong()
+        {
+            if(currentState)
+            {
+                Find.MusicManagerPlay.ForceStartSong(DefDatabase<SongDef>.GetRandom(), false);
+            }
+        }
+        public void StopSong()
+        {
+            try
+            {
+                currentState = false;
+                if (JukeBoxCore.orignalSongList.Count <= 0)
+                {
+                    Log.Error("OriginalSongList is Empty");
+                }
+                DefDatabase<SongDef>.Clear();
+                DefDatabase<SongDef>.Add(JukeBoxCore.orignalSongList);
+                Find.MusicManagerPlay.ForceStartSong(((CompProperties_JukeBox)props).stopSong, false);
+            }
+            catch(Exception ee)
+            {
+                Log.Error(ee.ToString());
+            }
+        }
+        public void Synchronize()
+        {
+            JukeBoxCore.Scanning();
+        }
+        public override string CompInspectStringExtra()
+        {
+            if (compPowerTrader != null)
+            {
+                if (compPowerTrader.PowerOn)
+                {
+                    string str;
+                    str = "State".Translate() + ": ";
+                    if (currentState)
+                    {
+                        str += "Play".Translate();
+                    }
+                    else
+                    {
+                        str += "Pause".Translate();
+                    }
+                    return str;
+                }
+            }
+            return string.Empty;
         }
         public override IEnumerable<Gizmo> CompGetGizmosExtra()
         {
@@ -105,66 +146,8 @@ namespace Gloomylynx
             {
                 yield return c;
             }
-            if (compPower.connectParent != null)
+            if(compPowerTrader.PowerOn)
             {
-                yield return new Command_Action
-                {
-                    defaultLabel = "previousSong".Translate(),
-                    defaultDesc = "previousSongDesc".Translate(),
-                    icon = ContentFinder<Texture2D>.Get("UI/Commands/Previous", true),
-                    action = delegate ()
-                    {
-                        /*Log.Message("this.GetType().Assembly.Location: "+this.GetType().Assembly.Location);
-                        Log.Message("Directory.GetCurrentDirectory(): "+ Directory.GetCurrentDirectory());
-                        Log.Message("AppDomain.CurrentDomain.BaseDirectory: "+ AppDomain.CurrentDomain.BaseDirectory);
-                        Log.Message("Application.StartupPath: " + Application.absoluteURL);*/
-                        index--;
-                        if (index < 0)
-                        {
-                            index = songList.Count - 1;
-                        }
-                        currentSong = songList[index];
-                        if (currentPlayState)
-                        {
-                            Find.MusicManagerPlay.ForceStartSong(currentSong, false);
-                        }
-                    }
-                };
-                if (!currentPlayState)
-                {
-                    yield return new Command_Action
-                    {
-                        defaultLabel = "play".Translate(),
-                        defaultDesc = "playCurrentMusic".Translate(),
-                        icon = ContentFinder<Texture2D>.Get("UI/Commands/Play", true),
-                        action = delegate ()
-                        {
-                            if (compPower.PowerOn)
-                            {
-                                currentPlayState = true;
-                                PlayMusic();
-                            }
-
-                        }
-                    };
-                }
-                else
-                {
-                    yield return new Command_Action
-                    {
-                        defaultLabel = "stop".Translate(),
-                        defaultDesc = "stopCurrentMusic".Translate(),
-                        icon = ContentFinder<Texture2D>.Get("UI/Commands/Stop", true),
-                        action = delegate ()
-                        {
-                            if (compPower.PowerOn)
-                            {
-                                currentPlayState = false;
-                                StopMusic();
-                            }
-                        }
-                    };
-                }
                 yield return new Command_Action
                 {
                     defaultLabel = "nextSong".Translate(),
@@ -172,112 +155,74 @@ namespace Gloomylynx
                     icon = ContentFinder<Texture2D>.Get("UI/Commands/Next", true),
                     action = delegate ()
                     {
-                        index++;
-                        if (index >= songList.Count)
+                        try
                         {
-                            index = 0;
+                            NextSong();
                         }
-                        currentSong = songList[index];
-                        if (currentPlayState)
+                        catch (Exception ee)
                         {
-                            Find.MusicManagerPlay.ForceStartSong(currentSong, false);
+                            Log.Error("NextSong " + ee);
                         }
                     }
                 };
-                yield return new Command_Action
+                if(!currentState)
                 {
-                    defaultLabel = "loadFromShip",
-                    defaultDesc = "loadFromShipDesc",
-                    icon = ContentFinder<Texture2D>.Get("UI/Commands/Next", true),
+                    yield return new Command_Action
+                    {
+                        defaultLabel = "playSong".Translate(),
+                        defaultDesc = "playSongDesc".Translate(),
+                        icon = ContentFinder<Texture2D>.Get("UI/Commands/Play", true),
+                        action = delegate ()
+                        {
+                            try
+                            {
+                                PlaySong();
+                            }
+                            catch (Exception ee)
+                            {
+                                Log.Error("PlaySong " + ee);
+                            }
+                        }
+                    };
+                }
+                else
+                {
+                    yield return new Command_Action
+                    {
+                        defaultLabel = "stopSong".Translate(),
+                        defaultDesc = "stopSongDesc".Translate(),
+                        icon = ContentFinder<Texture2D>.Get("UI/Commands/Stop", true),
+                        action = delegate ()
+                        {
+                            try
+                            {
+                                StopSong();
+                            }
+                            catch(Exception ee)
+                            {
+                                Log.Error("StopSong " + ee);
+                            }                            
+                        }
+                    };
+                }
+                /*yield return new Command_Action
+                {
+                    defaultLabel = "synchronize".Translate(),
+                    defaultDesc = "synchronizeDesc".Translate(),
+                    icon = ContentFinder<Texture2D>.Get("UI/Commands/Sync", true),
                     action = delegate ()
                     {
-                        Log.Message("Location: " + JukeBoxCore.jukeBoxMod.RootDirectory);
-                        JukeBoxCore.scanMusicPath();
-                        /*Log.Message("Location: " + Directory.GetCurrentDirectory());*/
+                        Synchronize();
                     }
-                };
+                };*/
             }
             yield break;
-        }
-        /*public SongDef ChooseNextSong()
-        {
-            IEnumerable<SongDef> source = from song in DefDatabase<SongDef>.AllDefs
-                                          where this.AppropriateNow(song)
-                                          select song;
-            return source.RandomElementByWeight((SongDef s) => s.commonality);
-        }
-        public bool AppropriateNow(SongDef song)
-        {
-            if (!song.playOnMap)
-            {
-                return false;
-            }
-            if (this.DangerMusicMode)
-            {
-                if (!song.tense)
-                {
-                    return false;
-                }
-            }
-            else if (song.tense)
-            {
-                return false;
-            }
-            Map map = Find.AnyPlayerHomeMap ?? Find.CurrentMap;
-            if (!song.allowedSeasons.NullOrEmpty<Season>())
-            {
-                if (map == null)
-                {
-                    return false;
-                }
-                if (!song.allowedSeasons.Contains(GenLocalDate.Season(map)))
-                {
-                    return false;
-                }
-            }
-            if (song.allowedTimeOfDay == TimeOfDay.Any)
-            {
-                return true;
-            }
-            if (map == null)
-            {
-                return true;
-            }
-            if (song.allowedTimeOfDay == TimeOfDay.Night)
-            {
-                return GenLocalDate.DayPercent(map) < 0.2f || GenLocalDate.DayPercent(map) > 0.7f;
-            }
-            return GenLocalDate.DayPercent(map) > 0.2f && GenLocalDate.DayPercent(map) < 0.7f;
-        }
-        public bool DangerMusicMode
-        {
-            get
-            {
-                List<Map> maps = Find.Maps;
-                for (int i = 0; i < maps.Count; i++)
-                {
-                    if (maps[i].dangerWatcher.DangerRating == StoryDanger.High)
-                    {
-                        return true;
-                    }
-                }
-                return false;
-            }
-        }*/
-        public void StopMusic()
-        {
-            Find.MusicManagerPlay.ForceStartSong(((CompProperties_JukeBox)props).stopSong, false);
-        }
-        public void PlayMusic()
-        {
-            Find.MusicManagerPlay.ForceStartSong(currentSong, false);
         }
     }
 
     [StaticConstructorOnStartup]
-    public class JukeBoxMod: Mod
+    public class JukeBoxMod : Mod
     {
-        JukeBoxMod instance;
         public string RootDirectory
         {
             get
@@ -287,74 +232,97 @@ namespace Gloomylynx
         }
 
         public JukeBoxMod(ModContentPack content) : base(content)
-		{
-            if(instance==null)
-            {
-                instance = this;
-            }
-            JukeBoxCore.jukeBoxMod = instance;
+        {
+            JukeBoxCore.jukeBoxMod = this;
         }
     }
-
     public class JukeBoxCore
     {
+        public static bool isInitialized=false;
         public static JukeBoxMod jukeBoxMod;
-        public const string musicPath = @"\Sounds\Songs";
+        public static List<SongDef> customSongList = new List<SongDef>();
+        public static List<SongDef> orignalSongList=new List<SongDef>();
+        public static HashSet<CompJukeBox> jukeBoxList = new HashSet<CompJukeBox>();
 
         public JukeBoxCore()
         {
             Current.Root_Play.musicManagerPlay = new MusicManagerPlay();
         }
-
-        public static void scanMusicPath()
+        public static void Scanning()
         {
-            string[] files = Directory.GetFiles(jukeBoxMod.RootDirectory+musicPath, "*.*", SearchOption.AllDirectories);
-            foreach(string s in files)
+            isInitialized = true;
+            if (customSongList==null)
             {
-                Log.Message("name: " + s);
+                customSongList = new List<SongDef>();
             }
-
-
-
-            /*
-            IEnumerable<string> enumerable = from file in files
-                                             where JukeBoxCore.settings.songs.FindIndex((SongEntry song) => song.clipPath == file) == -1
-                                             select file;
-            IEnumerable<string> removedFiles = from song in (from song in JukeBoxCore.settings.songs
-                                                             select song.clipPath).ToList<string>()
-                                               where !files.Contains(song)
-                                               select song;
-            foreach (string clipPath in enumerable)
+            try
             {
-                JukeBoxCore.settings.songs.Add(new SongEntry());
-                SongEntry songEntry = JukeBoxCore.settings.songs.Last<SongEntry>();
-                songEntry.clipPath = clipPath;
-                songEntry.PostLoad();
-                songEntry.ResolveReferences();
-                DefDatabase<SongDef>.Add(songEntry);
-            }
-            using (IEnumerator<string> enumerator = removedFiles.GetEnumerator())
-            {
-                while (enumerator.MoveNext())
+                string[] files = Directory.GetFiles(jukeBoxMod.RootDirectory + @"\Sounds\Songs", "*.*", SearchOption.AllDirectories);
+                for (int index = 0; index < files.Length; index++)
                 {
-                    string file = enumerator.Current;
-                    typeof(DefDatabase<SongDef>).GetMethod("Remove", BindingFlags.Static | BindingFlags.NonPublic).Invoke(null, new object[]
-                    {
-                        JukeBoxCore.settings.songs.Find((SongEntry song) => song.clipPath == file)
-                    });
+                    files[index] = Path.GetFileName(files[index]).Split('.')[0];
+                }
+                customSongList.Clear();
+                foreach (string s in files)
+                {
+                    SongEntry songDef = new SongEntry(@"Songs/" + s);
+                    songDef.tense = true;
+                    customSongList.Add(songDef);
+                    Log.Message(songDef.defName);
+                }
+                if(customSongList.Count<=0)
+                {
+                    customSongList.AddRange(DefDatabase<SongDef>.AllDefs);
                 }
             }
-            JukeBoxCore.settings.songs.RemoveAll((SongEntry song) => removedFiles.Contains(song.clipPath));*/
+            catch (Exception ee)
+            {
+                Log.Error("Scanning Error - " + ee);
+            }
+        }
+        public static void AddJukeBox(CompJukeBox comp)
+        {
+            jukeBoxList.Add(comp);
+        }
+        public static void RemoveJukeBox(CompJukeBox comp)
+        {
+            if (jukeBoxList.Count ==1)
+            {
+                comp.StopSong();
+            }
+            jukeBoxList.Remove(comp);
         }
     }
-
     public class SongEntry : SongDef, IExposable
     {
-        public WWW source;
-
-        public SongEntry()
+        public SongEntry(string path)
         {
-            this.allowedSeasons = new List<Season>(3);
+            this.clipPath = path;
+            if (this.defName == "UnnamedDef")
+            {
+                string[] array = this.clipPath.Split(new char[]
+                {
+                    '/',
+                    '\\'
+                });
+                this.defName = array[array.Length - 1];
+            }
+            clip = this.clip = ContentFinder<AudioClip>.Get(this.clipPath, true);
+            playOnMap = true;
+
+        }
+        public override void PostLoad()
+        {
+            base.PostLoad();
+            if (this.defName == "UnnamedDef")
+            {
+                string[] array = this.clipPath.Split(new char[]
+                {
+                    '/',
+                    '\\'
+                });
+                this.defName = array[array.Length - 1];
+            }
         }
 
         public void ExposeData()
@@ -376,200 +344,13 @@ namespace Gloomylynx
                 this.ResolveReferences();
             }
         }
-
-        public override void PostLoad()
-        {
-            if (this.defName == "UnnamedDef")
-            {
-                this.defName = Regex.Replace(Path.GetFileNameWithoutExtension(this.clipPath), "[^\\w-]", "_", RegexOptions.IgnoreCase);
-            }
-        }
-
         public override void ResolveReferences()
         {
+            base.ResolveReferences();
             LongEventHandler.ExecuteWhenFinished(delegate
             {
-                this.source = new WWW("file://" + this.clipPath);
+                this.clip = ContentFinder<AudioClip>.Get(this.clipPath, true);
             });
         }
-      
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    /*
-    public class MusicSettings : ModSettings
-    {
-        public string musicPath = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
-
-        public List<SongEntry> songs = new List<SongEntry>();
-
-        public override void ExposeData()
-        {
-            base.ExposeData();
-            Scribe_Values.Look<string>(ref this.musicPath, "musicPath", Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), false);
-            Scribe_Collections.Look<SongEntry>(ref this.songs, "songList", LookMode.Deep, new object[0]);
-        }
-    }
-
-    public class SongEntry : SongDef, IExposable
-    {
-        public WWW source;
-
-        public SongEntry()
-        {
-            this.allowedSeasons = new List<Season>(3);
-        }
-
-        public void ExposeData()
-        {
-            Scribe_Values.Look<string>(ref this.clipPath, "clipPath", null, false);
-            Scribe_Values.Look<string>(ref this.defName, "defName", null, false);
-            Scribe_Collections.Look<Season>(ref this.allowedSeasons, "allowedSeasons", LookMode.Undefined, new object[0]);
-            Scribe_Values.Look<TimeOfDay>(ref this.allowedTimeOfDay, "allowedTimeOfDay", TimeOfDay.Any, false);
-            Scribe_Values.Look<bool>(ref this.tense, "tense", false, false);
-            Scribe_Values.Look<float>(ref this.commonality, "commonality", 1f, false);
-            Scribe_Values.Look<bool>(ref this.playOnMap, "playOnMap", true, false);
-            Scribe_Values.Look<float>(ref this.volume, "volume", 1f, false);
-            if (Scribe.mode == LoadSaveMode.PostLoadInit)
-            {
-                this.PostLoad();
-            }
-            if (Scribe.mode == LoadSaveMode.ResolvingCrossRefs)
-            {
-                this.ResolveReferences();
-            }
-        }
-
-        public override void PostLoad()
-        {
-            if (this.defName == "UnnamedDef")
-            {
-                this.defName = Regex.Replace(Path.GetFileNameWithoutExtension(this.clipPath), "[^\\w-]", "_", RegexOptions.IgnoreCase);
-            }
-        }
-
-        public override void ResolveReferences()
-        {
-            LongEventHandler.ExecuteWhenFinished(delegate
-            {
-                this.source = new WWW("file://" + this.clipPath);
-            });
-        }
-
-        public void setAllowedSeasons(bool spring, bool summer, bool fall, bool winter)
-        {
-            if (spring && summer && fall && winter)
-            {
-                if (!this.allowedSeasons.Contains(Season.Undefined))
-                {
-                    this.allowedSeasons.Clear();
-                    this.allowedSeasons.Add(Season.Undefined);
-                    return;
-                }
-            }
-            else
-            {
-                this.allowedSeasons.Remove(Season.Undefined);
-                if (spring)
-                {
-                    if (!this.allowedSeasons.Contains(Season.Spring))
-                    {
-                        this.allowedSeasons.Add(Season.Spring);
-                    }
-                }
-                else
-                {
-                    this.allowedSeasons.Remove(Season.Spring);
-                }
-                if (summer)
-                {
-                    if (!this.allowedSeasons.Contains(Season.Summer))
-                    {
-                        this.allowedSeasons.Add(Season.Summer);
-                    }
-                }
-                else
-                {
-                    this.allowedSeasons.Remove(Season.Summer);
-                }
-                if (fall)
-                {
-                    if (!this.allowedSeasons.Contains(Season.Fall))
-                    {
-                        this.allowedSeasons.Add(Season.Fall);
-                    }
-                }
-                else
-                {
-                    this.allowedSeasons.Remove(Season.Fall);
-                }
-                if (winter)
-                {
-                    if (!this.allowedSeasons.Contains(Season.Winter))
-                    {
-                        this.allowedSeasons.Add(Season.Winter);
-                        return;
-                    }
-                }
-                else
-                {
-                    this.allowedSeasons.Remove(Season.Winter);
-                }
-            }
-        }
-
-        public bool playsDuringSpring
-        {
-            get
-            {
-                return this.allowedSeasons.Contains(Season.Spring);
-            }
-        }
-
-        public bool playsDuringSummer
-        {
-            get
-            {
-                return this.allowedSeasons.Contains(Season.Summer);
-            }
-        }
-
-        public bool playsDuringFall
-        {
-            get
-            {
-                return this.allowedSeasons.Contains(Season.Fall);
-            }
-        }
-
-        public bool playsDuringWinter
-        {
-            get
-            {
-                return this.allowedSeasons.Contains(Season.Winter);
-            }
-        }
-    }*/
 }

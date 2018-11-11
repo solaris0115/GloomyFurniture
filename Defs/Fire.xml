@@ -38,8 +38,7 @@
 			<li>Stony</li>
 		</stuffCategories>
 		<soundImpactDefault>BulletImpact_Ground</soundImpactDefault>
-		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
-		<resourcesFractionWhenDeconstructed>0</resourcesFractionWhenDeconstructed>
+		<leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
 		<placeWorkers>
 			<li>PlaceWorker_Heater</li>
 		</placeWorkers>
@@ -49,7 +48,7 @@
 				<compClass>Gloomylynx.CompOnOffable</compClass>
 			</li>
 			<li Class="CompProperties_Refuelable">
-				<fuelConsumptionRate>5.0</fuelConsumptionRate>
+				<fuelConsumptionRate>10.0</fuelConsumptionRate>
 				<fuelCapacity>75.0</fuelCapacity>
 				<fuelFilter>
 					<thingDefs>

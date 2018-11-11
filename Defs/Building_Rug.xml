@@ -26,11 +26,11 @@
 	</ThingDef>
 
 	<ThingDef ParentName="RGKRugBase">
-		<defName>RugTest</defName>
-		<label>RugTest</label>
+		<defName>RugA</defName>
+		<label>Celtic Rug</label>
 		<thingClass>Building</thingClass>
 		<graphicData>
-			<texPath>Things/Building/Rug/RugTest</texPath>
+			<texPath>Things/Building/Rug/Rug1</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>(4,4)</drawSize>
 			<damageData>
@@ -70,13 +70,57 @@
 			<li>ComplexFurniture</li>
 		</researchPrerequisites>
 	</ThingDef>
-
 	<ThingDef ParentName="RGKRugBase">
-		<defName>RugTestT</defName>
-		<label>RugTestT</label>
+		<defName>RugB</defName>
+		<label>Celtic Rug</label>
 		<thingClass>Building</thingClass>
 		<graphicData>
-			<texPath>Things/Building/Rug/RugTest2</texPath>
+			<texPath>Things/Building/Rug/Rug2</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(4,4)</drawSize>
+			<damageData>
+				<rect>(0.2,0.2,0.6,0.6)</rect>
+			</damageData>
+		</graphicData>
+		<building>    
+			<isEdifice>false</isEdifice>
+		</building>
+		<altitudeLayer>FloorEmplacement</altitudeLayer>
+		<passability>Standable</passability>
+		<statBases>
+			<MaxHitPoints>140</MaxHitPoints>
+			<WorkToBuild>650</WorkToBuild>
+			<Flammability>1.0</Flammability>
+			<Beauty>20</Beauty>
+			<Cleanliness>0.5</Cleanliness>
+			<Mass>10</Mass>
+		</statBases>
+		<size>(4,4)</size>
+		<stuffCategories>
+			<li>Leathery</li>
+			<li>Fabric</li>
+		</stuffCategories>
+		<costStuffCount>120</costStuffCount>
+		<description>Rug from the "RIMkea Cozy Rugs Collection" 4x4</description>
+		<leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+		<rotatable>false</rotatable>
+		<comps>
+			<li Class="CompProperties_RoomIdentifier">
+				<roomStat>Impressiveness</roomStat>
+			</li>
+		</comps>
+		<clearBuildingArea>false</clearBuildingArea>
+		<saveCompressible>false</saveCompressible>
+		<researchPrerequisites>
+			<li>ComplexFurniture</li>
+		</researchPrerequisites>
+	</ThingDef>
+	<ThingDef ParentName="RGKRugBase">
+		<defName>RugC</defName>
+		<label>Celtic Rug</label>
+		<thingClass>Building</thingClass>
+		<graphicData>
+			<texPath>Things/Building/Rug/Rug3</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>(4,4)</drawSize>
 			<damageData>

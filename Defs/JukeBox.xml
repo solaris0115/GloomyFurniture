@@ -75,15 +75,6 @@
 			</li>
 			<li Class="Gloomylynx.CompProperties_JukeBox">
 				<compClass>Gloomylynx.CompJukeBox</compClass>
-				<songList>
-					<li>Above_It_All</li>
-					<li>Campfire_Song</li>
-					<li>Dome_Sweet_Dome</li>
-					<li>Moonshine_Town</li>
-					<li>Nitpicky_Picnic</li>
-					<li>Rocking_Chair</li>
-					<li>Whistling_Down_the_Road</li>
-				</songList>
 			</li>
 		</comps>
 		<tradeTags>

@@ -145,7 +145,6 @@ namespace Gloomylynx
     
     public class CompProperties_JukeBox:CompProperties
     {
-        public List<SongDef> songList;
         public SongDef stopSong;
         public override void ResolveReferences(ThingDef parentDef)
         {

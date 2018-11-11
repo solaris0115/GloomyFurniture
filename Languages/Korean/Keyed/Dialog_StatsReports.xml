@@ -1,15 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-	<previousSong>이전곡</previousSong>
-	<previousSongDesc>이전에 재생한 곡을 선택합니다.</previousSongDesc>
-	<play>재생</play>
-	<Play>재생중</Play>
-	<playCurrentMusic>현재 선택된 노래를 재생합니다</playCurrentMusic>
-	<stop>정지</stop>
-	<stopCurrentMusic>현재 재생중인 노래를 멈춥니다.</stopCurrentMusic>
+	<playSong>재생</playSong>
+	<playSongDesc>커스텀 곡을 재생합니다.</playSongDesc>
+	<stopSong>정지</stopSong>
+	<stopSongDesc>재생중인 노래를 중지하고 림월드 기본 노래로 복구합니다.</stopSongDesc>
 	<nextSong>다음곡</nextSong>
-	<nextSongDesc>다음 순서의 곡을 선택합니다.</nextSongDesc>	
+	<nextSongDesc>다음 랜덤곡을 선택합니다.</nextSongDesc>
 	<State>상태</State>
-	<Pause>일시 정지</Pause>
-	<CurrentSong>현재 곡</CurrentSong>
+	<Pause>일시정지</Pause>
+	<synchronize>동기화</synchronize>
+	<synchronizeDesc>폴더로부터 음악 리스트를 동기화합니다.</synchronizeDesc>
 </LanguageData>
