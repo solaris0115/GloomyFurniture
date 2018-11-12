@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <playSong>音楽再生</playSong>
+  <playSongDesc>カスタムした曲を再生します。</playSongDesc>
+  <stopSong>停止</stopSong>
+  <stopSongDesc>カスタムした曲の再生を停止して、オリジナルの曲リストに戻します。</stopSongDesc>
+  <nextSong>次</nextSong>
+  <nextSongDesc>次のランダムな曲を再生します。</nextSongDesc>
+  <Pause>一時停止</Pause>
+  <synchronize>同期</synchronize>
+  <synchronizeDesc>現在の曲リストをカスタム曲の入ったフォルダと同期させます。</synchronizeDesc>
+
+</LanguageData>
