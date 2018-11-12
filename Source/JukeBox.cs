@@ -104,7 +104,8 @@ namespace Gloomylynx
                 currentState = false;
                 if (JukeBoxCore.orignalSongList.Count <= 0)
                 {
-                    Log.Error("OriginalSongList is Empty");
+                    JukeBoxCore.orignalSongList.AddRange(DefDatabase<SongDef>.AllDefs);                    
+                    Log.Message("OriginalSongList is Empty");
                 }
                 DefDatabase<SongDef>.Clear();
                 DefDatabase<SongDef>.Add(JukeBoxCore.orignalSongList);

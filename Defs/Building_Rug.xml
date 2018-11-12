@@ -66,6 +66,7 @@
 		</comps>
 		<clearBuildingArea>false</clearBuildingArea>
 		<saveCompressible>false</saveCompressible>
+		<designationHotKey>Misc7</designationHotKey>
 		<researchPrerequisites>
 			<li>ComplexFurniture</li>
 		</researchPrerequisites>
@@ -111,6 +112,7 @@
 		</comps>
 		<clearBuildingArea>false</clearBuildingArea>
 		<saveCompressible>false</saveCompressible>
+		<designationHotKey>Misc7</designationHotKey>
 		<researchPrerequisites>
 			<li>ComplexFurniture</li>
 		</researchPrerequisites>
@@ -156,6 +158,7 @@
 		</comps>
 		<clearBuildingArea>false</clearBuildingArea>
 		<saveCompressible>false</saveCompressible>
+		<designationHotKey>Misc7</designationHotKey>
 		<researchPrerequisites>
 			<li>ComplexFurniture</li>
 		</researchPrerequisites>

@@ -41,6 +41,7 @@
 		<hasInteractionCell>true</hasInteractionCell>
 		<designationCategory>OldStyleFurniture</designationCategory>
 		<surfaceType>Item</surfaceType>
+		<designationHotKey>Misc8</designationHotKey>
 	</ThingDef>
 
 	<ThingDef ParentName="BenchBase">
@@ -113,6 +114,7 @@
 			<spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
 			<heatPerTickWhileWorking>0.10</heatPerTickWhileWorking>
 		</building>
+		<designationHotKey>Misc8</designationHotKey>
 	</ThingDef>
 </Defs>
 
