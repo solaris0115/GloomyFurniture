@@ -45,7 +45,7 @@
 		<drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
 		<comps>
 			<li Class="CompProperties_Flickable">
-				<compClass>Gloomylynx.CompOnOffable</compClass>
+				<commandTexture>UI/Commands/OnOff</commandTexture>
 			</li>
 			<li Class="CompProperties_Refuelable">
 				<fuelConsumptionRate>5.0</fuelConsumptionRate>
@@ -144,7 +144,7 @@
 		</placeWorkers>
 		<comps>
 			<li Class="CompProperties_Flickable">
-				<compClass>Gloomylynx.CompOnOffable</compClass>
+				<commandTexture>UI/Commands/OnOff</commandTexture>
 			</li>
 			<li Class="CompProperties_Refuelable">
 				<fuelConsumptionRate>4.0</fuelConsumptionRate>
@@ -223,7 +223,7 @@
 				<basePowerConsumption>25</basePowerConsumption>
 			</li>
 			<li Class="CompProperties_Flickable">
-				<compClass>Gloomylynx.CompOnOffable</compClass>
+				<commandTexture>UI/Commands/OnOff</commandTexture>
 			</li>
 			<li Class="CompProperties_Glower">
 				<glowRadius>15</glowRadius>
@@ -282,7 +282,7 @@
 		<drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
 		<comps>
 			<li Class="CompProperties_Flickable">
-				<compClass>Gloomylynx.CompOnOffable</compClass>
+				<commandTexture>UI/Commands/OnOff</commandTexture>
 			</li>
 			<li Class="CompProperties_Refuelable">
 				<fuelConsumptionRate>4</fuelConsumptionRate>

@@ -16,14 +16,14 @@ namespace Gloomylynx
     public class CompFireOverlayRotatable : CompFireOverlay
     {
         List<Rot4> showList = new List<Rot4>();
-        public CompOnOffable compOnOffable;
+        public CompFlickable compFlickable;
         public override void PostDraw()
         {
             foreach(Rot4 rot in showList)
             {
                 if(rot == parent.Rotation)
                 {
-                    if ((refuelableComp != null) && (refuelableComp.HasFuel) && (compOnOffable.SwitchIsOn))
+                    if ((refuelableComp != null) && (refuelableComp.HasFuel) && (compFlickable.SwitchIsOn))
                     {
                         Vector3 drawPos = this.parent.DrawPos;
                         drawPos.y += 0.046875f;
@@ -38,7 +38,7 @@ namespace Gloomylynx
         {
             base.PostSpawnSetup(respawningAfterLoad);
             showList = ((CompProperties_FireOverlayRotatable)props).showRotateList;
-            compOnOffable = parent.GetComp<CompOnOffable>();
+            compFlickable = parent.GetComp<CompFlickable>();
         }
     }
     public class CompProperties_FireOverlayRotatable: CompProperties_FireOverlay
@@ -115,6 +115,7 @@ namespace Gloomylynx
             
         }
     }
+    /*
     public class CompOnOffable : CompFlickable
     {
         private static FieldInfo FI_CompFlick = AccessTools.Field(typeof(CompFlickable), "wantSwitchOn");
@@ -140,7 +141,7 @@ namespace Gloomylynx
             }
             yield break;
         }
-    }
+    }*/
 
     
     public class CompProperties_JukeBox:CompProperties

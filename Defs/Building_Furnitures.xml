@@ -384,7 +384,7 @@
 				<mustBePlacedAdjacentCardinalToBedHead>true</mustBePlacedAdjacentCardinalToBedHead>
 			</li>			
 			<li Class="CompProperties_Flickable">
-				<compClass>Gloomylynx.CompOnOffable</compClass>
+				<commandTexture>UI/Commands/OnOff</commandTexture>
 			</li>
 			<li Class="CompProperties_Refuelable">
 				<fuelConsumptionRate>4.0</fuelConsumptionRate>
