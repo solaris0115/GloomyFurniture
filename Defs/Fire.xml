@@ -197,7 +197,6 @@
 		<pathCost>8</pathCost>
 		<constructEffect>ConstructMetal</constructEffect>
 		<tickerType>Normal</tickerType>
-		<drawerType>RealtimeOnly</drawerType>
 		<fillPercent>0.15</fillPercent>
 		<statBases>
 			<MaxHitPoints>120</MaxHitPoints>
@@ -254,7 +253,6 @@
 		<pathCost>8</pathCost>
 		<constructEffect>ConstructMetal</constructEffect>
 		<tickerType>Normal</tickerType>
-		<drawerType>RealtimeOnly</drawerType>
 		<fillPercent>0.15</fillPercent>
 		<statBases>
 			<MaxHitPoints>120</MaxHitPoints>
