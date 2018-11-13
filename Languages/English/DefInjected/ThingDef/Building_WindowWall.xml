@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- 벽 -->
+
+  <RGK_Wall.label>wall</RGK_Wall.label>
+  <RGK_Wall.description>An impassable wall. Capable of holding up a roof.</RGK_Wall.description>
+  <RGK_Wall_Blueprint.label>wall (blueprint)</RGK_Wall_Blueprint.label>
+  <RGK_Wall_Frame.label>wall (building)</RGK_Wall_Frame.label>
+  <RGK_Wall_Frame.description>An impassable wall. Capable of holding up a roof.</RGK_Wall_Frame.description>
+
+  <RGK_VentWall.label>vent wall</RGK_VentWall.label>
+  <RGK_VentWall.description>It's a wall where air can come in and out.</RGK_VentWall.description>
+  <RGK_VentWall_Blueprint.label>vent wall (blueprint)</RGK_VentWall_Blueprint.label>
+  <RGK_VentWall_Frame.label>vent wall (building)</RGK_VentWall_Frame.label>
+  <RGK_VentWall_Frame.description>It's a wall where air can come in and out.</RGK_VentWall_Frame.description>
+
+
+  <!-- window -->
+
+  <RGK_window.label>window</RGK_window.label>
+  <RGK_window.description>It's a window where you can look outside.</RGK_window.description>
+  <RGK_window_Blueprint_Install.label>window (blueprint)</RGK_window_Blueprint_Install.label>
+
+  <RGK_WindowWall.label>window wall</RGK_WindowWall.label>
+  <RGK_WindowWall.description>A window through which light can pass through.</RGK_WindowWall.description>
+  <RGK_WindowWall_Blueprint.label>window wall (blueprint)</RGK_WindowWall_Blueprint.label>
+  <RGK_WindowWall_Frame.label>window wall (building)</RGK_WindowWall_Frame.label>
+  <RGK_WindowWall_Frame.description>A window through which light can pass through.</RGK_WindowWall_Frame.description>
+
+
+  <!-- 울타리 -->
+
+  <RGK_WoodFence.label>fence</RGK_WoodFence.label>
+  <RGK_WoodFence.description>A fence to trap livestock or protect it from outside beasts.</RGK_WoodFence.description>
+  <RGK_WoodFence_Blueprint.label>fence (blueprint)</RGK_WoodFence_Blueprint.label>
+  <RGK_WoodFence_Frame.label>fence (building)</RGK_WoodFence_Frame.label>
+  <RGK_WoodFence_Frame.description>A fence to trap livestock or protect it from outside beasts.</RGK_WoodFence_Frame.description>
+
+  <RGK_Door.label>door</RGK_Door.label>
+  <RGK_Door.description>Divides rooms. Simple doors must be manually opened, which slows people down. The amount of slowdown depends on what the door is made of.</RGK_Door.description>
+  <RGK_Door_Blueprint.label>door (blueprint)</RGK_Door_Blueprint.label>
+  <RGK_Door_Frame.label>door (building)</RGK_Door_Frame.label>
+  <RGK_Door_Frame.description>Divides rooms. Simple doors must be manually opened, which slows people down. The amount of slowdown depends on what the door is made of.</RGK_Door_Frame.description>
+
+
+</LanguageData>

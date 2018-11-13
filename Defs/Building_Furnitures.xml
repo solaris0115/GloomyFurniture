@@ -298,7 +298,7 @@
 	</ThingDef>
 	<ThingDef ParentName="RGKTableBase">
 		<defName>RGK_EndTable</defName>
-		<label>end table</label>
+		<label>End table</label>
 		<description>A small bedside table which makes nearby beds a little bit more comfortable. Must be placed directly adjacent to the head of the bed. Placing more than one end table near the same bed has no effect.</description>
 		<surfaceType>Item</surfaceType>
 		<graphicData>

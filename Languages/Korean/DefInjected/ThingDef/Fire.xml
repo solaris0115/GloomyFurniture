@@ -2,10 +2,49 @@
 <LanguageData>
 
   <RGK_Fireplace.label>벽난로</RGK_Fireplace.label>
-  <RGK_Fireplace.description>방을 따듯하게 데워주는 벽난로입니다.</RGK_Fireplace.description>
+  <RGK_Fireplace.description>방을 따듯하게 해주는 벽난로 입니다.</RGK_Fireplace.description>
   <RGK_Fireplace_Blueprint.label>벽난로 (blueprint)</RGK_Fireplace_Blueprint.label>
-  <RGK_Fireplace_Frame.label>벽난로 (building)</RGK_Fireplace_Frame.label>
-  <RGK_Fireplace_Frame.description>방을 따듯하게 데워주는 벽난로입니다.</RGK_Fireplace_Frame.description>
+  <RGK_Fireplace_Frame.label>Fire place (building)</RGK_Fireplace_Frame.label>
+  <RGK_Fireplace_Frame.description>방을 따듯하게 해주는 벽난로 입니다.</RGK_Fireplace_Frame.description>
+
+  <RGK_FireplaceE.label>전기식 벽난로</RGK_FireplaceE.label>
+  <RGK_FireplaceE.description>방을 따듯하게 해주는 전기식 벽난로 입니다. 전기로 작동합니다.</RGK_FireplaceE.description>
+  <RGK_FireplaceE_Blueprint.label>전기식 벽난로 (blueprint)</RGK_FireplaceE_Blueprint.label>
+  <RGK_FireplaceE_Frame.label>전기식 벽난로 (building)</RGK_FireplaceE_Frame.label>
+  <RGK_FireplaceE_Frame.description>방을 따듯하게 해주는 전기식 벽난로 입니다. 전기로 작동합니다.</RGK_FireplaceE_Frame.description>
+
+
+  <!-- Lamp -->
+
+  <RGK_lamp.label>램프</RGK_lamp.label>
+  <RGK_lamp.description>작은 램프입니다. 비가와도 안심하고 사용할 수 있습니다.</RGK_lamp.description>
+  <RGK_lamp_Blueprint.label>램프 (blueprint)</RGK_lamp_Blueprint.label>
+  <RGK_lamp_Frame.label>램프 (building)</RGK_lamp_Frame.label>
+  <RGK_lamp_Frame.description>작은 램프입니다. 비가와도 안심하고 사용할 수 있습니다.</RGK_lamp_Frame.description>
+
+  <RGK_lampE.label>전기식 램프</RGK_lampE.label>
+  <RGK_lampE.description>작은 램프입니다. 비가와도 안심하고 사용할 수 있습니다. 전기로 작동합니다.</RGK_lampE.description>
+  <RGK_lampE_Blueprint.label>전기식 램프 (blueprint)</RGK_lampE_Blueprint.label>
+  <RGK_lampE_Frame.label>전기식 램프 (building)</RGK_lampE_Frame.label>
+  <RGK_lampE_Frame.description>작은 램프입니다. 비가와도 안심하고 사용할 수 있습니다. 전기로 작동합니다.</RGK_lampE_Frame.description>
+
+  <RGK_Street_Lamp.label>가로등</RGK_Street_Lamp.label>
+  <RGK_Street_Lamp.description>길을 밝혀주는 가로등 입니다. 전기로 작동합니다.</RGK_Street_Lamp.description>
+  <RGK_Street_Lamp_Blueprint.label>가로등 (blueprint)</RGK_Street_Lamp_Blueprint.label>
+  <RGK_Street_Lamp_Frame.label>가로등 (building)</RGK_Street_Lamp_Frame.label>
+  <RGK_Street_Lamp_Frame.description>길을 밝혀주는 가로등 입니다. 전기로 작동합니다.</RGK_Street_Lamp_Frame.description>
+
+  <RGK_Street_Lamp_Seven.label>7자 가로등</RGK_Street_Lamp_Seven.label>
+  <RGK_Street_Lamp_Seven.description>길을 밝혀주는 가로등 입니다.</RGK_Street_Lamp_Seven.description>
+  <RGK_Street_Lamp_Seven_Blueprint.label>7자 가로등 (blueprint)</RGK_Street_Lamp_Seven_Blueprint.label>
+  <RGK_Street_Lamp_Seven_Frame.label>7자 가로등 (building)</RGK_Street_Lamp_Seven_Frame.label>
+  <RGK_Street_Lamp_Seven_Frame.description>길을 밝혀주는 가로등 입니다.</RGK_Street_Lamp_Seven_Frame.description>
+
+  <RGK_Street_Lamp_SevenE.label>전기식 7자 가로등</RGK_Street_Lamp_SevenE.label>
+  <RGK_Street_Lamp_SevenE.description>길을 밝혀주는 가로등 입니다. 전기로 작동합니다.</RGK_Street_Lamp_SevenE.description>
+  <RGK_Street_Lamp_SevenE_Blueprint.label>전기식 7자 가로등 (blueprint)</RGK_Street_Lamp_SevenE_Blueprint.label>
+  <RGK_Street_Lamp_SevenE_Frame.label>전기식 7자 가로등 (building)</RGK_Street_Lamp_SevenE_Frame.label>
+  <RGK_Street_Lamp_SevenE_Frame.description>길을 밝혀주는 가로등 입니다. 전기로 작동합니다.</RGK_Street_Lamp_SevenE_Frame.description>
 
 
 </LanguageData>

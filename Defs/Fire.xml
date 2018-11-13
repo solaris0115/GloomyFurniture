@@ -190,7 +190,7 @@
 	<!--Lamp-->
 	<ThingDef ParentName="BuildingBase">
 		<defName>RGK_lamp</defName>
-		<label>lamp</label>
+		<label>Lamp</label>
 		<description>It's a small lamp. I think I can use it safely even when it rains.</description>
 		<category>Building</category>
 		<thingClass>Building</thingClass>
@@ -264,7 +264,7 @@
 	</ThingDef>
 	<ThingDef ParentName="BuildingBase">
 		<defName>RGK_lampE</defName>
-		<label>lamp E</label>
+		<label>Lamp E</label>
 		<description>It's a small lamp. I think I can use it safely even when it rains. Works as electricity.</description>
 		<category>Building</category>
 		<thingClass>Building</thingClass>
@@ -332,7 +332,7 @@
 
 	<ThingDef ParentName="BuildingBase">
 		<defName>RGK_Street_Lamp</defName>
-		<label>street lamp</label>
+		<label>Street lamp</label>
 		<description>It's a street lamp. It lights the way in the dark. Works as electricity.</description>
 		<category>Building</category>
 		<thingClass>Building</thingClass>
@@ -388,7 +388,7 @@
 	</ThingDef>
 	<ThingDef ParentName="BuildingBase">
 		<defName>RGK_Street_Lamp_Seven</defName>
-		<label>street lamp</label>
+		<label>Street lamp</label>
 		<description>It's a street lamp. It lights the way in the dark.</description>
 		<category>Building</category>
 		<thingClass>Building</thingClass>
@@ -461,7 +461,7 @@
 	</ThingDef>
 	<ThingDef ParentName="BuildingBase">
 		<defName>RGK_Street_Lamp_SevenE</defName>
-		<label>street lamp E</label>
+		<label>Street lamp E</label>
 		<description>It's a street lamp. It lights the way in the dark. Works as electricity.</description>
 		<category>Building</category>
 		<thingClass>Building</thingClass>
