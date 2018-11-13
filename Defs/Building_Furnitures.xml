@@ -23,6 +23,7 @@
 					<li>RGK_Dresser</li>
 					<li>RGK_EndTable</li>
 					<li>RGK_EndTableWithLamp</li>
+					<li>RGK_EndTableWithLampE</li>
 					<li>WardrobeA</li>
 					<li>WardrobeB</li>
 				</linkableFacilities>
@@ -60,7 +61,6 @@
 		<designationCategory>OldStyleFurniture</designationCategory>
 		<uiIconScale>0.90</uiIconScale>		
 	</ThingDef>
-
 	<ThingDef ParentName="BedWithQualityBase">
 		<defName>RGK_bedSingleB</defName>
 		<label>bed2</label>
@@ -82,6 +82,7 @@
 					<li>RGK_Dresser</li>
 					<li>RGK_EndTable</li>
 					<li>RGK_EndTableWithLamp</li>
+					<li>RGK_EndTableWithLampE</li>
 					<li>WardrobeA</li>
 					<li>WardrobeB</li>
 				</linkableFacilities>
@@ -119,7 +120,6 @@
 		<designationCategory>OldStyleFurniture</designationCategory>
 		<uiIconScale>0.90</uiIconScale>
 	</ThingDef>
-
 	<ThingDef ParentName="RGKArtableBedBase">
 		<defName>RGK_bedDouble</defName>
 		<label>double bed</label>
@@ -140,6 +140,7 @@
 					<li>Dresser</li>
 					<li>RGK_Dresser</li>
 					<li>RGK_EndTableWithLamp</li>
+					<li>RGK_EndTableWithLampE</li>
 					<li>RGK_EndTable</li>
 					<li>WardrobeA</li>
 					<li>WardrobeB</li>
@@ -180,7 +181,6 @@
 		<uiIconScale>0.90</uiIconScale>
 		<designationCategory>OldStyleFurniture</designationCategory>
 	</ThingDef>
-
 	<ThingDef ParentName="RGKArtableBedBase">
 		<defName>RGK_bedDoubleB</defName>
 		<label>double bed2</label>
@@ -200,6 +200,7 @@
 					<li>EndTable</li>
 					<li>Dresser</li>
 					<li>RGK_EndTableWithLamp</li>
+					<li>RGK_EndTableWithLampE</li>
 					<li>RGK_Dresser</li>
 					<li>RGK_EndTable</li>
 					<li>WardrobeA</li>
@@ -295,7 +296,6 @@
 			</li>
 		</comps>
 	</ThingDef>
-
 	<ThingDef ParentName="RGKTableBase">
 		<defName>RGK_EndTable</defName>
 		<label>end table</label>
@@ -340,7 +340,6 @@
 		<castEdgeShadows>false</castEdgeShadows>
 		<designationHotKey>Misc2</designationHotKey>
 	</ThingDef>
-
 	<ThingDef ParentName="RGKTableBase">
 		<defName>RGK_EndTableWithLamp</defName>
 		<label>end table</label>
@@ -366,6 +365,9 @@
 		<stuffCategories>
 			<li>Woody</li>
 		</stuffCategories>
+		<costList>
+			<Steel>10</Steel>
+		</costList>
 		<costStuffCount>30</costStuffCount>
 		<defaultPlacingRot>South</defaultPlacingRot>
 		<tickerType>Normal</tickerType>
@@ -387,7 +389,7 @@
 				<commandTexture>UI/Commands/OnOff</commandTexture>
 			</li>
 			<li Class="CompProperties_Refuelable">
-				<fuelConsumptionRate>4.0</fuelConsumptionRate>
+				<fuelConsumptionRate>2.0</fuelConsumptionRate>
 				<fuelCapacity>25.0</fuelCapacity>
 				<fuelFilter>
 					<thingDefs>
@@ -417,6 +419,77 @@
 		<designationHotKey>Misc2</designationHotKey>
 	</ThingDef>
 
+	<ThingDef ParentName="RGKTableBase">
+		<defName>RGK_EndTableWithLampE</defName>
+		<label>end table</label>
+		<description>A small bedside table which makes nearby beds a little bit more comfortable. Must be placed directly adjacent to the head of the bed. Placing more than one end table near the same bed has no effect.Works as electricity.</description>
+		<surfaceType>Item</surfaceType>
+		<graphicData>
+			<texPath>Things/Building/Furniture/RGKEndTableLight</texPath>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(3,3)</drawSize>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shadowData>
+				<volume>(0.3, 0.6, 0.3)</volume>
+			</shadowData>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>80</MaxHitPoints>
+			<WorkToBuild>1000</WorkToBuild>
+			<Mass>5</Mass>
+			<Flammability>1.0</Flammability>
+			<Beauty>8</Beauty>
+		</statBases>
+		<pathCost>60</pathCost>
+		<stuffCategories>
+			<li>Woody</li>
+		</stuffCategories>
+		<costList>
+			<Steel>25</Steel>
+		</costList>
+		<costStuffCount>30</costStuffCount>
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<tickerType>Normal</tickerType>
+		<placeWorkers>
+			<li>PlaceWorker_ShowFacilitiesConnections</li>
+		</placeWorkers>
+		<researchPrerequisites>
+			<li>ComplexFurniture</li>
+		</researchPrerequisites>
+		<comps>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<basePowerConsumption>25</basePowerConsumption>
+			</li>
+			<li Class="CompProperties_Facility">
+				<statOffsets>
+					<Comfort>0.05</Comfort>
+				</statOffsets>
+				<maxSimultaneous>1</maxSimultaneous>
+				<mustBePlacedAdjacentCardinalToBedHead>true</mustBePlacedAdjacentCardinalToBedHead>
+			</li>			
+			<li Class="CompProperties_Flickable">
+				<commandTexture>UI/Commands/OnOff</commandTexture>
+			</li>
+			<li Class="CompProperties_Glower">
+				<glowRadius>10</glowRadius>
+				<glowColor>(252,187,113,0)</glowColor>
+			</li>
+			<li Class="CompProperties_HeatPusher">
+				<compClass>CompHeatPusherPowered</compClass>
+				<heatPerSecond>2.5</heatPerSecond>
+				<heatPushMaxTemperature>23</heatPushMaxTemperature>
+			</li>
+			<li Class="Gloomylynx.CompProperties_FireOverlayRotatable">
+				<compClass>Gloomylynx.CompFireOverlayRotatable</compClass>
+				<fireSize>0.4</fireSize>
+				<offset>(0,0,0.55)</offset>
+			</li>
+		</comps>
+		<staticSunShadowHeight>0</staticSunShadowHeight>
+		<castEdgeShadows>false</castEdgeShadows>
+		<designationHotKey>Misc2</designationHotKey>
+	</ThingDef>
 
 	<!--Chair-->	
 	<ThingDef ParentName="RGKFurnitureWithQualityBase">
@@ -878,7 +951,7 @@
 		<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
 		<designationHotKey>Misc4</designationHotKey>
 	</ThingDef>
-	
+
 	<ThingDef ParentName="RGKTableBase">
 		<defName>RGK_TableG</defName>
 		<label>celtic table (2x2)</label>
@@ -918,7 +991,7 @@
 		<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
 		<designationHotKey>Misc4</designationHotKey>
 	</ThingDef>
-	
+
 	<ThingDef ParentName="RGKTableBase">
 		<defName>RGK_TableH</defName>
 		<label>celtic table (3x3)</label>
@@ -1087,7 +1160,7 @@
 		<constructionSkillPrerequisite>6</constructionSkillPrerequisite>
 		<designationCategory>OldStyleFurniture</designationCategory>
 	</ThingDef>	
-	
+
 	<ThingDef ParentName="FurnitureWithQualityBase">
 		<defName>WardrobeA</defName>
 		<label>wardrobe</label>
@@ -1160,7 +1233,7 @@
 			</li>
 		</comps>
 	</ThingDef>	
-	
+
 	<ThingDef ParentName="FurnitureWithQualityBase">
 		<defName>WardrobeB</defName>
 		<label>wardrobe</label>
@@ -1233,8 +1306,8 @@
 			</li>
 		</comps>
 	</ThingDef>	
-	
-	
+
+
 	<ThingDef ParentName="FurnitureWithQualityBase">
 		<defName>RGK_Manger</defName>
 		<label>manger</label>

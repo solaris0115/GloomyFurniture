@@ -17,21 +17,47 @@ namespace Gloomylynx
     {
         List<Rot4> showList = new List<Rot4>();
         public CompFlickable compFlickable;
+        public CompPowerTrader compPower;
         public override void PostDraw()
         {
             foreach(Rot4 rot in showList)
             {
                 if(rot == parent.Rotation)
                 {
-                    if ((refuelableComp != null) && (refuelableComp.HasFuel) && (compFlickable.SwitchIsOn))
+                    if (compPower != null)
                     {
-                        Vector3 drawPos = this.parent.DrawPos;
-                        drawPos.y += 0.046875f;
-                        FireGraphic.Draw(drawPos, Rot4.North, this.parent, 0f);
+                        if (compPower.PowerOn)
+                        {
+                            DrawCall();
+                        }
+                    }
+                    else
+                    {
+                        if(refuelableComp!=null)
+                        {
+                            if (refuelableComp.HasFuel && compFlickable.SwitchIsOn)
+                            {
+                                DrawCall();
+                            }
+                        }
+                        else
+                        {
+                            if(compFlickable.SwitchIsOn)
+                            {
+                                DrawCall();
+                            }
+                        }                        
                     }
                     return;
                 }
             }
+        }
+
+        public void DrawCall()
+        {
+            Vector3 drawPos = this.parent.DrawPos;
+            drawPos.y += 0.046875f;
+            FireGraphic.Draw(drawPos, Rot4.North, this.parent, 0f);
         }
 
         public override void PostSpawnSetup(bool respawningAfterLoad)
@@ -39,6 +65,7 @@ namespace Gloomylynx
             base.PostSpawnSetup(respawningAfterLoad);
             showList = ((CompProperties_FireOverlayRotatable)props).showRotateList;
             compFlickable = parent.GetComp<CompFlickable>();
+            compPower = parent.GetComp<CompPowerTrader>();
         }
     }
     public class CompProperties_FireOverlayRotatable: CompProperties_FireOverlay

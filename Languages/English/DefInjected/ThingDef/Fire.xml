@@ -7,5 +7,11 @@
   <RGK_Fireplace_Frame.label>fire place (building)</RGK_Fireplace_Frame.label>
   <RGK_Fireplace_Frame.description>It's a warm fireplace that warms the room.</RGK_Fireplace_Frame.description>
 
+  <RGK_FireplaceE.label>fire place</RGK_FireplaceE.label>
+  <RGK_FireplaceE.description>It's a warm fireplace that warms the room. Works as electricity</RGK_FireplaceE.description>
+  <RGK_FireplaceE_Blueprint.label>fire place (blueprint)</RGK_FireplaceE_Blueprint.label>
+  <RGK_FireplaceE_Frame.label>fire place (building)</RGK_FireplaceE_Frame.label>
+  <RGK_FireplaceE_Frame.description>It's a warm fireplace that warms the room. Works as electricity</RGK_FireplaceE_Frame.description>
+
 
 </LanguageData>

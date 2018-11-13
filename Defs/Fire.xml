@@ -48,7 +48,7 @@
 				<commandTexture>UI/Commands/OnOff</commandTexture>
 			</li>
 			<li Class="CompProperties_Refuelable">
-				<fuelConsumptionRate>5.0</fuelConsumptionRate>
+				<fuelConsumptionRate>3.0</fuelConsumptionRate>
 				<fuelCapacity>75.0</fuelCapacity>
 				<fuelFilter>
 					<thingDefs>
@@ -97,7 +97,96 @@
 		<uiIconScale>1.20</uiIconScale>
 		<defaultPlacingRot>South</defaultPlacingRot>
 	</ThingDef>
-
+	<ThingDef ParentName="BuildingBase">
+		<defName>RGK_FireplaceE</defName>
+		<label>fire place E</label>
+		<description>It's a warm fireplace that warms the room. Works as electricity.</description>    
+		<thingClass>Building_Heater</thingClass>
+		<category>Building</category>
+		<graphicData>
+			<texPath>Things/Building/Furniture/RGK_Fireplace2</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(3,3)</drawSize>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+		</graphicData>
+		<uiIconPath>Things/Building/Furniture/RGK_Fireplace2_south</uiIconPath>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>Impassable</passability>
+		<tickerType>Rare</tickerType>
+		<fillPercent>0.20</fillPercent>
+		<statBases>
+			<Beauty>15</Beauty>
+			<MaxHitPoints>250</MaxHitPoints>
+			<WorkToBuild>1500</WorkToBuild>
+			<Flammability>0</Flammability>
+			<WorkTableWorkSpeedFactor>0.5</WorkTableWorkSpeedFactor>
+		</statBases>
+		<selectable>true</selectable>
+		<costList>
+			<WoodLog>75</WoodLog>
+			<Steel>35</Steel>
+		</costList>
+		<costStuffCount>80</costStuffCount>
+		<stuffCategories>
+			<li>Stony</li>
+		</stuffCategories>
+		<soundImpactDefault>BulletImpact_Ground</soundImpactDefault>
+		<leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+		<placeWorkers>
+			<li>PlaceWorker_Heater</li>
+		</placeWorkers>
+		<drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+		<comps>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<basePowerConsumption>175</basePowerConsumption>
+				<shortCircuitInRain>true</shortCircuitInRain>
+			</li>
+			<li Class="CompProperties_Flickable">
+				<commandTexture>UI/Commands/OnOff</commandTexture>
+			</li>
+			<li Class="CompProperties_Glower">
+				<glowRadius>10</glowRadius>
+				<glowColor>(252,187,113,0)</glowColor>
+			</li>
+			<li Class="CompProperties_TempControl">
+				<energyPerSecond>21</energyPerSecond>
+			</li>
+			<li Class="CompProperties_Breakdownable"/>
+			<li Class="Gloomylynx.CompProperties_FireOverlayRotatable">
+				<compClass>Gloomylynx.CompFireOverlayRotatable</compClass>
+				<fireSize>0.5</fireSize>
+				<offset>(0,0,0.2)</offset>
+				<showRotateList>
+					<li>South</li>
+				</showRotateList>
+			</li>
+			<li Class="Gloomylynx.CompProperties_SecondLayer">
+				<graphicData>
+					<texPath>Things/Building/Furniture/RGK_Fireplace2_dual</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<shaderType>Transparent</shaderType>
+					<drawSize>(3,3)</drawSize>
+				</graphicData>
+				<altitudeLayer>MoteOverhead</altitudeLayer>
+			</li>
+		</comps>
+		<designationCategory>OldStyleFurniture</designationCategory>
+		<designationHotKey>Misc6</designationHotKey>
+		<size>(2,1)</size>
+		<building>
+			<isMealSource>true</isMealSource>
+			<spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+		</building>
+		<constructionSkillPrerequisite>5</constructionSkillPrerequisite>
+		<uiIconScale>1.20</uiIconScale>
+		<defaultPlacingRot>South</defaultPlacingRot>
+	</ThingDef>
 	<!--Lamp-->
 	<ThingDef ParentName="BuildingBase">
 		<defName>RGK_lamp</defName>
@@ -147,7 +236,7 @@
 				<commandTexture>UI/Commands/OnOff</commandTexture>
 			</li>
 			<li Class="CompProperties_Refuelable">
-				<fuelConsumptionRate>4.0</fuelConsumptionRate>
+				<fuelConsumptionRate>2.0</fuelConsumptionRate>
 				<fuelCapacity>10.0</fuelCapacity>
 				<fuelFilter>
 					<thingDefs>
@@ -173,24 +262,91 @@
 		<destroyable>true</destroyable>
 		<tradeability>None</tradeability>
 	</ThingDef>
-
 	<ThingDef ParentName="BuildingBase">
-		<defName>RGK_Street_Lamp</defName>
-		<label>street lamp</label>
-		<description>It's a street lamp. It lights the way in the dark.</description>
+		<defName>RGK_lampE</defName>
+		<label>lamp E</label>
+		<description>It's a small lamp. I think I can use it safely even when it rains. Works as electricity.</description>
 		<category>Building</category>
 		<thingClass>Building</thingClass>
 		<graphicData>
-			<texPath>Things/Building/Furniture/RGK_Street_Lamp</texPath>
+			<texPath>Things/Building/Furniture/RGK_lamp2</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawRotated>false</drawRotated>
-			<drawSize>(2,2)</drawSize>
 			<damageData>
 				<rect>(0.35,0.35,0.3,0.3)</rect>
 			</damageData>
 		</graphicData>
-		<uiIconPath>Things/Building/Furniture/RGK_Street_Lamp</uiIconPath>
+		<uiIconPath>Things/Building/Furniture/RGK_lamp2</uiIconPath>
 		<uiIconScale>0.85</uiIconScale>
+		<rotatable>false</rotatable>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<pathCost>8</pathCost>
+		<constructEffect>ConstructWood</constructEffect>
+		<tickerType>Normal</tickerType>
+		<drawerType>RealtimeOnly</drawerType>
+		<fillPercent>0.15</fillPercent>
+		<statBases>
+			<MaxHitPoints>80</MaxHitPoints>
+			<WorkToBuild>100</WorkToBuild>
+			<Flammability>0</Flammability>
+			<Beauty>5</Beauty>
+		</statBases>
+		<selectable>true</selectable>
+		<costList>
+			<WoodLog>5</WoodLog>
+			<Steel>25</Steel>
+		</costList>
+		<building>
+			<isEdifice>false</isEdifice>
+		</building>
+		<soundImpactDefault>BulletImpact_Ground</soundImpactDefault>
+		<leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+		<placeWorkers>
+			<li>PlaceWorker_Heater</li>
+		</placeWorkers>
+		<comps>
+			<li Class="CompProperties_Flickable">
+				<commandTexture>UI/Commands/OnOff</commandTexture>
+			</li>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<basePowerConsumption>25</basePowerConsumption>
+			</li>
+			<li Class="CompProperties_Glower">
+				<glowRadius>10</glowRadius>
+				<glowColor>(252,187,113,0)</glowColor>
+			</li>
+			<li Class="Gloomylynx.CompProperties_FireOverlayRotatable">
+				<compClass>Gloomylynx.CompFireOverlayRotatable</compClass>
+				<fireSize>0.4</fireSize>
+				<offset>(0,0,0.0)</offset>
+			</li>
+		</comps>
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<designationCategory>OldStyleFurniture</designationCategory>
+		<designationHotKey>Misc6</designationHotKey>
+		<destroyable>true</destroyable>
+		<tradeability>None</tradeability>
+	</ThingDef>
+
+	<ThingDef ParentName="BuildingBase">
+		<defName>RGK_Street_Lamp</defName>
+		<label>street lamp</label>
+		<description>It's a street lamp. It lights the way in the dark. Works as electricity.</description>
+		<category>Building</category>
+		<thingClass>Building</thingClass>
+		<graphicData>
+			<texPath>Things/Building/Furniture/RGK_Street_LampE</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawRotated>false</drawRotated>
+			<drawSize>(4,4)</drawSize>
+			<damageData>
+				<rect>(0.35,0.35,0.3,0.3)</rect>
+			</damageData>
+		</graphicData>
+		<uiIconPath>Things/Building/Furniture/RGK_Street_LampE</uiIconPath>
+		<uiIconScale>1.5</uiIconScale>
 		<rotatable>false</rotatable>
 		<altitudeLayer>Building</altitudeLayer>
 		<passability>PassThroughOnly</passability>
@@ -230,7 +386,6 @@
 		<destroyable>true</destroyable>
 		<tradeability>None</tradeability>
 	</ThingDef>
-
 	<ThingDef ParentName="BuildingBase">
 		<defName>RGK_Street_Lamp_Seven</defName>
 		<label>street lamp</label>
@@ -238,16 +393,16 @@
 		<category>Building</category>
 		<thingClass>Building</thingClass>
 		<graphicData>
-			<texPath>Things/Building/Furniture/RGK_Lamp_Seven</texPath>
+			<texPath>Things/Building/Furniture/RGK_Lamp_SevenE</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
-			<drawSize>(2,2)</drawSize>
+			<drawSize>(4,4)</drawSize>
 			<damageData>
 				<rect>(0.35,0.35,0.3,0.3)</rect>
 			</damageData>
 		</graphicData>
-		<uiIconPath>Things/Building/Furniture/RGK_Lamp_Seven_south</uiIconPath>
-		<uiIconScale>0.85</uiIconScale>
+		<uiIconPath>Things/Building/Furniture/RGK_Lamp_SevenE_south</uiIconPath>
+		<uiIconScale>1.5</uiIconScale>
 		<altitudeLayer>Building</altitudeLayer>
 		<passability>PassThroughOnly</passability>
 		<pathCost>8</pathCost>
@@ -277,7 +432,7 @@
 				<commandTexture>UI/Commands/OnOff</commandTexture>
 			</li>
 			<li Class="CompProperties_Refuelable">
-				<fuelConsumptionRate>4</fuelConsumptionRate>
+				<fuelConsumptionRate>2</fuelConsumptionRate>
 				<fuelCapacity>25.0</fuelCapacity>
 				<fuelFilter>
 					<thingDefs>
@@ -294,7 +449,73 @@
 			<li Class="Gloomylynx.CompProperties_FireOverlayRotatable">
 				<compClass>Gloomylynx.CompFireOverlayRotatable</compClass>
 				<fireSize>0.2</fireSize>
-				<offset>(0,0,0.15)</offset>
+				<offset>(0,0,0.45)</offset>
+			</li>
+		</comps>
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<designationCategory>OldStyleFurniture</designationCategory>
+		<designationHotKey>Misc6</designationHotKey>
+		<destroyable>true</destroyable>
+		<tradeability>None</tradeability>
+		<clearBuildingArea>false</clearBuildingArea>
+	</ThingDef>
+	<ThingDef ParentName="BuildingBase">
+		<defName>RGK_Street_Lamp_SevenE</defName>
+		<label>street lamp E</label>
+		<description>It's a street lamp. It lights the way in the dark. Works as electricity.</description>
+		<category>Building</category>
+		<thingClass>Building</thingClass>
+		<graphicData>
+			<texPath>Things/Building/Furniture/RGK_Lamp_SevenE</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(4,4)</drawSize>
+			<damageData>
+				<rect>(0.35,0.35,0.3,0.3)</rect>
+			</damageData>
+		</graphicData>
+		<uiIconPath>Things/Building/Furniture/RGK_Lamp_SevenE_south</uiIconPath>
+		<uiIconScale>1.5</uiIconScale>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<pathCost>8</pathCost>
+		<constructEffect>ConstructMetal</constructEffect>
+		<tickerType>Normal</tickerType>
+		<fillPercent>0.15</fillPercent>
+		<statBases>
+			<MaxHitPoints>120</MaxHitPoints>
+			<WorkToBuild>250</WorkToBuild>
+			<Flammability>0</Flammability>
+			<Beauty>8</Beauty>
+		</statBases>
+		<selectable>true</selectable>
+		<costList>
+			<WoodLog>15</WoodLog>
+			<Steel>35</Steel>
+		</costList>
+		<rotatable>true</rotatable>
+		<building>
+			<isEdifice>true</isEdifice>
+		</building>
+		<soundImpactDefault>BulletImpact_Ground</soundImpactDefault>
+		<leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+		<drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+		<comps>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<basePowerConsumption>25</basePowerConsumption>
+			</li>
+			<li Class="CompProperties_Flickable">
+				<commandTexture>UI/Commands/OnOff</commandTexture>
+			</li>	
+			<li Class="CompProperties_Glower">
+				<glowRadius>15</glowRadius>
+				<glowColor>(252,187,113,0)</glowColor>
+			</li>
+			<li Class="Gloomylynx.CompProperties_FireOverlayRotatable">
+				<compClass>Gloomylynx.CompFireOverlayRotatable</compClass>
+				<fireSize>0.2</fireSize>
+				<offset>(0,0,0.45)</offset>
 			</li>
 		</comps>
 		<defaultPlacingRot>South</defaultPlacingRot>
