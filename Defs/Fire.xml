@@ -261,6 +261,7 @@
 		<designationHotKey>Misc6</designationHotKey>
 		<destroyable>true</destroyable>
 		<tradeability>None</tradeability>
+		<clearBuildingArea>false</clearBuildingArea>
 	</ThingDef>
 	<ThingDef ParentName="BuildingBase">
 		<defName>RGK_lampE</defName>
@@ -328,6 +329,7 @@
 		<designationHotKey>Misc6</designationHotKey>
 		<destroyable>true</destroyable>
 		<tradeability>None</tradeability>
+		<clearBuildingArea>false</clearBuildingArea>
 	</ThingDef>
 
 	<ThingDef ParentName="BuildingBase">
