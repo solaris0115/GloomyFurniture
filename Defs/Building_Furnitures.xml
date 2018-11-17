@@ -416,7 +416,7 @@
 		</comps>
 		<staticSunShadowHeight>0</staticSunShadowHeight>
 		<castEdgeShadows>false</castEdgeShadows>
-		<designationHotKey>Misc2</designationHotKey>
+		<designationCategory inharit="false"></designationCategory>
 	</ThingDef>
 
 	<ThingDef ParentName="RGKTableBase">
@@ -489,6 +489,7 @@
 		<staticSunShadowHeight>0</staticSunShadowHeight>
 		<castEdgeShadows>false</castEdgeShadows>
 		<designationHotKey>Misc2</designationHotKey>
+		<designationCategory></designationCategory>
 	</ThingDef>
 
 	<!--Chair-->	

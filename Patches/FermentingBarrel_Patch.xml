@@ -17,22 +17,43 @@
 				<drawSize>(4,4)</drawSize>
 			</graphicData>
 		</value>
-	</Operation>	
-	<!--FermentingBarrel stuffCategories and Cost, BuildEffect -->
+	</Operation>
 	<Operation Class="PatchOperationSequence">
 		<success>Always</success>
 		<operations>
 			<li Class="PatchOperationTest">
-				<xpath>Defs/ThingDef[defName = "VG_LargeFermentingBarrel"]</xpath>
-				<success>Invert</success>
+				<xpath>Defs/ThingDef[defName = "FermentingBarrel"]/uiIconScale</xpath>
 			</li>
 			<li Class="PatchOperationReplace">
-				<xpath>*/ThingDef[defName="FermentingBarrel"]/costList</xpath>
+				<xpath>*/ThingDef[defName="FermentingBarrel"]/uiIconScale</xpath>
 				<value>
-					<costList>
-						<Steel>10</Steel>
-					</costList>
+					<uiIconScale>1</uiIconScale>
 				</value>
+			</li>
+		</operations>
+	</Operation>
+	
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>Defs/ThingDef[defName = "FermentingBarrel"]/uiIconPath</xpath>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>*/ThingDef[defName="FermentingBarrel"]/uiIconPath</xpath>
+				<value>
+					<uiIconPath>Things/Building/Furniture/RGK_orcB</uiIconPath>
+				</value>
+			</li>
+		</operations>
+	</Operation>	
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>Defs/ThingDef[defName = "FermentingBarrel"]/stuffCategories</xpath>
+				<success>Invert</success>
 			</li>
 			<li Class="PatchOperationAdd">
 				<xpath>*/ThingDef[defName="FermentingBarrel"]</xpath>
@@ -46,29 +67,16 @@
 			<li Class="PatchOperationRemove">
 				<xpath>*/ThingDef[defName="FermentingBarrel"]/constructEffect</xpath>
 			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>*/ThingDef[defName="FermentingBarrel"]/costList</xpath>
+				<value>
+					<costList>
+						<Steel>10</Steel>
+					</costList>
+				</value>
+			</li>
 		</operations>
 	</Operation>
-
-	<!-- <Operation Class="PatchOperationReplace"> -->
-	<!-- <xpath>*/ThingDef[defName="FermentingBarrel"]/costList</xpath> -->
-	<!-- <value> -->
-	<!-- <costList> -->
-	<!-- <Steel>10</Steel> -->
-	<!-- </costList> -->
-	<!-- </value> -->
-	<!-- </Operation> -->
-	<!-- <Operation Class="PatchOperationAdd"> -->
-	<!-- <xpath>*/ThingDef[defName="FermentingBarrel"]</xpath> -->
-	<!-- <value> -->
-	<!-- <stuffCategories> -->
-	<!-- <li>Woody</li> -->
-	<!-- </stuffCategories> -->
-	<!-- <costStuffCount>50</costStuffCount> -->
-	<!-- </value> -->
-	<!-- </Operation> -->
-	<!-- <Operation Class="PatchOperationRemove"> -->
-	<!-- <xpath>*/ThingDef[defName="FermentingBarrel"]/constructEffect</xpath> -->
-	<!-- </Operation> -->
 
 
 	<!--VGP Garden Patch-->
@@ -111,9 +119,6 @@
 						<drawSize>(8,8)</drawSize>
 					</graphicData>
 				</value>
-			</li>
-			<li Class="PatchOperationRemove">
-				<xpath>Defs/ThingDef[defName = "FermentingBarrel"]/constructEffect</xpath>
 			</li>
 		</operations>
 	</Operation>

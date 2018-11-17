@@ -198,11 +198,87 @@
 			<texPath>Things/Building/Furniture/RGK_lamp2</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawRotated>false</drawRotated>
+			<drawSize>(4,4)</drawSize>
 			<damageData>
 				<rect>(0.35,0.35,0.3,0.3)</rect>
 			</damageData>
 		</graphicData>
-		<uiIconPath>Things/Building/Furniture/RGK_lamp2</uiIconPath>
+		<uiIconPath>Things/Building/Furniture/RGK_lamp_Backup</uiIconPath>
+		<uiIconScale>0.85</uiIconScale>
+		<rotatable>false</rotatable>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<pathCost>8</pathCost>
+		<constructEffect>ConstructWood</constructEffect>
+		<tickerType>Normal</tickerType>
+		<drawerType>RealtimeOnly</drawerType>
+		<fillPercent>0.15</fillPercent>
+		<statBases>
+			<MaxHitPoints>80</MaxHitPoints>
+			<WorkToBuild>100</WorkToBuild>
+			<Flammability>0</Flammability>
+			<Beauty>5</Beauty>
+		</statBases>
+		<selectable>true</selectable>
+		<costList>
+			<WoodLog>5</WoodLog>
+			<Steel>10</Steel>
+		</costList>
+		<building>
+			<isEdifice>false</isEdifice>
+		</building>
+		<soundImpactDefault>BulletImpact_Ground</soundImpactDefault>
+		<leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+		<placeWorkers>
+			<li>PlaceWorker_Heater</li>
+		</placeWorkers>
+		<comps>
+			<li Class="CompProperties_Flickable">
+				<commandTexture>UI/Commands/OnOff</commandTexture>
+			</li>
+			<li Class="CompProperties_Refuelable">
+				<fuelConsumptionRate>2.0</fuelConsumptionRate>
+				<fuelCapacity>10.0</fuelCapacity>
+				<fuelFilter>
+					<thingDefs>
+						<li>WoodLog</li>
+						<li>Chemfuel</li>
+					</thingDefs>
+				</fuelFilter>
+				<initialFuelPercent>1</initialFuelPercent>
+			</li>
+			<li Class="CompProperties_Glower">
+				<glowRadius>10</glowRadius>
+				<glowColor>(252,187,113,0)</glowColor>
+			</li>
+			<li Class="Gloomylynx.CompProperties_FireOverlayRotatable">
+				<compClass>Gloomylynx.CompFireOverlayRotatable</compClass>
+				<fireSize>0.4</fireSize>
+				<offset>(0,0,0.5)</offset>
+			</li>
+		</comps>
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<designationCategory>OldStyleFurniture</designationCategory>
+		<designationHotKey>Misc6</designationHotKey>
+		<destroyable>true</destroyable>
+		<tradeability>None</tradeability>
+		<clearBuildingArea>false</clearBuildingArea>
+	</ThingDef>
+	<ThingDef ParentName="BuildingBase">
+		<defName>RGK_LampM</defName>
+		<label>Lamp M</label>
+		<description>It's a small lamp. I think I can use it safely even when it rains.</description>
+		<category>Building</category>
+		<thingClass>Building</thingClass>
+		<graphicData>
+			<texPath>Things/Building/Furniture/RGK_lamp_Backup</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawRotated>false</drawRotated>
+			<damageData>
+				<rect>(0.35,0.35,0.3,0.3)</rect>
+			</damageData>
+		</graphicData>
+		<uiIconPath>Things/Building/Furniture/RGK_lamp2_Backup</uiIconPath>
 		<uiIconScale>0.85</uiIconScale>
 		<rotatable>false</rotatable>
 		<altitudeLayer>BuildingOnTop</altitudeLayer>
@@ -258,7 +334,6 @@
 		</comps>
 		<defaultPlacingRot>South</defaultPlacingRot>
 		<designationCategory>OldStyleFurniture</designationCategory>
-		<designationHotKey>Misc6</designationHotKey>
 		<destroyable>true</destroyable>
 		<tradeability>None</tradeability>
 		<clearBuildingArea>false</clearBuildingArea>
@@ -273,11 +348,12 @@
 			<texPath>Things/Building/Furniture/RGK_lamp2</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawRotated>false</drawRotated>
+			<drawSize>(4,4)</drawSize>
 			<damageData>
 				<rect>(0.35,0.35,0.3,0.3)</rect>
 			</damageData>
 		</graphicData>
-		<uiIconPath>Things/Building/Furniture/RGK_lamp2</uiIconPath>
+		<uiIconPath>Things/Building/Furniture/RGK_lamp_Backup</uiIconPath>
 		<uiIconScale>0.85</uiIconScale>
 		<rotatable>false</rotatable>
 		<altitudeLayer>BuildingOnTop</altitudeLayer>
@@ -321,7 +397,7 @@
 			<li Class="Gloomylynx.CompProperties_FireOverlayRotatable">
 				<compClass>Gloomylynx.CompFireOverlayRotatable</compClass>
 				<fireSize>0.4</fireSize>
-				<offset>(0,0,0.0)</offset>
+				<offset>(0,0,0.5)</offset>
 			</li>
 		</comps>
 		<defaultPlacingRot>South</defaultPlacingRot>
@@ -331,6 +407,8 @@
 		<tradeability>None</tradeability>
 		<clearBuildingArea>false</clearBuildingArea>
 	</ThingDef>
+
+
 
 	<ThingDef ParentName="BuildingBase">
 		<defName>RGK_Street_Lamp</defName>
