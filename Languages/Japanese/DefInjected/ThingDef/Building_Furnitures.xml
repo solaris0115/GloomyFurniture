@@ -50,17 +50,17 @@
 
   <RGK_EndTableWithLamp.label>エンドテーブル</RGK_EndTableWithLamp.label>
   <RGK_EndTableWithLamp.description>小型のベッドの横に置くサイドテーブルです。近くにあるベッドに僅かですが快適性にボーナスを与えます。必ずベッドの頭側の横に隣接して置かなければ効果はありません。同じベッドに2つ以上のエンドテーブルを置いても効果はありません。</RGK_EndTableWithLamp.description>
-  <Blueprint_RGK_EndTableWithLamp.label>エンドテーブル(設計)</Blueprint_RGK_EndTableWithLamp.label>
+  <!-- <Blueprint_RGK_EndTableWithLamp.label>エンドテーブル(設計)</Blueprint_RGK_EndTableWithLamp.label> -->
   <Blueprint_Install_RGK_EndTableWithLamp.label>エンドテーブル(移動先)</Blueprint_Install_RGK_EndTableWithLamp.label>
-  <Frame_RGK_EndTableWithLamp.label>エンドテーブル(施工)</Frame_RGK_EndTableWithLamp.label>
-  <Frame_RGK_EndTableWithLamp.description>小型のベッドの横に置くサイドテーブルです。近くにあるベッドに僅かですが快適性にボーナスを与えます。必ずベッドの頭側の横に隣接して置かなければ効果はありません。同じベッドに2つ以上のエンドテーブルを置いても効果はありません。</Frame_RGK_EndTableWithLamp.description>
+  <!-- <Frame_RGK_EndTableWithLamp.label>エンドテーブル(施工)</Frame_RGK_EndTableWithLamp.label>
+  <Frame_RGK_EndTableWithLamp.description>小型のベッドの横に置くサイドテーブルです。近くにあるベッドに僅かですが快適性にボーナスを与えます。必ずベッドの頭側の横に隣接して置かなければ効果はありません。同じベッドに2つ以上のエンドテーブルを置いても効果はありません。</Frame_RGK_EndTableWithLamp.description> -->
 
   <RGK_EndTableWithLampE.label>エンド テーブル(電)</RGK_EndTableWithLampE.label>
   <RGK_EndTableWithLampE.description>小型のベッドの横に置くサイドテーブルです。近くにあるベッドに僅かですが快適性にボーナスを与えます。必ずベッドの頭側の横に隣接して置かなければ効果はありません。同じベッドに2つ以上のエンドテーブルを置いても効果はありません。電気が必要です。</RGK_EndTableWithLampE.description>
-  <Blueprint_RGK_EndTableWithLampE.label>エンドテーブル(電)(設計)</Blueprint_RGK_EndTableWithLampE.label>
+  <!-- <Blueprint_RGK_EndTableWithLampE.label>エンドテーブル(電)(設計)</Blueprint_RGK_EndTableWithLampE.label> -->
   <Blueprint_Install_RGK_EndTableWithLampE.label>エンドテーブル(電)(移動先)</Blueprint_Install_RGK_EndTableWithLampE.label>
-  <Frame_RGK_EndTableWithLampE.label>エンドテーブル(電)(施工)</Frame_RGK_EndTableWithLampE.label>
-  <Frame_RGK_EndTableWithLampE.description>小型のベッドの横に置くサイドテーブルです。近くにあるベッドに僅かですが快適性にボーナスを与えます。必ずベッドの頭側の横に隣接して置かなければ効果はありません。同じベッドに2つ以上のエンドテーブルを置いても効果はありません。電気が必要です。</Frame_RGK_EndTableWithLampE.description>
+  <!-- <Frame_RGK_EndTableWithLampE.label>エンドテーブル(電)(施工)</Frame_RGK_EndTableWithLampE.label>
+  <Frame_RGK_EndTableWithLampE.description>小型のベッドの横に置くサイドテーブルです。近くにあるベッドに僅かですが快適性にボーナスを与えます。必ずベッドの頭側の横に隣接して置かなければ効果はありません。同じベッドに2つ以上のエンドテーブルを置いても効果はありません。電気が必要です。</Frame_RGK_EndTableWithLampE.description> -->
 
 
   <!-- Chair -->
