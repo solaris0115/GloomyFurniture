@@ -18,6 +18,8 @@
 			</damageData>
 		</graphicData>
 		<uiIconPath>Things/Building/Furniture/RGK_Fireplace2_south</uiIconPath>
+		<uiIconOffset>(0, 0.15)</uiIconOffset>
+		<uiIconScale>1.5</uiIconScale>
 		<altitudeLayer>Building</altitudeLayer>
 		<passability>Impassable</passability>
 		<tickerType>Normal</tickerType>
@@ -94,7 +96,6 @@
 			<spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
 		</building>
 		<constructionSkillPrerequisite>5</constructionSkillPrerequisite>
-		<uiIconScale>1.20</uiIconScale>
 		<defaultPlacingRot>South</defaultPlacingRot>
 	</ThingDef>
 	<ThingDef ParentName="BuildingBase">
@@ -115,6 +116,8 @@
 			</damageData>
 		</graphicData>
 		<uiIconPath>Things/Building/Furniture/RGK_Fireplace2_south</uiIconPath>
+		<uiIconOffset>(0, 0.15)</uiIconOffset>
+		<uiIconScale>1.5</uiIconScale>
 		<altitudeLayer>Building</altitudeLayer>
 		<passability>Impassable</passability>
 		<tickerType>Rare</tickerType>
@@ -184,7 +187,6 @@
 			<spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
 		</building>
 		<constructionSkillPrerequisite>5</constructionSkillPrerequisite>
-		<uiIconScale>1.20</uiIconScale>
 		<defaultPlacingRot>South</defaultPlacingRot>
 	</ThingDef>
 	<!--Lamp-->
@@ -271,14 +273,14 @@
 		<category>Building</category>
 		<thingClass>Building</thingClass>
 		<graphicData>
-			<texPath>Things/Building/Furniture/RGK_lamp_Backup</texPath>
+			<texPath>Things/Building/Furniture/RGK_lamp2_Backup</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawRotated>false</drawRotated>
 			<damageData>
 				<rect>(0.35,0.35,0.3,0.3)</rect>
 			</damageData>
 		</graphicData>
-		<uiIconPath>Things/Building/Furniture/RGK_lamp2_Backup</uiIconPath>
+		<uiIconPath>Things/Building/Furniture/RGK_lamp_Backup</uiIconPath>
 		<uiIconScale>0.85</uiIconScale>
 		<rotatable>false</rotatable>
 		<altitudeLayer>BuildingOnTop</altitudeLayer>
