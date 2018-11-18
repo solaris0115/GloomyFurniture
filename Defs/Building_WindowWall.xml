@@ -299,7 +299,7 @@
 		<uiIconPath>Things/Building/Linked/RGK_WoodFenceIco</uiIconPath>
 		<statBases>
 			<Beauty>3</Beauty>
-			<MaxHitPoints>150</MaxHitPoints>
+			<MaxHitPoints>75</MaxHitPoints>
 			<WorkToBuild>180</WorkToBuild>
 			<Flammability>1.0</Flammability>
 		</statBases>
@@ -311,14 +311,14 @@
 		<altitudeLayer>Building</altitudeLayer>
 		<passability>Impassable</passability>
 		<castEdgeShadows>true</castEdgeShadows>
-		<fillPercent>0.7</fillPercent>
+		<fillPercent>0.1</fillPercent>
 		<coversFloor>false</coversFloor>
 		<placingDraggableDimensions>1</placingDraggableDimensions>
 		<tickerType>Never</tickerType>
 		<rotatable>false</rotatable>
 		<selectable>true</selectable>
 		<neverMultiSelect>true</neverMultiSelect>
-		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
 		<holdsRoof>true</holdsRoof>
 		<staticSunShadowHeight>1</staticSunShadowHeight>
 		<blockLight>false</blockLight>

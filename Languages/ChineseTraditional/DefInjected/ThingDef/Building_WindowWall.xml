@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- 벽 -->
+
+  <RGK_Wall.label>復古牆</RGK_Wall.label>
+  <RGK_Wall.description>無法通行的牆。 能夠撐起屋頂。</RGK_Wall.description>
+  <RGK_Wall_Blueprint.label>復古牆（藍圖）</RGK_Wall_Blueprint.label>
+  <RGK_Wall_Frame.label>復古牆（建造中）</RGK_Wall_Frame.label>
+  <RGK_Wall_Frame.description>無法通行的牆。 能夠撐起屋頂。</RGK_Wall_Frame.description>
+
+  <RGK_VentWall.label>通風牆</RGK_VentWall.label>
+  <RGK_VentWall.description>這是一個有通風口的復古牆，空氣可以進出。</RGK_VentWall.description>
+  <RGK_VentWall_Blueprint.label>通風復古牆（藍圖）</RGK_VentWall_Blueprint.label>
+  <RGK_VentWall_Frame.label>通風復古牆（建造中）</RGK_VentWall_Frame.label>
+  <RGK_VentWall_Frame.description>這是一個有通風口的復古牆，空氣可以進出。</RGK_VentWall_Frame.description>
+
+
+  <!-- window -->
+
+  <RGK_window.label>窗戶</RGK_window.label>
+  <RGK_window.description>這是一個可以向外看的窗口，你可以透過它看到外面的景色。</RGK_window.description>
+  <RGK_window_Blueprint_Install.label>窗戶（藍圖）</RGK_window_Blueprint_Install.label>
+
+  <RGK_WindowWall.label>有窗的牆</RGK_WindowWall.label>
+  <RGK_WindowWall.description>陽光可以透過窗口曬近來，也能通風的窗口。</RGK_WindowWall.description>
+  <RGK_WindowWall_Blueprint.label>有窗的牆（藍圖）</RGK_WindowWall_Blueprint.label>
+  <RGK_WindowWall_Frame.label>有窗的牆（建造中）</RGK_WindowWall_Frame.label>
+  <RGK_WindowWall_Frame.description>陽光可以透過窗口曬近來，也能通風的窗口。</RGK_WindowWall_Frame.description>
+
+
+  <!-- 울타리 -->
+
+  <RGK_WoodFence.label>柵欄</RGK_WoodFence.label>
+  <RGK_WoodFence.description>用柵欄來圈養家畜以保護它們免受外來野獸的襲擊。</RGK_WoodFence.description>
+  <RGK_WoodFence_Blueprint.label>柵欄（藍圖）</RGK_WoodFence_Blueprint.label>
+  <RGK_WoodFence_Frame.label>柵欄（建造中）</RGK_WoodFence_Frame.label>
+  <RGK_WoodFence_Frame.description>用柵欄來圈養家畜以保護它們免受外來野獸的襲擊。</RGK_WoodFence_Frame.description>
+
+  <RGK_Door.label>柵欄門</RGK_Door.label>
+  <RGK_Door.description>劃分房間。 必須手動打開簡單的門，這會減慢人們的速度。 減速量取決於構成柵欄門的材料。</RGK_Door.description>
+  <RGK_Door_Blueprint.label>柵欄門（藍圖）</RGK_Door_Blueprint.label>
+  <RGK_Door_Frame.label>柵欄門（建造中）</RGK_Door_Frame.label>
+  <RGK_Door_Frame.description>劃分房間。 必須手動打開簡單的門，這會減慢人們的速度。 減速量取決於構成柵欄門的材料。</RGK_Door_Frame.description>
+
+
+</LanguageData>

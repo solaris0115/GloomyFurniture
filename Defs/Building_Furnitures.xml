@@ -18,8 +18,6 @@
 		<comps>
 			<li Class="CompProperties_AffectedByFacilities">
 				<linkableFacilities>
-					<li>EndTable</li>
-					<li>Dresser</li>
 					<li>RGK_Dresser</li>
 					<li>RGK_EndTable</li>
 					<li>RGK_EndTableWithLamp</li>
@@ -77,8 +75,6 @@
 		<comps>
 			<li Class="CompProperties_AffectedByFacilities">
 				<linkableFacilities>
-					<li>EndTable</li>
-					<li>Dresser</li>
 					<li>RGK_Dresser</li>
 					<li>RGK_EndTable</li>
 					<li>RGK_EndTableWithLamp</li>
@@ -136,8 +132,6 @@
 		<comps>
 			<li Class="CompProperties_AffectedByFacilities">
 				<linkableFacilities>
-					<li>EndTable</li>
-					<li>Dresser</li>
 					<li>RGK_Dresser</li>
 					<li>RGK_EndTableWithLamp</li>
 					<li>RGK_EndTableWithLampE</li>
@@ -197,8 +191,6 @@
 		<comps>
 			<li Class="CompProperties_AffectedByFacilities">
 				<linkableFacilities>
-					<li>EndTable</li>
-					<li>Dresser</li>
 					<li>RGK_EndTableWithLamp</li>
 					<li>RGK_EndTableWithLampE</li>
 					<li>RGK_Dresser</li>
@@ -1227,7 +1219,7 @@
 		<comps>
 			<li Class="CompProperties_Facility">
 				<statOffsets>
-					<Comfort>0.12</Comfort>
+					<Comfort>0.06</Comfort>
 				</statOffsets>
 				<maxSimultaneous>1</maxSimultaneous>
 				<maxDistance>6</maxDistance>
@@ -1300,7 +1292,7 @@
 		<comps>
 			<li Class="CompProperties_Facility">
 				<statOffsets>
-					<Comfort>0.12</Comfort>
+					<Comfort>0.08</Comfort>
 				</statOffsets>
 				<maxSimultaneous>1</maxSimultaneous>
 				<maxDistance>6</maxDistance>
