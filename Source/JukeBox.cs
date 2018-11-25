@@ -267,11 +267,19 @@ namespace Gloomylynx
                 foreach (string s in files)
                 {
                     SongEntry songDef = new SongEntry(@"Songs/" + s);
+                    songDef.tense = false;
+                    songDef.playOnMap = true;
+                    customSongList.Add(songDef);
+                }
+                foreach (string s in files)
+                {
+                    SongEntry songDef = new SongEntry(@"Songs/" + s);
+                    songDef.defName = songDef.defName + "_tense";
+                    songDef.playOnMap = true;
                     songDef.tense = true;
                     customSongList.Add(songDef);
-                    Log.Message(songDef.defName);
                 }
-                if(customSongList.Count<=0)
+                if (customSongList.Count<=0)
                 {
                     customSongList.AddRange(DefDatabase<SongDef>.AllDefs);
                 }
@@ -309,8 +317,6 @@ namespace Gloomylynx
                 this.defName = array[array.Length - 1];
             }
             clip = this.clip = ContentFinder<AudioClip>.Get(this.clipPath, true);
-            playOnMap = true;
-
         }
         public override void PostLoad()
         {
