@@ -320,7 +320,6 @@
 		<neverMultiSelect>true</neverMultiSelect>
 		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
 		<holdsRoof>true</holdsRoof>
-		<staticSunShadowHeight>1</staticSunShadowHeight>
 		<blockLight>false</blockLight>
 		<building>
 			<blueprintGraphicData>

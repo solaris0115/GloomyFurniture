@@ -49,7 +49,7 @@
 		</building>
 		<fillPercent>0.4</fillPercent>
 		<pathCost>60</pathCost>
-		<staticSunShadowHeight>0.17</staticSunShadowHeight>
+		<staticSunShadowHeight>0.15</staticSunShadowHeight>
 		<castEdgeShadows>True</castEdgeShadows>
 		<designationHotKey>Misc1</designationHotKey>
 		<techLevel>Medieval</techLevel>
@@ -106,7 +106,7 @@
 		</building>
 		<fillPercent>0.4</fillPercent>
 		<pathCost>60</pathCost>
-		<staticSunShadowHeight>0.17</staticSunShadowHeight>
+		<staticSunShadowHeight>0.15</staticSunShadowHeight>
 		<castEdgeShadows>True</castEdgeShadows>
 		<designationHotKey>Misc1</designationHotKey>
 		<techLevel>Medieval</techLevel>
@@ -165,7 +165,7 @@
 		<fillPercent>0.4</fillPercent>
 		<pathCost>60</pathCost>
 		<leaveResourcesWhenKilled>True</leaveResourcesWhenKilled>
-		<staticSunShadowHeight>0.17</staticSunShadowHeight>
+		<staticSunShadowHeight>0.15</staticSunShadowHeight>
 		<castEdgeShadows>True</castEdgeShadows>
 		<designationHotKey>Misc1</designationHotKey>
 		<techLevel>Medieval</techLevel>
@@ -224,7 +224,7 @@
 		<fillPercent>0.4</fillPercent>
 		<pathCost>60</pathCost>
 		<leaveResourcesWhenKilled>True</leaveResourcesWhenKilled>
-		<staticSunShadowHeight>0.17</staticSunShadowHeight>
+		<staticSunShadowHeight>0.15</staticSunShadowHeight>
 		<castEdgeShadows>True</castEdgeShadows>
 		<designationHotKey>Misc1</designationHotKey>
 		<techLevel>Medieval</techLevel>
@@ -269,7 +269,7 @@
 		</statBases>
 		<size>(2,1)</size>
 		<designationHotKey>Misc1</designationHotKey>
-		<staticSunShadowHeight>0.5</staticSunShadowHeight>
+		<staticSunShadowHeight>0.1</staticSunShadowHeight>
 		<surfaceType>Item</surfaceType>
 		<canOverlapZones>false</canOverlapZones>
 		<placeWorkers>
@@ -296,9 +296,6 @@
 		<graphicData>
 			<texPath>Things/Building/Furniture/RGK_EndTable</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
-			<shadowData>
-				<volume>(0.3, 0.6, 0.3)</volume>
-			</shadowData>
 		</graphicData>
 		<statBases>
 			<MaxHitPoints>80</MaxHitPoints>
@@ -328,7 +325,7 @@
 				<mustBePlacedAdjacentCardinalToBedHead>true</mustBePlacedAdjacentCardinalToBedHead>
 			</li>
 		</comps>
-		<staticSunShadowHeight>0</staticSunShadowHeight>
+		<staticSunShadowHeight>0.1</staticSunShadowHeight>
 		<castEdgeShadows>false</castEdgeShadows>
 		<designationHotKey>Misc2</designationHotKey>
 	</ThingDef>
@@ -408,7 +405,7 @@
 		</comps>
 		<staticSunShadowHeight>0</staticSunShadowHeight>
 		<castEdgeShadows>false</castEdgeShadows>
-		<designationCategory inharit="false"></designationCategory>
+		<designationCategory inharit="false"/>
 	</ThingDef>
 
 	<ThingDef ParentName="RGKTableBase">
@@ -481,7 +478,7 @@
 		<staticSunShadowHeight>0</staticSunShadowHeight>
 		<castEdgeShadows>false</castEdgeShadows>
 		<designationHotKey>Misc2</designationHotKey>
-		<designationCategory></designationCategory>
+		<designationCategory/>
 	</ThingDef>
 
 	<!--Chair-->	
@@ -1144,7 +1141,7 @@
 			<li>ITab_Storage</li>
 		</inspectorTabs>
 		<designationHotKey>Misc5</designationHotKey>
-		<staticSunShadowHeight>0.5</staticSunShadowHeight>
+		<staticSunShadowHeight>0.2</staticSunShadowHeight>
 		<surfaceType>Item</surfaceType>
 		<canOverlapZones>false</canOverlapZones>
 		<researchPrerequisites>
@@ -1205,7 +1202,7 @@
 			<li>ITab_Storage</li>
 		</inspectorTabs>
 		<designationHotKey>Misc5</designationHotKey>
-		<staticSunShadowHeight>0.5</staticSunShadowHeight>
+		<staticSunShadowHeight>0.15</staticSunShadowHeight>
 		<surfaceType>Item</surfaceType>
 		<canOverlapZones>false</canOverlapZones>
 		<researchPrerequisites>
@@ -1219,10 +1216,10 @@
 		<comps>
 			<li Class="CompProperties_Facility">
 				<statOffsets>
-					<Comfort>0.06</Comfort>
+					<Comfort>0.02</Comfort>
 				</statOffsets>
 				<maxSimultaneous>1</maxSimultaneous>
-				<maxDistance>6</maxDistance>
+				<maxDistance>4</maxDistance>
 			</li>
 		</comps>
 	</ThingDef>	
@@ -1278,7 +1275,7 @@
 			<li>ITab_Storage</li>
 		</inspectorTabs>
 		<designationHotKey>Misc5</designationHotKey>
-		<staticSunShadowHeight>0.5</staticSunShadowHeight>
+		<staticSunShadowHeight>0.15</staticSunShadowHeight>
 		<surfaceType>Item</surfaceType>
 		<canOverlapZones>false</canOverlapZones>
 		<researchPrerequisites>
@@ -1292,10 +1289,10 @@
 		<comps>
 			<li Class="CompProperties_Facility">
 				<statOffsets>
-					<Comfort>0.08</Comfort>
+					<Comfort>0.04</Comfort>
 				</statOffsets>
 				<maxSimultaneous>1</maxSimultaneous>
-				<maxDistance>6</maxDistance>
+				<maxDistance>4</maxDistance>
 			</li>
 		</comps>
 	</ThingDef>	
@@ -1343,7 +1340,7 @@
 			<li>ITab_Storage</li>
 		</inspectorTabs>
 		<designationHotKey>Misc5</designationHotKey>
-		<staticSunShadowHeight>0.5</staticSunShadowHeight>
+		<staticSunShadowHeight>0</staticSunShadowHeight>
 		<surfaceType>Item</surfaceType>
 		<canOverlapZones>false</canOverlapZones>
 		<researchPrerequisites>

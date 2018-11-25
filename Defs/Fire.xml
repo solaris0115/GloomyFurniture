@@ -5,7 +5,11 @@
 		<label>fire place</label>
 		<description>It's a warm fireplace that warms the room.</description>    
 		<thingClass>Building_Heater</thingClass>
-		<category>Building</category>
+		<category>Building</category>		
+		<thingCategories>
+			<li>BuildingsFurniture</li>
+		</thingCategories>
+		<minifiedDef>MinifiedThing</minifiedDef>	
 		<graphicData>
 			<texPath>Things/Building/Furniture/RGK_Fireplace2</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
@@ -26,6 +30,7 @@
 		<fillPercent>0.20</fillPercent>
 		<statBases>
 			<Beauty>15</Beauty>
+			<Mass>15</Mass>
 			<MaxHitPoints>250</MaxHitPoints>
 			<WorkToBuild>1500</WorkToBuild>
 			<Flammability>0</Flammability>
@@ -114,7 +119,11 @@
 				<cornerBL>Damage/Corner</cornerBL>
 				<cornerBR>Damage/Corner</cornerBR>
 			</damageData>
-		</graphicData>
+		</graphicData>		
+		<thingCategories>
+			<li>BuildingsFurniture</li>
+		</thingCategories>
+		<minifiedDef>MinifiedThing</minifiedDef>	
 		<uiIconPath>Things/Building/Furniture/RGK_Fireplace2_south</uiIconPath>
 		<uiIconOffset>(0, 0.15)</uiIconOffset>
 		<uiIconScale>1.5</uiIconScale>
@@ -124,6 +133,7 @@
 		<fillPercent>0.20</fillPercent>
 		<statBases>
 			<Beauty>15</Beauty>
+			<Mass>15</Mass>
 			<MaxHitPoints>250</MaxHitPoints>
 			<WorkToBuild>1500</WorkToBuild>
 			<Flammability>0</Flammability>
