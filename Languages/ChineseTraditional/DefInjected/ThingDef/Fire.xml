@@ -4,47 +4,58 @@
   <RGK_Fireplace.label>壁爐</RGK_Fireplace.label>
   <RGK_Fireplace.description>這是一個溫暖的壁爐，溫暖了房間。</RGK_Fireplace.description>
   <RGK_Fireplace_Blueprint.label>壁爐（藍圖）</RGK_Fireplace_Blueprint.label>
+  <RGK_Fireplace_Blueprint_Install.label>fire place (blueprint)</RGK_Fireplace_Blueprint_Install.label>
   <RGK_Fireplace_Frame.label>壁爐（建造中）</RGK_Fireplace_Frame.label>
   <RGK_Fireplace_Frame.description>這是一個溫暖的壁爐，溫暖了房間。</RGK_Fireplace_Frame.description>
 
   <RGK_FireplaceE.label>電力壁爐</RGK_FireplaceE.label>
-  <RGK_FireplaceE.description>這是一個溫暖的壁爐，溫暖的房間。 需要電力。</RGK_FireplaceE.description>
+  <RGK_FireplaceE.description>這是一個假裝是壁爐的暖爐。 裡面有栩栩如生的火焰在跳動，看起來就跟真的一樣。</RGK_FireplaceE.description>
   <RGK_FireplaceE_Blueprint.label>電力壁爐（藍圖）</RGK_FireplaceE_Blueprint.label>
+  <RGK_FireplaceE_Blueprint_Install.label>fire place E (blueprint)</RGK_FireplaceE_Blueprint_Install.label>
   <RGK_FireplaceE_Frame.label>電力壁爐（建造中）</RGK_FireplaceE_Frame.label>
-  <RGK_FireplaceE_Frame.description>這是一個溫暖的壁爐，溫暖的房間。 需要電力。</RGK_FireplaceE_Frame.description>
+  <RGK_FireplaceE_Frame.description>這是一個假裝是壁爐的暖爐。 裡面有栩栩如生的火焰在跳動，看起來就跟真的一樣。</RGK_FireplaceE_Frame.description>
 
 
   <!-- Lamp -->
 
-  <RGK_lamp.label>油燈</RGK_lamp.label>
-  <RGK_lamp.description>這是一盞小燈。 我想即使下雨也能安全地使用它。</RGK_lamp.description>
-  <RGK_lamp_Blueprint.label>油燈（藍圖）</RGK_lamp_Blueprint.label>
-  <RGK_lamp_Frame.label>油燈（建造中）</RGK_lamp_Frame.label>
-  <RGK_lamp_Frame.description>這是一盞小燈。 我想即使下雨也能安全地使用它。</RGK_lamp_Frame.description>
+  <RGK_lamp.label>小檯燈</RGK_lamp.label>
+  <RGK_lamp.description>這是一盞小油燈。 通常放在床頭櫃上。</RGK_lamp.description>
+  <RGK_lamp_Blueprint.label>小油燈（藍圖）</RGK_lamp_Blueprint.label>
+  <RGK_lamp_Blueprint_Install.label>Lamp (blueprint)</RGK_lamp_Blueprint_Install.label>
+  <RGK_lamp_Frame.label>小油燈（建造中）</RGK_lamp_Frame.label>
+  <RGK_lamp_Frame.description>這是一盞小油燈。 通常放在床頭櫃上。</RGK_lamp_Frame.description>
 
-  <RGK_lampE.label>提式電燈</RGK_lampE.label>
-  <RGK_lampE.description>這是一盞小燈。 我想即使下雨也能安全地使用它。 需要電力。</RGK_lampE.description>
-  <RGK_lampE_Blueprint.label>提式電燈（藍圖）</RGK_lampE_Blueprint.label>
-  <RGK_lampE_Frame.label>提式電燈（建造中）</RGK_lampE_Frame.label>
-  <RGK_lampE_Frame.description>這是一盞小燈。 我想即使下雨也能安全地使用它。 需要電力。</RGK_lampE_Frame.description>
+  <RGK_LampM.label>小油燈</RGK_LampM.label>
+  <RGK_LampM.description>這是一盞小油燈。 我想即使在雨中也能安全地使用它。</RGK_LampM.description>
+  <RGK_LampM_Blueprint.label>小油燈 (blueprint)</RGK_LampM_Blueprint.label>
+  <RGK_LampM_Blueprint_Install.label>小油燈 (blueprint)</RGK_LampM_Blueprint_Install.label>
+  <RGK_LampM_Frame.label>小油燈 (building)</RGK_LampM_Frame.label>
+  <RGK_LampM_Frame.description>這是一盞小油燈。 我想即使在雨中也能安全地使用它。</RGK_LampM_Frame.description>
 
-  <RGK_Street_Lamp.label>路燈</RGK_Street_Lamp.label>
-  <RGK_Street_Lamp.description>這是一盞路燈。 它在黑暗中點亮了道路。</RGK_Street_Lamp.description>
-  <RGK_Street_Lamp_Blueprint.label>路燈（藍圖）</RGK_Street_Lamp_Blueprint.label>
-  <RGK_Street_Lamp_Frame.label>路燈（建造中）</RGK_Street_Lamp_Frame.label>
-  <RGK_Street_Lamp_Frame.description>這是一盞路燈。 它在黑暗中點亮了道路。</RGK_Street_Lamp_Frame.description>
+  <RGK_lampE.label>仿古電燈</RGK_lampE.label>
+  <RGK_lampE.description>這是一盞假裝是油燈的電燈。 依然是需要插電才能亮的。</RGK_lampE.description>
+  <RGK_lampE_Blueprint.label>仿古電燈（藍圖）</RGK_lampE_Blueprint.label>
+  <RGK_lampE_Blueprint_Install.label>仿古電燈(blueprint)</RGK_lampE_Blueprint_Install.label>
+  <RGK_lampE_Frame.label>仿古電燈（建造中）</RGK_lampE_Frame.label>
+  <RGK_lampE_Frame.description>這是一盞假裝是油燈的電燈。 依然是需要插電才能亮的。</RGK_lampE_Frame.description>
 
-  <RGK_Street_Lamp_Seven.label>街燈</RGK_Street_Lamp_Seven.label>
-  <RGK_Street_Lamp_Seven.description>這是一盞街燈。 它在黑暗中點亮了道路。</RGK_Street_Lamp_Seven.description>
+  <RGK_Street_Lamp.label>煤氣路燈</RGK_Street_Lamp.label>
+  <RGK_Street_Lamp.description>這是一盞煤氣路燈。 現代化的煤氣路燈，只需要電。</RGK_Street_Lamp.description>
+  <RGK_Street_Lamp_Blueprint.label>煤氣路燈（藍圖）</RGK_Street_Lamp_Blueprint.label>
+  <RGK_Street_Lamp_Frame.label>煤氣路燈（建造中）</RGK_Street_Lamp_Frame.label>
+  <RGK_Street_Lamp_Frame.description>這是一盞煤氣路燈。 現代化的煤氣路燈，只需要電。</RGK_Street_Lamp_Frame.description>
+
+  <RGK_Street_Lamp_Seven.label>復古街燈</RGK_Street_Lamp_Seven.label>
+  <RGK_Street_Lamp_Seven.description>它在黑暗中點亮了道路。 彷彿回到了十五世紀的倫敦。</RGK_Street_Lamp_Seven.description>
   <RGK_Street_Lamp_Seven_Blueprint.label>街燈（藍圖）</RGK_Street_Lamp_Seven_Blueprint.label>
   <RGK_Street_Lamp_Seven_Frame.label>街燈（建造中）</RGK_Street_Lamp_Seven_Frame.label>
-  <RGK_Street_Lamp_Seven_Frame.description>這是一盞街燈。 它在黑暗中點亮了道路。</RGK_Street_Lamp_Seven_Frame.description>
+  <RGK_Street_Lamp_Seven_Frame.description>它在黑暗中點亮了道路。 彷彿回到了十五世紀的倫敦。</RGK_Street_Lamp_Seven_Frame.description>
 
-  <RGK_Street_Lamp_SevenE.label>電力街燈</RGK_Street_Lamp_SevenE.label>
-  <RGK_Street_Lamp_SevenE.description>這是一盞街燈。 它在黑暗中點亮了道路。 需要電力。</RGK_Street_Lamp_SevenE.description>
+  <RGK_Street_Lamp_SevenE.label>用電的復古街燈</RGK_Street_Lamp_SevenE.label>
+  <RGK_Street_Lamp_SevenE.description>它在黑暗中點亮了道路，彷彿回到了十五世紀的倫敦。 當然得這只是仿造得而已，你並不需要倒油在裡面。</RGK_Street_Lamp_SevenE.description>
   <RGK_Street_Lamp_SevenE_Blueprint.label>電力街燈（藍圖）</RGK_Street_Lamp_SevenE_Blueprint.label>
   <RGK_Street_Lamp_SevenE_Frame.label>電力街燈（建造中）</RGK_Street_Lamp_SevenE_Frame.label>
-  <RGK_Street_Lamp_SevenE_Frame.description>這是一盞街燈。 它在黑暗中點亮了道路。 需要電力。</RGK_Street_Lamp_SevenE_Frame.description>
+  <RGK_Street_Lamp_SevenE_Frame.description>它在黑暗中點亮了道路，彷彿回到了十五世紀的倫敦。 當然得這只是仿造得而已，你並不需要倒油在裡面。</RGK_Street_Lamp_SevenE_Frame.description>
 
 
 </LanguageData>

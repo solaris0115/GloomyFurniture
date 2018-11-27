@@ -23,19 +23,19 @@
   <RGK_window_Blueprint_Install.label>窗戶（藍圖）</RGK_window_Blueprint_Install.label>
 
   <RGK_WindowWall.label>有窗的牆</RGK_WindowWall.label>
-  <RGK_WindowWall.description>陽光可以透過窗口曬近來，也能通風的窗口。</RGK_WindowWall.description>
+  <RGK_WindowWall.description>陽光可以透過窗口曬近來，也能通風的窗口。 並沒有玻璃，所以你無法關上它。</RGK_WindowWall.description>
   <RGK_WindowWall_Blueprint.label>有窗的牆（藍圖）</RGK_WindowWall_Blueprint.label>
   <RGK_WindowWall_Frame.label>有窗的牆（建造中）</RGK_WindowWall_Frame.label>
-  <RGK_WindowWall_Frame.description>陽光可以透過窗口曬近來，也能通風的窗口。</RGK_WindowWall_Frame.description>
+  <RGK_WindowWall_Frame.description>陽光可以透過窗口曬近來，也能通風的窗口。 並沒有玻璃，所以你無法關上它。</RGK_WindowWall_Frame.description>
 
 
   <!-- 울타리 -->
 
   <RGK_WoodFence.label>柵欄</RGK_WoodFence.label>
-  <RGK_WoodFence.description>用柵欄來圈養家畜以保護它們免受外來野獸的襲擊。</RGK_WoodFence.description>
+  <RGK_WoodFence.description>用柵欄來圈養家畜以保護它們免受外來野獸的襲擊。 這東西竟然也能支撐屋頂。</RGK_WoodFence.description>
   <RGK_WoodFence_Blueprint.label>柵欄（藍圖）</RGK_WoodFence_Blueprint.label>
   <RGK_WoodFence_Frame.label>柵欄（建造中）</RGK_WoodFence_Frame.label>
-  <RGK_WoodFence_Frame.description>用柵欄來圈養家畜以保護它們免受外來野獸的襲擊。</RGK_WoodFence_Frame.description>
+  <RGK_WoodFence_Frame.description>用柵欄來圈養家畜以保護它們免受外來野獸的襲擊。 這東西竟然也能支撐屋頂。</RGK_WoodFence_Frame.description>
 
   <RGK_Door.label>柵欄門</RGK_Door.label>
   <RGK_Door.description>劃分房間。 必須手動打開簡單的門，這會減慢人們的速度。 減速量取決於構成柵欄門的材料。</RGK_Door.description>

@@ -16,11 +16,4 @@
   <RGK_FueledStove_Frame.description>一種木質爐灶，帶有附加的檯面，用於準備膳食。</RGK_FueledStove_Frame.description>
 
 
-  <!--[Core] <FermentingBarrel.label>釀酒桶</FermentingBarrel.label>-->
-  <!--[Core] <FermentingBarrel.description>用來將麥汁發酵成啤酒的巨大容器。</FermentingBarrel.description>-->
-  <!--[Core] <FermentingBarrel_Blueprint.label>fermenting barrel（藍圖）</FermentingBarrel_Blueprint.label>-->
-  <!--[Core] <FermentingBarrel_Blueprint_Install.label>fermenting barrel（藍圖）</FermentingBarrel_Blueprint_Install.label>-->
-  <!--[Core] <FermentingBarrel_Frame.label>fermenting barrel（建造中）</FermentingBarrel_Frame.label>-->
-  <!--[Core] <FermentingBarrel_Frame.description>A barrel for fermenting raw wort into beer.</FermentingBarrel_Frame.description>-->
-
 </LanguageData>

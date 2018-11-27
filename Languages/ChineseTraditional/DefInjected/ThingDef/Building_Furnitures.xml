@@ -50,34 +50,28 @@
 
   <RGK_EndTableWithLamp.label>床頭櫃(油燈)</RGK_EndTableWithLamp.label>
   <RGK_EndTableWithLamp.description>能使附近的一張床獲得少量的舒適度。必須直接放置鄰床的頭部。多個床頭櫃不會對一張床有疊加效果。</RGK_EndTableWithLamp.description>
-  <RGK_EndTableWithLamp_Blueprint.label>床頭櫃(油燈)（藍圖）</RGK_EndTableWithLamp_Blueprint.label>
   <RGK_EndTableWithLamp_Blueprint_Install.label>床頭櫃(油燈)（藍圖）</RGK_EndTableWithLamp_Blueprint_Install.label>
-  <RGK_EndTableWithLamp_Frame.label>床頭櫃(油燈)（建造中）</RGK_EndTableWithLamp_Frame.label>
-  <RGK_EndTableWithLamp_Frame.description>能使附近的一張床獲得少量的舒適度。必須直接放置鄰床的頭部。多個床頭櫃不會對一張床有疊加效果。</RGK_EndTableWithLamp_Frame.description>
 
   <RGK_EndTableWithLampE.label>床頭櫃(電燈)</RGK_EndTableWithLampE.label>
   <RGK_EndTableWithLampE.description>能使附近的一張床獲得少量的舒適度。必須直接放置鄰床的頭部。多個床頭櫃不會對一張床有疊加效果。需要電力。</RGK_EndTableWithLampE.description>
-  <RGK_EndTableWithLampE_Blueprint.label>床頭櫃(電燈)（藍圖）</RGK_EndTableWithLampE_Blueprint.label>
   <RGK_EndTableWithLampE_Blueprint_Install.label>床頭櫃(電燈)（藍圖）</RGK_EndTableWithLampE_Blueprint_Install.label>
-  <RGK_EndTableWithLampE_Frame.label>床頭櫃(電燈)（建造中）</RGK_EndTableWithLampE_Frame.label>
-  <RGK_EndTableWithLampE_Frame.description>能使附近的一張床獲得少量的舒適度。必須直接放置鄰床的頭部。多個床頭櫃不會對一張床有疊加效果。需要電力。</RGK_EndTableWithLampE_Frame.description>
 
 
   <!-- Chair -->
 
   <RGK_bucketr.label>水桶</RGK_bucketr.label>
-  <RGK_bucketr.description>水桶。</RGK_bucketr.description>
+  <RGK_bucketr.description>一個小水桶，可以用來裝飾你家， 雖然並沒有美觀度可言。</RGK_bucketr.description>
   <RGK_bucketr_Blueprint.label>水桶（藍圖）</RGK_bucketr_Blueprint.label>
   <RGK_bucketr_Blueprint_Install.label>水桶（藍圖）</RGK_bucketr_Blueprint_Install.label>
   <RGK_bucketr_Frame.label>水桶（建造中）</RGK_bucketr_Frame.label>
-  <RGK_bucketr_Frame.description>水桶。</RGK_bucketr_Frame.description>
+  <RGK_bucketr_Frame.description>一個小水桶，可以用來裝飾你家，雖然並沒有美觀度可言。</RGK_bucketr_Frame.description>
 
   <RGK_orc.label>酒桶</RGK_orc.label>
-  <RGK_orc.description>酒桶</RGK_orc.description>
+  <RGK_orc.description>裡面可能裝著滿滿蘭姆酒， 然而你家小人打不開~</RGK_orc.description>
   <RGK_orc_Blueprint.label>酒桶（藍圖）</RGK_orc_Blueprint.label>
   <RGK_orc_Blueprint_Install.label>酒桶（藍圖）</RGK_orc_Blueprint_Install.label>
   <RGK_orc_Frame.label>酒桶（建造中）</RGK_orc_Frame.label>
-  <RGK_orc_Frame.description>酒桶</RGK_orc_Frame.description>
+  <RGK_orc_Frame.description>裡面可能裝著滿滿蘭姆酒，然而你家小人打不開~</RGK_orc_Frame.description>
 
   <RGK_SimpleChair.label>凳子</RGK_SimpleChair.label>
   <RGK_SimpleChair.description>一個簡單的凳子。 不是很舒服，但總比沒有好。 可以搭配桌子或工作台使用。</RGK_SimpleChair.description>
@@ -135,7 +129,7 @@
   <RGK_TableE_Frame.label>長桌子(2x1)（建造中）</RGK_TableE_Frame.label>
   <RGK_TableE_Frame.description>把椅子貼近放置時，人們會在桌子上用餐。</RGK_TableE_Frame.description>
 
-  <RGK_TableF.label>長桌子(3x2)</RGK_TableF.label>
+  <RGK_TableF.label>印花長桌子(3x2)</RGK_TableF.label>
   <RGK_TableF.description>把椅子貼近放置時，人們會在桌子上用餐。</RGK_TableF.description>
   <RGK_TableF_Blueprint.label>長桌子(3x2)（藍圖）</RGK_TableF_Blueprint.label>
   <RGK_TableF_Blueprint_Install.label>長桌子(3x2)（藍圖）</RGK_TableF_Blueprint_Install.label>
@@ -195,7 +189,7 @@
   <WardrobeB_Frame.description>用於存放衣服的架子和抽屜。</WardrobeB_Frame.description>
 
   <RGK_Manger.label>飼料槽</RGK_Manger.label>
-  <RGK_Manger.description>這是動物的飼料槽。 你可以儲存食物和乾草。</RGK_Manger.description>
+  <RGK_Manger.description>這是動物的飼料槽。 可以放置寵物的食物。</RGK_Manger.description>
   <RGK_Manger_Blueprint.label>飼料槽（藍圖）</RGK_Manger_Blueprint.label>
   <RGK_Manger_Blueprint_Install.label>飼料槽（藍圖）</RGK_Manger_Blueprint_Install.label>
   <RGK_Manger_Frame.label>飼料槽（建造中）</RGK_Manger_Frame.label>
