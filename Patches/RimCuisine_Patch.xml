@@ -8,7 +8,7 @@
 			<success>Always</success>
 			<operations>			
 				<li Class="PatchOperationAdd">
-					<xpath>*/RecipeDef[defName="RecipeBase"]/recipeUsers</xpath>
+					<xpath>*/RecipeDef[@Name="RecipeBase"]/recipeUsers</xpath>
 					<value>
 						<li>RGK_FueledStove</li>
 					</value>
@@ -44,7 +44,7 @@
 					</value>
 				</li>
 				<li Class="PatchOperationAdd">
-					<xpath>*/RecipeDef[defName="RC_PreservationRecipeBase"]/recipeUsers</xpath>
+					<xpath>*/RecipeDef[@Name="RC_PreservationRecipeBase"]/recipeUsers</xpath>
 					<value>
 						<li>RGK_FueledStove</li>
 					</value>
@@ -78,9 +78,9 @@
 					<value>
 						<li>RGK_FueledStove</li>
 					</value>
-				</li>
+				</li>		
 				<li Class="PatchOperationAdd">
-					<xpath>*/RecipeDef[defName="VG_MakebulkPemmican"]/recipeUsers</xpath>
+					<xpath>*/RecipeDef[defName="MakePastry"]/recipeUsers</xpath>
 					<value>
 						<li>RGK_FueledStove</li>
 					</value>

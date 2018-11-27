@@ -281,7 +281,7 @@
 			<li>BuildingsFurniture</li>
 		</thingCategories>
 	</ThingDef>
-	
+
 	<ThingDef ParentName="BuildingBase">
 		<defName>RGK_LampM</defName>
 		<label>Lamp M</label>
@@ -361,7 +361,7 @@
 			<li>BuildingsFurniture</li>
 		</thingCategories>
 	</ThingDef>
-	
+
 	<ThingDef ParentName="BuildingBase">
 		<defName>RGK_lampE</defName>
 		<label>Lamp E</label>

@@ -859,8 +859,8 @@
 				<compClass>CompGatherSpot</compClass>
 			</li>
 		</comps>
-
 		<designationHotKey>Misc4</designationHotKey>
+		<designationCategory></designationCategory>		
 	</ThingDef>
 	<ThingDef ParentName="RGKTableBase">
 		<defName>RGK_TableE</defName>
@@ -1350,5 +1350,107 @@
 	</ThingDef>	
 
 
+	
+	
+	<ThingDef ParentName="BuildingBase">
+		<defName>RGK_Flower</defName>
+		<label>replica flower</label>
+		<description>It's a flowerpot replica. It'll be in bloom forever.</description>
+		<category>Building</category>
+		<thingClass>Building</thingClass>
+		<graphicData>
+			<texPath>Things/Building/Furniture/RGK_Flower</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawRotated>false</drawRotated>
+			<drawSize>(2,2)</drawSize>
+			<damageData>
+				<rect>(0.35,0.35,0.3,0.3)</rect>
+			</damageData>
+		</graphicData>
+		<uiIconPath>Things/Building/Furniture/RGK_Flower</uiIconPath>
+		<uiIconScale>1</uiIconScale>
+		<rotatable>true</rotatable>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<pathCost>8</pathCost>
+		<constructEffect>ConstructWood</constructEffect>
+		<fillPercent>0.15</fillPercent>
+		<statBases>
+			<MaxHitPoints>40</MaxHitPoints>
+			<WorkToBuild>100</WorkToBuild>
+			<Flammability>0</Flammability>
+			<Mass>1</Mass>
+			<Beauty>15</Beauty>
+		</statBases>
+		<selectable>true</selectable>
+		<costList>
+			<WoodLog>15</WoodLog>
+			<Steel>5</Steel>
+		</costList>
+		<building>
+			<isEdifice>false</isEdifice>
+		</building>
+		<soundImpactDefault>BulletImpact_Ground</soundImpactDefault>
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<designationCategory>OldStyleFurniture</designationCategory>
+		<destroyable>true</destroyable>
+		<tradeability>None</tradeability>
+		<clearBuildingArea>false</clearBuildingArea>
+		<minifiedDef>MinifiedThing</minifiedDef>		
+		<thingCategories>
+			<li>BuildingsFurniture</li>
+		</thingCategories>
+		<constructionSkillPrerequisite>5</constructionSkillPrerequisite>
+	</ThingDef>
+	<ThingDef ParentName="BuildingBase">
+		<defName>RGK_Teaset</defName>
+		<label>tea set</label>
+		<description>This is a set of decorative teas. It looks like a luxury, and it's a shame to use it.</description>
+		<category>Building</category>
+		<thingClass>Building</thingClass>
+		<graphicData>
+			<texPath>Things/Building/Furniture/RGK_Teaset</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawRotated>false</drawRotated>
+			<drawSize>(2,2)</drawSize>
+			<damageData>
+				<rect>(0.35,0.35,0.3,0.3)</rect>
+			</damageData>
+		</graphicData>
+		<uiIconPath>Things/Building/Furniture/RGK_Teaset</uiIconPath>
+		<uiIconScale>1</uiIconScale>
+		<rotatable>true</rotatable>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<pathCost>8</pathCost>
+		<fillPercent>0.15</fillPercent>
+		<stuffCategories>
+			<li>Stony</li>
+		</stuffCategories>
+		<costStuffCount>20</costStuffCount>
+		<statBases>
+			<MaxHitPoints>40</MaxHitPoints>
+			<WorkToBuild>100</WorkToBuild>
+			<Flammability>0</Flammability>
+			<Mass>1</Mass>
+			<Beauty>15</Beauty>
+		</statBases>
+		<selectable>true</selectable>
+		<building>
+			<isEdifice>false</isEdifice>
+		</building>
+		<soundImpactDefault>BulletImpact_Ground</soundImpactDefault>
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<designationCategory>OldStyleFurniture</designationCategory>
+		<destroyable>true</destroyable>
+		<tradeability>None</tradeability>
+		<clearBuildingArea>false</clearBuildingArea>
+		<minifiedDef>MinifiedThing</minifiedDef>		
+		<thingCategories>
+			<li>BuildingsFurniture</li>
+		</thingCategories>
+		<constructionSkillPrerequisite>5</constructionSkillPrerequisite>
+	</ThingDef>
 
 </Defs>
