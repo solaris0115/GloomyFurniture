@@ -123,10 +123,10 @@
 
   <RGK_TableD.label>ケルト テーブルD(2x2)</RGK_TableD.label>
   <RGK_TableD.description>イスを向き合うように配置すると、人々はここで食事をとるようになります。</RGK_TableD.description>
-  <Blueprint_RGK_TableD.label>ケルト テーブルD(2x2)(設計)</Blueprint_RGK_TableD.label>
+  <!-- <Blueprint_RGK_TableD.label>ケルト テーブルD(2x2)(設計)</Blueprint_RGK_TableD.label> -->
   <Blueprint_Install_RGK_TableD.label>ケルト テーブルD(2x2)(移動先)</Blueprint_Install_RGK_TableD.label>
-  <Frame_RGK_TableD.label>ケルト テーブルD(2x2)(施工)</Frame_RGK_TableD.label>
-  <Frame_RGK_TableD.description>イスを向き合うように配置すると、人々はここで食事をとるようになります。</Frame_RGK_TableD.description>
+  <!-- <Frame_RGK_TableD.label>ケルト テーブルD(2x2)(施工)</Frame_RGK_TableD.label>
+  <Frame_RGK_TableD.description>イスを向き合うように配置すると、人々はここで食事をとるようになります。</Frame_RGK_TableD.description>-->
 
   <RGK_TableE.label>ケルト テーブル(2x1)</RGK_TableE.label>
   <RGK_TableE.description>イスを向き合うように配置すると、人々はここで食事をとるようになります。</RGK_TableE.description>
@@ -200,6 +200,21 @@
   <Blueprint_Install_RGK_Manger.label>飼い葉おけ(移動先)</Blueprint_Install_RGK_Manger.label>
   <Frame_RGK_Manger.label>飼い葉おけ(施工)</Frame_RGK_Manger.label>
   <Frame_RGK_Manger.description>これは動物用のおけです。ペットフードや干し草を保管することができます。</Frame_RGK_Manger.description>
+
+
+  <RGK_Flower.label>植木鉢 （造花)</RGK_Flower.label>
+  <RGK_Flower.description>造花が飾られた植木鉢です。その花はいつまでも咲き続けるでしょう。</RGK_Flower.description>
+  <Blueprint_RGK_Flower.label>植木鉢(造花)(設計)</Blueprint_RGK_Flower.label>
+  <Blueprint_Install_RGK_Flower.label>植木鉢(造花)(移動先)</Blueprint_Install_RGK_Flower.label>
+  <Frame_RGK_Flower.label>植木鉢(造花)(施工)</Frame_RGK_Flower.label>
+  <Frame_RGK_Flower.description>造花が飾られた植木鉢です。その花はいつまでも咲き続けるでしょう。</Frame_RGK_Flower.description>
+
+  <RGK_Teaset.label>ティーセット</RGK_Teaset.label>
+  <RGK_Teaset.description>これは装飾されたティーカップなどのセットです。とても贅沢な作りで、使うのが勿体ないぐらいです。</RGK_Teaset.description>
+  <Blueprint_RGK_Teaset.label>ティーセット(設計)</Blueprint_RGK_Teaset.label>
+  <Blueprint_Install_RGK_Teaset.label>ティーセット(移動先)</Blueprint_Install_RGK_Teaset.label>
+  <Frame_RGK_Teaset.label>ティーセット(施工)</Frame_RGK_Teaset.label>
+  <Frame_RGK_Teaset.description>これは装飾されたティーカップなどのセットです。とても贅沢な作りで、使うのが勿体ないぐらいです。</Frame_RGK_Teaset.description>
 
 
 </LanguageData>

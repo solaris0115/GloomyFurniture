@@ -4,16 +4,18 @@
   <RGK_Fireplace.label>暖炉</RGK_Fireplace.label>
   <RGK_Fireplace.description>これは部屋を暖かく温める暖炉です。</RGK_Fireplace.description>
   <Blueprint_RGK_Fireplace.label>暖炉(設計)</Blueprint_RGK_Fireplace.label>
+  <Blueprint_Install_RGK_Fireplace.label>暖炉(移動先)</Blueprint_Install_RGK_Fireplace.label>
   <Frame_RGK_Fireplace.label>暖炉(施工)</Frame_RGK_Fireplace.label>
   <Frame_RGK_Fireplace.description>これは部屋を暖かく温める暖炉です。</Frame_RGK_Fireplace.description>
 
   <RGK_FireplaceE.label>暖炉(電気)</RGK_FireplaceE.label>
   <RGK_FireplaceE.description>これは部屋を暖かく温める暖炉です。電気が必要です。</RGK_FireplaceE.description>
   <Blueprint_RGK_FireplaceE.label>暖炉(電気)(設計)</Blueprint_RGK_FireplaceE.label>
+  <Blueprint_Install_RGK_FireplaceE.label>暖炉(電気)(移動先)</Blueprint_Install_RGK_FireplaceE.label>
   <Frame_RGK_FireplaceE.label>暖炉(電気)(施工)</Frame_RGK_FireplaceE.label>
   <Frame_RGK_FireplaceE.description>これは部屋を暖かく温める暖炉です。電気が必要です。</Frame_RGK_FireplaceE.description>
 
-
+  
   <!-- Lamp -->
 
   <RGK_lamp.label>ランプ</RGK_lamp.label>
