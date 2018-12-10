@@ -438,10 +438,73 @@
 	</ThingDef>
 
 
+	<ThingDef ParentName="BuildingBase">
+		<defName>RGK_Street_Lamp_L</defName>
+		<label>Street lamp</label>
+		<description>It's a street lamp. It lights the way in the dark. Works as electricity.</description>
+		<category>Building</category>
+		<thingClass>Building</thingClass>
+		<graphicData>
+			<texPath>Things/Building/Furniture/RGK_Street_LampE</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawRotated>false</drawRotated>
+			<drawSize>(4,4)</drawSize>
+			<damageData>
+				<rect>(0.35,0.35,0.3,0.3)</rect>
+			</damageData>
+		</graphicData>
+		<uiIconPath>Things/Building/Furniture/RGK_Street_LampE</uiIconPath>
+		<uiIconScale>1.5</uiIconScale>
+		<rotatable>false</rotatable>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<pathCost>8</pathCost>
+		<constructEffect>ConstructMetal</constructEffect>
+		<tickerType>Normal</tickerType>
+		<fillPercent>0.15</fillPercent>
+		<statBases>
+			<MaxHitPoints>120</MaxHitPoints>
+			<WorkToBuild>250</WorkToBuild>
+			<Flammability>0</Flammability>
+			<Beauty>8</Beauty>
+		</statBases>
+		<selectable>true</selectable>
+		<costList>
+			<WoodLog>15</WoodLog>
+			<Steel>25</Steel>
+		</costList>
+		<soundImpactDefault>BulletImpact_Ground</soundImpactDefault>
+		<leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+		<drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+		<comps>
+			<li Class="CompProperties_Flickable">
+				<commandTexture>UI/Commands/OnOff</commandTexture>
+			</li>
+			<li Class="CompProperties_Refuelable">
+				<fuelConsumptionRate>2</fuelConsumptionRate>
+				<fuelCapacity>25.0</fuelCapacity>
+				<fuelFilter>
+					<thingDefs>
+						<li>WoodLog</li>
+						<li>Chemfuel</li>
+					</thingDefs>
+				</fuelFilter>
+				<initialFuelPercent>1</initialFuelPercent>
+			</li>
+			<li Class="CompProperties_Glower">
+				<glowRadius>15</glowRadius>
+				<glowColor>(252,187,113,0)</glowColor>
+			</li>
+		</comps>
+		<designationCategory>OldStyleFurniture</designationCategory>
+		<designationHotKey>Misc6</designationHotKey>
+		<destroyable>true</destroyable>
+		<tradeability>None</tradeability>
+	</ThingDef>
 
 	<ThingDef ParentName="BuildingBase">
 		<defName>RGK_Street_Lamp</defName>
-		<label>Street lamp</label>
+		<label>Street lamp E</label>
 		<description>It's a street lamp. It lights the way in the dark. Works as electricity.</description>
 		<category>Building</category>
 		<thingClass>Building</thingClass>
@@ -495,6 +558,9 @@
 		<destroyable>true</destroyable>
 		<tradeability>None</tradeability>
 	</ThingDef>
+	
+	
+	
 	<ThingDef ParentName="BuildingBase">
 		<defName>RGK_Street_Lamp_Seven</defName>
 		<label>Street lamp</label>
@@ -568,6 +634,7 @@
 		<tradeability>None</tradeability>
 		<clearBuildingArea>false</clearBuildingArea>
 	</ThingDef>
+	
 	<ThingDef ParentName="BuildingBase">
 		<defName>RGK_Street_Lamp_SevenE</defName>
 		<label>Street lamp E</label>

@@ -50,7 +50,7 @@
 		<costList>
 			<WoodLog>5</WoodLog>
 		</costList>
-		<leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
 		<altitudeLayer>Building</altitudeLayer>
 		<passability>Impassable</passability>
 		<blockWind>true</blockWind>
@@ -78,6 +78,68 @@
 		<designationHotKey>Misc3</designationHotKey>
 	</ThingDef>
 
+	<!-- 2018 12 10 -->
+	<!-- 꽃벽 -->
+	<ThingDef ParentName="BuildingBase">
+		<defName>GL_FlowerWall</defName>
+		<label>Flower wall</label>
+		<description>Wall decorated with flowers.</description>
+		<thingClass>Building</thingClass>
+		<category>Building</category>
+		<graphicData>
+			<texPath>Things/Building/Linked/GL_FlowerWall</texPath>
+			<graphicClass>Graphic_Appearances</graphicClass>
+			<linkType>CornerFiller</linkType>
+			<linkFlags>
+				<li>Custom3</li>
+			</linkFlags>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+				<edgeTop>Damage/Edge</edgeTop>
+				<edgeBot>Damage/Edge</edgeBot>
+				<edgeLeft>Damage/Edge</edgeLeft>
+				<edgeRight>Damage/Edge</edgeRight>
+			</damageData>
+		</graphicData>
+		<uiIconPath>Things/Building/Linked/GL_FlowerWall_MenuIcon</uiIconPath>
+		<statBases>
+			<Beauty>10</Beauty>
+			<MaxHitPoints>150</MaxHitPoints>
+			<WorkToBuild>850</WorkToBuild>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		<costList>
+			<WoodLog>25</WoodLog>
+		</costList>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<pathCost>35</pathCost>
+		<blockWind>false</blockWind>
+		<castEdgeShadows>true</castEdgeShadows>
+		<fillPercent>0.5</fillPercent>
+		<placingDraggableDimensions>1</placingDraggableDimensions>
+		<tickerType>Never</tickerType>
+		<rotatable>false</rotatable>
+		<selectable>true</selectable>
+		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+		<designationCategory>OldStyleFurniture</designationCategory>
+		<staticSunShadowHeight>1.0</staticSunShadowHeight>
+		<blockLight>false</blockLight>
+		<canOverlapZones>false</canOverlapZones>
+		<building>
+			<isInert>true</isInert>
+			<blueprintGraphicData>
+				<texPath>Things/Building/Linked/RGK_Wall_Blueprint_Atlas</texPath>
+			</blueprintGraphicData>
+		</building>
+		<designationHotKey>Misc3</designationHotKey>
+	</ThingDef>
+
+	
 	<ThingDef ParentName="RKGFence">
 		<defName>RGK_VentWall</defName>
 		<label>vent wall</label>

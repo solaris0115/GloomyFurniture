@@ -619,7 +619,6 @@
 		<uiIconOffset>(0, -0.05)</uiIconOffset>
 		<rotatable>false</rotatable>
 	</ThingDef>
-
 	<ThingDef ParentName="RGKArtableFurnitureBase">
 		<defName>RGK_Chair</defName>
 		<label>chair</label>
@@ -661,7 +660,6 @@
 		</building>
 		<constructionSkillPrerequisite>4</constructionSkillPrerequisite>
 	</ThingDef>
-
 	<ThingDef ParentName="RGKArtableFurnitureBase">
 		<defName>RGKDiningChair</defName>
 		<label>dining chair</label>
@@ -706,6 +704,45 @@
 			<li>ComplexFurniture</li>
 		</researchPrerequisites>
 	</ThingDef>
+	<!-- 2018 12 10 -->
+	<!-- 공원벤치 -->
+	<ThingDef ParentName="RGKArtableFurnitureBase">
+		<defName>GL_Bench</defName>
+		<label>bench</label>
+		<description>It's a park bench chair. Couples can't sit here.</description>
+		<graphicData>
+			<texPath>Things/Building/Furniture/Bench</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(2.3,2.3)</drawSize>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<WorkToBuild>12000</WorkToBuild>
+			<Mass>8</Mass>
+			<Flammability>1.0</Flammability>
+			<Beauty>8</Beauty>
+			<Comfort>0.75</Comfort>
+		</statBases>
+		<socialPropernessMatters>true</socialPropernessMatters>
+		<stuffCategories>
+			<li>Woody</li>
+		</stuffCategories>
+		<costStuffCount>85</costStuffCount>
+		<pathCost>30</pathCost>
+		<designationHotKey>Misc3</designationHotKey>
+		<fillPercent>0.45</fillPercent>
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<building>
+			<isSittable>true</isSittable>
+		</building>
+		<constructionSkillPrerequisite>6</constructionSkillPrerequisite>
+		<researchPrerequisites>
+			<li>ComplexFurniture</li>
+		</researchPrerequisites>		
+		<size>(2,1)</size>		
+	</ThingDef>
+	
 
 	<ThingDef ParentName="RGKTableBase">
 		<defName>RGK_TableA</defName>
