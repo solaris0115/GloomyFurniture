@@ -100,6 +100,15 @@
   <Frame_RGKDiningChair.label>ダイニング チェア(施工)</Frame_RGKDiningChair.label>
   <Frame_RGKDiningChair.description>快適で見栄えがよい椅子です。テーブルや作業台、その他の場所に置いて使用できます。</Frame_RGKDiningChair.description>
 
+  <!-- Park bench -->
+
+  <GL_Bench.label>ベンチ</GL_Bench.label>
+  <GL_Bench.description>これは公園のベンチ型の椅子です。カップルでここに座ることはできません。</GL_Bench.description>
+  <Blueprint_GL_Bench.label>ベンチ(設計)</Blueprint_GL_Bench.label>
+  <Blueprint_Install_GL_Bench.label>ベンチ(移動先)</Blueprint_Install_GL_Bench.label>
+  <Frame_GL_Bench.label>ベンチ(施工)</Frame_GL_Bench.label>
+  <Frame_GL_Bench.description>これは公園のベンチ型の椅子です。カップルでここに座ることはできません。</Frame_GL_Bench.description>
+
   <RGK_TableA.label>テーブル(2x2)</RGK_TableA.label>
   <RGK_TableA.description>イスを向き合うように配置すると、人々はここで食事をとるようになります。</RGK_TableA.description>
   <Blueprint_RGK_TableA.label>テーブル(2x2)(設計)</Blueprint_RGK_TableA.label>

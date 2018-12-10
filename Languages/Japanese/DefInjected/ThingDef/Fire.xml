@@ -39,11 +39,17 @@
   <Frame_RGK_lampE.label>ランプ(電気)(施工)</Frame_RGK_lampE.label>
   <Frame_RGK_lampE.description>小さな電気式ランプです。雨が降っても安全に使うことができるでしょう。電気が必要です。</Frame_RGK_lampE.description>
 
-  <RGK_Street_Lamp.label>街路灯</RGK_Street_Lamp.label>
-  <RGK_Street_Lamp.description>屋外で使う街灯です。暗闇の中で道を照らします。</RGK_Street_Lamp.description>
-  <Blueprint_RGK_Street_Lamp.label>街路灯(設計)</Blueprint_RGK_Street_Lamp.label>
-  <Frame_RGK_Street_Lamp.label>街路灯(施工)</Frame_RGK_Street_Lamp.label>
-  <Frame_RGK_Street_Lamp.description>屋外で使う街灯です。暗闇の中で道を照らします。</Frame_RGK_Street_Lamp.description>
+  <RGK_Street_Lamp_L.label>街路灯</RGK_Street_Lamp_L.label>
+  <RGK_Street_Lamp_L.description>屋外で使う街灯です。暗闇の中で道を照らします。木材かバイオ化学燃料が必要です。</RGK_Street_Lamp_L.description>
+  <Blueprint_RGK_Street_Lamp_L.label>街路灯(設計)</Blueprint_RGK_Street_Lamp_L.label>
+  <Frame_RGK_Street_Lamp_L.label>街路灯(施工)</Frame_RGK_Street_Lamp_L.label>
+  <Frame_RGK_Street_Lamp_L.description>屋外で使う街灯です。暗闇の中で道を照らします。木材かバイオ化学燃料が必要です。</Frame_RGK_Street_Lamp_L.description>
+
+  <RGK_Street_Lamp.label>街路灯(電気)</RGK_Street_Lamp.label>
+  <RGK_Street_Lamp.description>屋外で使う街灯です。暗闇の中で道を照らします。電気が必要です。</RGK_Street_Lamp.description>
+  <Blueprint_RGK_Street_Lamp.label>街路灯(電気)(設計)</Blueprint_RGK_Street_Lamp.label>
+  <Frame_RGK_Street_Lamp.label>街路灯(電気)(施工)</Frame_RGK_Street_Lamp.label>
+  <Frame_RGK_Street_Lamp.description>屋外で使う街灯です。暗闇の中で道を照らします。電気が必要です。</Frame_RGK_Street_Lamp.description>
 
   <RGK_Street_Lamp_Seven.label>吊りランプ柱</RGK_Street_Lamp_Seven.label>
   <RGK_Street_Lamp_Seven.description>屋外で使う街灯です。暗闇の中で道を照らします。</RGK_Street_Lamp_Seven.description>
