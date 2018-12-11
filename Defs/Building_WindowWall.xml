@@ -89,7 +89,7 @@
 		<graphicData>
 			<texPath>Things/Building/Linked/GL_FlowerWall</texPath>
 			<graphicClass>Graphic_Appearances</graphicClass>
-			<linkType>CornerFiller</linkType>
+			<linkType>Basic</linkType>
 			<linkFlags>
 				<li>Custom3</li>
 			</linkFlags>

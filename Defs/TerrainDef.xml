@@ -26,14 +26,18 @@
 		<texturePath>Things/Building/GL_TerrainA</texturePath>
 		<resourcesFractionWhenDeconstructed>0</resourcesFractionWhenDeconstructed>
 		<statBases>
-			<WorkToBuild>500</WorkToBuild>
+			<WorkToBuild>850</WorkToBuild>
 			<Flammability>0.0</Flammability>
-			<Beauty>3</Beauty>
-		</statBases>		
+			<Beauty>1</Beauty>
+		</statBases>
 		<designatorDropdown>Floor_Pebble</designatorDropdown>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+		</researchPrerequisites>
 		<tags>
 			<li>Road</li>
 		</tags>
+		<constructionSkillPrerequisite>4</constructionSkillPrerequisite>
 	</TerrainDef>
 
 	<TerrainDef ParentName="PebbleBase">
@@ -48,7 +52,7 @@
 	<TerrainDef ParentName="PebbleBase">
 		<defName>PebbleGranite</defName>
 		<label>granite Pebble</label>
-		<color>(105,95,97)</color>
+		<color>(125,115,117)</color>
 		<costList>
 			<BlocksGranite>4</BlocksGranite>
 		</costList>
@@ -57,7 +61,7 @@
 	<TerrainDef ParentName="PebbleBase">
 		<defName>PebbleLimestone</defName>
 		<label>limestone Pebble</label>
-		<color>(158,153,135)</color>
+		<color>(180,183,165)</color>
 		<costList>
 			<BlocksLimestone>4</BlocksLimestone>
 		</costList>
@@ -75,7 +79,7 @@
 	<TerrainDef ParentName="PebbleBase">
 		<defName>PebbleMarble</defName>
 		<label>marble Pebble</label>
-		<color>(132,135,132)</color>
+		<color>(142,145,142)</color>
 		<costList>
 			<BlocksMarble>4</BlocksMarble>
 		</costList>
