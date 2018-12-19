@@ -210,6 +210,25 @@
   <Frame_RGK_Manger.label>飼い葉おけ(施工)</Frame_RGK_Manger.label>
   <Frame_RGK_Manger.description>これは動物用のおけです。ペットフードや干し草を保管することができます。</Frame_RGK_Manger.description>
 
+  <!-- shelf -->
+
+  <GL_Shelf.label>ロッカー</GL_Shelf.label>
+  <GL_Shelf.description>この中に保存されたアイテムは、ロッカーが外気に触れていても劣化しません。</GL_Shelf.description>
+  <Blueprint_GL_Shelf.label>ロッカー(設計)</Blueprint_GL_Shelf.label>
+  <Blueprint_Install_GL_Shelf.label>ロッカー(移動先)</Blueprint_Install_GL_Shelf.label>
+  <Frame_GL_Shelf.label>ロッカー(施工)</Frame_GL_Shelf.label>
+  <Frame_GL_Shelf.description>この中に保存されたアイテムは、ロッカーが外気に触れていても劣化しません。</Frame_GL_Shelf.description>
+
+
+  <!-- Bowl of petfood -->
+
+  <RGK_DogBowl.label>餌入れ</RGK_DogBowl.label>
+  <RGK_DogBowl.description>これは動物用のエサ入れです。ペットフードや干し草を保管することができます。</RGK_DogBowl.description>
+  <Blueprint_RGK_DogBowl.label>餌入れ(設計)</Blueprint_RGK_DogBowl.label>
+  <Blueprint_Install_RGK_DogBowl.label>餌入れ(移動先)</Blueprint_Install_RGK_DogBowl.label>
+  <Frame_RGK_DogBowl.label>餌入れ(施工)</Frame_RGK_DogBowl.label>
+  <Frame_RGK_DogBowl.description>これは動物用のエサ入れです。ペットフードや干し草を保管することができます。</Frame_RGK_DogBowl.description>
+
 
   <RGK_Flower.label>植木鉢 （造花)</RGK_Flower.label>
   <RGK_Flower.description>造花が飾られた植木鉢です。その花はいつまでも咲き続けるでしょう。</RGK_Flower.description>
