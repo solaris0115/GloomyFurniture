@@ -441,7 +441,7 @@
 	<ThingDef ParentName="BuildingBase">
 		<defName>RGK_Street_Lamp_L</defName>
 		<label>Street lamp</label>
-		<description>It's a street lamp. It lights the way in the dark. Works as electricity.</description>
+		<description>It's a street lamp.</description>
 		<category>Building</category>
 		<thingClass>Building</thingClass>
 		<graphicData>

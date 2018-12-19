@@ -742,7 +742,7 @@
 		</researchPrerequisites>		
 		<size>(2,1)</size>		
 	</ThingDef>
-	
+
 
 	<ThingDef ParentName="RGKTableBase">
 		<defName>RGK_TableA</defName>
@@ -897,7 +897,7 @@
 			</li>
 		</comps>
 		<designationHotKey>Misc4</designationHotKey>
-		<designationCategory></designationCategory>		
+		<designationCategory/>		
 	</ThingDef>
 	<ThingDef ParentName="RGKTableBase">
 		<defName>RGK_TableE</defName>
@@ -1385,10 +1385,109 @@
 		</researchPrerequisites>
 		<designationCategory>OldStyleFurniture</designationCategory>
 	</ThingDef>	
+	<!-- 선반 -->
+	<ThingDef ParentName="FurnitureWithQualityBase">
+		<defName>GL_Shelf</defName>
+		<label>shelf</label>
+		<description>A shelf for storing miscellaneous items. Items stored in this will not deteriorate, even if outside.</description>
+		<thingClass>Building_Storage</thingClass>
+		<graphicData>
+			<texPath>Things/Building/Furniture/GL_Shelf</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(3,2)</drawSize>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.4</fillPercent>
+		<castEdgeShadows>true</castEdgeShadows>
+		<stuffCategories>
+			<li>Woody</li>
+		</stuffCategories>
+		<costStuffCount>45</costStuffCount>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Mass>8</Mass>
+			<WorkToBuild>600</WorkToBuild>
+			<Flammability>0.2</Flammability>
+		</statBases>
+		<size>(2,1)</size>
+		<defaultPlacingRot>North</defaultPlacingRot>
+		<building>
+			<preventDeteriorationOnTop>true</preventDeteriorationOnTop>
+			<ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty>
+			<defaultStorageSettings>
+				<priority>Important</priority>
+				<filter>
+					<categories>
+						<li>Weapons</li>
+					</categories>
+				</filter>
+			</defaultStorageSettings>
+		</building>
+		<inspectorTabs>
+			<li>ITab_Storage</li>
+		</inspectorTabs>
+		<designationHotKey>Misc12</designationHotKey>
+		<staticSunShadowHeight>0.5</staticSunShadowHeight>
+		<surfaceType>Item</surfaceType>
+		<canOverlapZones>false</canOverlapZones>
+		<researchPrerequisites>
+			<li>ComplexFurniture</li>
+		</researchPrerequisites>
+		<designationCategory>OldStyleFurniture</designationCategory>
+	</ThingDef>
+	<!-- 개밥그릇 -->
+	<ThingDef ParentName="FurnitureWithQualityBase">
+		<defName>RGK_DogBowl</defName>
+		<label>bowl</label>
+		<description>It's a cask for animals. You can store food and hay.</description>
+		<thingClass>Building_Storage</thingClass>
+		<graphicData>
+			<texPath>Things/Building/Furniture/RGK_DogBowl</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1,1)</drawSize>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>Standable</passability>
+		<fillPercent>0.0</fillPercent>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<costStuffCount>30</costStuffCount>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Mass>1</Mass>
+			<WorkToBuild>600</WorkToBuild>
+			<Flammability>0.0</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<defaultPlacingRot>North</defaultPlacingRot>
+		<building>
+			<preventDeteriorationOnTop>true</preventDeteriorationOnTop>
+			<ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty>
+			<defaultStorageSettings>
+				<priority>Important</priority>
+				<filter>
+					<categories>
+						<li>AnimalFoods</li>
+					</categories>
+				</filter>
+			</defaultStorageSettings>
+		</building>
+		<inspectorTabs>
+			<li>ITab_Storage</li>
+		</inspectorTabs>
+		<staticSunShadowHeight>0.1</staticSunShadowHeight>
+		<surfaceType>Item</surfaceType>
+		<canOverlapZones>false</canOverlapZones>
+		<researchPrerequisites>
+			<li>ComplexFurniture</li>
+		</researchPrerequisites>
+		<designationCategory>OldStyleFurniture</designationCategory>
+		<rotatable>false</rotatable>
+	</ThingDef>
 
 
-	
-	
 	<ThingDef ParentName="BuildingBase">
 		<defName>RGK_Flower</defName>
 		<label>replica flower</label>

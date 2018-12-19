@@ -332,6 +332,35 @@
 		<designationHotKey>Misc3</designationHotKey>
 	</ThingDef>
 
+	
+	<ThingDef ParentName="DoorBase">
+		<defName>RGK_DoorOld</defName>
+		<label>antique door</label>
+		<description>Divides rooms. Simple doors must be manually opened, which slows people down. The amount of slowdown depends on what the door is made of.</description>
+		<thingClass>Building_Door</thingClass>
+		<statBases>
+			<WorkToBuild>1500</WorkToBuild>
+		</statBases>
+		<graphicData>
+			<texPath>Things/Building/Furniture/DoorOld_Mover</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<damageData>
+				<enabled>false</enabled>
+			</damageData>
+		</graphicData>
+		<uiIconPath>Things/Building/Furniture/DoorOld_MenuIcon</uiIconPath>
+		<stuffCategories Inherit="False">
+			<li>Woody</li>
+		</stuffCategories>
+		<costStuffCount>45</costStuffCount>
+		<designationHotKey>Misc12</designationHotKey>
+		<building>
+			<blueprintGraphicData>
+				<texPath>Things/Building/Furniture/DoorOld_Blueprint_Atlas</texPath>
+			</blueprintGraphicData>
+		</building>
+		<designationCategory>OldStyleFurniture</designationCategory>
+	</ThingDef>
 
 	<!--울타리-->
 	<ThingDef ParentName="RKGFence">
@@ -422,7 +451,6 @@
 		</building>
 		<designationCategory>OldStyleFurniture</designationCategory>
 	</ThingDef>
-
 
 
 </Defs>
