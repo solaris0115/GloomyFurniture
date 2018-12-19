@@ -36,6 +36,12 @@
   <Frame_RGK_WindowWall.label>壁（窓付)(施工)</Frame_RGK_WindowWall.label>
   <Frame_RGK_WindowWall.description>光を通す窓か付いた壁です。</Frame_RGK_WindowWall.description>
 
+  <RGK_DoorOld.label>アンティークドア</RGK_DoorOld.label>
+  <RGK_DoorOld.description>部屋を隔てる手動扉です。手動で開閉しなければならないので通過する速度が遅くなります。移動速度が遅くなる量は、ドアの材質によって決まります。</RGK_DoorOld.description>
+  <Blueprint_RGK_DoorOld.label>アンティークドア(設計)</Blueprint_RGK_DoorOld.label>
+  <Frame_RGK_DoorOld.label>アンティークドア(施工)</Frame_RGK_DoorOld.label>
+  <Frame_RGK_DoorOld.description>部屋を隔てる手動扉です。手動で開閉しなければならないので通過する速度が遅くなります。移動速度が遅くなる量は、ドアの材質によって決まります。</Frame_RGK_DoorOld.description>
+
 
   <!-- Fence -->
 
