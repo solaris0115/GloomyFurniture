@@ -51,11 +51,19 @@
   <Frame_RGK_WoodFence.label>フェンス(施工)</Frame_RGK_WoodFence.label>
   <Frame_RGK_WoodFence.description>家畜を閉じ込めたり、野生の捕食動物から保護するためのフェンスです。</Frame_RGK_WoodFence.description>
 
+  <!-- 2018/12/21 Door -->
+
   <RGK_Door.label>フェンスドア</RGK_Door.label>
   <RGK_Door.description>部屋を隔てる扉です。手で開け閉めしないといけない分だけ通過するのが遅くなります。低下する移動速度はドアの材質によって異なります。</RGK_Door.description>
   <Blueprint_RGK_Door.label>フェンスドア(設計)</Blueprint_RGK_Door.label>
   <Frame_RGK_Door.label>フェンスドア(施工)</Frame_RGK_Door.label>
   <Frame_RGK_Door.description>部屋を隔てる扉です。手で開け閉めしないといけない分だけ通過するのが遅くなります。低下する移動速度はドアの材質によって異なります。</Frame_RGK_Door.description>
+
+  <GL_DoorFrame.label>ドアフレーム</GL_DoorFrame.label>
+  <GL_DoorFrame.description>ドアを装飾するためのドア枠です。</GL_DoorFrame.description>
+  <Blueprint_GL_DoorFrame.label>ドアフレーム(設計)</Blueprint_GL_DoorFrame.label>
+  <Frame_GL_DoorFrame.label>ドアフレーム(施工)</Frame_GL_DoorFrame.label>
+  <Frame_GL_DoorFrame.description>ドアを装飾するためのドア枠です。</Frame_GL_DoorFrame.description>
 
 
 </LanguageData>
