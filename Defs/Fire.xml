@@ -796,7 +796,6 @@
 	<ThingDef Abstract = "True" Name="WallLightGlowObjectBase" ParentName = "BuildingBase">
 		<thingClass>Gloomylynx.GlowObject</thingClass>
 		<label>Wall light</label>
-		<description>A light fixture designed to be mounted on a wall.</description>
 		<category>Attachment</category>
 		<graphicData>
 			<texPath>Things/Building/Furniture/GL_Glower</texPath>
