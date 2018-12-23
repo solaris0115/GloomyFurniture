@@ -244,6 +244,7 @@
 		<leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
 		<placeWorkers>
 			<li>PlaceWorker_Heater</li>
+			<li>Gloomylynx.PlaceWorker_PassableObject</li>
 		</placeWorkers>
 		<comps>
 			<li Class="CompProperties_Flickable">
@@ -325,6 +326,7 @@
 		<leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
 		<placeWorkers>
 			<li>PlaceWorker_Heater</li>
+			<li>Gloomylynx.PlaceWorker_PassableObject</li>
 		</placeWorkers>
 		<comps>
 			<li Class="CompProperties_Flickable">
@@ -406,6 +408,7 @@
 		<leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
 		<placeWorkers>
 			<li>PlaceWorker_Heater</li>
+			<li>Gloomylynx.PlaceWorker_PassableObject</li>
 		</placeWorkers>
 		<comps>
 			<li Class="CompProperties_Flickable">
@@ -669,7 +672,6 @@
 			<WoodLog>15</WoodLog>
 			<Steel>35</Steel>
 		</costList>
-		<rotatable>true</rotatable>
 		<building>
 			<isEdifice>true</isEdifice>
 		</building>
@@ -694,6 +696,7 @@
 				<offset>(0,0,0.45)</offset>
 			</li>
 		</comps>
+		<rotatable>true</rotatable>
 		<defaultPlacingRot>South</defaultPlacingRot>
 		<designationCategory>OldStyleFurniture</designationCategory>
 		<designationHotKey>Misc6</designationHotKey>
@@ -701,4 +704,136 @@
 		<tradeability>None</tradeability>
 		<clearBuildingArea>false</clearBuildingArea>
 	</ThingDef>
+
+	<ThingDef Abstract="True" Name="WallLightBase" ParentName="BuildingBase">
+		<thingClass>Building</thingClass>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>Standable</passability>
+		<statBases>
+			<MaxHitPoints>45</MaxHitPoints>
+			<WorkToBuild>100</WorkToBuild>
+			<Flammability>0.0</Flammability>
+			<Mass>2</Mass>
+		</statBases>
+		<size>(1,1)</size>
+		<placeWorkers>
+			<li>Gloomylynx.PlaceWorker_WallAttachment</li>
+		</placeWorkers>
+		<costList>
+			<Steel>20</Steel>
+			<WoodLog>5</WoodLog>
+		</costList>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+		<building>
+			<isEdifice>false</isEdifice>
+			<canPlaceOverWall>true</canPlaceOverWall>
+		</building>
+		<tickerType>Normal</tickerType>
+		<rotatable>true</rotatable>
+		<selectable>true</selectable>
+		<destroyable>true</destroyable>
+		<clearBuildingArea>false</clearBuildingArea>
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<designationCategory>OldStyleFurniture</designationCategory>
+		<researchPrerequisites>
+			<li>Electricity</li>
+		</researchPrerequisites>
+	</ThingDef>
+	
+	<ThingDef ParentName="WallLightBase">
+		<defName>GL_Wall_Lamp</defName>
+		<label>wall lamp</label>
+		<graphicData>
+			<texPath>Things/Building/Furniture/GL_WallLit</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(2.5,2.5)</drawSize>
+		</graphicData>
+		<comps>
+			<li Class="CompProperties_Flickable">
+				<commandTexture>UI/Commands/OnOff</commandTexture>
+			</li>
+			<li Class="CompProperties_Refuelable">
+				<fuelConsumptionRate>2.0</fuelConsumptionRate>
+				<fuelCapacity>10.0</fuelCapacity>
+				<fuelFilter>
+					<thingDefs>
+						<li>WoodLog</li>
+						<li>Chemfuel</li>
+					</thingDefs>
+				</fuelFilter>
+				<initialFuelPercent>1</initialFuelPercent>
+			</li>
+		</comps>
+		<uiIconPath>Things/Building/Furniture/GL_WallLit_south</uiIconPath>
+		<uiIconScale>2</uiIconScale>
+		<description>A light fixture designed to be mounted on a wall.</description>
+		<thingClass>Gloomylynx.WallLamp</thingClass>
+	</ThingDef>
+	
+	<ThingDef ParentName="WallLightBase">
+		<defName>GL_Wall_LampE</defName>
+		<label>wall lamp E</label>
+		<graphicData>
+			<texPath>Things/Building/Furniture/GL_WallLit</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(2.5,2.5)</drawSize>
+		</graphicData>
+		<comps>
+			<li Class="CompProperties_Flickable">
+				<commandTexture>UI/Commands/OnOff</commandTexture>
+			</li>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<basePowerConsumption>10</basePowerConsumption>
+			</li>
+		</comps>
+		<uiIconPath>Things/Building/Furniture/GL_WallLit_south</uiIconPath>
+		<uiIconScale>2</uiIconScale>
+		<description>A light fixture designed to be mounted on a wall.</description>
+		<thingClass>Gloomylynx.WallLamp</thingClass>
+	</ThingDef>
+	
+	<ThingDef Abstract = "True" Name="WallLightGlowObjectBase" ParentName = "BuildingBase">
+		<thingClass>Gloomylynx.GlowObject</thingClass>
+		<label>Wall light</label>
+		<description>A light fixture designed to be mounted on a wall.</description>
+		<category>Attachment</category>
+		<graphicData>
+			<texPath>Things/Building/Furniture/GL_Glower</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1,1)</drawSize>
+		</graphicData>
+		<building>
+			<isEdifice>false</isEdifice>
+		</building>
+		<statBases>
+			<Flammability>0</Flammability>
+		</statBases>
+		<altitudeLayer>Floor</altitudeLayer>
+		<passability>Standable</passability>
+		<destroyable>false</destroyable>
+		<rotatable>false</rotatable>
+		<clearBuildingArea>false</clearBuildingArea>
+		<selectable>false</selectable>
+		<coversFloor>false</coversFloor>
+		<useHitPoints>false</useHitPoints>
+		<tradeability>None</tradeability>
+		<isAutoAttackableMapObject>false</isAutoAttackableMapObject>
+	</ThingDef>
+	
+	<ThingDef ParentName = "WallLightGlowObjectBase">
+		<defName>GlowObject</defName>
+		<comps>
+			<li Class="CompProperties_Glower">
+				<glowRadius>10</glowRadius>
+				<glowColor>(252,187,113,0)</glowColor>
+			</li>
+			<li Class="CompProperties_Flickable" />
+		</comps>
+	</ThingDef>
+	
+	
+	
+	
+	
 </Defs>

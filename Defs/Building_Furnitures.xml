@@ -1526,6 +1526,9 @@
 		<building>
 			<isEdifice>false</isEdifice>
 		</building>
+		<placeWorkers>
+			<li>Gloomylynx.PlaceWorker_PassableObject</li>
+		</placeWorkers>
 		<soundImpactDefault>BulletImpact_Ground</soundImpactDefault>
 		<defaultPlacingRot>South</defaultPlacingRot>
 		<designationCategory>OldStyleFurniture</designationCategory>
@@ -1554,6 +1557,9 @@
 				<rect>(0.35,0.35,0.3,0.3)</rect>
 			</damageData>
 		</graphicData>
+		<placeWorkers>
+			<li>Gloomylynx.PlaceWorker_PassableObject</li>
+		</placeWorkers>
 		<uiIconPath>Things/Building/Furniture/RGK_Teaset</uiIconPath>
 		<uiIconScale>1</uiIconScale>
 		<rotatable>true</rotatable>

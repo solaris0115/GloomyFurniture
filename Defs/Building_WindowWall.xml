@@ -423,14 +423,12 @@
 		<designationHotKey>Misc3</designationHotKey>
 	</ThingDef>	
 
+	<!-- 2018 12 21 문짝 -->
 	<ThingDef ParentName="DoorBase">
 		<defName>RGK_Door</defName>
 		<label>door</label>
 		<description>Divides rooms. Simple doors must be manually opened, which slows people down. The amount of slowdown depends on what the door is made of.</description>
 		<thingClass>Building_Door</thingClass>
-		<statBases>
-			<WorkToBuild>850</WorkToBuild>
-		</statBases>
 		<graphicData>
 			<texPath>Things/Building/Furniture/WoodFenceGate_Mover</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
@@ -438,11 +436,19 @@
 				<enabled>false</enabled>
 			</damageData>
 		</graphicData>
+		<statBases>
+			<MaxHitPoints>250</MaxHitPoints>
+			<WorkToBuild>1000</WorkToBuild>
+			<Flammability>0.2</Flammability>
+		</statBases>
 		<uiIconPath>Things/Building/Furniture/WoodFenceGate_icon</uiIconPath>
 		<stuffCategories Inherit="False">
 			<li>Woody</li>
 		</stuffCategories>
 		<costStuffCount>25</costStuffCount>
+		<costList>
+			<Steel>5</Steel>
+		</costList>
 		<designationHotKey>Misc12</designationHotKey>
 		<building>
 			<blueprintGraphicData>
@@ -452,6 +458,47 @@
 		<designationCategory>OldStyleFurniture</designationCategory>
 	</ThingDef>
 
-
+	<ThingDef ParentName="BuildingBase">
+		<defName>GL_DoorFrame</defName>
+		<label>door frame</label>
+		<description>It is a frame to decorate the door.</description>
+		<thingClass>Building</thingClass>
+		<altitudeLayer>PawnUnused</altitudeLayer>
+		<statBases>
+			<MaxHitPoints>180</MaxHitPoints>
+			<WorkToBuild>2200</WorkToBuild>
+			<Flammability>0.2</Flammability>
+			<Mass>10</Mass>
+			<Beauty>25</Beauty>
+		</statBases>
+		<graphicData>
+			<texPath>Things/Building/Furniture/GL_DoorFrame</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<linkFlags>
+				<li>Wall</li>
+				<li>Rock</li>
+			</linkFlags>
+			<drawSize>(3.25,3.25)</drawSize>
+		</graphicData>
+		<uiIconScale>2</uiIconScale>
+		<uiIconPath>Things/Building/Furniture/GL_DoorFrame_south</uiIconPath>
+		<stuffCategories Inherit="False">
+			<li>Woody</li>
+		</stuffCategories>
+		<costStuffCount>45</costStuffCount>		
+		<placeWorkers>
+			<li>Gloomylynx.PlaceWorker_StandableObject</li>
+		</placeWorkers>
+		<costList>
+			<Steel>15</Steel>
+		</costList>
+		<designationHotKey>Misc12</designationHotKey>
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<designationCategory>OldStyleFurniture</designationCategory>
+		<tradeability>None</tradeability>
+		<building>
+			<isEdifice>false</isEdifice>
+		</building>
+	</ThingDef>
 </Defs>
 

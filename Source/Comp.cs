@@ -20,7 +20,7 @@ namespace Gloomylynx
         public CompPowerTrader compPower;
         public override void PostDraw()
         {
-            foreach(Rot4 rot in showList)
+            foreach (Rot4 rot in showList)
             {
                 if(rot == parent.Rotation)
                 {
