@@ -34,11 +34,10 @@
 			<MaxHitPoints>250</MaxHitPoints>
 			<WorkToBuild>1500</WorkToBuild>
 			<Flammability>0</Flammability>
-			<WorkTableWorkSpeedFactor>0.5</WorkTableWorkSpeedFactor>
 		</statBases>
 		<selectable>true</selectable>
 		<costList>
-			<WoodLog>75</WoodLog>
+			<WoodLog>60</WoodLog>
 		</costList>
 		<costStuffCount>80</costStuffCount>
 		<stuffCategories>
@@ -73,8 +72,6 @@
 				<heatPerSecond>25</heatPerSecond>
 				<heatPushMaxTemperature>25</heatPushMaxTemperature>
 			</li>
-
-			<li Class="CompProperties_Breakdownable"/>
 			<li Class="Gloomylynx.CompProperties_FireOverlayRotatable">
 				<compClass>Gloomylynx.CompFireOverlayRotatable</compClass>
 				<fireSize>0.5</fireSize>
@@ -96,10 +93,6 @@
 		<designationCategory>OldStyleFurniture</designationCategory>
 		<designationHotKey>Misc6</designationHotKey>
 		<size>(2,1)</size>
-		<building>
-			<isMealSource>true</isMealSource>
-			<spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
-		</building>
 		<constructionSkillPrerequisite>5</constructionSkillPrerequisite>
 		<defaultPlacingRot>South</defaultPlacingRot>
 	</ThingDef>
@@ -137,12 +130,11 @@
 			<MaxHitPoints>250</MaxHitPoints>
 			<WorkToBuild>1500</WorkToBuild>
 			<Flammability>0</Flammability>
-			<WorkTableWorkSpeedFactor>0.5</WorkTableWorkSpeedFactor>
 		</statBases>
 		<selectable>true</selectable>
 		<costList>
-			<WoodLog>75</WoodLog>
-			<Steel>35</Steel>
+			<Steel>25</Steel>
+			<ComponentIndustrial>1</ComponentIndustrial>
 		</costList>
 		<costStuffCount>80</costStuffCount>
 		<stuffCategories>
@@ -192,10 +184,6 @@
 		<designationCategory>OldStyleFurniture</designationCategory>
 		<designationHotKey>Misc6</designationHotKey>
 		<size>(2,1)</size>
-		<building>
-			<isMealSource>true</isMealSource>
-			<spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
-		</building>
 		<constructionSkillPrerequisite>5</constructionSkillPrerequisite>
 		<defaultPlacingRot>South</defaultPlacingRot>
 	</ThingDef>
@@ -561,9 +549,9 @@
 		<destroyable>true</destroyable>
 		<tradeability>None</tradeability>
 	</ThingDef>
-	
-	
-	
+
+
+
 	<ThingDef ParentName="BuildingBase">
 		<defName>RGK_Street_Lamp_Seven</defName>
 		<label>Street lamp</label>
@@ -637,7 +625,7 @@
 		<tradeability>None</tradeability>
 		<clearBuildingArea>false</clearBuildingArea>
 	</ThingDef>
-	
+
 	<ThingDef ParentName="BuildingBase">
 		<defName>RGK_Street_Lamp_SevenE</defName>
 		<label>Street lamp E</label>
@@ -735,11 +723,8 @@
 		<clearBuildingArea>false</clearBuildingArea>
 		<defaultPlacingRot>South</defaultPlacingRot>
 		<designationCategory>OldStyleFurniture</designationCategory>
-		<researchPrerequisites>
-			<li>Electricity</li>
-		</researchPrerequisites>
 	</ThingDef>
-	
+
 	<ThingDef ParentName="WallLightBase">
 		<defName>GL_Wall_Lamp</defName>
 		<label>wall lamp</label>
@@ -768,8 +753,11 @@
 		<uiIconScale>2</uiIconScale>
 		<description>A light fixture designed to be mounted on a wall.</description>
 		<thingClass>Gloomylynx.WallLamp</thingClass>
+		<researchPrerequisites>
+			<li>ComplexFurniture</li>
+		</researchPrerequisites>
 	</ThingDef>
-	
+
 	<ThingDef ParentName="WallLightBase">
 		<defName>GL_Wall_LampE</defName>
 		<label>wall lamp E</label>
@@ -791,8 +779,11 @@
 		<uiIconScale>2</uiIconScale>
 		<description>A light fixture designed to be mounted on a wall.</description>
 		<thingClass>Gloomylynx.WallLamp</thingClass>
+		<researchPrerequisites>
+			<li>Electricity</li>
+		</researchPrerequisites>
 	</ThingDef>
-	
+
 	<ThingDef Abstract = "True" Name="WallLightGlowObjectBase" ParentName = "BuildingBase">
 		<thingClass>Gloomylynx.GlowObject</thingClass>
 		<label>Wall light</label>
@@ -819,7 +810,7 @@
 		<tradeability>None</tradeability>
 		<isAutoAttackableMapObject>false</isAutoAttackableMapObject>
 	</ThingDef>
-	
+
 	<ThingDef ParentName = "WallLightGlowObjectBase">
 		<defName>GlowObject</defName>
 		<comps>
@@ -830,9 +821,9 @@
 			<li Class="CompProperties_Flickable" />
 		</comps>
 	</ThingDef>
-	
-	
-	
-	
-	
+
+
+
+
+
 </Defs>
