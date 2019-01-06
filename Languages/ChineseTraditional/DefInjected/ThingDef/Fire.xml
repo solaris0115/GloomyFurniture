@@ -25,12 +25,18 @@
   <RGK_lamp_Frame.label>小油燈（建造中）</RGK_lamp_Frame.label>
   <RGK_lamp_Frame.description>這是一盞小油燈。 通常放在床頭櫃上。</RGK_lamp_Frame.description>
 
+
+  <!-- Lamp M -->
+
   <RGK_LampM.label>小油燈</RGK_LampM.label>
   <RGK_LampM.description>這是一盞小油燈。 我想即使在雨中也能安全地使用它。</RGK_LampM.description>
   <RGK_LampM_Blueprint.label>小油燈 (blueprint)</RGK_LampM_Blueprint.label>
   <RGK_LampM_Blueprint_Install.label>小油燈 (blueprint)</RGK_LampM_Blueprint_Install.label>
   <RGK_LampM_Frame.label>小油燈 (building)</RGK_LampM_Frame.label>
   <RGK_LampM_Frame.description>這是一盞小油燈。 我想即使在雨中也能安全地使用它。</RGK_LampM_Frame.description>
+
+
+  <!-- Lamp E -->
 
   <RGK_lampE.label>仿古電燈</RGK_lampE.label>
   <RGK_lampE.description>這是一盞假裝是油燈的電燈。 依然是需要插電才能亮的。</RGK_lampE.description>
@@ -39,11 +45,23 @@
   <RGK_lampE_Frame.label>仿古電燈（建造中）</RGK_lampE_Frame.label>
   <RGK_lampE_Frame.description>這是一盞假裝是油燈的電燈。 依然是需要插電才能亮的。</RGK_lampE_Frame.description>
 
+
+  <!-- Street Lamp -->
+
+  <RGK_Street_Lamp_L.label>Street lamp</RGK_Street_Lamp_L.label>
+  <RGK_Street_Lamp_L.description>It's a street lamp.</RGK_Street_Lamp_L.description>
+  <RGK_Street_Lamp_L_Blueprint.label>Street lamp (blueprint)</RGK_Street_Lamp_L_Blueprint.label>
+  <RGK_Street_Lamp_L_Frame.label>Street lamp (building)</RGK_Street_Lamp_L_Frame.label>
+  <RGK_Street_Lamp_L_Frame.description>It's a street lamp.</RGK_Street_Lamp_L_Frame.description>
+
   <RGK_Street_Lamp.label>煤氣路燈</RGK_Street_Lamp.label>
   <RGK_Street_Lamp.description>這是一盞煤氣路燈。 現代化的煤氣路燈，只需要電。</RGK_Street_Lamp.description>
   <RGK_Street_Lamp_Blueprint.label>煤氣路燈（藍圖）</RGK_Street_Lamp_Blueprint.label>
   <RGK_Street_Lamp_Frame.label>煤氣路燈（建造中）</RGK_Street_Lamp_Frame.label>
   <RGK_Street_Lamp_Frame.description>這是一盞煤氣路燈。 現代化的煤氣路燈，只需要電。</RGK_Street_Lamp_Frame.description>
+
+
+  <!-- Street Lamp Seven -->
 
   <RGK_Street_Lamp_Seven.label>復古街燈</RGK_Street_Lamp_Seven.label>
   <RGK_Street_Lamp_Seven.description>它在黑暗中點亮了道路。 彷彿回到了十五世紀的倫敦。</RGK_Street_Lamp_Seven.description>
@@ -56,6 +74,23 @@
   <RGK_Street_Lamp_SevenE_Blueprint.label>電力街燈（藍圖）</RGK_Street_Lamp_SevenE_Blueprint.label>
   <RGK_Street_Lamp_SevenE_Frame.label>電力街燈（建造中）</RGK_Street_Lamp_SevenE_Frame.label>
   <RGK_Street_Lamp_SevenE_Frame.description>它在黑暗中點亮了道路，彷彿回到了十五世紀的倫敦。 當然得這只是仿造得而已，你並不需要倒油在裡面。</RGK_Street_Lamp_SevenE_Frame.description>
+
+
+  <!-- 랜턴 -->
+
+  <GL_Wall_Lamp.label>wall lamp</GL_Wall_Lamp.label>
+  <GL_Wall_Lamp.description>A light fixture designed to be mounted on a wall.</GL_Wall_Lamp.description>
+  <GL_Wall_Lamp_Blueprint.label>wall lamp (blueprint)</GL_Wall_Lamp_Blueprint.label>
+  <GL_Wall_Lamp_Frame.label>wall lamp (building)</GL_Wall_Lamp_Frame.label>
+  <GL_Wall_Lamp_Frame.description>A light fixture designed to be mounted on a wall.</GL_Wall_Lamp_Frame.description>
+
+  <GL_Wall_LampE.label>wall lamp E</GL_Wall_LampE.label>
+  <GL_Wall_LampE.description>A light fixture designed to be mounted on a wall.</GL_Wall_LampE.description>
+  <GL_Wall_LampE_Blueprint.label>wall lamp E (blueprint)</GL_Wall_LampE_Blueprint.label>
+  <GL_Wall_LampE_Frame.label>wall lamp E (building)</GL_Wall_LampE_Frame.label>
+  <GL_Wall_LampE_Frame.description>A light fixture designed to be mounted on a wall.</GL_Wall_LampE_Frame.description>
+
+  <GlowObject.label>Wall light</GlowObject.label>
 
 
 </LanguageData>

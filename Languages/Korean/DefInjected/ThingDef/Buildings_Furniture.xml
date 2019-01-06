@@ -5,30 +5,30 @@
 
   <!--<RGK_bedSingle.label>침대</RGK_bedSingle.label>-->
   <!--<RGK_bedSingle.description>따듯한 이불과 푹신한 매트릭스가 있는 침대입니다.</RGK_bedSingle.description>-->
-  <!--<RGK_bedSingle_Blueprint.label>침대 (blueprint)</RGK_bedSingle_Blueprint.label>-->
-  <!--<RGK_bedSingle_Blueprint_Install.label>침대 (blueprint)</RGK_bedSingle_Blueprint_Install.label>-->
-  <!--<RGK_bedSingle_Frame.label>침대 (building)</RGK_bedSingle_Frame.label>-->
+  <!--<RGK_bedSingle_Blueprint.label>침대 (청사진)</RGK_bedSingle_Blueprint.label>-->
+  <!--<RGK_bedSingle_Blueprint_Install.label>침대 (청사진)</RGK_bedSingle_Blueprint_Install.label>-->
+  <!--<RGK_bedSingle_Frame.label>침대 (건설 중)</RGK_bedSingle_Frame.label>-->
   <!--<RGK_bedSingle_Frame.description>따듯한 이불과 푹신한 매트릭스가 있는 침대입니다.</RGK_bedSingle_Frame.description>-->
 
   <!--<RGK_bedSingleB.label>침대</RGK_bedSingleB.label>-->
   <!--<RGK_bedSingleB.description>따듯한 이불과 푹신한 매트릭스가 있는 침대입니다.</RGK_bedSingleB.description>-->
-  <!--<RGK_bedSingleB_Blueprint.label>bed2 (blueprint)</RGK_bedSingleB_Blueprint.label>-->
-  <!--<RGK_bedSingleB_Blueprint_Install.label>bed2 (blueprint)</RGK_bedSingleB_Blueprint_Install.label>-->
-  <!--<RGK_bedSingleB_Frame.label>bed2 (building)</RGK_bedSingleB_Frame.label>-->
+  <!--<RGK_bedSingleB_Blueprint.label>bed2 (청사진)</RGK_bedSingleB_Blueprint.label>-->
+  <!--<RGK_bedSingleB_Blueprint_Install.label>bed2 (청사진)</RGK_bedSingleB_Blueprint_Install.label>-->
+  <!--<RGK_bedSingleB_Frame.label>bed2 (건설 중)</RGK_bedSingleB_Frame.label>-->
   <!--<RGK_bedSingleB_Frame.description>따듯한 이불과 푹신한 매트릭스가 있는 침대입니다.</RGK_bedSingleB_Frame.description>-->
 
   <!--<RGK_bedDouble.label>더블 사이즈 침대</RGK_bedDouble.label>-->
   <!--<RGK_bedDouble.description>두사람이 자기에 알맞은 침대입니다.</RGK_bedDouble.description>-->
-  <!--<RGK_bedDouble_Blueprint.label>더블 사이즈 침대 (blueprint)</RGK_bedDouble_Blueprint.label>-->
-  <!--<RGK_bedDouble_Blueprint_Install.label>double bed (blueprint)</RGK_bedDouble_Blueprint_Install.label>-->
-  <!--<RGK_bedDouble_Frame.label>더블 사이즈 침대 (building)</RGK_bedDouble_Frame.label>-->
+  <!--<RGK_bedDouble_Blueprint.label>더블 사이즈 침대 (청사진)</RGK_bedDouble_Blueprint.label>-->
+  <!--<RGK_bedDouble_Blueprint_Install.label>double bed (청사진)</RGK_bedDouble_Blueprint_Install.label>-->
+  <!--<RGK_bedDouble_Frame.label>더블 사이즈 침대 (건설 중)</RGK_bedDouble_Frame.label>-->
   <!--<RGK_bedDouble_Frame.description>두사람이 자기에 알맞은 침대입니다.</RGK_bedDouble_Frame.description>-->
 
   <!--<RGK_bedDoubleB.label>켈틱 자수 침대</RGK_bedDoubleB.label>-->
   <!--<RGK_bedDoubleB.description>켈틱 자수가 놓여진 2인용 침대입니다.</RGK_bedDoubleB.description>-->
-  <!--<RGK_bedDoubleB_Blueprint.label>켈틱 자수 침대 (blueprint)</RGK_bedDoubleB_Blueprint.label>-->
-  <!--<RGK_bedDoubleB_Blueprint_Install.label>켈틱 자수 침대 (blueprint)</RGK_bedDoubleB_Blueprint_Install.label>-->
-  <!--<RGK_bedDoubleB_Frame.label>켈틱 자수 침대 (building)</RGK_bedDoubleB_Frame.label>-->
+  <!--<RGK_bedDoubleB_Blueprint.label>켈틱 자수 침대 (청사진)</RGK_bedDoubleB_Blueprint.label>-->
+  <!--<RGK_bedDoubleB_Blueprint_Install.label>켈틱 자수 침대 (청사진)</RGK_bedDoubleB_Blueprint_Install.label>-->
+  <!--<RGK_bedDoubleB_Frame.label>켈틱 자수 침대 (건설 중)</RGK_bedDoubleB_Frame.label>-->
   <!--<RGK_bedDoubleB_Frame.description>켈틱 자수가 놓여진 2인용 침대입니다.</RGK_bedDoubleB_Frame.description>-->
 
 
@@ -36,37 +36,37 @@
 
   <!--<RGK_bucketr.label>양동이</RGK_bucketr.label>-->
   <!--<RGK_bucketr.description>별거없습니다. 그냥 양동이입니다.</RGK_bucketr.description>-->
-  <!--<RGK_bucketr_Blueprint.label>양동이 (blueprint)</RGK_bucketr_Blueprint.label>-->
-  <!--<RGK_bucketr_Blueprint_Install.label>양동이 (blueprint)</RGK_bucketr_Blueprint_Install.label>-->
-  <!--<RGK_bucketr_Frame.label>양동이 (building)</RGK_bucketr_Frame.label>-->
+  <!--<RGK_bucketr_Blueprint.label>양동이 (청사진)</RGK_bucketr_Blueprint.label>-->
+  <!--<RGK_bucketr_Blueprint_Install.label>양동이 (청사진)</RGK_bucketr_Blueprint_Install.label>-->
+  <!--<RGK_bucketr_Frame.label>양동이 (건설 중)</RGK_bucketr_Frame.label>-->
   <!--<RGK_bucketr_Frame.description>별거없습니다. 그냥 양동이입니다.</RGK_bucketr_Frame.description>-->
 
   <!--<RGK_orc.label>오크통</RGK_orc.label>-->
   <!--<RGK_orc.description>그냥 오크통입니다. 팔씨름을 하거나 앉기 좋아보이네요.</RGK_orc.description>-->
-  <!--<RGK_orc_Blueprint.label>오크통 (blueprint)</RGK_orc_Blueprint.label>-->
-  <!--<RGK_orc_Blueprint_Install.label>오크통 (blueprint)</RGK_orc_Blueprint_Install.label>-->
-  <!--<RGK_orc_Frame.label>오크통 (building)</RGK_orc_Frame.label>-->
+  <!--<RGK_orc_Blueprint.label>오크통 (청사진)</RGK_orc_Blueprint.label>-->
+  <!--<RGK_orc_Blueprint_Install.label>오크통 (청사진)</RGK_orc_Blueprint_Install.label>-->
+  <!--<RGK_orc_Frame.label>오크통 (건설 중)</RGK_orc_Frame.label>-->
   <!--<RGK_orc_Frame.description>그냥 오크통입니다. 팔씨름을 하거나 앉기 좋아보이네요.</RGK_orc_Frame.description>-->
 
   <!--<RGK_SimpleChair.label>간단한 의자</RGK_SimpleChair.label>-->
   <!--<RGK_SimpleChair.description>간단한 판이 놓인 의자입니다. 그리 편하진 않지만 앉아서 쉬거나 일하기엔 적당해 보입니다.</RGK_SimpleChair.description>-->
-  <!--<RGK_SimpleChair_Blueprint.label>간단한 의자 (blueprint)</RGK_SimpleChair_Blueprint.label>-->
-  <!--<RGK_SimpleChair_Blueprint_Install.label>간단한 의자 (blueprint)</RGK_SimpleChair_Blueprint_Install.label>-->
-  <!--<RGK_SimpleChair_Frame.label>간단한 의자 (building)</RGK_SimpleChair_Frame.label>-->
+  <!--<RGK_SimpleChair_Blueprint.label>간단한 의자 (청사진)</RGK_SimpleChair_Blueprint.label>-->
+  <!--<RGK_SimpleChair_Blueprint_Install.label>간단한 의자 (청사진)</RGK_SimpleChair_Blueprint_Install.label>-->
+  <!--<RGK_SimpleChair_Frame.label>간단한 의자 (건설 중)</RGK_SimpleChair_Frame.label>-->
   <!--<RGK_SimpleChair_Frame.description>간단한 판이 놓인 의자입니다. 그리 편하진 않지만 앉아서 쉬거나 일하기엔 적당해 보입니다.</RGK_SimpleChair_Frame.description>-->
 
   <!--<RGK_Chair.label>의자</RGK_Chair.label>-->
   <!--<RGK_Chair.description>편한 의자입니다. 식탁에서 쓰거나 일할때 쓰기 좋아보입니다.</RGK_Chair.description>-->
-  <!--<RGK_Chair_Blueprint.label>의자 (blueprint)</RGK_Chair_Blueprint.label>-->
-  <!--<RGK_Chair_Blueprint_Install.label>의자 (blueprint)</RGK_Chair_Blueprint_Install.label>-->
-  <!--<RGK_Chair_Frame.label>의자 (building)</RGK_Chair_Frame.label>-->
+  <!--<RGK_Chair_Blueprint.label>의자 (청사진)</RGK_Chair_Blueprint.label>-->
+  <!--<RGK_Chair_Blueprint_Install.label>의자 (청사진)</RGK_Chair_Blueprint_Install.label>-->
+  <!--<RGK_Chair_Frame.label>의자 (건설 중)</RGK_Chair_Frame.label>-->
   <!--<RGK_Chair_Frame.description>편한 의자입니다. 식탁에서 쓰거나 일할때 쓰기 좋아보입니다.</RGK_Chair_Frame.description>-->
 
   <!--<RGKDining의자.label>식탁 의자</RGKDining의자.label>-->
   <!--<RGKDining의자.description>꽤나 인상적인 의자입니다.</RGKDining의자.description>-->
-  <!--<RGKDining의자_Blueprint.label>식탁 의자 (blueprint)</RGKDining의자_Blueprint.label>-->
-  <!--<RGKDining의자_Blueprint_Install.label>식탁 의자 (blueprint)</RGKDining의자_Blueprint_Install.label>-->
-  <!--<RGKDining의자_Frame.label>식탁 의자 (building)</RGKDining의자_Frame.label>-->
+  <!--<RGKDining의자_Blueprint.label>식탁 의자 (청사진)</RGKDining의자_Blueprint.label>-->
+  <!--<RGKDining의자_Blueprint_Install.label>식탁 의자 (청사진)</RGKDining의자_Blueprint_Install.label>-->
+  <!--<RGKDining의자_Frame.label>식탁 의자 (건설 중)</RGKDining의자_Frame.label>-->
   <!--<RGKDining의자_Frame.description>꽤나 인상적인 의자입니다.</RGKDining의자_Frame.description>-->
 
 
@@ -74,17 +74,17 @@
 
   <!--<RGK_Dresser.label>옷장</RGK_Dresser.label>-->
   <!--<RGK_Dresser.description>침대 옆에 두면 편리한 옷장입니다. 인접한 침대에 편안함을 제공합니다.</RGK_Dresser.description>-->
-  <!--<RGK_Dresser_Blueprint.label>옷장 (blueprint)</RGK_Dresser_Blueprint.label>-->
-  <!--<RGK_Dresser_Blueprint_Install.label>옷장 (blueprint)</RGK_Dresser_Blueprint_Install.label>-->
-  <!--<RGK_Dresser_Frame.label>옷장 (building)</RGK_Dresser_Frame.label>-->
+  <!--<RGK_Dresser_Blueprint.label>옷장 (청사진)</RGK_Dresser_Blueprint.label>-->
+  <!--<RGK_Dresser_Blueprint_Install.label>옷장 (청사진)</RGK_Dresser_Blueprint_Install.label>-->
+  <!--<RGK_Dresser_Frame.label>옷장 (건설 중)</RGK_Dresser_Frame.label>-->
   <!--<RGK_Dresser_Frame.description>침대 옆에 두면 편리한 옷장입니다. 인접한 침대에 편안함을 제공합니다.</RGK_Dresser_Frame.description>-->
 
 
   <!--<RGK_EndTable.label>협탁</RGK_EndTable.label>-->
   <!--<RGK_EndTable.description>침대 옆에 두는 작은 탁자입니다. 바로 옆에 배치되어야 편리하게 쓸 수 있습니다.</RGK_EndTable.description>-->
-  <!--<RGK_EndTable_Blueprint.label>협탁 (blueprint)</RGK_EndTable_Blueprint.label>-->
-  <!--<RGK_EndTable_Blueprint_Install.label>협탁 (blueprint)</RGK_EndTable_Blueprint_Install.label>-->
-  <!--<RGK_EndTable_Frame.label>협탁 (building)</RGK_EndTable_Frame.label>-->
+  <!--<RGK_EndTable_Blueprint.label>협탁 (청사진)</RGK_EndTable_Blueprint.label>-->
+  <!--<RGK_EndTable_Blueprint_Install.label>협탁 (청사진)</RGK_EndTable_Blueprint_Install.label>-->
+  <!--<RGK_EndTable_Frame.label>협탁 (건설 중)</RGK_EndTable_Frame.label>-->
   <!--<RGK_EndTable_Frame.description>침대 옆에 두는 작은 탁자입니다. 바로 옆에 배치되어야 편리하게 쓸 수 있습니다.</RGK_EndTable_Frame.description>-->
 
 
@@ -92,51 +92,51 @@
 
   <!--<RGK_EndTableWithLamp.label>랜턴과 협탁</RGK_EndTableWithLamp.label>-->
   <!--<RGK_EndTableWithLamp.description>침대 옆에 두는 작은 탁자입니다. 바로 옆에 배치되어야 편리하게 쓸 수 있습니다. 랜턴이 있어 주변에 빛을 제공합니다.</RGK_EndTableWithLamp.description>-->
-  <!--<RGK_EndTableWithLamp_Blueprint.label>협탁 (blueprint)</RGK_EndTableWithLamp_Blueprint.label>-->
-  <!--<RGK_EndTableWithLamp_Blueprint_Install.label>협탁 (blueprint)</RGK_EndTableWithLamp_Blueprint_Install.label>-->
-  <!--<RGK_EndTableWithLamp_Frame.label>협탁 (building)</RGK_EndTableWithLamp_Frame.label>-->
+  <!--<RGK_EndTableWithLamp_Blueprint.label>협탁 (청사진)</RGK_EndTableWithLamp_Blueprint.label>-->
+  <!--<RGK_EndTableWithLamp_Blueprint_Install.label>협탁 (청사진)</RGK_EndTableWithLamp_Blueprint_Install.label>-->
+  <!--<RGK_EndTableWithLamp_Frame.label>협탁 (건설 중)</RGK_EndTableWithLamp_Frame.label>-->
   <!--<RGK_EndTableWithLamp_Frame.description>침대 옆에 두는 작은 탁자입니다. 바로 옆에 배치되어야 편리하게 쓸 수 있습니다. 랜턴이 있어 주변에 빛을 제공합니다.</RGK_EndTableWithLamp_Frame.description>-->
 
   <!--<RGK_TableA.label>탁자(2x2)</RGK_TableA.label>-->
   <!--<RGK_TableA.description>모여서 밥을 먹거나 얘기할 수 있는 탁자입니다.</RGK_TableA.description>-->
-  <!--<RGK_TableA_Blueprint.label>탁자 (2x2) (blueprint)</RGK_TableA_Blueprint.label>-->
-  <!--<RGK_TableA_Blueprint_Install.label>탁자 (2x2) (blueprint)</RGK_TableA_Blueprint_Install.label>-->
-  <!--<RGK_TableA_Frame.label>탁자 (2x2) (building)</RGK_TableA_Frame.label>-->
+  <!--<RGK_TableA_Blueprint.label>탁자 (2x2) (청사진)</RGK_TableA_Blueprint.label>-->
+  <!--<RGK_TableA_Blueprint_Install.label>탁자 (2x2) (청사진)</RGK_TableA_Blueprint_Install.label>-->
+  <!--<RGK_TableA_Frame.label>탁자 (2x2) (건설 중)</RGK_TableA_Frame.label>-->
   <!--<RGK_TableA_Frame.description>모여서 밥을 먹거나 얘기할 수 있는 탁자입니다.</RGK_TableA_Frame.description>-->
 
   <!--<RGK_TableC.label>탁자 (2x2)</RGK_TableC.label>-->
   <!--<RGK_TableC.description>모여서 밥을 먹거나 얘기할 수 있는 탁자입니다.</RGK_TableC.description>-->
-  <!--<RGK_TableC_Blueprint.label>탁자 (2x2) (blueprint)</RGK_TableC_Blueprint.label>-->
-  <!--<RGK_TableC_Blueprint_Install.label>탁자 (2x2) (blueprint)</RGK_TableC_Blueprint_Install.label>-->
-  <!--<RGK_TableC_Frame.label>탁자 (2x2) (building)</RGK_TableC_Frame.label>-->
+  <!--<RGK_TableC_Blueprint.label>탁자 (2x2) (청사진)</RGK_TableC_Blueprint.label>-->
+  <!--<RGK_TableC_Blueprint_Install.label>탁자 (2x2) (청사진)</RGK_TableC_Blueprint_Install.label>-->
+  <!--<RGK_TableC_Frame.label>탁자 (2x2) (건설 중)</RGK_TableC_Frame.label>-->
   <!--<RGK_TableC_Frame.description>모여서 밥을 먹거나 얘기할 수 있는 탁자입니다.</RGK_TableC_Frame.description>-->
 
   <!--<RGK_TableB.label>켈틱 탁자 (2x2)</RGK_TableB.label>-->
   <!--<RGK_TableB.description>모여서 밥을 먹거나 얘기할 수 있는 탁자입니다.</RGK_TableB.description>-->
-  <!--<RGK_TableB_Blueprint.label>켈틱 탁자 (2x2) (blueprint)</RGK_TableB_Blueprint.label>-->
-  <!--<RGK_TableB_Blueprint_Install.label>켈틱 탁자 (2x2) (blueprint)</RGK_TableB_Blueprint_Install.label>-->
-  <!--<RGK_TableB_Frame.label>켈틱 탁자 (2x2) (building)</RGK_TableB_Frame.label>-->
+  <!--<RGK_TableB_Blueprint.label>켈틱 탁자 (2x2) (청사진)</RGK_TableB_Blueprint.label>-->
+  <!--<RGK_TableB_Blueprint_Install.label>켈틱 탁자 (2x2) (청사진)</RGK_TableB_Blueprint_Install.label>-->
+  <!--<RGK_TableB_Frame.label>켈틱 탁자 (2x2) (건설 중)</RGK_TableB_Frame.label>-->
   <!--<RGK_TableB_Frame.description>모여서 밥을 먹거나 얘기할 수 있는 탁자입니다.</RGK_TableB_Frame.description>-->
 
   <!--<RGK_TableD.label>켈틱 탁자 (2x2)</RGK_TableD.label>-->
   <!--<RGK_TableD.description>모여서 밥을 먹거나 얘기할 수 있는 탁자입니다.</RGK_TableD.description>-->
-  <!--<RGK_TableD_Blueprint.label>켈틱 탁자 (2x2) (blueprint)</RGK_TableD_Blueprint.label>-->
-  <!--<RGK_TableD_Blueprint_Install.label>켈틱 탁자 (2x2) (blueprint)</RGK_TableD_Blueprint_Install.label>-->
-  <!--<RGK_TableD_Frame.label>켈틱 탁자 (2x2) (building)</RGK_TableD_Frame.label>-->
+  <!--<RGK_TableD_Blueprint.label>켈틱 탁자 (2x2) (청사진)</RGK_TableD_Blueprint.label>-->
+  <!--<RGK_TableD_Blueprint_Install.label>켈틱 탁자 (2x2) (청사진)</RGK_TableD_Blueprint_Install.label>-->
+  <!--<RGK_TableD_Frame.label>켈틱 탁자 (2x2) (건설 중)</RGK_TableD_Frame.label>-->
   <!--<RGK_TableD_Frame.description>모여서 밥을 먹거나 얘기할 수 있는 탁자입니다.</RGK_TableD_Frame.description>-->
 
   <!--<RGK_MiniTableA.label>미니 탁자</RGK_MiniTableA.label>-->
   <!--<RGK_MiniTableA.description>모여서 밥을 먹거나 얘기할 수 있는 탁자입니다.</RGK_MiniTableA.description>-->
-  <!--<RGK_MiniTableA_Blueprint.label>미니 탁자 (blueprint)</RGK_MiniTableA_Blueprint.label>-->
-  <!--<RGK_MiniTableA_Blueprint_Install.label>미니 탁자 (blueprint)</RGK_MiniTableA_Blueprint_Install.label>-->
-  <!--<RGK_MiniTableA_Frame.label>미니 탁자 (building)</RGK_MiniTableA_Frame.label>-->
+  <!--<RGK_MiniTableA_Blueprint.label>미니 탁자 (청사진)</RGK_MiniTableA_Blueprint.label>-->
+  <!--<RGK_MiniTableA_Blueprint_Install.label>미니 탁자 (청사진)</RGK_MiniTableA_Blueprint_Install.label>-->
+  <!--<RGK_MiniTableA_Frame.label>미니 탁자 (건설 중)</RGK_MiniTableA_Frame.label>-->
   <!--<RGK_MiniTableA_Frame.description>모여서 밥을 먹거나 얘기할 수 있는 탁자입니다.</RGK_MiniTableA_Frame.description>-->
 
   <!--<RGK_MiniTableB.label>미니 탁자</RGK_MiniTableB.label>-->
   <!--<RGK_MiniTableB.description>모여서 밥을 먹거나 얘기할 수 있는 탁자입니다.</RGK_MiniTableB.description>-->
-  <!--<RGK_MiniTableB_Blueprint.label>미니 탁자 (blueprint)</RGK_MiniTableB_Blueprint.label>-->
-  <!--<RGK_MiniTableB_Blueprint_Install.label>미니 탁자 (blueprint)</RGK_MiniTableB_Blueprint_Install.label>-->
-  <!--<RGK_MiniTableB_Frame.label>미니 탁자 (building)</RGK_MiniTableB_Frame.label>-->
+  <!--<RGK_MiniTableB_Blueprint.label>미니 탁자 (청사진)</RGK_MiniTableB_Blueprint.label>-->
+  <!--<RGK_MiniTableB_Blueprint_Install.label>미니 탁자 (청사진)</RGK_MiniTableB_Blueprint_Install.label>-->
+  <!--<RGK_MiniTableB_Frame.label>미니 탁자 (건설 중)</RGK_MiniTableB_Frame.label>-->
   <!--<RGK_MiniTableB_Frame.description>모여서 밥을 먹거나 얘기할 수 있는 탁자입니다.</RGK_MiniTableB_Frame.description>-->
 
 
@@ -144,8 +144,8 @@
 
   <!--<RGK_lamp.label>램프</RGK_lamp.label>-->
   <!--<RGK_lamp.description>주변을 밝혀주는 램프입니다. 유리에 밀봉되어 비가와도 안심입니다.</RGK_lamp.description>-->
-  <!--<RGK_lamp_Blueprint.label>lamp (blueprint)</RGK_lamp_Blueprint.label>-->
-  <!--<RGK_lamp_Frame.label>lamp (building)</RGK_lamp_Frame.label>-->
+  <!--<RGK_lamp_Blueprint.label>lamp (청사진)</RGK_lamp_Blueprint.label>-->
+  <!--<RGK_lamp_Frame.label>lamp (건설 중)</RGK_lamp_Frame.label>-->
   <!--<RGK_lamp_Frame.description>주변을 밝혀주는 램프입니다. 유리에 밀봉되어 비가와도 안심입니다.</RGK_lamp_Frame.description>-->
 
 
@@ -153,16 +153,16 @@
 
   <!--<RGK_Manger.label>여물통</RGK_Manger.label>-->
   <!--<RGK_Manger.description>It's a cask for animals. You can store food and hay.</RGK_Manger.description>-->
-  <!--<RGK_Manger_Blueprint.label>여물통 (blueprint)</RGK_Manger_Blueprint.label>-->
-  <!--<RGK_Manger_Blueprint_Install.label>여물통 (blueprint)</RGK_Manger_Blueprint_Install.label>-->
-  <!--<RGK_Manger_Frame.label>여물통 (building)</RGK_Manger_Frame.label>-->
+  <!--<RGK_Manger_Blueprint.label>여물통 (청사진)</RGK_Manger_Blueprint.label>-->
+  <!--<RGK_Manger_Blueprint_Install.label>여물통 (청사진)</RGK_Manger_Blueprint_Install.label>-->
+  <!--<RGK_Manger_Frame.label>여물통 (건설 중)</RGK_Manger_Frame.label>-->
   <!--<RGK_Manger_Frame.description>It's a cask for animals. You can store food and hay.</RGK_Manger_Frame.description>-->
 
   <!--<RKGWineRackB.label>와인랙</RKGWineRackB.label>-->
   <!--<RKGWineRackB.description>주류를 보관하기 알맞은 선반입니다.</RKGWineRackB.description>-->
-  <!--<RKGWineRackB_Blueprint.label>와인랙 (blueprint)</RKGWineRackB_Blueprint.label>-->
-  <!--<RKGWineRackB_Blueprint_Install.label>와인랙 (blueprint)</RKGWineRackB_Blueprint_Install.label>-->
-  <!--<RKGWineRackB_Frame.label>와인랙 (building)</RKGWineRackB_Frame.label>-->
+  <!--<RKGWineRackB_Blueprint.label>와인랙 (청사진)</RKGWineRackB_Blueprint.label>-->
+  <!--<RKGWineRackB_Blueprint_Install.label>와인랙 (청사진)</RKGWineRackB_Blueprint_Install.label>-->
+  <!--<RKGWineRackB_Frame.label>와인랙 (건설 중)</RKGWineRackB_Frame.label>-->
   <!--<RKGWineRackB_Frame.description>주류를 보관하기 알맞은 선반입니다.</RKGWineRackB_Frame.description>-->
 
 
@@ -170,8 +170,8 @@
 
   <!--<RGK_Wall.label>목재 벽</RGK_Wall.label>-->
   <!--<RGK_Wall.description>통과할 수 없는 벽입니다. 위에 지붕을 씌울 수 있습니다.</RGK_Wall.description>-->
-  <!--<RGK_Wall_Blueprint.label>목재 벽 (blueprint)</RGK_Wall_Blueprint.label>-->
-  <!--<RGK_Wall_Frame.label>목재 벽 (building)</RGK_Wall_Frame.label>-->
+  <!--<RGK_Wall_Blueprint.label>목재 벽 (청사진)</RGK_Wall_Blueprint.label>-->
+  <!--<RGK_Wall_Frame.label>목재 벽 (건설 중)</RGK_Wall_Frame.label>-->
   <!--<RGK_Wall_Frame.description>통과할 수 없는 벽입니다. 위에 지붕을 씌울 수 있습니다.</RGK_Wall_Frame.description>-->
 
 
@@ -179,9 +179,9 @@
 
   <!--<RGK_window.label>창문</RGK_window.label>-->
   <!--<RGK_window.description>밖을 살필 수 있는 창문입니다.</RGK_window.description>-->
-  <!--<RGK_window_Blueprint.label>창문 (blueprint)</RGK_window_Blueprint.label>-->
-  <!--<RGK_window_Blueprint_Install.label>창문 (blueprint)</RGK_window_Blueprint_Install.label>-->
-  <!--<RGK_window_Frame.label>창문 (building)</RGK_window_Frame.label>-->
+  <!--<RGK_window_Blueprint.label>창문 (청사진)</RGK_window_Blueprint.label>-->
+  <!--<RGK_window_Blueprint_Install.label>창문 (청사진)</RGK_window_Blueprint_Install.label>-->
+  <!--<RGK_window_Frame.label>창문 (건설 중)</RGK_window_Frame.label>-->
   <!--<RGK_window_Frame.description>밖을 살필 수 있는 창문입니다.</RGK_window_Frame.description>-->
 
 
@@ -189,32 +189,32 @@
 
   <!--<RGK_WoodFence.label>울타리</RGK_WoodFence.label>-->
   <!--<RGK_WoodFence.description>가축들을 짐승들로부터 보호해주는 울타리입니다.</RGK_WoodFence.description>-->
-  <!--<RGK_WoodFence_Blueprint.label>울타리 (blueprint)</RGK_WoodFence_Blueprint.label>-->
-  <!--<RGK_WoodFence_Frame.label>울타리 (building)</RGK_WoodFence_Frame.label>-->
+  <!--<RGK_WoodFence_Blueprint.label>울타리 (청사진)</RGK_WoodFence_Blueprint.label>-->
+  <!--<RGK_WoodFence_Frame.label>울타리 (건설 중)</RGK_WoodFence_Frame.label>-->
   <!--<RGK_WoodFence_Frame.description>가축들을 짐승들로부터 보호해주는 울타리입니다.</RGK_WoodFence_Frame.description>-->
 
   <!--<RGK_VentWall.label>환풍 벽</RGK_VentWall.label>-->
   <!--<RGK_VentWall.description>공기가 통과할 수 있는 벽입니다.</RGK_VentWall.description>-->
-  <!--<RGK_VentWall_Blueprint.label>환풍 벽 (blueprint)</RGK_VentWall_Blueprint.label>-->
-  <!--<RGK_VentWall_Frame.label>환풍 벽 (building)</RGK_VentWall_Frame.label>-->
+  <!--<RGK_VentWall_Blueprint.label>환풍 벽 (청사진)</RGK_VentWall_Blueprint.label>-->
+  <!--<RGK_VentWall_Frame.label>환풍 벽 (건설 중)</RGK_VentWall_Frame.label>-->
   <!--<RGK_VentWall_Frame.description>공기가 통과할 수 있는 벽입니다.</RGK_VentWall_Frame.description>-->
 
   <!--<RGK_Door.label>울타리 문</RGK_Door.label>-->
   <!--<RGK_Door.description>두 공간을 나눌때 쓰는 울타리 문입니다.</RGK_Door.description>-->
-  <!--<RGK_Door_Blueprint.label>울타리 문 (blueprint)</RGK_Door_Blueprint.label>-->
-  <!--<RGK_Door_Frame.label>울타리 문 (building)</RGK_Door_Frame.label>-->
+  <!--<RGK_Door_Blueprint.label>울타리 문 (청사진)</RGK_Door_Blueprint.label>-->
+  <!--<RGK_Door_Frame.label>울타리 문 (건설 중)</RGK_Door_Frame.label>-->
   <!--<RGK_Door_Frame.description>두 공간을 나눌때 쓰는 울타리 문입니다.</RGK_Door_Frame.description>-->
 
   <!--<RGK_Street_Lamp.label>가로등</RGK_Street_Lamp.label>-->
   <!--<RGK_Street_Lamp.description>어둠속에서 길을 밝혀주는 가로등입니다.</RGK_Street_Lamp.description>-->
-  <!--<RGK_Street_Lamp_Blueprint.label>가로등 (blueprint)</RGK_Street_Lamp_Blueprint.label>-->
-  <!--<RGK_Street_Lamp_Frame.label>가로등 (building)</RGK_Street_Lamp_Frame.label>-->
+  <!--<RGK_Street_Lamp_Blueprint.label>가로등 (청사진)</RGK_Street_Lamp_Blueprint.label>-->
+  <!--<RGK_Street_Lamp_Frame.label>가로등 (건설 중)</RGK_Street_Lamp_Frame.label>-->
   <!--<RGK_Street_Lamp_Frame.description>어둠속에서 길을 밝혀주는 가로등입니다.</RGK_Street_Lamp_Frame.description>-->
 
   <!--<RGK_Street_Lamp_Seven.label>가로등</RGK_Street_Lamp_Seven.label>-->
   <!--<RGK_Street_Lamp_Seven.description>어둠속에서 길을 밝혀주는 가로등입니다.</RGK_Street_Lamp_Seven.description>-->
-  <!--<RGK_Street_Lamp_Seven_Blueprint.label>가로등 (blueprint)</RGK_Street_Lamp_Seven_Blueprint.label>-->
-  <!--<RGK_Street_Lamp_Seven_Frame.label>가로등 (building)</RGK_Street_Lamp_Seven_Frame.label>-->
+  <!--<RGK_Street_Lamp_Seven_Blueprint.label>가로등 (청사진)</RGK_Street_Lamp_Seven_Blueprint.label>-->
+  <!--<RGK_Street_Lamp_Seven_Frame.label>가로등 (건설 중)</RGK_Street_Lamp_Seven_Frame.label>-->
   <!--<RGK_Street_Lamp_Seven_Frame.description>어둠속에서 길을 밝혀주는 가로등입니다.</RGK_Street_Lamp_Seven_Frame.description>-->
 
 

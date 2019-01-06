@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
+		<stuffCategories>		
+			<li>Woody</li>		
+			<li>Stony</li>		
+			<li>Metallic</li>
+		</stuffCategories>
+		<costStuffCount>5</costStuffCount>
+
+
 	<!--don't touch-->
 	<ThingDef Name="RKGFence" Abstract="True">
 		<category>Building</category>
@@ -78,20 +86,20 @@
 		<designationHotKey>Misc3</designationHotKey>
 	</ThingDef>
 
-	<!-- 2018 12 10 -->
-	<!-- 꽃벽 -->
+	<!-- 신규 벽 -->
 	<ThingDef ParentName="BuildingBase">
-		<defName>GL_FlowerWall</defName>
-		<label>Flower wall</label>
-		<description>Wall decorated with flowers.</description>
+		<defName>GL_Wall</defName>
+		<label>wall</label>
+		<description>An impassable wall. Capable of holding up a roof.</description>
 		<thingClass>Building</thingClass>
 		<category>Building</category>
 		<graphicData>
-			<texPath>Things/Building/Linked/GL_FlowerWall</texPath>
+			<texPath>Things/Building/Linked/GL_Wall</texPath>
 			<graphicClass>Graphic_Appearances</graphicClass>
-			<linkType>Basic</linkType>
+			<linkType>CornerFiller</linkType>
 			<linkFlags>
-				<li>Custom3</li>
+				<li>Wall</li>
+				<li>Rock</li>
 			</linkFlags>
 			<damageData>
 				<cornerTL>Damage/Corner</cornerTL>
@@ -104,34 +112,40 @@
 				<edgeRight>Damage/Edge</edgeRight>
 			</damageData>
 		</graphicData>
-		<uiIconPath>Things/Building/Linked/GL_FlowerWall_MenuIcon</uiIconPath>
+		<uiIconPath>Things/Building/Linked/GL_WallBricks_MenuIcon</uiIconPath>
 		<statBases>
-			<Beauty>10</Beauty>
-			<MaxHitPoints>150</MaxHitPoints>
-			<WorkToBuild>850</WorkToBuild>
+			<Beauty>1</Beauty>
+			<MaxHitPoints>250</MaxHitPoints>
+			<WorkToBuild>150</WorkToBuild>
 			<Flammability>0.5</Flammability>
 		</statBases>
-		<costList>
-			<WoodLog>25</WoodLog>
-		</costList>
+		<stuffCategories>		
+			<li>Woody</li>		
+			<li>Stony</li>		
+			<li>Metallic</li>
+		</stuffCategories>
+		<costStuffCount>5</costStuffCount>
 		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
 		<altitudeLayer>Building</altitudeLayer>
-		<passability>PassThroughOnly</passability>
-		<pathCost>35</pathCost>
-		<blockWind>false</blockWind>
+		<passability>Impassable</passability>
+		<blockWind>true</blockWind>
 		<castEdgeShadows>true</castEdgeShadows>
-		<fillPercent>0.5</fillPercent>
+		<fillPercent>1</fillPercent>
+		<coversFloor>true</coversFloor>
 		<placingDraggableDimensions>1</placingDraggableDimensions>
 		<tickerType>Never</tickerType>
 		<rotatable>false</rotatable>
 		<selectable>true</selectable>
+		<neverMultiSelect>true</neverMultiSelect>
 		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+		<holdsRoof>true</holdsRoof>
 		<designationCategory>OldStyleFurniture</designationCategory>
 		<staticSunShadowHeight>1.0</staticSunShadowHeight>
-		<blockLight>false</blockLight>
+		<blockLight>true</blockLight>
 		<canOverlapZones>false</canOverlapZones>
 		<building>
 			<isInert>true</isInert>
+			<ai_chillDestination>false</ai_chillDestination>
 			<blueprintGraphicData>
 				<texPath>Things/Building/Linked/RGK_Wall_Blueprint_Atlas</texPath>
 			</blueprintGraphicData>
@@ -139,7 +153,7 @@
 		<designationHotKey>Misc3</designationHotKey>
 	</ThingDef>
 
-	
+	<!-- 환풍벽 -->
 	<ThingDef ParentName="RKGFence">
 		<defName>RGK_VentWall</defName>
 		<label>vent wall</label>
@@ -216,6 +230,84 @@
 		<designationHotKey>Misc3</designationHotKey>
 	</ThingDef>
 
+	<!-- 신규 환풍벽 -->	
+	<ThingDef ParentName="RKGFence">
+		<defName>GL_VentWall</defName>
+		<label>vent wall</label>
+		<thingClass>Building_Vent</thingClass>
+		<category>Building</category>
+		<description>It's a wall where air can come in and out.</description>
+		<graphicData>
+			<texPath>Things/Building/Linked/GL_VentWall</texPath>
+			<graphicClass>Graphic_Appearances</graphicClass>
+			<linkType>CornerFiller</linkType>
+			<linkFlags>
+				<li>Wall</li>
+				<li>Rock</li>
+			</linkFlags>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+				<edgeTop>Damage/Edge</edgeTop>
+				<edgeBot>Damage/Edge</edgeBot>
+				<edgeLeft>Damage/Edge</edgeLeft>
+				<edgeRight>Damage/Edge</edgeRight>
+			</damageData>
+		</graphicData>
+		<uiIconPath>Things/Building/Linked/GL_VentWall_MenuIcon</uiIconPath>
+		<statBases>
+			<Beauty>3</Beauty>
+			<MaxHitPoints>200</MaxHitPoints>
+			<WorkToBuild>180</WorkToBuild>
+			<Flammability>1.0</Flammability>
+		</statBases>
+		<stuffCategories>		
+			<li>Woody</li>		
+			<li>Stony</li>		
+			<li>Metallic</li>
+		</stuffCategories>
+		<costStuffCount>5</costStuffCount>
+		<leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>Impassable</passability>
+		<castEdgeShadows>true</castEdgeShadows>
+		<fillPercent>1</fillPercent>
+		<coversFloor>true</coversFloor>
+		<placingDraggableDimensions>1</placingDraggableDimensions>
+		<tickerType>Rare</tickerType>
+		<rotatable>true</rotatable>
+		<selectable>true</selectable>
+		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+		<holdsRoof>true</holdsRoof>
+		<staticSunShadowHeight>1</staticSunShadowHeight>
+		<blockLight>true</blockLight>		
+		<placeWorkers>
+			<li>PlaceWorker_Vent</li>
+		</placeWorkers>
+		<blockWind>true</blockWind>
+		<filthLeaving>Filth_RubbleBuilding</filthLeaving>
+		<drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+		<building>
+			<blueprintGraphicData>
+				<texPath>Things/Building/Linked/RGK_VentWall_Blueprint_Atlas</texPath>
+			</blueprintGraphicData>
+			<isInert>true</isInert>
+			<ai_chillDestination>false</ai_chillDestination>
+			<canPlaceOverWall>true</canPlaceOverWall>
+		</building>
+		<comps>
+			<li Class="Gloomylynx.CompProperties_FlickableVent">
+				<commandTexture>UI/Commands/Vent</commandTexture>
+				<commandLabelKey>CommandDesignateOpenCloseVentLabel</commandLabelKey>
+				<commandDescKey>CommandDesignateOpenCloseVentDesc</commandDescKey>
+			</li>
+		</comps>
+		<designationCategory>OldStyleFurniture</designationCategory>
+		<designationHotKey>Misc3</designationHotKey>
+	</ThingDef>
+
 	<!--Don't touch-->
 	<ThingDef Abstract="True" Name="WallWindowBase" ParentName="BuildingBase">
 		<thingClass>Building</thingClass>
@@ -245,7 +337,7 @@
 		<!-- <designationCategory>OldStyleFurniture</designationCategory> -->
 	</ThingDef>
 
-	<!--window-->
+	<!-- 창문 -->
 	<ThingDef Name="WallWindow" ParentName="WallWindowBase">
 		<defName>RGK_window</defName>
 		<label>window</label>
@@ -332,34 +424,73 @@
 		<designationHotKey>Misc3</designationHotKey>
 	</ThingDef>
 
-	
-	<ThingDef ParentName="DoorBase">
-		<defName>RGK_DoorOld</defName>
-		<label>antique door</label>
-		<description>Divides rooms. Simple doors must be manually opened, which slows people down. The amount of slowdown depends on what the door is made of.</description>
-		<thingClass>Building_Door</thingClass>
-		<statBases>
-			<WorkToBuild>1500</WorkToBuild>
-		</statBases>
+	<!-- 신규 창문 -->
+	<ThingDef ParentName="RKGFence">
+		<defName>GL_WindowWall</defName>
+		<label>window wall</label>
+		<thingClass>Building</thingClass>
+		<category>Building</category>
+		<description>A window through which light can pass through.</description>
 		<graphicData>
-			<texPath>Things/Building/Furniture/DoorOld_Mover</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
+			<texPath>Things/Building/Linked/GL_WindowWall</texPath>
+			<graphicClass>Graphic_Appearances</graphicClass>
+			<linkType>CornerFiller</linkType>
+			<linkFlags>
+				<li>Wall</li>
+				<li>Rock</li>
+			</linkFlags>
 			<damageData>
-				<enabled>false</enabled>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+				<edgeTop>Damage/Edge</edgeTop>
+				<edgeBot>Damage/Edge</edgeBot>
+				<edgeLeft>Damage/Edge</edgeLeft>
+				<edgeRight>Damage/Edge</edgeRight>
 			</damageData>
 		</graphicData>
-		<uiIconPath>Things/Building/Furniture/DoorOld_MenuIcon</uiIconPath>
-		<stuffCategories Inherit="False">
-			<li>Woody</li>
+		<uiIconPath>Things/Building/Linked/GL_WindowWall_MeunuIcon</uiIconPath>
+		<statBases>
+			<Beauty>3</Beauty>
+			<MaxHitPoints>200</MaxHitPoints>
+			<WorkToBuild>180</WorkToBuild>
+			<Flammability>1.0</Flammability>
+		</statBases>
+		<stuffCategories>		
+			<li>Woody</li>		
+			<li>Stony</li>		
+			<li>Metallic</li>
 		</stuffCategories>
-		<costStuffCount>45</costStuffCount>
-		<designationHotKey>Misc12</designationHotKey>
+		<costStuffCount>10</costStuffCount>
+		<leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>Impassable</passability>
+		<castEdgeShadows>true</castEdgeShadows>
+		<fillPercent>1</fillPercent>
+		<coversFloor>true</coversFloor>
+		<placingDraggableDimensions>1</placingDraggableDimensions>
+		<selectable>true</selectable>
+		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+		<holdsRoof>true</holdsRoof>
+		<staticSunShadowHeight>1</staticSunShadowHeight>
+		<blockLight>false</blockLight>		
+		<placeWorkers>
+			<li>PlaceWorker_Vent</li>
+		</placeWorkers>
+		<blockWind>true</blockWind>
+		<filthLeaving>Filth_RubbleBuilding</filthLeaving>
+		<drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
 		<building>
 			<blueprintGraphicData>
-				<texPath>Things/Building/Furniture/DoorOld_Blueprint_Atlas</texPath>
+				<texPath>Things/Building/Linked/RGK_Wall_Blueprint_Atlas</texPath>
 			</blueprintGraphicData>
+			<isInert>true</isInert>
+			<ai_chillDestination>false</ai_chillDestination>
+			<canPlaceOverWall>true</canPlaceOverWall>
 		</building>
 		<designationCategory>OldStyleFurniture</designationCategory>
+		<designationHotKey>Misc3</designationHotKey>
 	</ThingDef>
 
 	<!--울타리-->
@@ -422,11 +553,73 @@
 		<designationCategory>OldStyleFurniture</designationCategory>
 		<designationHotKey>Misc3</designationHotKey>
 	</ThingDef>	
+	
+	<!-- 2018 12 10 -->
+	<!-- 꽃벽 -->
+	<ThingDef ParentName="BuildingBase">
+		<defName>GL_FlowerWall</defName>
+		<label>Flower wall</label>
+		<description>Wall decorated with flowers.</description>
+		<thingClass>Building</thingClass>
+		<category>Building</category>
+		<graphicData>
+			<texPath>Things/Building/Linked/GL_FlowerWall</texPath>
+			<graphicClass>Graphic_Appearances</graphicClass>
+			<linkType>Basic</linkType>
+			<linkFlags>
+				<li>Custom3</li>
+			</linkFlags>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+				<edgeTop>Damage/Edge</edgeTop>
+				<edgeBot>Damage/Edge</edgeBot>
+				<edgeLeft>Damage/Edge</edgeLeft>
+				<edgeRight>Damage/Edge</edgeRight>
+			</damageData>
+		</graphicData>
+		<uiIconPath>Things/Building/Linked/GL_FlowerWall_MenuIcon</uiIconPath>
+		<statBases>
+			<Beauty>10</Beauty>
+			<MaxHitPoints>150</MaxHitPoints>
+			<WorkToBuild>850</WorkToBuild>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		<costList>
+			<WoodLog>25</WoodLog>
+		</costList>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<pathCost>35</pathCost>
+		<blockWind>false</blockWind>
+		<castEdgeShadows>true</castEdgeShadows>
+		<fillPercent>0.5</fillPercent>
+		<placingDraggableDimensions>1</placingDraggableDimensions>
+		<tickerType>Never</tickerType>
+		<rotatable>false</rotatable>
+		<selectable>true</selectable>
+		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+		<designationCategory>OldStyleFurniture</designationCategory>
+		<staticSunShadowHeight>1.0</staticSunShadowHeight>
+		<blockLight>false</blockLight>
+		<canOverlapZones>false</canOverlapZones>
+		<building>
+			<isInert>true</isInert>
+			<blueprintGraphicData>
+				<texPath>Things/Building/Linked/RGK_Wall_Blueprint_Atlas</texPath>
+			</blueprintGraphicData>
+		</building>
+		<designationHotKey>Misc3</designationHotKey>
+	</ThingDef>
 
 	<!-- 2018 12 21 문짝 -->
+	<!-- 울타리문 -->
 	<ThingDef ParentName="DoorBase">
 		<defName>RGK_Door</defName>
-		<label>door</label>
+		<label>fence door</label>
 		<description>Divides rooms. Simple doors must be manually opened, which slows people down. The amount of slowdown depends on what the door is made of.</description>
 		<thingClass>Building_Door</thingClass>
 		<graphicData>
@@ -458,6 +651,7 @@
 		<designationCategory>OldStyleFurniture</designationCategory>
 	</ThingDef>
 
+	<!-- 문틀 -->
 	<ThingDef ParentName="BuildingBase">
 		<defName>GL_DoorFrame</defName>
 		<label>door frame</label>
@@ -500,5 +694,7 @@
 			<isEdifice>false</isEdifice>
 		</building>
 	</ThingDef>
+	
+
 </Defs>
 

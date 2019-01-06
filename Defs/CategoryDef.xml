@@ -3,14 +3,12 @@
 	<ThingCategoryDef>
 		<defName>AnimalFoods</defName>
 		<label>animal foods</label>
-		<parent>FoodRaw</parent>
 		<iconPath>UI/Icon/Kibble</iconPath>
 	</ThingCategoryDef>	
 
 	<ThingCategoryDef>
 		<defName>Alcohol</defName>
 		<label>alcohol</label>
-		<parent>Foods</parent>
 		<iconPath>UI/Icon/Beer</iconPath>
 	</ThingCategoryDef>
 

@@ -207,12 +207,11 @@
 		<uiIconScale>0.85</uiIconScale>
 		<rotatable>false</rotatable>
 		<altitudeLayer>BuildingOnTop</altitudeLayer>
-		<passability>PassThroughOnly</passability>
-		<pathCost>8</pathCost>
+		<passability>Standable</passability>
 		<constructEffect>ConstructWood</constructEffect>
 		<tickerType>Normal</tickerType>
 		<drawerType>RealtimeOnly</drawerType>
-		<fillPercent>0.15</fillPercent>
+		<fillPercent>0</fillPercent>
 		<statBases>
 			<MaxHitPoints>80</MaxHitPoints>
 			<WorkToBuild>100</WorkToBuild>
@@ -231,7 +230,6 @@
 		<soundImpactDefault>BulletImpact_Ground</soundImpactDefault>
 		<leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
 		<placeWorkers>
-			<li>PlaceWorker_Heater</li>
 			<li>Gloomylynx.PlaceWorker_PassableObject</li>
 		</placeWorkers>
 		<comps>
@@ -261,7 +259,7 @@
 		</comps>
 		<defaultPlacingRot>South</defaultPlacingRot>
 		<designationCategory>OldStyleFurniture</designationCategory>
-		<designationHotKey>Misc6</designationHotKey>
+		<designatorDropdown>GL_Lamp_DropDown</designatorDropdown>
 		<destroyable>true</destroyable>
 		<tradeability>None</tradeability>
 		<clearBuildingArea>false</clearBuildingArea>
@@ -270,7 +268,7 @@
 			<li>BuildingsFurniture</li>
 		</thingCategories>
 	</ThingDef>
-
+	<!-- Lamp M -->
 	<ThingDef ParentName="BuildingBase">
 		<defName>RGK_LampM</defName>
 		<label>Lamp M</label>
@@ -289,12 +287,11 @@
 		<uiIconScale>0.85</uiIconScale>
 		<rotatable>false</rotatable>
 		<altitudeLayer>BuildingOnTop</altitudeLayer>
-		<passability>PassThroughOnly</passability>
-		<pathCost>8</pathCost>
+		<passability>Standable</passability>
 		<constructEffect>ConstructWood</constructEffect>
 		<tickerType>Normal</tickerType>
 		<drawerType>RealtimeOnly</drawerType>
-		<fillPercent>0.15</fillPercent>
+		<fillPercent>0</fillPercent>
 		<statBases>
 			<MaxHitPoints>80</MaxHitPoints>
 			<WorkToBuild>100</WorkToBuild>
@@ -313,7 +310,6 @@
 		<soundImpactDefault>BulletImpact_Ground</soundImpactDefault>
 		<leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
 		<placeWorkers>
-			<li>PlaceWorker_Heater</li>
 			<li>Gloomylynx.PlaceWorker_PassableObject</li>
 		</placeWorkers>
 		<comps>
@@ -343,6 +339,7 @@
 		</comps>
 		<defaultPlacingRot>South</defaultPlacingRot>
 		<designationCategory>OldStyleFurniture</designationCategory>
+		<designatorDropdown>GL_Lamp_DropDown</designatorDropdown>
 		<destroyable>true</destroyable>
 		<tradeability>None</tradeability>
 		<clearBuildingArea>false</clearBuildingArea>
@@ -351,7 +348,7 @@
 			<li>BuildingsFurniture</li>
 		</thingCategories>
 	</ThingDef>
-
+	<!-- Lamp E -->
 	<ThingDef ParentName="BuildingBase">
 		<defName>RGK_lampE</defName>
 		<label>Lamp E</label>
@@ -371,12 +368,11 @@
 		<uiIconScale>0.85</uiIconScale>
 		<rotatable>false</rotatable>
 		<altitudeLayer>BuildingOnTop</altitudeLayer>
-		<passability>PassThroughOnly</passability>
-		<pathCost>8</pathCost>
+		<passability>Standable</passability>
 		<constructEffect>ConstructWood</constructEffect>
 		<tickerType>Normal</tickerType>
 		<drawerType>RealtimeOnly</drawerType>
-		<fillPercent>0.15</fillPercent>
+		<fillPercent>0</fillPercent>
 		<statBases>
 			<MaxHitPoints>80</MaxHitPoints>
 			<WorkToBuild>100</WorkToBuild>
@@ -395,7 +391,6 @@
 		<soundImpactDefault>BulletImpact_Ground</soundImpactDefault>
 		<leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
 		<placeWorkers>
-			<li>PlaceWorker_Heater</li>
 			<li>Gloomylynx.PlaceWorker_PassableObject</li>
 		</placeWorkers>
 		<comps>
@@ -418,7 +413,7 @@
 		</comps>
 		<defaultPlacingRot>South</defaultPlacingRot>
 		<designationCategory>OldStyleFurniture</designationCategory>
-		<designationHotKey>Misc6</designationHotKey>
+		<designatorDropdown>GL_Lamp_DropDown</designatorDropdown>
 		<destroyable>true</destroyable>
 		<tradeability>None</tradeability>
 		<clearBuildingArea>false</clearBuildingArea>
@@ -429,6 +424,7 @@
 	</ThingDef>
 
 
+	<!-- Street Lamp -->
 	<ThingDef ParentName="BuildingBase">
 		<defName>RGK_Street_Lamp_L</defName>
 		<label>Street lamp</label>
@@ -452,7 +448,7 @@
 		<pathCost>8</pathCost>
 		<constructEffect>ConstructMetal</constructEffect>
 		<tickerType>Normal</tickerType>
-		<fillPercent>0.15</fillPercent>
+		<fillPercent>0.2</fillPercent>
 		<statBases>
 			<MaxHitPoints>120</MaxHitPoints>
 			<WorkToBuild>250</WorkToBuild>
@@ -488,7 +484,7 @@
 			</li>
 		</comps>
 		<designationCategory>OldStyleFurniture</designationCategory>
-		<designationHotKey>Misc6</designationHotKey>
+		<designatorDropdown>GL_StreetLamp_DropDown</designatorDropdown>
 		<destroyable>true</destroyable>
 		<tradeability>None</tradeability>
 	</ThingDef>
@@ -516,7 +512,7 @@
 		<pathCost>8</pathCost>
 		<constructEffect>ConstructMetal</constructEffect>
 		<tickerType>Normal</tickerType>
-		<fillPercent>0.15</fillPercent>
+		<fillPercent>0.2</fillPercent>
 		<statBases>
 			<MaxHitPoints>120</MaxHitPoints>
 			<WorkToBuild>250</WorkToBuild>
@@ -545,13 +541,13 @@
 			</li>
 		</comps>
 		<designationCategory>OldStyleFurniture</designationCategory>
-		<designationHotKey>Misc6</designationHotKey>
+		<designatorDropdown>GL_StreetLamp_DropDown</designatorDropdown>
 		<destroyable>true</destroyable>
 		<tradeability>None</tradeability>
 	</ThingDef>
 
 
-
+	<!-- Street Lamp Seven -->
 	<ThingDef ParentName="BuildingBase">
 		<defName>RGK_Street_Lamp_Seven</defName>
 		<label>Street lamp</label>
@@ -620,6 +616,7 @@
 		</comps>
 		<defaultPlacingRot>South</defaultPlacingRot>
 		<designationCategory>OldStyleFurniture</designationCategory>
+		<designatorDropdown>GL_StreetLamp_Seven_DropDown</designatorDropdown>
 		<designationHotKey>Misc6</designationHotKey>
 		<destroyable>true</destroyable>
 		<tradeability>None</tradeability>
@@ -687,12 +684,15 @@
 		<rotatable>true</rotatable>
 		<defaultPlacingRot>South</defaultPlacingRot>
 		<designationCategory>OldStyleFurniture</designationCategory>
+		<designatorDropdown>GL_StreetLamp_Seven_DropDown</designatorDropdown>
 		<designationHotKey>Misc6</designationHotKey>
 		<destroyable>true</destroyable>
 		<tradeability>None</tradeability>
 		<clearBuildingArea>false</clearBuildingArea>
 	</ThingDef>
 
+	 
+	<!-- Wall Lamp -->
 	<ThingDef Abstract="True" Name="WallLightBase" ParentName="BuildingBase">
 		<thingClass>Building</thingClass>
 		<altitudeLayer>BuildingOnTop</altitudeLayer>
@@ -723,8 +723,10 @@
 		<clearBuildingArea>false</clearBuildingArea>
 		<defaultPlacingRot>South</defaultPlacingRot>
 		<designationCategory>OldStyleFurniture</designationCategory>
+		<designatorDropdown>GL_WallLamp_DropDown</designatorDropdown>
 	</ThingDef>
 
+	<!-- 랜턴 -->
 	<ThingDef ParentName="WallLightBase">
 		<defName>GL_Wall_Lamp</defName>
 		<label>wall lamp</label>
@@ -822,7 +824,18 @@
 		</comps>
 	</ThingDef>
 
-
+	<DesignatorDropdownGroupDef>
+		<defName>GL_Lamp_DropDown</defName>
+	</DesignatorDropdownGroupDef>	
+	<DesignatorDropdownGroupDef>
+		<defName>GL_StreetLamp_DropDown</defName>
+	</DesignatorDropdownGroupDef>
+	<DesignatorDropdownGroupDef>
+		<defName>GL_StreetLamp_Seven_DropDown</defName>
+	</DesignatorDropdownGroupDef>	
+	<DesignatorDropdownGroupDef>
+		<defName>GL_WallLamp_DropDown</defName> 
+	</DesignatorDropdownGroupDef>
 
 
 

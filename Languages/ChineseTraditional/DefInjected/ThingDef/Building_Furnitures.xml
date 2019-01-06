@@ -94,6 +94,16 @@
   <RGKDiningChair_Frame.label>餐椅（建造中）</RGKDiningChair_Frame.label>
   <RGKDiningChair_Frame.description>一個舒適且惹人喜愛的椅子。 可以搭配桌子或工作台使用。</RGKDiningChair_Frame.description>
 
+
+  <!-- 공원벤치 -->
+
+  <GL_Bench.label>bench</GL_Bench.label>
+  <GL_Bench.description>It's a park bench chair. Couples can't sit here.</GL_Bench.description>
+  <GL_Bench_Blueprint.label>bench (blueprint)</GL_Bench_Blueprint.label>
+  <GL_Bench_Blueprint_Install.label>bench (blueprint)</GL_Bench_Blueprint_Install.label>
+  <GL_Bench_Frame.label>bench (building)</GL_Bench_Frame.label>
+  <GL_Bench_Frame.description>It's a park bench chair. Couples can't sit here.</GL_Bench_Frame.description>
+
   <RGK_TableA.label>桌子(2X2)</RGK_TableA.label>
   <RGK_TableA.description>把椅子貼近放置時，人們會在桌子上用餐。</RGK_TableA.description>
   <RGK_TableA_Blueprint.label>桌子(2X2)（藍圖）</RGK_TableA_Blueprint.label>
@@ -117,10 +127,7 @@
 
   <RGK_TableD.label>泡茶桌(2X2)</RGK_TableD.label>
   <RGK_TableD.description>把椅子貼近放置時，人們會在桌子上用餐。</RGK_TableD.description>
-  <RGK_TableD_Blueprint.label>泡茶桌(2X2)（藍圖）</RGK_TableD_Blueprint.label>
   <RGK_TableD_Blueprint_Install.label>泡茶桌(2X2)（藍圖）</RGK_TableD_Blueprint_Install.label>
-  <RGK_TableD_Frame.label>泡茶桌(2X2)（建造中）</RGK_TableD_Frame.label>
-  <RGK_TableD_Frame.description>把椅子貼近放置時，人們會在桌子上用餐。</RGK_TableD_Frame.description>
 
   <RGK_TableE.label>長桌子(2x1)</RGK_TableE.label>
   <RGK_TableE.description>把椅子貼近放置時，人們會在桌子上用餐。</RGK_TableE.description>
@@ -195,5 +202,43 @@
   <RGK_Manger_Frame.label>飼料槽（建造中）</RGK_Manger_Frame.label>
   <RGK_Manger_Frame.description>這是動物的飼料槽。 你可以儲存食物和乾草。</RGK_Manger_Frame.description>
 
+
+  <!-- 선반 -->
+
+  <GL_Shelf.label>shelf</GL_Shelf.label>
+  <GL_Shelf.description>A shelf for storing miscellaneous items. Items stored in this will not deteriorate, even if outside.</GL_Shelf.description>
+  <GL_Shelf_Blueprint.label>shelf (blueprint)</GL_Shelf_Blueprint.label>
+  <GL_Shelf_Blueprint_Install.label>shelf (blueprint)</GL_Shelf_Blueprint_Install.label>
+  <GL_Shelf_Frame.label>shelf (building)</GL_Shelf_Frame.label>
+  <GL_Shelf_Frame.description>A shelf for storing miscellaneous items. Items stored in this will not deteriorate, even if outside.</GL_Shelf_Frame.description>
+
+
+  <!-- 개밥그릇 -->
+
+  <RGK_DogBowl.label>bowl</RGK_DogBowl.label>
+  <RGK_DogBowl.description>It's a cask for animals. You can store food and hay.</RGK_DogBowl.description>
+  <RGK_DogBowl_Blueprint.label>bowl (blueprint)</RGK_DogBowl_Blueprint.label>
+  <RGK_DogBowl_Blueprint_Install.label>bowl (blueprint)</RGK_DogBowl_Blueprint_Install.label>
+  <RGK_DogBowl_Frame.label>bowl (building)</RGK_DogBowl_Frame.label>
+  <RGK_DogBowl_Frame.description>It's a cask for animals. You can store food and hay.</RGK_DogBowl_Frame.description>
+
+  <RGK_Flower.label>replica flower</RGK_Flower.label>
+  <RGK_Flower.description>It's a flowerpot replica. It'll be in bloom forever.</RGK_Flower.description>
+  <RGK_Flower_Blueprint.label>replica flower (blueprint)</RGK_Flower_Blueprint.label>
+  <RGK_Flower_Blueprint_Install.label>replica flower (blueprint)</RGK_Flower_Blueprint_Install.label>
+  <RGK_Flower_Frame.label>replica flower (building)</RGK_Flower_Frame.label>
+  <RGK_Flower_Frame.description>It's a flowerpot replica. It'll be in bloom forever.</RGK_Flower_Frame.description>
+
+  <RGK_Teaset.label>tea set</RGK_Teaset.label>
+  <RGK_Teaset.description>This is a set of decorative teas. It looks like a luxury, and it's a shame to use it.</RGK_Teaset.description>
+  <RGK_Teaset_Blueprint.label>tea set (blueprint)</RGK_Teaset_Blueprint.label>
+  <RGK_Teaset_Blueprint_Install.label>tea set (blueprint)</RGK_Teaset_Blueprint_Install.label>
+  <RGK_Teaset_Frame.label>tea set (building)</RGK_Teaset_Frame.label>
+  <RGK_Teaset_Frame.description>This is a set of decorative teas. It looks like a luxury, and it's a shame to use it.</RGK_Teaset_Frame.description>
+
+
+  <!--<RGK_TableD_Blueprint.label>泡茶桌(2X2)（藍圖）</RGK_TableD_Blueprint.label>-->
+  <!--<RGK_TableD_Frame.label>泡茶桌(2X2)（建造中）</RGK_TableD_Frame.label>-->
+  <!--<RGK_TableD_Frame.description>把椅子貼近放置時，人們會在桌子上用餐。</RGK_TableD_Frame.description>-->
 
 </LanguageData>

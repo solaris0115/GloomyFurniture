@@ -4,5 +4,20 @@
   <RGK_Terrain.label>木製地板</RGK_Terrain.label>
   <RGK_Terrain.description>木製地板有種家的溫馨與安逸感。雖然鋪設速度快，但也非常易燃。</RGK_Terrain.description>
 
+  <PebbleSandstone.label>sandstone Pebble</PebbleSandstone.label>
+  <PebbleSandstone.description>The floor is made of gravel.</PebbleSandstone.description>
+
+  <PebbleGranite.label>granite Pebble</PebbleGranite.label>
+  <PebbleGranite.description>The floor is made of gravel.</PebbleGranite.description>
+
+  <PebbleLimestone.label>limestone Pebble</PebbleLimestone.label>
+  <PebbleLimestone.description>The floor is made of gravel.</PebbleLimestone.description>
+
+  <PebbleSlate.label>slate Pebble</PebbleSlate.label>
+  <PebbleSlate.description>The floor is made of gravel.</PebbleSlate.description>
+
+  <PebbleMarble.label>marble Pebble</PebbleMarble.label>
+  <PebbleMarble.description>The floor is made of gravel.</PebbleMarble.description>
+
 
 </LanguageData>
