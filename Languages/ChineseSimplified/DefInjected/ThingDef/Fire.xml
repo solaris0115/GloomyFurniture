@@ -14,23 +14,23 @@
   <RGK_FireplaceE_Frame.description>能使房间温暖的电力壁炉。</RGK_FireplaceE_Frame.description>
   <!-- Lamp -->
   <RGK_lamp.label>桅灯(吊顶)</RGK_lamp.label>
-  <RGK_lamp.description>这是一盏小灯。即使下雨也能安全地使用。它甚至能散发些微温度。需要燃料。</RGK_lamp.description>
+  <RGK_lamp.description>这是一盏小灯。即使下雨也能安全地使用。产生少量的热。需要燃料。</RGK_lamp.description>
   <RGK_lamp_Blueprint.label>桅灯(吊顶) (蓝图)</RGK_lamp_Blueprint.label>
   <RGK_lamp_Blueprint_Install.label>桅灯(吊顶) (蓝图)</RGK_lamp_Blueprint_Install.label>
   <RGK_lamp_Frame.label>桅灯(吊顶) (建造中)</RGK_lamp_Frame.label>
-  <RGK_lamp_Frame.description>这是一盏小灯。即使下雨也能安全地使用。它甚至能散发些微温度。需要燃料。</RGK_lamp_Frame.description>
+  <RGK_lamp_Frame.description>这是一盏小灯。即使下雨也能安全地使用。产生少量的热。需要燃料。</RGK_lamp_Frame.description>
   <RGK_LampM.label>桅灯</RGK_LampM.label>
-  <RGK_LampM.description>这是一盏小灯。即使下雨也能安全地使用。它甚至能散发些微温度。需要燃料。</RGK_LampM.description>
+  <RGK_LampM.description>这是一盏小灯。即使下雨也能安全地使用。产生少量的热。需要燃料。</RGK_LampM.description>
   <RGK_LampM_Blueprint.label>桅灯 (蓝图)</RGK_LampM_Blueprint.label>
   <RGK_LampM_Blueprint_Install.label>桅灯 (蓝图)</RGK_LampM_Blueprint_Install.label>
   <RGK_LampM_Frame.label>桅灯 (建造中)</RGK_LampM_Frame.label>
-  <RGK_LampM_Frame.description>这是一盏小灯。即使下雨也能安全地使用。它甚至能散发些微温度。需要燃料。</RGK_LampM_Frame.description>
+  <RGK_LampM_Frame.description>这是一盏小灯。即使下雨也能安全地使用。产生少量的热。需要燃料。</RGK_LampM_Frame.description>
   <RGK_lampE.label>电桅灯(吊顶)</RGK_lampE.label>
-  <RGK_lampE.description>这是一盏电力小灯。即使下雨也能安全地使用。它甚至能散发些微温度。</RGK_lampE.description>
+  <RGK_lampE.description>这是一盏电力小灯。即使下雨也能安全地使用。产生少量的热。</RGK_lampE.description>
   <RGK_lampE_Blueprint.label>电桅灯 (蓝图)</RGK_lampE_Blueprint.label>
   <RGK_lampE_Blueprint_Install.label>电桅灯 (蓝图)</RGK_lampE_Blueprint_Install.label>
   <RGK_lampE_Frame.label>电桅灯 (建造中)</RGK_lampE_Frame.label>
-  <RGK_lampE_Frame.description>这是一盏电力小灯。即使下雨也能安全地使用。它甚至能散发些微温度。</RGK_lampE_Frame.description>
+  <RGK_lampE_Frame.description>这是一盏电力小灯。即使下雨也能安全地使用。产生少量的热。</RGK_lampE_Frame.description>
   <RGK_Street_Lamp_L.label>金属路灯</RGK_Street_Lamp_L.label>
   <RGK_Street_Lamp_L.description>这是一盏金属路灯。它照亮了黑暗中的道路。需要燃料。</RGK_Street_Lamp_L.description>
   <RGK_Street_Lamp_L_Blueprint.label>金属路灯 (蓝图)</RGK_Street_Lamp_L_Blueprint.label>

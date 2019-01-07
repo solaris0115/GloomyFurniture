@@ -13,10 +13,10 @@
   <GL_FlowerWall_Frame.label>花墙 (建造中)</GL_FlowerWall_Frame.label>
   <GL_FlowerWall_Frame.description>鲜花装饰的墙。</GL_FlowerWall_Frame.description>
   <RGK_VentWall.label>通风墙</RGK_VentWall.label>
-  <RGK_VentWall.description>这是一个空气可以进出的墙。</RGK_VentWall.description>
+  <RGK_VentWall.description>空气可以通过的墙。</RGK_VentWall.description>
   <RGK_VentWall_Blueprint.label>通风墙 (蓝图)</RGK_VentWall_Blueprint.label>
   <RGK_VentWall_Frame.label>通风墙 (建造中)</RGK_VentWall_Frame.label>
-  <RGK_VentWall_Frame.description>这是一个空气可以进出的墙。</RGK_VentWall_Frame.description>
+  <RGK_VentWall_Frame.description>空气可以通过的墙。</RGK_VentWall_Frame.description>
   <!-- window -->
   <RGK_window.label>窗户</RGK_window.label>
   <RGK_window.description>这是一个你可以向外看的窗户。</RGK_window.description>
@@ -33,16 +33,16 @@
   <RGK_DoorOld_Frame.description>分隔房间。必须手动打开，这会减慢人们通过的速度。减速程度取决于门由什么材料构成。</RGK_DoorOld_Frame.description>
   <!-- 울타리 -->
   <RGK_WoodFence.label>栅栏</RGK_WoodFence.label>
-  <RGK_WoodFence.description>诱捕野兽或保护牲畜的篱笆。</RGK_WoodFence.description>
+  <RGK_WoodFence.description>诱捕野兽或保护牲畜的栅栏。</RGK_WoodFence.description>
   <RGK_WoodFence_Blueprint.label>栅栏 (蓝图)</RGK_WoodFence_Blueprint.label>
   <RGK_WoodFence_Frame.label>栅栏 (建造中)</RGK_WoodFence_Frame.label>
-  <RGK_WoodFence_Frame.description>诱捕野兽或保护牲畜的篱笆。</RGK_WoodFence_Frame.description>
+  <RGK_WoodFence_Frame.description>诱捕野兽或保护牲畜的栅栏。</RGK_WoodFence_Frame.description>
   <!-- 2018 12 21 문짝 -->
   <RGK_Door.label>门</RGK_Door.label>
-  <RGK_Door.description>分隔房间。简单的门必须手动打开，这会减慢人的速度。减缓的数量取决于门是由什么构成的。</RGK_Door.description>
+  <RGK_Door.description>分隔房间。必须手动打开，这会减慢人们通过的速度。减速程度取决于门由什么材料构成。</RGK_Door.description>
   <RGK_Door_Blueprint.label>门 (蓝图)</RGK_Door_Blueprint.label>
   <RGK_Door_Frame.label>门 (建造中)</RGK_Door_Frame.label>
-  <RGK_Door_Frame.description>分隔房间。简单的门必须手动打开，这会减慢人的速度。减缓的数量取决于门是由什么构成的。</RGK_Door_Frame.description>
+  <RGK_Door_Frame.description>分隔房间。必须手动打开，这会减慢人们通过的速度。减速程度取决于门由什么材料构成。</RGK_Door_Frame.description>
   <GL_DoorFrame.label>门框</GL_DoorFrame.label>
   <GL_DoorFrame.description>一个用来装饰门的框架。</GL_DoorFrame.description>
   <GL_DoorFrame_Blueprint.label>门框 (蓝图)</GL_DoorFrame_Blueprint.label>
