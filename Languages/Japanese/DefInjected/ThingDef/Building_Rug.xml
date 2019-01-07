@@ -1,39 +1,25 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
   <RugA.label>ケルト風 ラグマット</RugA.label>
   <RugA.description>「RIMkea Cosy Rugs Collection」の4x4サイズのラグマットか元ネタです。</RugA.description>
-  <RugA_Blueprint.label>Celtic Rug (blueprint)</RugA_Blueprint.label>
-  <RugA_Blueprint_Install.label>Celtic Rug (blueprint)</RugA_Blueprint_Install.label>
-  <RugA_Frame.label>Celtic Rug (building)</RugA_Frame.label>
-  <RugA_Frame.description>It's a rug with Celtic designs.</RugA_Frame.description>
+  <Blueprint_RugA.label>ケルト風 ラグマット(設計)</Blueprint_RugA.label>
+  <Blueprint_Install_RugA.label>ケルト風 ラグマット(移動先)</Blueprint_Install_RugA.label>
+  <Frame_RugA.label>ケルト風 ラグマット(施工)</Frame_RugA.label>
+  <Frame_RugA.description>「RIMkea Cosy Rugs Collection」の4x4サイズのラグマットか元ネタです。</Frame_RugA.description>
 
   <RugB.label>ケルト風 ラグマットB</RugB.label>
   <RugB.description>「RIMkea Cosy Rugs Collection」の4x4サイズのラグマットか元ネタです。</RugB.description>
-  <RugB_Blueprint.label>Celtic Rug (blueprint)</RugB_Blueprint.label>
-  <RugB_Blueprint_Install.label>Celtic Rug (blueprint)</RugB_Blueprint_Install.label>
-  <RugB_Frame.label>Celtic Rug (building)</RugB_Frame.label>
-  <RugB_Frame.description>It's a rug with Celtic designs.</RugB_Frame.description>
+  <Blueprint_RugB.label>ケルト風 ラグマットB(設計)</Blueprint_RugB.label>
+  <Blueprint_Install_RugB.label>ケルト風 ラグマットB(移動先)</Blueprint_Install_RugB.label>
+  <Frame_RugB.label>ケルト風 ラグマットB(施工)</Frame_RugB.label>
+  <Frame_RugB.description>「RIMkea Cosy Rugs Collection」の4x4サイズのラグマットか元ネタです。</Frame_RugB.description>
 
   <RugC.label>ケルト風 ラグマットC</RugC.label>
   <RugC.description>「RIMkea Cosy Rugs Collection」の4x4サイズのラグマットか元ネタです。</RugC.description>
-  <RugC_Blueprint.label>Celtic Rug (blueprint)</RugC_Blueprint.label>
-  <RugC_Blueprint_Install.label>Celtic Rug (blueprint)</RugC_Blueprint_Install.label>
-  <RugC_Frame.label>Celtic Rug (building)</RugC_Frame.label>
-  <RugC_Frame.description>It's a rug with Celtic designs.</RugC_Frame.description>
-
-
-  <!--<Blueprint_RugA.label>ケルト風 ラグマット(設計)</Blueprint_RugA.label>-->
-  <!--<Blueprint_Install_RugA.label>ケルト風 ラグマット(移動先)</Blueprint_Install_RugA.label>-->
-  <!--<Frame_RugA.label>ケルト風 ラグマット(施工)</Frame_RugA.label>-->
-  <!--<Frame_RugA.description>「RIMkea Cosy Rugs Collection」の4x4サイズのラグマットか元ネタです。</Frame_RugA.description>-->
-  <!--<Blueprint_RugB.label>ケルト風 ラグマットB(設計)</Blueprint_RugB.label>-->
-  <!--<Blueprint_Install_RugB.label>ケルト風 ラグマットB(移動先)</Blueprint_Install_RugB.label>-->
-  <!--<Frame_RugB.label>ケルト風 ラグマットB(施工)</Frame_RugB.label>-->
-  <!--<Frame_RugB.description>「RIMkea Cosy Rugs Collection」の4x4サイズのラグマットか元ネタです。</Frame_RugB.description>-->
-  <!--<Blueprint_RugC.label>ケルト風 ラグマットC(設計)</Blueprint_RugC.label>-->
-  <!--<Blueprint_Install_RugC.label>ケルト風 ラグマットC(移動先)</Blueprint_Install_RugC.label>-->
-  <!--<Frame_RugC.label>ケルト風 ラグマットC(施工)</Frame_RugC.label>-->
-  <!--<Frame_RugC.description>「RIMkea Cosy Rugs Collection」の4x4サイズのラグマットか元ネタです。</Frame_RugC.description>-->
+  <Blueprint_RugC.label>ケルト風 ラグマットC(設計)</Blueprint_RugC.label>
+  <Blueprint_Install_RugC.label>ケルト風 ラグマットC(移動先)</Blueprint_Install_RugC.label>
+  <Frame_RugC.label>ケルト風 ラグマットC(施工)</Frame_RugC.label>
+  <Frame_RugC.description>「RIMkea Cosy Rugs Collection」の4x4サイズのラグマットか元ネタです。</Frame_RugC.description>
 
 </LanguageData>
