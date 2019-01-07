@@ -17,6 +17,10 @@
   <WallLight_DestroyedBlocked>벽등 앞에 무언가 건설되어 벽등이 파괴되었습니다.</WallLight_DestroyedBlocked>
   <WallLight_DestroyedWall>벽이 파괴되어 벽등도 같이 파괴되었습니다.</WallLight_DestroyedWall>
 
+  <DoorAttachment_WarningNeedWall>Must be placed over a wall.</DoorAttachment_WarningNeedWall>
+  <DoorAttachment_WarningBlocked>Must be facing a passable tile.</DoorAttachment_WarningBlocked>
+  <DoorAttachment_Both>Must be placed over a wall, facing a passable tile.</DoorAttachment_Both>
+
   <PassableObject_CantPass>통과 가능한 지형에 설치해야 합니다.</PassableObject_CantPass>
 
   <StandableObject_CantPass>서있을 수 있는 지형 위에 설치해야 합니다..</StandableObject_CantPass>

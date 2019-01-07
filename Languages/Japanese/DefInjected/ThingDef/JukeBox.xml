@@ -3,9 +3,9 @@
 
   <JukeBox.label>ジュークボックス</JukeBox.label>
   <JukeBox.description>オンボロな音楽プレイヤーです。レコードが何枚か内臓されています。</JukeBox.description>
-  <JukeBox_Blueprint_Install.label>juke box (blueprint)</JukeBox_Blueprint_Install.label>
 
 
+  <!--<JukeBox_Blueprint_Install.label>juke box (blueprint)</JukeBox_Blueprint_Install.label>-->
   <!--<Blueprint_Install_JukeBox.label>ジュークボックス(移動先)</Blueprint_Install_JukeBox.label>-->
 
 </LanguageData>

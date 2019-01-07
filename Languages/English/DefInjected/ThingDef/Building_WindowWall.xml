@@ -81,29 +81,29 @@
 
   <RGK_DoorOld.label>antique door</RGK_DoorOld.label>
   <RGK_DoorOld.description>Divides rooms. Simple doors must be manually opened, which slows people down. The amount of slowdown depends on what the door is made of.</RGK_DoorOld.description>
-  <RGK_DoorOld_Blueprint.label>antique door (blueprint)</RGK_DoorOld_Blueprint.label>
-  <RGK_DoorOld_Frame.label>antique door (building)</RGK_DoorOld_Frame.label>
-  <RGK_DoorOld_Frame.description>Divides rooms. Simple doors must be manually opened, which slows people down. The amount of slowdown depends on what the door is made of.</RGK_DoorOld_Frame.description>
 
 
   <!-- 울타리문 -->
 
   <RGK_Door.label>door</RGK_Door.label>
   <RGK_Door.description>Divides rooms. Simple doors must be manually opened, which slows people down. The amount of slowdown depends on what the door is made of.</RGK_Door.description>
-  <RGK_Door_Blueprint.label>door (blueprint)</RGK_Door_Blueprint.label>
-  <RGK_Door_Frame.label>door (building)</RGK_Door_Frame.label>
-  <RGK_Door_Frame.description>Divides rooms. Simple doors must be manually opened, which slows people down. The amount of slowdown depends on what the door is made of.</RGK_Door_Frame.description>
 
 
   <!-- 문틀 -->
 
   <GL_DoorFrame.label>door frame</GL_DoorFrame.label>
   <GL_DoorFrame.description>It is a frame to decorate the door.</GL_DoorFrame.description>
-  <GL_DoorFrame_Blueprint.label>door frame (blueprint)</GL_DoorFrame_Blueprint.label>
-  <GL_DoorFrame_Frame.label>door frame (building)</GL_DoorFrame_Frame.label>
-  <GL_DoorFrame_Frame.description>It is a frame to decorate the door.</GL_DoorFrame_Frame.description>
 
 
+  <!--<RGK_DoorOld_Blueprint.label>antique door (blueprint)</RGK_DoorOld_Blueprint.label>-->
+  <!--<RGK_DoorOld_Frame.label>antique door (building)</RGK_DoorOld_Frame.label>-->
+  <!--<RGK_DoorOld_Frame.description>Divides rooms. Simple doors must be manually opened, which slows people down. The amount of slowdown depends on what the door is made of.</RGK_DoorOld_Frame.description>-->
+  <!--<RGK_Door_Blueprint.label>door (blueprint)</RGK_Door_Blueprint.label>-->
+  <!--<RGK_Door_Frame.label>door (building)</RGK_Door_Frame.label>-->
+  <!--<RGK_Door_Frame.description>Divides rooms. Simple doors must be manually opened, which slows people down. The amount of slowdown depends on what the door is made of.</RGK_Door_Frame.description>-->
+  <!--<GL_DoorFrame_Blueprint.label>door frame (blueprint)</GL_DoorFrame_Blueprint.label>-->
+  <!--<GL_DoorFrame_Frame.label>door frame (building)</GL_DoorFrame_Frame.label>-->
+  <!--<GL_DoorFrame_Frame.description>It is a frame to decorate the door.</GL_DoorFrame_Frame.description>-->
   <!-- window -->
 
 </LanguageData>

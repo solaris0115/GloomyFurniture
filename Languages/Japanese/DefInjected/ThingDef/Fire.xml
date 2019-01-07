@@ -80,19 +80,19 @@
 
   <GL_Wall_Lamp.label>壁かけランプ</GL_Wall_Lamp.label>
   <GL_Wall_Lamp.description>壁に取り付けるように設計された照明器具です。</GL_Wall_Lamp.description>
-  <GL_Wall_Lamp_Blueprint.label>wall lamp (blueprint)</GL_Wall_Lamp_Blueprint.label>
-  <GL_Wall_Lamp_Frame.label>wall lamp (building)</GL_Wall_Lamp_Frame.label>
-  <GL_Wall_Lamp_Frame.description>A light fixture designed to be mounted on a wall.</GL_Wall_Lamp_Frame.description>
 
   <GL_Wall_LampE.label>壁かけランプ (電気)</GL_Wall_LampE.label>
   <GL_Wall_LampE.description>壁に取り付けるように設計された照明器具です。</GL_Wall_LampE.description>
-  <GL_Wall_LampE_Blueprint.label>wall lamp E (blueprint)</GL_Wall_LampE_Blueprint.label>
-  <GL_Wall_LampE_Frame.label>wall lamp E (building)</GL_Wall_LampE_Frame.label>
-  <GL_Wall_LampE_Frame.description>A light fixture designed to be mounted on a wall.</GL_Wall_LampE_Frame.description>
 
   <GlowObject.label>壁掛け照明</GlowObject.label>
 
 
+  <!--<GL_Wall_Lamp_Blueprint.label>wall lamp (blueprint)</GL_Wall_Lamp_Blueprint.label>-->
+  <!--<GL_Wall_Lamp_Frame.label>wall lamp (building)</GL_Wall_Lamp_Frame.label>-->
+  <!--<GL_Wall_Lamp_Frame.description>A light fixture designed to be mounted on a wall.</GL_Wall_Lamp_Frame.description>-->
+  <!--<GL_Wall_LampE_Blueprint.label>wall lamp E (blueprint)</GL_Wall_LampE_Blueprint.label>-->
+  <!--<GL_Wall_LampE_Frame.label>wall lamp E (building)</GL_Wall_LampE_Frame.label>-->
+  <!--<GL_Wall_LampE_Frame.description>A light fixture designed to be mounted on a wall.</GL_Wall_LampE_Frame.description>-->
   <!--<Blueprint_RGK_Fireplace.label>暖炉(設計)</Blueprint_RGK_Fireplace.label>-->
   <!--<Blueprint_Install_RGK_Fireplace.label>暖炉(移動先)</Blueprint_Install_RGK_Fireplace.label>-->
   <!--<Frame_RGK_Fireplace.label>暖炉(施工)</Frame_RGK_Fireplace.label>-->

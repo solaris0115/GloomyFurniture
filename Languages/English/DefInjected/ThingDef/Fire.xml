@@ -80,17 +80,18 @@
 
   <GL_Wall_Lamp.label>wall lamp</GL_Wall_Lamp.label>
   <GL_Wall_Lamp.description>A light fixture designed to be mounted on a wall.</GL_Wall_Lamp.description>
-  <GL_Wall_Lamp_Blueprint.label>wall lamp (blueprint)</GL_Wall_Lamp_Blueprint.label>
-  <GL_Wall_Lamp_Frame.label>wall lamp (building)</GL_Wall_Lamp_Frame.label>
-  <GL_Wall_Lamp_Frame.description>A light fixture designed to be mounted on a wall.</GL_Wall_Lamp_Frame.description>
 
   <GL_Wall_LampE.label>wall lamp E</GL_Wall_LampE.label>
   <GL_Wall_LampE.description>A light fixture designed to be mounted on a wall.</GL_Wall_LampE.description>
-  <GL_Wall_LampE_Blueprint.label>wall lamp E (blueprint)</GL_Wall_LampE_Blueprint.label>
-  <GL_Wall_LampE_Frame.label>wall lamp E (building)</GL_Wall_LampE_Frame.label>
-  <GL_Wall_LampE_Frame.description>A light fixture designed to be mounted on a wall.</GL_Wall_LampE_Frame.description>
 
   <GlowObject.label>Wall light</GlowObject.label>
 
+
+  <!--<GL_Wall_Lamp_Blueprint.label>wall lamp (blueprint)</GL_Wall_Lamp_Blueprint.label>-->
+  <!--<GL_Wall_Lamp_Frame.label>wall lamp (building)</GL_Wall_Lamp_Frame.label>-->
+  <!--<GL_Wall_Lamp_Frame.description>A light fixture designed to be mounted on a wall.</GL_Wall_Lamp_Frame.description>-->
+  <!--<GL_Wall_LampE_Blueprint.label>wall lamp E (blueprint)</GL_Wall_LampE_Blueprint.label>-->
+  <!--<GL_Wall_LampE_Frame.label>wall lamp E (building)</GL_Wall_LampE_Frame.label>-->
+  <!--<GL_Wall_LampE_Frame.description>A light fixture designed to be mounted on a wall.</GL_Wall_LampE_Frame.description>-->
 
 </LanguageData>
