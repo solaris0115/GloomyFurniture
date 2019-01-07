@@ -1,28 +1,18 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
   <RGK_SimpleResearchBench.label>研究設備</RGK_SimpleResearchBench.label>
   <RGK_SimpleResearchBench.description>筆記具と簡単な測定装置を備えたシンプルな作業台です。研究者はここで新しい研究をしています。</RGK_SimpleResearchBench.description>
-  <RGK_SimpleResearchBench_Blueprint.label>simple research bench (blueprint)</RGK_SimpleResearchBench_Blueprint.label>
-  <RGK_SimpleResearchBench_Blueprint_Install.label>simple research bench (blueprint)</RGK_SimpleResearchBench_Blueprint_Install.label>
-  <RGK_SimpleResearchBench_Frame.label>simple research bench (building)</RGK_SimpleResearchBench_Frame.label>
-  <RGK_SimpleResearchBench_Frame.description>A simple bench with writing implements and simple measurement devices. Researchers work here to discover new things.</RGK_SimpleResearchBench_Frame.description>
+  <Blueprint_RGK_SimpleResearchBench.label>研究設備(設計)</Blueprint_RGK_SimpleResearchBench.label>
+  <Blueprint_Install_RGK_SimpleResearchBench.label>研究設備(移動先)</Blueprint_Install_RGK_SimpleResearchBench.label>
+  <Frame_RGK_SimpleResearchBench.label>研究設備(施工)</Frame_RGK_SimpleResearchBench.label>
+  <Frame_RGK_SimpleResearchBench.description>筆記具と簡単な測定装置を備えたシンプルな作業台です。研究者はここで新しい研究をしています。</Frame_RGK_SimpleResearchBench.description>
 
   <RGK_FueledStove.label>カマド</RGK_FueledStove.label>
   <RGK_FueledStove.description>食事を準備するための調理台が付いた薪を燃料に使うコンロです。</RGK_FueledStove.description>
-  <RGK_FueledStove_Blueprint.label>fueled stove (blueprint)</RGK_FueledStove_Blueprint.label>
-  <RGK_FueledStove_Blueprint_Install.label>fueled stove (blueprint)</RGK_FueledStove_Blueprint_Install.label>
-  <RGK_FueledStove_Frame.label>fueled stove (building)</RGK_FueledStove_Frame.label>
-  <RGK_FueledStove_Frame.description>A wood-fueled stove with an attached countertop for preparing meals.</RGK_FueledStove_Frame.description>
-
-
-  <!--<Blueprint_RGK_SimpleResearchBench.label>研究設備(設計)</Blueprint_RGK_SimpleResearchBench.label>-->
-  <!--<Blueprint_Install_RGK_SimpleResearchBench.label>研究設備(移動先)</Blueprint_Install_RGK_SimpleResearchBench.label>-->
-  <!--<Frame_RGK_SimpleResearchBench.label>研究設備(施工)</Frame_RGK_SimpleResearchBench.label>-->
-  <!--<Frame_RGK_SimpleResearchBench.description>筆記具と簡単な測定装置を備えたシンプルな作業台です。研究者はここで新しい研究をしています。</Frame_RGK_SimpleResearchBench.description>-->
-  <!--<Blueprint_RGK_FueledStove.label>カマド(設計)</Blueprint_RGK_FueledStove.label>-->
-  <!--<Blueprint_Install_RGK_FueledStove.label>カマド(移動先)</Blueprint_Install_RGK_FueledStove.label>-->
-  <!--<Frame_RGK_FueledStove.label>カマド(施工)</Frame_RGK_FueledStove.label>-->
-  <!--<Frame_RGK_FueledStove.description>食事を準備するための調理台が付いた薪を燃料に使うコンロです。</Frame_RGK_FueledStove.description>-->
+  <Blueprint_RGK_FueledStove.label>カマド(設計)</Blueprint_RGK_FueledStove.label>
+  <Blueprint_Install_RGK_FueledStove.label>カマド(移動先)</Blueprint_Install_RGK_FueledStove.label>
+  <Frame_RGK_FueledStove.label>カマド(施工)</Frame_RGK_FueledStove.label>
+  <Frame_RGK_FueledStove.description>食事を準備するための調理台が付いた薪を燃料に使うコンロです。</Frame_RGK_FueledStove.description>
 
 </LanguageData>
