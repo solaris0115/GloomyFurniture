@@ -60,6 +60,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Comp.cs" />
+    <Compile Include="Locker.cs" />
     <Compile Include="WallLamp.cs" />
     <Compile Include="JukeBox.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

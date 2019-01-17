@@ -142,33 +142,7 @@ namespace Gloomylynx
             
         }
     }
-    /*
-    public class CompOnOffable : CompFlickable
-    {
-        private static FieldInfo FI_CompFlick = AccessTools.Field(typeof(CompFlickable), "wantSwitchOn");
-        public override IEnumerable<Gizmo> CompGetGizmosExtra()
-        {
-            //AccessTools.Field(typeof(CompFlickable), "wantSwitchOn").GetValue(this)
-            if (this.parent.Faction == Faction.OfPlayer)
-            {
-                //AccessTools.Field(typeof(CompFlickable), "wantSwitchOn").GetValue(this)
-                yield return new Command_Toggle
-                {
-                    hotKey = KeyBindingDefOf.Command_TogglePower,
-                    icon = ContentFinder<Texture2D>.Get("UI/Commands/OnOff", true),
-                    defaultLabel = "On/Off",
-                    defaultDesc = "",
-                    isActive = FI_CompFlick.GetValue(this).ChangeType<bool>,
-                    toggleAction = delegate ()
-                    {
-                        FI_CompFlick.SetValue(this, !(bool)FI_CompFlick.GetValue(this));
-                        FlickUtility.UpdateFlickDesignation(this.parent);
-                    }
-                };
-            }
-            yield break;
-        }
-    }*/
+  
 
     
     public class CompProperties_JukeBox:CompProperties

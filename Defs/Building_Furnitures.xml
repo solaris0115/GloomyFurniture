@@ -1143,7 +1143,7 @@
 				<rectW>(0.28125,0.25,0.453125,0.25)</rectW>
 			</damageData>
 		</graphicData>
-		<altitudeLayer>Blueprint</altitudeLayer>
+		<altitudeLayer>Pawn</altitudeLayer>
 		<passability>PassThroughOnly</passability>
 		<fillPercent>1</fillPercent>
 		<minifiedDef>MinifiedThing</minifiedDef>
@@ -1205,7 +1205,7 @@
 			</damageData>
 		</graphicData>		
 		<uiIconScale>0.80</uiIconScale>
-		<altitudeLayer>Blueprint</altitudeLayer>
+		<altitudeLayer>Pawn</altitudeLayer>
 		<passability>PassThroughOnly</passability>
 		<fillPercent>1</fillPercent>
 		<minifiedDef>MinifiedThing</minifiedDef>
@@ -1278,7 +1278,7 @@
 			</damageData>
 		</graphicData>		
 		<uiIconScale>0.80</uiIconScale>
-		<altitudeLayer>Blueprint</altitudeLayer>
+		<altitudeLayer>Pawn</altitudeLayer>
 		<passability>PassThroughOnly</passability>
 		<fillPercent>1</fillPercent>
 		<minifiedDef>MinifiedThing</minifiedDef>
@@ -1486,7 +1486,62 @@
 		<designationCategory>OldStyleFurniture</designationCategory>
 		<rotatable>false</rotatable>
 	</ThingDef>
-
+	<!-- 보관함 -->
+	<ThingDef ParentName="FurnitureWithQualityBase">
+		<defName>GL_Locker</defName>
+		<label>locker</label>
+		<description>A locker for storing miscellaneous items. Items stored in this will not deteriorate, even if outside. Also it prevents the contents from being damaged by fire.</description>
+		<thingClass>Gloomylynx.Building_Locker</thingClass>
+		<graphicData>
+			<texPath>Things/Building/Furniture/GL_Locker</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(1,1)</drawSize>
+		</graphicData>		
+		<uiIconScale>1</uiIconScale>
+		<altitudeLayer>Pawn</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.5</fillPercent>
+		<castEdgeShadows>true</castEdgeShadows>
+		<stuffCategories>
+			<li>Woody</li>
+		</stuffCategories>
+		<costStuffCount>60</costStuffCount>
+		<costList>
+			<Steel>25</Steel>
+		</costList>
+		<statBases>
+			<MaxHitPoints>180</MaxHitPoints>
+			<Mass>10</Mass>
+			<WorkToBuild>800</WorkToBuild>
+			<Flammability>0.75</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<building>
+			<preventDeteriorationOnTop>true</preventDeteriorationOnTop>
+			<ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty>
+			<defaultStorageSettings>
+				<priority>Important</priority>
+				<filter>
+					<categories>
+						<li>Weapons</li>
+					</categories>
+				</filter>
+			</defaultStorageSettings>
+		</building>
+		<inspectorTabs>
+			<li>ITab_Storage</li>
+		</inspectorTabs>
+		<staticSunShadowHeight>0.5</staticSunShadowHeight>
+		<surfaceType>Item</surfaceType>
+		<canOverlapZones>false</canOverlapZones>
+		<researchPrerequisites>
+			<li>ComplexFurniture</li>
+		</researchPrerequisites>
+		<designationCategory>OldStyleFurniture</designationCategory>
+	</ThingDef>
+	
+	
 
 	<ThingDef ParentName="BuildingBase">
 		<defName>RGK_Flower</defName>
@@ -1595,4 +1650,5 @@
 		<constructionSkillPrerequisite>5</constructionSkillPrerequisite>
 	</ThingDef>
 
+	
 </Defs>
