@@ -239,6 +239,7 @@
 		<defName>GL_ClassyDoubleBed</defName>
 		<label>classy double bed</label>
 		<description>Elegant bed decorated with lace that fits two people.</description>
+		<altitudeLayer>ItemImportant</altitudeLayer>
 		<graphicData>
 			<texPath>Things/Building/Furniture/GL_ClassyDoubleBed</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
