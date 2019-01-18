@@ -16,6 +16,12 @@
   <RGK_bedDoubleB.description>二人で寝るにはちょうど良いシンプルなケルト風ダブルベッドです。</RGK_bedDoubleB.description>
 
 
+  <!-- 레이스 더블 침대 -->
+
+  <GL_ClassyDoubleBed.label>classy double bed</GL_ClassyDoubleBed.label>
+  <GL_ClassyDoubleBed.description>Elegant bed decorated with lace that fits two people.</GL_ClassyDoubleBed.description>
+
+
   <!-- Table -->
 
   <RGK_Dresser.label>タンス</RGK_Dresser.label>

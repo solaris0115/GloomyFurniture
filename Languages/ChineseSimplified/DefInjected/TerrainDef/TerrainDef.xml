@@ -1,8 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
+  <!-- </TerrainDef> -->
+
   <RGK_Terrain.label>木地板</RGK_Terrain.label>
   <RGK_Terrain.description>木板地板的温暖，家庭的感觉。虽然它很快铺设，它也非常易燃。</RGK_Terrain.description>
+
+  <GL_Terrain.label>wood floor</GL_Terrain.label>
+  <GL_Terrain.description>Wood plank flooring for that warm, homey feeling. While it is quick to lay, it is also very flammable.</GL_Terrain.description>
 
   <PebbleSandstone.label>砂岩鹅卵石地板</PebbleSandstone.label>
   <PebbleSandstone.description>由鹅卵石铺成的地板.</PebbleSandstone.description>

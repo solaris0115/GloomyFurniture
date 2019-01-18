@@ -16,6 +16,12 @@
   <RGK_bedDoubleB.description>一张简单的双人床。圆圈图案。</RGK_bedDoubleB.description>
 
 
+  <!-- 레이스 더블 침대 -->
+
+  <GL_ClassyDoubleBed.label>classy double bed</GL_ClassyDoubleBed.label>
+  <GL_ClassyDoubleBed.description>Elegant bed decorated with lace that fits two people.</GL_ClassyDoubleBed.description>
+
+
   <!-- Table -->
 
   <RGK_Dresser.label>梳妆台</RGK_Dresser.label>

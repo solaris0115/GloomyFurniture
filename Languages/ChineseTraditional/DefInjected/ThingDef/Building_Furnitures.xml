@@ -16,6 +16,12 @@
   <RGK_bedDoubleB.description>這張印花雙人床適合兩個人。</RGK_bedDoubleB.description>
 
 
+  <!-- 레이스 더블 침대 -->
+
+  <GL_ClassyDoubleBed.label>classy double bed</GL_ClassyDoubleBed.label>
+  <GL_ClassyDoubleBed.description>Elegant bed decorated with lace that fits two people.</GL_ClassyDoubleBed.description>
+
+
   <!-- Table -->
 
   <RGK_Dresser.label>梳妝台</RGK_Dresser.label>

@@ -16,6 +16,12 @@
   <RGK_bedDoubleB.description>켈틱 자수가 놓여진 2인용 침대입니다.</RGK_bedDoubleB.description>
 
 
+  <!-- 레이스 더블 침대 -->
+
+  <GL_ClassyDoubleBed.label>고풍스러운 레이스 침대</GL_ClassyDoubleBed.label>
+  <GL_ClassyDoubleBed.description>우아한 레이스 장식이 있는 2인용 침대입니다.</GL_ClassyDoubleBed.description>
+
+
   <!-- Table -->
 
   <RGK_Dresser.label>옷장</RGK_Dresser.label>
@@ -119,9 +125,17 @@
 
   <RGK_Flower.label>모조 화분</RGK_Flower.label>
   <RGK_Flower.description>모조꽃으로 만든 화분입니다. 이 꽃은 영원할겁니다.</RGK_Flower.description>
+  <RGK_Flower_Blueprint.label>모조 화분 (청사진)</RGK_Flower_Blueprint.label>
+  <RGK_Flower_Blueprint_Install.label>모조 화분 (청사진)</RGK_Flower_Blueprint_Install.label>
+  <RGK_Flower_Frame.label>모조 화분 (건설중)</RGK_Flower_Frame.label>
+  <RGK_Flower_Frame.description>모조꽃으로 만든 화분입니다. 이 꽃은 영원할겁니다.</RGK_Flower_Frame.description>
 
   <RGK_Teaset.label>다기 세트</RGK_Teaset.label>
   <RGK_Teaset.description>장식용 다기 세트입니다. 우아하고 격식있어 보입니다.</RGK_Teaset.description>
+  <RGK_Teaset_Blueprint.label>다기 세트 (청사진)</RGK_Teaset_Blueprint.label>
+  <RGK_Teaset_Blueprint_Install.label>tea set (청사진)</RGK_Teaset_Blueprint_Install.label>
+  <RGK_Teaset_Frame.label>다기 세트 (건설중)</RGK_Teaset_Frame.label>
+  <RGK_Teaset_Frame.description>장식용 다기 세트입니다. 우아하고 격식있어 보입니다.</RGK_Teaset_Frame.description>
 
 
   <!--<RGK_bedSingle_Blueprint.label>침대 (청사진)</RGK_bedSingle_Blueprint.label>-->
