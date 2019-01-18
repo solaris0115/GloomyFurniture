@@ -111,6 +111,12 @@
   <RGK_DogBowl.label>餌入れ</RGK_DogBowl.label>
   <RGK_DogBowl.description>これは動物用のエサ入れです。ペットフードや干し草を保管することができます。</RGK_DogBowl.description>
 
+
+  <!-- 보관함 -->
+
+  <GL_Locker.label>locker</GL_Locker.label>
+  <GL_Locker.description>A locker for storing miscellaneous items. Items stored in this will not deteriorate, even if outside. Also it prevents the contents from being damaged by fire.</GL_Locker.description>
+
   <RGK_Flower.label>植木鉢 （造花)</RGK_Flower.label>
   <RGK_Flower.description>造花が飾られた植木鉢です。その花はいつまでも咲き続けるでしょう。</RGK_Flower.description>
   <RGK_Flower_Blueprint.label>replica flower (blueprint)</RGK_Flower_Blueprint.label>

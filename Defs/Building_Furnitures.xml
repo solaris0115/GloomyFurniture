@@ -234,6 +234,90 @@
 		<designationCategory>OldStyleFurniture</designationCategory>
 		<uiIconScale>0.90</uiIconScale>
 	</ThingDef>
+	<!-- 레이스 더블 침대 -->
+	<ThingDef ParentName="RGKArtableBedBase">
+		<defName>GL_ClassyDoubleBed</defName>
+		<label>classy double bed</label>
+		<description>Elegant bed decorated with lace that fits two people.</description>
+		<graphicData>
+			<texPath>Things/Building/Furniture/GL_ClassyDoubleBed</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(4,4)</drawSize>
+			<damageData>
+				<rect>(0,0.05,2,1.95)</rect>
+			</damageData>
+		</graphicData>
+		<comps>
+			<li Class="CompProperties_AffectedByFacilities">
+				<linkableFacilities>
+					<li>RGK_EndTableWithLamp</li>
+					<li>RGK_EndTableWithLampE</li>
+					<li>RGK_Dresser</li>
+					<li>RGK_EndTable</li>
+					<li>WardrobeA</li>
+					<li>WardrobeB</li>
+				</linkableFacilities>
+			</li>						
+			<li Class="Gloomylynx.CompProperties_SecondLayerFollow">
+				<graphicData>
+					<texPath>Things/Building/Furniture/GL_ClassyDoubleBedFrame</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<shaderType>Transparent</shaderType>
+					<drawSize>(4,4)</drawSize>
+				</graphicData>
+				<altitudeLayer>Pawn</altitudeLayer>
+			</li>
+			<li Class="Gloomylynx.CompProperties_SecondLayer">
+				<graphicData>
+					<texPath>Things/Building/Furniture/GL_ClassyDoubleBedLace</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<shaderType>Transparent</shaderType>
+					<drawSize>(4.05,4.05)</drawSize>
+					<color>(1,1,1,0.93)</color>
+				</graphicData>
+				<altitudeLayer>Blueprint</altitudeLayer>
+			</li>			
+
+
+		</comps>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<Flammability>1.0</Flammability>
+			<WorkToBuild>2500</WorkToBuild>
+			<Mass>75</Mass>
+			<Comfort>0.9</Comfort>
+			<Beauty>25</Beauty>
+			<BedRestEffectiveness>1.1</BedRestEffectiveness>
+			<ImmunityGainSpeedFactor>1.1</ImmunityGainSpeedFactor>
+			<SurgerySuccessChanceFactor>1</SurgerySuccessChanceFactor>
+		</statBases>
+		<size>(2,2)</size>
+		<stuffCategories>
+			<li>Woody</li>
+		</stuffCategories>
+		<costStuffCount>85</costStuffCount>
+		<costList>
+			<DevilstrandCloth>25</DevilstrandCloth>
+		</costList>
+		<building>
+			<bed_showSleeperBody>False</bed_showSleeperBody>
+			<bed_healPerDay>5</bed_healPerDay>
+		</building>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<fillPercent>0.5</fillPercent>
+		<pathCost>60</pathCost>
+		<leaveResourcesWhenKilled>True</leaveResourcesWhenKilled>
+		<staticSunShadowHeight>0.15</staticSunShadowHeight>
+		<castEdgeShadows>True</castEdgeShadows>
+		<designationHotKey>Misc1</designationHotKey>
+		<techLevel>Medieval</techLevel>
+		<researchPrerequisites>
+			<li>ComplexFurniture</li>
+		</researchPrerequisites>
+		<designationCategory>OldStyleFurniture</designationCategory>
+		<uiIconScale>0.90</uiIconScale>
+	</ThingDef>
 	<!--Table-->
 	<ThingDef ParentName="RGKArtableFurnitureBase">
 		<defName>RGK_Dresser</defName>

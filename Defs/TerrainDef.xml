@@ -1,11 +1,29 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-	<TerrainDef  ParentName="FloorBase">
-		<defName>RGK_Terrain</defName>
-		<label>wood floor</label>
+	<!-- <TerrainDef  ParentName="FloorBase"> -->
+		<!-- <defName>RGK_Terrain</defName> -->
+		<!-- <label>wood floor</label> -->
+		<!-- <renderPrecedence>250</renderPrecedence> -->
+		<!-- <description>Wood plank flooring for that warm, homey feeling. While it is quick to lay, it is also very flammable.</description> -->
+		<!-- <texturePath>Things/Building/RGK_Terrain</texturePath> -->
+		<!-- <burnedDef>BurnedWoodPlankFloor</burnedDef> -->
+		<!-- <color>(108,78,55)</color> -->
+		<!-- <statBases> -->
+			<!-- <WorkToBuild>85</WorkToBuild> -->
+			<!-- <Flammability>0.2</Flammability> -->
+			<!-- <Beauty>1</Beauty> -->
+		<!-- </statBases> -->
+		<!-- <costList> -->
+			<!-- <WoodLog>3</WoodLog> -->
+		<!-- </costList> -->
+		<!-- <constructEffect>ConstructWood</constructEffect> -->
+		<!-- <designationHotKey>Misc7</designationHotKey> -->
+	<!-- </TerrainDef> -->
+	
+	
+	<TerrainDef Abstract="True" ParentName="FloorBase" Name="WoodFloorBase">
 		<renderPrecedence>250</renderPrecedence>
 		<description>Wood plank flooring for that warm, homey feeling. While it is quick to lay, it is also very flammable.</description>
-		<texturePath>Things/Building/RGK_Terrain</texturePath>
 		<burnedDef>BurnedWoodPlankFloor</burnedDef>
 		<color>(108,78,55)</color>
 		<statBases>
@@ -18,6 +36,20 @@
 		</costList>
 		<constructEffect>ConstructWood</constructEffect>
 		<designationHotKey>Misc7</designationHotKey>
+		<designatorDropdown>Floor_Wood</designatorDropdown>
+	</TerrainDef>
+	
+	<TerrainDef ParentName="WoodFloorBase">
+		<defName>RGK_Terrain</defName>		
+		<texturePath>Things/Building/RGK_Terrain</texturePath>
+		<label>wood floor</label>
+		<color>(108,78,55)</color>
+	</TerrainDef>	
+	<TerrainDef ParentName="WoodFloorBase">
+		<defName>GL_Terrain</defName>		
+		<texturePath>Things/Building/GL_Terrain</texturePath>
+		<label>wood floor</label>
+		<color>(108,78,55)</color>
 	</TerrainDef>
 
 	<TerrainDef Abstract="True" ParentName="FloorBase" Name="PebbleBase">
@@ -85,6 +117,10 @@
 		</costList>
 	</TerrainDef>
 
+	<DesignatorDropdownGroupDef>
+		<defName>Floor_Wood</defName>
+	</DesignatorDropdownGroupDef>
+	
 	<DesignatorDropdownGroupDef>
 		<defName>Floor_Pebble</defName>
 	</DesignatorDropdownGroupDef>

@@ -9,16 +9,23 @@
   <Pause>暂停</Pause>
   <synchronize>同步</synchronize>
   <synchronizeDesc>同步自定义歌曲文件夹</synchronizeDesc>
+
   <WallAttachment_WarningNeedWall>必须放在墙上</WallAttachment_WarningNeedWall>
   <WallAttachment_WarningBlocked>必须要面对一个可通行的路径。</WallAttachment_WarningBlocked>
   <WallAttachment_Both>必须放置在墙上，面对一个可通过的路径。</WallAttachment_Both>
+
   <WallLight_DestroyedBlocked>灯已被损坏</WallLight_DestroyedBlocked>
   <WallLight_DestroyedWall>壁灯已被损坏</WallLight_DestroyedWall>
+
   <DoorAttachment_WarningNeedWall>必须放在墙上</DoorAttachment_WarningNeedWall>
   <DoorAttachment_WarningBlocked>必须要面对一个可通行的路径。</DoorAttachment_WarningBlocked>
   <DoorAttachment_Both>必须放置在墙上，面对一个可通过的路径。</DoorAttachment_Both>
+
   <PassableObject_CantPass>必须放在可通行的物体上</PassableObject_CantPass>
+
   <StandableObject_CantPass>必须放在可站立的地方</StandableObject_CantPass>
+
   <!--[Core] <State>State</State>-->
   <!--<State>State</State>-->
+
 </LanguageData>

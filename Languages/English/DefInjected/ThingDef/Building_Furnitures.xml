@@ -111,6 +111,12 @@
   <RGK_DogBowl.label>bowl</RGK_DogBowl.label>
   <RGK_DogBowl.description>It's a cask for animals. You can store food and hay.</RGK_DogBowl.description>
 
+
+  <!-- 보관함 -->
+
+  <GL_Locker.label>locker</GL_Locker.label>
+  <GL_Locker.description>A locker for storing miscellaneous items. Items stored in this will not deteriorate, even if outside. Also it prevents the contents from being damaged by fire.</GL_Locker.description>
+
   <RGK_Flower.label>replica flower</RGK_Flower.label>
   <RGK_Flower.description>It's a flowerpot replica. It'll be in bloom forever.</RGK_Flower.description>
   <RGK_Flower_Blueprint.label>replica flower (blueprint)</RGK_Flower_Blueprint.label>

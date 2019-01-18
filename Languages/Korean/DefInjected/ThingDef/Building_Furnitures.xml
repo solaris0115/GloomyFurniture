@@ -111,19 +111,17 @@
   <RGK_DogBowl.label>개밥그릇</RGK_DogBowl.label>
   <RGK_DogBowl.description>동물들을 위한 밥그릇입니다. 사료나 여물같은 것들을 담아둘 수 있습니다.</RGK_DogBowl.description>
 
+
+  <!-- 보관함 -->
+
+  <GL_Locker.label>보관함</GL_Locker.label>
+  <GL_Locker.description>물건들을 담아둘 수 있는 보관함 입니다.야외에서도 보관된 물건의 손상을 방지하며 보관된 아이템이 불에 의해 손상되지 않도록 방지해줍니다.</GL_Locker.description>
+
   <RGK_Flower.label>모조 화분</RGK_Flower.label>
   <RGK_Flower.description>모조꽃으로 만든 화분입니다. 이 꽃은 영원할겁니다.</RGK_Flower.description>
-  <RGK_Flower_Blueprint.label>모조 화분 (청사진)</RGK_Flower_Blueprint.label>
-  <RGK_Flower_Blueprint_Install.label>모조 화분 (청사진)</RGK_Flower_Blueprint_Install.label>
-  <RGK_Flower_Frame.label>모조 화분 (건설 중)</RGK_Flower_Frame.label>
-  <RGK_Flower_Frame.description>모조꽃으로 만든 화분입니다. 이 꽃은 영원할겁니다.</RGK_Flower_Frame.description>
 
   <RGK_Teaset.label>다기 세트</RGK_Teaset.label>
   <RGK_Teaset.description>장식용 다기 세트입니다. 우아하고 격식있어 보입니다.</RGK_Teaset.description>
-  <RGK_Teaset_Blueprint.label>다기 세트 (청사진)</RGK_Teaset_Blueprint.label>
-  <RGK_Teaset_Blueprint_Install.label>다기 세트 (청사진)</RGK_Teaset_Blueprint_Install.label>
-  <RGK_Teaset_Frame.label>다기 세트 (건설 중)</RGK_Teaset_Frame.label>
-  <RGK_Teaset_Frame.description>장식용 다기 세트입니다. 우아하고 격식있어 보입니다.</RGK_Teaset_Frame.description>
 
 
   <!--<RGK_bedSingle_Blueprint.label>침대 (청사진)</RGK_bedSingle_Blueprint.label>-->

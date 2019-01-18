@@ -87,6 +87,7 @@ namespace Gloomylynx
     internal class CompProperties_SecondLayer : CompProperties
     {
         public GraphicData graphicData=null;
+        public bool drawOnlySouth = false;
 
         public AltitudeLayer altitudeLayer = AltitudeLayer.MoteOverhead;
 
@@ -94,24 +95,31 @@ namespace Gloomylynx
         {
             get
             {
-                return this.altitudeLayer.AltitudeFor();
+                return altitudeLayer.AltitudeFor();
             }
         }
 
         public CompProperties_SecondLayer()
         {
-            this.compClass = typeof(CompSecondLayer);
+            compClass = typeof(CompSecondLayer);
         }
     }
     internal class CompSecondLayer : ThingComp
     {
+        bool drawOnlySouth = false;
+        bool followParentColor = false;
         private Graphic graphicInt;
+        public override void PostDeSpawn(Map map)
+        {
+            base.PostDeSpawn(map);
+            drawOnlySouth = Props.drawOnlySouth;
+        }
 
         public CompProperties_SecondLayer Props
         {
             get
             {
-                return (CompProperties_SecondLayer)this.props;
+                return (CompProperties_SecondLayer)props;
             }
         }
 
@@ -119,32 +127,100 @@ namespace Gloomylynx
         {
             get
             {
-                if (this.graphicInt == null)
+                if (graphicInt == null)
                 {
-                    if (this.Props.graphicData == null)
+                    if (Props.graphicData == null)
                     {
-                        Log.ErrorOnce(this.parent.def + "GloomylynxFurniture - has no SecondLayer graphicData but we are trying to access it.", 764532, false);
+                        Log.ErrorOnce(parent.def + "GloomylynxFurniture - has no SecondLayer graphicData but we are trying to access it.", 764532, false);
                         return BaseContent.BadGraphic;
                     }
-                    this.graphicInt = this.Props.graphicData.GraphicColoredFor(this.parent);
+                    graphicInt = Props.graphicData.Graphic;
                 }
-                return this.graphicInt;
+                return graphicInt;
             }
         }
 
         public override void PostDraw()
         {
-            if (parent.Rotation == Rot4.South)
+            if(drawOnlySouth && parent.Rotation == Rot4.South)
             {
-                this.Graphic.Draw(GenThing.TrueCenter(this.parent.Position, this.parent.Rotation, this.parent.def.size, Props.Altitude), this.parent.Rotation, this.parent, 0f);
-                return;
+                Graphic.Draw(GenThing.TrueCenter(parent.Position, parent.Rotation, parent.def.size, Props.Altitude), parent.Rotation, parent, 0f);
             }
-            
+            else
+            {
+                Graphic.Draw(GenThing.TrueCenter(parent.Position, parent.Rotation, parent.def.size, Props.Altitude), parent.Rotation, parent, 0f);
+            }            
         }
     }
-  
+    internal class CompProperties_SecondLayerFollow : CompProperties
+    {
+        public GraphicData graphicData = null;
+        public bool drawOnlySouth = false;
 
-    
+        public AltitudeLayer altitudeLayer = AltitudeLayer.MoteOverhead;
+
+        public float Altitude
+        {
+            get
+            {
+                return altitudeLayer.AltitudeFor();
+            }
+        }
+
+        public CompProperties_SecondLayerFollow()
+        {
+            compClass = typeof(CompSecondLayerFollow);
+        }
+    }
+    internal class CompSecondLayerFollow : ThingComp
+    {
+        bool drawOnlySouth = false;
+        private Graphic graphicInt;
+        public override void PostDeSpawn(Map map)
+        {
+            base.PostDeSpawn(map);
+            drawOnlySouth = Props.drawOnlySouth;
+        }
+
+        public CompProperties_SecondLayerFollow Props
+        {
+            get
+            {
+                return (CompProperties_SecondLayerFollow)props;
+            }
+        }
+
+        public virtual Graphic Graphic
+        {
+            get
+            {
+                if (graphicInt == null)
+                {
+                    if (Props.graphicData == null)
+                    {
+                        Log.ErrorOnce(parent.def + "GloomylynxFurniture - has no SecondLayer graphicData but we are trying to access it.", 764532, false);
+                        return BaseContent.BadGraphic;
+                    }
+                    graphicInt = Props.graphicData.GraphicColoredFor(parent);
+                }
+                return graphicInt;
+            }
+        }
+
+        public override void PostDraw()
+        {
+            if (drawOnlySouth && parent.Rotation == Rot4.South)
+            {
+                Graphic.Draw(GenThing.TrueCenter(parent.Position, parent.Rotation, parent.def.size, Props.Altitude), parent.Rotation, parent, 0f);
+            }
+            else
+            {
+                Graphic.Draw(GenThing.TrueCenter(parent.Position, parent.Rotation, parent.def.size, Props.Altitude), parent.Rotation, parent, 0f);
+            }
+        }
+    }
+
+
     public class CompProperties_JukeBox:CompProperties
     {
         public SongDef stopSong;

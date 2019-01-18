@@ -1,9 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
+
   <GL_TreeA.label>盛开花树</GL_TreeA.label>
   <GL_TreeA.description>美丽的栽培树，始终保持开花的状态，让人们在观赏时心情愈加愉悦。</GL_TreeA.description>
+
   <GL_TreeB.label>荧光花树</GL_TreeB.label>
   <GL_TreeB.description>散发荧光的栽培树，闪闪发光的样子配合着星空在夜晚愈发动人。
 
 </GL_TreeB.description>
+
+
 </LanguageData>
