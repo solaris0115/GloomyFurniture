@@ -1,384 +1,270 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
   <!-- Bed -->
 
   <RGK_bedSingle.label>ベッド</RGK_bedSingle.label>
   <RGK_bedSingle.description>寝心地の良いマットレスとベッドフレームに布団とシーツがかけられています。</RGK_bedSingle.description>
+  <!--<Blueprint_RGK_bedSingle.label>ベッド(設計)</Blueprint_RGK_bedSingle.label>
+  <!--<Blueprint_Install_RGK_bedSingle.label>ベッド(移動先)</Blueprint_Install_RGK_bedSingle.label>-->
+  <!--<Frame_RGK_bedSingle.label>ベッド(施工)</Frame_RGK_bedSingle.label>-->
+  <!--<Frame_RGK_bedSingle.description>寝心地の良いマットレスとベッドフレームに布団とシーツがかけられています。</Frame_RGK_bedSingle.description>-->
+
 
   <RGK_bedSingleB.label>ベッド2</RGK_bedSingleB.label>
   <RGK_bedSingleB.description>寝心地の良いマットレスとベッドフレームに布団とシーツがかけられています。</RGK_bedSingleB.description>
+  <!--<Blueprint_RGK_bedSingleB.label>ベッド2(設計)</Blueprint_RGK_bedSingleB.label>-->
+  <!--<Blueprint_Install_RGK_bedSingleB.label>ベッド2(移動先)</Blueprint_Install_RGK_bedSingleB.label>-->
+  <!--<Frame_RGK_bedSingleB.label>ベッド2(施工)</Frame_RGK_bedSingleB.label>-->
+  <!--<Frame_RGK_bedSingleB.description>寝心地の良いマットレスとベッドフレームに布団とシーツがかけられています。</Frame_RGK_bedSingleB.description>-->
 
   <RGK_bedDouble.label>ダブルベッド</RGK_bedDouble.label>
   <RGK_bedDouble.description>二人で寝るにはちょうど良いシンプルなダブルベッドです。</RGK_bedDouble.description>
+  <!--<Blueprint_RGK_bedDouble.label>ダブルベッド(設計)</Blueprint_RGK_bedDouble.label>-->
+  <!--<Blueprint_Install_RGK_bedDouble.label>ダブルベッド(移動先)</Blueprint_Install_RGK_bedDouble.label>-->
+  <!--<Frame_RGK_bedDouble.label>ダブルベッド(施工)</Frame_RGK_bedDouble.label>-->
+  <!--<Frame_RGK_bedDouble.description>二人で寝るにはちょうど良いシンプルなダブルベッドです。</Frame_RGK_bedDouble.description>-->
 
   <RGK_bedDoubleB.label>ダブルベッド2</RGK_bedDoubleB.label>
   <RGK_bedDoubleB.description>二人で寝るにはちょうど良いシンプルなケルト風ダブルベッドです。</RGK_bedDoubleB.description>
+  <!--<Blueprint_RGK_bedDoubleB.label>ダブルベッド2(設計)</Blueprint_RGK_bedDoubleB.label>-->
+  <!--<Blueprint_Install_RGK_bedDoubleB.label>ダブルベッド2(移動先)</Blueprint_Install_RGK_bedDoubleB.label>-->
+  <!--<Frame_RGK_bedDoubleB.label>ダブルベッド2(施工)</Frame_RGK_bedDoubleB.label>-->
+  <!--<Frame_RGK_bedDoubleB.description>二人で寝るにはちょうど良いシンプルなケルト風ダブルベッドです。</Frame_RGK_bedDoubleB.description>-->
 
 
-  <!-- 레이스 더블 침대 -->
+  <!-- Lace double bed -->
 
-  <GL_ClassyDoubleBed.label>classy double bed</GL_ClassyDoubleBed.label>
-  <GL_ClassyDoubleBed.description>Elegant bed decorated with lace that fits two people.</GL_ClassyDoubleBed.description>
+  <GL_ClassyDoubleBed.label>高級なダブルベッド</GL_ClassyDoubleBed.label>
+  <GL_ClassyDoubleBed.description>二人用のレースで飾られた優雅なベッドです。</GL_ClassyDoubleBed.description>
+  <!--<Blueprint_GL_ClassyDoubleBed.label>高級なダブルベッド(設計)</Blueprint_GL_ClassyDoubleBed.label>-->
+  <!--<Blueprint_Install_GL_ClassyDoubleBed.label>高級なダブルベッド(移動先)</Blueprint_Install_GL_ClassyDoubleBed.label>-->
+  <!--<Frame_GL_ClassyDoubleBed.label>高級なダブルベッド(施工)</Frame_GL_ClassyDoubleBed.label>-->
+  <!--<Frame_GL_ClassyDoubleBed.description>二人用のレースで飾られた優雅なベッドです。</Frame_GL_ClassyDoubleBed.description>-->
 
 
   <!-- Table -->
 
   <RGK_Dresser.label>タンス</RGK_Dresser.label>
   <RGK_Dresser.description>タンスです。近くにある全てのベッドに僅かですが快適性にボーナスを与えます。 同じベッドの近くに2つ以上のタンスを置いても効果はありません。</RGK_Dresser.description>
+  <!--<Blueprint_RGK_Dresser.label>タンス(設計)</Blueprint_RGK_Dresser.label>-->
+  <!--<Blueprint_Install_RGK_Dresser.label>タンス(移動先)</Blueprint_Install_RGK_Dresser.label>-->
+  <!--<Frame_RGK_Dresser.label>タンス(施工)</Frame_RGK_Dresser.label>-->
+  <!--<Frame_RGK_Dresser.description>タンスです。近くにある全てのベッドに僅かですが快適性にボーナスを与えます。 同じベッドの近くに2つ以上のタンスを置いても効果はありません。</Frame_RGK_Dresser.description>-->
 
   <RGK_EndTable.label>エンドテーブル</RGK_EndTable.label>
   <RGK_EndTable.description>小型のベッドの横に置くサイドテーブルです。近くにあるベッドに僅かですが快適性にボーナスを与えます。必ずベッドの頭側の横に隣接して置かなければ効果はありません。同じベッドに2つ以上のエンドテーブルを置いても効果はありません。</RGK_EndTable.description>
+  <!--<Blueprint_RGK_EndTable.label>エンドテーブル(設計)</Blueprint_RGK_EndTable.label>-->
+  <!--<Blueprint_Install_RGK_EndTable.label>エンドテーブル(移動先)</Blueprint_Install_RGK_EndTable.label>-->
+  <!--<Frame_RGK_EndTable.label>エンドテーブル(施工)</Frame_RGK_EndTable.label>-->
+  <!--<Frame_RGK_EndTable.description>小型のベッドの横に置くサイドテーブルです。近くにあるベッドに僅かですが快適性にボーナスを与えます。必ずベッドの頭側の横に隣接して置かなければ効果はありません。同じベッドに2つ以上のエンドテーブルを置いても効果はありません。</Frame_RGK_EndTable.description>-->
 
   <RGK_EndTableWithLamp.label>エンドテーブル</RGK_EndTableWithLamp.label>
   <RGK_EndTableWithLamp.description>小型のベッドの横に置くサイドテーブルです。近くにあるベッドに僅かですが快適性にボーナスを与えます。必ずベッドの頭側の横に隣接して置かなければ効果はありません。同じベッドに2つ以上のエンドテーブルを置いても効果はありません。</RGK_EndTableWithLamp.description>
+  <!--<Blueprint_Install_RGK_EndTableWithLamp.label>エンドテーブル(移動先)</Blueprint_Install_RGK_EndTableWithLamp.label>-->
+  <!-- <Frame_RGK_EndTableWithLamp.label>エンドテーブル(施工)</Frame_RGK_EndTableWithLamp.label>-->
+  <!-- <Frame_RGK_EndTableWithLamp.description>小型のベッドの横に置くサイドテーブルです。近くにあるベッドに僅かですが快適性にボーナスを与えます。必ずベッドの頭側の横に隣接して置かなければ効果はありません。同じベッドに2つ以上のエンドテーブルを置いても効果はありません。</Frame_RGK_EndTableWithLamp.description> -->
 
   <RGK_EndTableWithLampE.label>エンド テーブル(電)</RGK_EndTableWithLampE.label>
   <RGK_EndTableWithLampE.description>小型のベッドの横に置くサイドテーブルです。近くにあるベッドに僅かですが快適性にボーナスを与えます。必ずベッドの頭側の横に隣接して置かなければ効果はありません。同じベッドに2つ以上のエンドテーブルを置いても効果はありません。電気が必要です。</RGK_EndTableWithLampE.description>
+  <!-- <Blueprint_RGK_EndTableWithLamp.label>エンドテーブル(設計)</Blueprint_RGK_EndTableWithLamp.label> -->
+  <!-- <Blueprint_RGK_EndTableWithLampE.label>エンドテーブル(電)(設計)</Blueprint_RGK_EndTableWithLampE.label> -->
+  <!--<Blueprint_Install_RGK_EndTableWithLampE.label>エンドテーブル(電)(移動先)</Blueprint_Install_RGK_EndTableWithLampE.label>-->
+  <!-- <Frame_RGK_EndTableWithLampE.label>エンドテーブル(電)(施工)</Frame_RGK_EndTableWithLampE.label>-->
+  <!-- <Frame_RGK_EndTableWithLampE.description>小型のベッドの横に置くサイドテーブルです。近くにあるベッドに僅かですが快適性にボーナスを与えます。必ずベッドの頭側の横に隣接して置かなければ効果はありません。同じベッドに2つ以上のエンドテーブルを置いても効果はありません。電気が必要です。</Frame_RGK_EndTableWithLampE.description> -->
 
 
   <!-- Chair -->
 
   <RGK_bucketr.label>バケツ (RGK)</RGK_bucketr.label>
   <RGK_bucketr.description>バケツです。</RGK_bucketr.description>
+  <!--<Blueprint_RGK_bucketr.label>バケツ (RGK)(設計)</Blueprint_RGK_bucketr.label>-->
+  <!--<Blueprint_Install_RGK_bucketr.label>バケツ (RGK)(移動先)</Blueprint_Install_RGK_bucketr.label>-->
+  <!--<Frame_RGK_bucketr.label>バケツ (RGK)(施工)</Frame_RGK_bucketr.label>-->
+  <!--<Frame_RGK_bucketr.description>バケツです。</Frame_RGK_bucketr.description>-->
 
   <RGK_orc.label>オーク樽 (RGK)</RGK_orc.label>
   <RGK_orc.description>オーク材で作られた樽です。</RGK_orc.description>
+  <!--<Blueprint_RGK_orc.label>オーク樽 (RGK)(設計)</Blueprint_RGK_orc.label>-->
+  <!--<Blueprint_Install_RGK_orc.label>オーク樽 (RGK)(移動先)</Blueprint_Install_RGK_orc.label>-->
+  <!--<Frame_RGK_orc.label>オーク樽 (RGK)(施工)</Frame_RGK_orc.label>-->
+  <!--<Frame_RGK_orc.description>オーク材で作られた樽です。</Frame_RGK_orc.description>-->
 
   <RGK_SimpleChair.label>シンプル チェア</RGK_SimpleChair.label>
   <RGK_SimpleChair.description>座るためのシンプルな椅子です。それほど快適ではありませんが、何も無いよりはマシでしょう。テーブルや作業台、その他の場所に置いて使用できます。</RGK_SimpleChair.description>
+  <!--<Blueprint_RGK_SimpleChair.label>シンプル チェア(設計)</Blueprint_RGK_SimpleChair.label>-->
+  <!--<Blueprint_Install_RGK_SimpleChair.label>シンプル チェア(移動先)</Blueprint_Install_RGK_SimpleChair.label>-->
+  <!--<Frame_RGK_SimpleChair.label>シンプル チェア(施工)</Frame_RGK_SimpleChair.label>-->
+  <!--<Frame_RGK_SimpleChair.description>座るためのシンプルな椅子です。それほど快適ではありませんが、何も無いよりはマシでしょう。テーブルや作業台、その他の場所に置いて使用できます。</Frame_RGK_SimpleChair.description>-->
 
   <RGK_Chair.label>ノーマル チェア</RGK_Chair.label>
   <RGK_Chair.description>快適な椅子です。テーブルや作業台、その他の場所に置いて使用できます。</RGK_Chair.description>
+  <!--<Blueprint_RGK_Chair.label>ノーマル チェア(設計)</Blueprint_RGK_Chair.label>-->
+  <!--<Blueprint_Install_RGK_Chair.label>ノーマル チェア(移動先)</Blueprint_Install_RGK_Chair.label>-->
+  <!--<Frame_RGK_Chair.label>ノーマル チェア(施工)</Frame_RGK_Chair.label>-->
+  <!--<Frame_RGK_Chair.description>快適な椅子です。テーブルや作業台、その他の場所に置いて使用できます。</Frame_RGK_Chair.description>-->
 
   <RGKDiningChair.label>ダイニング チェア</RGKDiningChair.label>
   <RGKDiningChair.description>快適で見栄えがよい椅子です。テーブルや作業台、その他の場所に置いて使用できます。</RGKDiningChair.description>
+  <!--<Blueprint_RGKDiningChair.label>ダイニング チェア(設計)</Blueprint_RGKDiningChair.label>-->
+  <!--<Blueprint_Install_RGKDiningChair.label>ダイニング チェア(移動先)</Blueprint_Install_RGKDiningChair.label>-->
+  <!--<Frame_RGKDiningChair.label>ダイニング チェア(施工)</Frame_RGKDiningChair.label>-->
+  <!--<Frame_RGKDiningChair.description>快適で見栄えがよい椅子です。テーブルや作業台、その他の場所に置いて使用できます。</Frame_RGKDiningChair.description>-->
 
 
-  <!-- 공원벤치 -->
+  <!-- Park bench -->
 
   <GL_Bench.label>ベンチ</GL_Bench.label>
   <GL_Bench.description>これは公園のベンチ型の椅子です。カップルでここに座ることはできません。</GL_Bench.description>
+  <!--<Blueprint_GL_Bench.label>ベンチ(設計)</Blueprint_GL_Bench.label>-->
+  <!--<Blueprint_Install_GL_Bench.label>ベンチ(移動先)</Blueprint_Install_GL_Bench.label>-->
+  <!--<Frame_GL_Bench.label>ベンチ(施工)</Frame_GL_Bench.label>-->
+  <!--<Frame_GL_Bench.description>これは公園のベンチ型の椅子です。カップルでここに座ることはできません。</Frame_GL_Bench.description>-->
 
   <RGK_TableA.label>テーブル(2x2)</RGK_TableA.label>
   <RGK_TableA.description>イスを向き合うように配置すると、人々はここで食事をとるようになります。</RGK_TableA.description>
+  <!--<Blueprint_RGK_TableA.label>テーブル(2x2)(設計)</Blueprint_RGK_TableA.label>-->
+  <!--<Blueprint_Install_RGK_TableA.label>テーブル(2x2)(移動先)</Blueprint_Install_RGK_TableA.label>-->
+  <!--<Frame_RGK_TableA.label>テーブル(2x2)(施工)</Frame_RGK_TableA.label>-->
+  <!--<Frame_RGK_TableA.description>イスを向き合うように配置すると、人々はここで食事をとるようになります。</Frame_RGK_TableA.description>-->
 
   <RGK_TableC.label>テーブルC(2x2)</RGK_TableC.label>
   <RGK_TableC.description>イスを向き合うように配置すると、人々はここで食事をとるようになります。</RGK_TableC.description>
+  <!--<Blueprint_RGK_TableC.label>テーブルC(2x2)(設計)</Blueprint_RGK_TableC.label>-->
+  <!--<Blueprint_Install_RGK_TableC.label>テーブルC(2x2)(移動先)</Blueprint_Install_RGK_TableC.label>-->
+  <!--<Frame_RGK_TableC.label>テーブルC(2x2)(施工)</Frame_RGK_TableC.label>-->
+  <!--<Frame_RGK_TableC.description>イスを向き合うように配置すると、人々はここで食事をとるようになります。</Frame_RGK_TableC.description>-->
 
   <RGK_TableB.label>ケルト テーブル(2x2)</RGK_TableB.label>
   <RGK_TableB.description>イスを向き合うように配置すると、人々はここで食事をとるようになります。</RGK_TableB.description>
+  <!--<Blueprint_RGK_TableB.label>ケルト テーブル(2x2)(設計)</Blueprint_RGK_TableB.label>-->
+  <!--<Blueprint_Install_RGK_TableB.label>ケルト テーブル(2x2)(移動先)</Blueprint_Install_RGK_TableB.label>-->
+  <!--<Frame_RGK_TableB.label>ケルト テーブル(2x2)(施工)</Frame_RGK_TableB.label>-->
+  <!--<Frame_RGK_TableB.description>イスを向き合うように配置すると、人々はここで食事をとるようになります。</Frame_RGK_TableB.description>-->
 
   <RGK_TableD.label>ケルト テーブルD(2x2)</RGK_TableD.label>
   <RGK_TableD.description>イスを向き合うように配置すると、人々はここで食事をとるようになります。</RGK_TableD.description>
+  <!--<Blueprint_RGK_TableD.label>ケルト テーブルD(2x2)(設計)</Blueprint_RGK_TableD.label> -->
+  <!--<Blueprint_Install_RGK_TableD.label>ケルト テーブルD(2x2)(移動先)</Blueprint_Install_RGK_TableD.label>-->
+  <!--<Frame_RGK_TableD.label>ケルト テーブルD(2x2)(施工)</Frame_RGK_TableD.label>-->
+  <!--<Frame_RGK_TableD.description>イスを向き合うように配置すると、人々はここで食事をとるようになります。</Frame_RGK_TableD.description>-->
 
   <RGK_TableE.label>ケルト テーブル(2x1)</RGK_TableE.label>
   <RGK_TableE.description>イスを向き合うように配置すると、人々はここで食事をとるようになります。</RGK_TableE.description>
+  <!--<Blueprint_RGK_TableE.label>ケルト テーブル(2x1)(設計)</Blueprint_RGK_TableE.label>-->
+  <!--<Blueprint_Install_RGK_TableE.label>ケルト テーブル(2x1)(移動先)</Blueprint_Install_RGK_TableE.label>-->
+  <!--<Frame_RGK_TableE.label>ケルト テーブル(2x1)(施工)</Frame_RGK_TableE.label>-->
+  <!--<Frame_RGK_TableE.description>イスを向き合うように配置すると、人々はここで食事をとるようになります。</Frame_RGK_TableE.description>-->
 
   <RGK_TableF.label>ケルト テーブル(3x2)</RGK_TableF.label>
   <RGK_TableF.description>イスを向き合うように配置すると、人々はここで食事をとるようになります。</RGK_TableF.description>
+  <!--<Blueprint_RGK_TableF.label>ケルト テーブル(3x2)(設計)</Blueprint_RGK_TableF.label>-->
+  <!--<Blueprint_Install_RGK_TableF.label>ケルト テーブル(3x2)(移動先)</Blueprint_Install_RGK_TableF.label>-->
+  <!--<Frame_RGK_TableF.label>ケルト テーブル(3x2)(施工)</Frame_RGK_TableF.label>-->
+  <!--<Frame_RGK_TableF.description>イスを向き合うように配置すると、人々はここで食事をとるようになります。</Frame_RGK_TableF.description>-->
 
   <RGK_TableG.label>ケルト テーブルG(2x2)</RGK_TableG.label>
   <RGK_TableG.description>イスを向き合うように配置すると、人々はここで食事をとるようになります。</RGK_TableG.description>
+  <!--<Blueprint_RGK_TableG.label>ケルト テーブルG(2x2)(設計)</Blueprint_RGK_TableG.label>-->
+  <!--<Blueprint_Install_RGK_TableG.label>ケルト テーブルG(2x2)(移動先)</Blueprint_Install_RGK_TableG.label>-->
+  <!--<Frame_RGK_TableG.label>ケルト テーブルG(2x2)(施工)</Frame_RGK_TableG.label>-->
+  <!--<Frame_RGK_TableG.description>イスを向き合うように配置すると、人々はここで食事をとるようになります。</Frame_RGK_TableG.description>-->
 
   <RGK_TableH.label>ケルト テーブル(3x3)</RGK_TableH.label>
   <RGK_TableH.description>イスを向き合うように配置すると、人々はここで食事をとるようになります。</RGK_TableH.description>
+  <!--<Blueprint_RGK_TableH.label>ケルト テーブル(3x3)(設計)</Blueprint_RGK_TableH.label>-->
+  <!--<Blueprint_Install_RGK_TableH.label>ケルト テーブル(3x3)(移動先)</Blueprint_Install_RGK_TableH.label>-->
+  <!--<Frame_RGK_TableH.label>ケルト テーブル(3x3)(施工)</Frame_RGK_TableH.label>-->
+  <!--<Frame_RGK_TableH.description>イスを向き合うように配置すると、人々はここで食事をとるようになります。</Frame_RGK_TableH.description>-->
 
   <RGK_MiniTableA.label>ミニテーブル</RGK_MiniTableA.label>
   <RGK_MiniTableA.description>イスを向き合うように配置すると、人々はここで食事をとるようになります。</RGK_MiniTableA.description>
+  <!--<Blueprint_RGK_MiniTableA.label>ミニテーブル(設計)</Blueprint_RGK_MiniTableA.label>-->
+  <!--<Blueprint_Install_RGK_MiniTableA.label>ミニテーブル(移動先)</Blueprint_Install_RGK_MiniTableA.label>-->
+  <!--<Frame_RGK_MiniTableA.label>ミニテーブル(施工)</Frame_RGK_MiniTableA.label>-->
+  <!--<Frame_RGK_MiniTableA.description>イスを向き合うように配置すると、人々はここで食事をとるようになります。</Frame_RGK_MiniTableA.description>-->
 
   <RGK_MiniTableB.label>ミニテーブル2</RGK_MiniTableB.label>
   <RGK_MiniTableB.description>イスを向き合うように配置すると、人々はここで食事をとるようになります。</RGK_MiniTableB.description>
+  <!--<Blueprint_RGK_MiniTableB.label>ミニテーブル2(設計)</Blueprint_RGK_MiniTableB.label>-->
+  <!--<Blueprint_Install_RGK_MiniTableB.label>ミニテーブル2(移動先)</Blueprint_Install_RGK_MiniTableB.label>-->
+  <!--<Frame_RGK_MiniTableB.label>ミニテーブル2(施工)</Frame_RGK_MiniTableB.label>-->
+  <!--<Frame_RGK_MiniTableB.description>イスを向き合うように配置すると、人々はここで食事をとるようになります。</Frame_RGK_MiniTableB.description>-->
 
 
   <!-- Storage -->
 
   <RKGWineRackB.label>ワインラック</RKGWineRackB.label>
   <RKGWineRackB.description>ワインやお酒を保管するための棚です。</RKGWineRackB.description>
-
-  <WardrobeA.label>ワードローブ</WardrobeA.label>
-  <WardrobeA.description>服を収納するための棚やタンスです。</WardrobeA.description>
-
-  <WardrobeB.label>ワードローブ2</WardrobeB.label>
-  <WardrobeB.description>服を収納するための棚やタンスです。</WardrobeB.description>
-
-  <RGK_Manger.label>飼い葉おけ</RGK_Manger.label>
-  <RGK_Manger.description>これは動物用のおけです。ペットフードや干し草を保管することができます。</RGK_Manger.description>
-
-
-  <!-- 선반 -->
-
-  <GL_Shelf.label>ロッカー</GL_Shelf.label>
-  <GL_Shelf.description>この中に保存されたアイテムは、ロッカーが外気に触れていても劣化しません。</GL_Shelf.description>
-
-
-  <!-- 개밥그릇 -->
-
-  <RGK_DogBowl.label>餌入れ</RGK_DogBowl.label>
-  <RGK_DogBowl.description>これは動物用のエサ入れです。ペットフードや干し草を保管することができます。</RGK_DogBowl.description>
-
-
-  <!-- 보관함 -->
-
-  <GL_Locker.label>locker</GL_Locker.label>
-  <GL_Locker.description>A locker for storing miscellaneous items. Items stored in this will not deteriorate, even if outside. Also it prevents the contents from being damaged by fire.</GL_Locker.description>
-
-  <RGK_Flower.label>植木鉢 （造花)</RGK_Flower.label>
-  <RGK_Flower.description>造花が飾られた植木鉢です。その花はいつまでも咲き続けるでしょう。</RGK_Flower.description>
-  <RGK_Flower_Blueprint.label>replica flower (blueprint)</RGK_Flower_Blueprint.label>
-  <RGK_Flower_Blueprint_Install.label>replica flower (blueprint)</RGK_Flower_Blueprint_Install.label>
-  <RGK_Flower_Frame.label>replica flower (building)</RGK_Flower_Frame.label>
-  <RGK_Flower_Frame.description>It's a flowerpot replica. It'll be in bloom forever.</RGK_Flower_Frame.description>
-
-  <RGK_Teaset.label>ティーセット</RGK_Teaset.label>
-  <RGK_Teaset.description>これは装飾されたティーカップなどのセットです。とても贅沢な作りで、使うのが勿体ないぐらいです。</RGK_Teaset.description>
-  <RGK_Teaset_Blueprint.label>tea set (blueprint)</RGK_Teaset_Blueprint.label>
-  <RGK_Teaset_Blueprint_Install.label>tea set (blueprint)</RGK_Teaset_Blueprint_Install.label>
-  <RGK_Teaset_Frame.label>tea set (building)</RGK_Teaset_Frame.label>
-  <RGK_Teaset_Frame.description>This is a set of decorative teas. It looks like a luxury, and it's a shame to use it.</RGK_Teaset_Frame.description>
-
-
-  <!--<RGK_bedSingle_Blueprint.label>bed (blueprint)</RGK_bedSingle_Blueprint.label>-->
-  <!--<RGK_bedSingle_Blueprint_Install.label>bed (blueprint)</RGK_bedSingle_Blueprint_Install.label>-->
-  <!--<RGK_bedSingle_Frame.label>bed (building)</RGK_bedSingle_Frame.label>-->
-  <!--<RGK_bedSingle_Frame.description>A cozy mattress and sheets on a frame for resting.</RGK_bedSingle_Frame.description>-->
-  <!--<RGK_bedSingleB_Blueprint.label>bed2 (blueprint)</RGK_bedSingleB_Blueprint.label>-->
-  <!--<RGK_bedSingleB_Blueprint_Install.label>bed2 (blueprint)</RGK_bedSingleB_Blueprint_Install.label>-->
-  <!--<RGK_bedSingleB_Frame.label>bed2 (building)</RGK_bedSingleB_Frame.label>-->
-  <!--<RGK_bedSingleB_Frame.description>A cozy mattress and sheets on a frame for resting.</RGK_bedSingleB_Frame.description>-->
-  <!--<RGK_bedDouble_Blueprint.label>double bed (blueprint)</RGK_bedDouble_Blueprint.label>-->
-  <!--<RGK_bedDouble_Blueprint_Install.label>double bed (blueprint)</RGK_bedDouble_Blueprint_Install.label>-->
-  <!--<RGK_bedDouble_Frame.label>double bed (building)</RGK_bedDouble_Frame.label>-->
-  <!--<RGK_bedDouble_Frame.description>A simple double-wide bed that fits two people.</RGK_bedDouble_Frame.description>-->
-  <!--<RGK_bedDoubleB_Blueprint.label>double bed2 (blueprint)</RGK_bedDoubleB_Blueprint.label>-->
-  <!--<RGK_bedDoubleB_Blueprint_Install.label>double bed2 (blueprint)</RGK_bedDoubleB_Blueprint_Install.label>-->
-  <!--<RGK_bedDoubleB_Frame.label>double bed2 (building)</RGK_bedDoubleB_Frame.label>-->
-  <!--<RGK_bedDoubleB_Frame.description>A Celtic double-wide bed that fits two people.</RGK_bedDoubleB_Frame.description>-->
-  <!--<RGK_Dresser_Blueprint.label>dresser (blueprint)</RGK_Dresser_Blueprint.label>-->
-  <!--<RGK_Dresser_Blueprint_Install.label>dresser (blueprint)</RGK_Dresser_Blueprint_Install.label>-->
-  <!--<RGK_Dresser_Frame.label>dresser (building)</RGK_Dresser_Frame.label>-->
-  <!--<RGK_Dresser_Frame.description>A dresser. Gives a small comfort bonus to all nearby beds. Placing more than one dresser near the same bed has no effect.</RGK_Dresser_Frame.description>-->
-  <!--<RGK_EndTable_Blueprint.label>End table (blueprint)</RGK_EndTable_Blueprint.label>-->
-  <!--<RGK_EndTable_Blueprint_Install.label>End table (blueprint)</RGK_EndTable_Blueprint_Install.label>-->
-  <!--<RGK_EndTable_Frame.label>End table (building)</RGK_EndTable_Frame.label>-->
-  <!--<RGK_EndTable_Frame.description>A small bedside table which makes nearby beds a little bit more comfortable. Must be placed directly adjacent to the head of the bed. Placing more than one end table near the same bed has no effect.</RGK_EndTable_Frame.description>-->
-  <!--<RGK_EndTableWithLamp_Blueprint_Install.label>end table (blueprint)</RGK_EndTableWithLamp_Blueprint_Install.label>-->
-  <!--<RGK_EndTableWithLampE_Blueprint_Install.label>end table (blueprint)</RGK_EndTableWithLampE_Blueprint_Install.label>-->
-  <!--<RGK_bucketr_Blueprint.label>RGK bucket (blueprint)</RGK_bucketr_Blueprint.label>-->
-  <!--<RGK_bucketr_Blueprint_Install.label>RGK bucket (blueprint)</RGK_bucketr_Blueprint_Install.label>-->
-  <!--<RGK_bucketr_Frame.label>RGK bucket (building)</RGK_bucketr_Frame.label>-->
-  <!--<RGK_bucketr_Frame.description>bucket.</RGK_bucketr_Frame.description>-->
-  <!--<RGK_orc_Blueprint.label>RGK orc barrel (blueprint)</RGK_orc_Blueprint.label>-->
-  <!--<RGK_orc_Blueprint_Install.label>RGK orc barrel (blueprint)</RGK_orc_Blueprint_Install.label>-->
-  <!--<RGK_orc_Frame.label>RGK orc barrel (building)</RGK_orc_Frame.label>-->
-  <!--<RGK_orc_Frame.description>Just orc barrel</RGK_orc_Frame.description>-->
-  <!--<RGK_SimpleChair_Blueprint.label>simple chair (blueprint)</RGK_SimpleChair_Blueprint.label>-->
-  <!--<RGK_SimpleChair_Blueprint_Install.label>simple chair (blueprint)</RGK_SimpleChair_Blueprint_Install.label>-->
-  <!--<RGK_SimpleChair_Frame.label>simple chair (building)</RGK_SimpleChair_Frame.label>-->
-  <!--<RGK_SimpleChair_Frame.description>A simple platform on which to sit. Not very comfortable, but much better than nothing. Can be used at tables, work stations, and elsewhere.</RGK_SimpleChair_Frame.description>-->
-  <!--<RGK_Chair_Blueprint.label>chair (blueprint)</RGK_Chair_Blueprint.label>-->
-  <!--<RGK_Chair_Blueprint_Install.label>chair (blueprint)</RGK_Chair_Blueprint_Install.label>-->
-  <!--<RGK_Chair_Frame.label>chair (building)</RGK_Chair_Frame.label>-->
-  <!--<RGK_Chair_Frame.description>A comfortable chair. Can be used at tables, work stations, and elsewhere.</RGK_Chair_Frame.description>-->
-  <!--<RGKDiningChair_Blueprint.label>dining chair (blueprint)</RGKDiningChair_Blueprint.label>-->
-  <!--<RGKDiningChair_Blueprint_Install.label>dining chair (blueprint)</RGKDiningChair_Blueprint_Install.label>-->
-  <!--<RGKDiningChair_Frame.label>dining chair (building)</RGKDiningChair_Frame.label>-->
-  <!--<RGKDiningChair_Frame.description>A comfortable and attractive chair. Can be used at tables, work stations, and elsewhere.</RGKDiningChair_Frame.description>-->
-  <!--<GL_Bench_Blueprint.label>bench (blueprint)</GL_Bench_Blueprint.label>-->
-  <!--<GL_Bench_Blueprint_Install.label>bench (blueprint)</GL_Bench_Blueprint_Install.label>-->
-  <!--<GL_Bench_Frame.label>bench (building)</GL_Bench_Frame.label>-->
-  <!--<GL_Bench_Frame.description>It's a park bench chair. Couples can't sit here.</GL_Bench_Frame.description>-->
-  <!--<RGK_TableA_Blueprint.label>table (2x2) (blueprint)</RGK_TableA_Blueprint.label>-->
-  <!--<RGK_TableA_Blueprint_Install.label>table (2x2) (blueprint)</RGK_TableA_Blueprint_Install.label>-->
-  <!--<RGK_TableA_Frame.label>table (2x2) (building)</RGK_TableA_Frame.label>-->
-  <!--<RGK_TableA_Frame.description>People eat off tables when chairs are placed facing them.</RGK_TableA_Frame.description>-->
-  <!--<RGK_TableC_Blueprint.label>table C (2x2) (blueprint)</RGK_TableC_Blueprint.label>-->
-  <!--<RGK_TableC_Blueprint_Install.label>table C (2x2) (blueprint)</RGK_TableC_Blueprint_Install.label>-->
-  <!--<RGK_TableC_Frame.label>table C (2x2) (building)</RGK_TableC_Frame.label>-->
-  <!--<RGK_TableC_Frame.description>People eat off tables when chairs are placed facing them.</RGK_TableC_Frame.description>-->
-  <!--<RGK_TableB_Blueprint.label>celtic table (2x2) (blueprint)</RGK_TableB_Blueprint.label>-->
-  <!--<RGK_TableB_Blueprint_Install.label>celtic table (2x2) (blueprint)</RGK_TableB_Blueprint_Install.label>-->
-  <!--<RGK_TableB_Frame.label>celtic table (2x2) (building)</RGK_TableB_Frame.label>-->
-  <!--<RGK_TableB_Frame.description>People eat off tables when chairs are placed facing them.</RGK_TableB_Frame.description>-->
-  <!--<RGK_TableD_Blueprint_Install.label>celtic table (2x2) (blueprint)</RGK_TableD_Blueprint_Install.label>-->
-  <!--<RGK_TableE_Blueprint.label>celtic table (2x1) (blueprint)</RGK_TableE_Blueprint.label>-->
-  <!--<RGK_TableE_Blueprint_Install.label>celtic table (2x1) (blueprint)</RGK_TableE_Blueprint_Install.label>-->
-  <!--<RGK_TableE_Frame.label>celtic table (2x1) (building)</RGK_TableE_Frame.label>-->
-  <!--<RGK_TableE_Frame.description>People eat off tables when chairs are placed facing them.</RGK_TableE_Frame.description>-->
-  <!--<RGK_TableF_Blueprint.label>celtic table (3x2) (blueprint)</RGK_TableF_Blueprint.label>-->
-  <!--<RGK_TableF_Blueprint_Install.label>celtic table (3x2) (blueprint)</RGK_TableF_Blueprint_Install.label>-->
-  <!--<RGK_TableF_Frame.label>celtic table (3x2) (building)</RGK_TableF_Frame.label>-->
-  <!--<RGK_TableF_Frame.description>People eat off tables when chairs are placed facing them.</RGK_TableF_Frame.description>-->
-  <!--<RGK_TableG_Blueprint.label>celtic table (2x2) (blueprint)</RGK_TableG_Blueprint.label>-->
-  <!--<RGK_TableG_Blueprint_Install.label>celtic table (2x2) (blueprint)</RGK_TableG_Blueprint_Install.label>-->
-  <!--<RGK_TableG_Frame.label>celtic table (2x2) (building)</RGK_TableG_Frame.label>-->
-  <!--<RGK_TableG_Frame.description>People eat off tables when chairs are placed facing them.</RGK_TableG_Frame.description>-->
-  <!--<RGK_TableH_Blueprint.label>celtic table (3x3) (blueprint)</RGK_TableH_Blueprint.label>-->
-  <!--<RGK_TableH_Blueprint_Install.label>celtic table (3x3) (blueprint)</RGK_TableH_Blueprint_Install.label>-->
-  <!--<RGK_TableH_Frame.label>celtic table (3x3) (building)</RGK_TableH_Frame.label>-->
-  <!--<RGK_TableH_Frame.description>People eat off tables when chairs are placed facing them.</RGK_TableH_Frame.description>-->
-  <!--<RGK_MiniTableA_Blueprint.label>mini table (blueprint)</RGK_MiniTableA_Blueprint.label>-->
-  <!--<RGK_MiniTableA_Blueprint_Install.label>mini table (blueprint)</RGK_MiniTableA_Blueprint_Install.label>-->
-  <!--<RGK_MiniTableA_Frame.label>mini table (building)</RGK_MiniTableA_Frame.label>-->
-  <!--<RGK_MiniTableA_Frame.description>People eat off tables when chairs are placed facing them.</RGK_MiniTableA_Frame.description>-->
-  <!--<RGK_MiniTableB_Blueprint.label>mini table (blueprint)</RGK_MiniTableB_Blueprint.label>-->
-  <!--<RGK_MiniTableB_Blueprint_Install.label>mini table (blueprint)</RGK_MiniTableB_Blueprint_Install.label>-->
-  <!--<RGK_MiniTableB_Frame.label>mini table (building)</RGK_MiniTableB_Frame.label>-->
-  <!--<RGK_MiniTableB_Frame.description>People eat off tables when chairs are placed facing them.</RGK_MiniTableB_Frame.description>-->
-  <!--<RKGWineRackB_Blueprint.label>wine rack (blueprint)</RKGWineRackB_Blueprint.label>-->
-  <!--<RKGWineRackB_Blueprint_Install.label>wine rack (blueprint)</RKGWineRackB_Blueprint_Install.label>-->
-  <!--<RKGWineRackB_Frame.label>wine rack (building)</RKGWineRackB_Frame.label>-->
-  <!--<RKGWineRackB_Frame.description>A shelf that stores wine or alcohol.</RKGWineRackB_Frame.description>-->
-  <!--<WardrobeA_Blueprint.label>wardrobe (blueprint)</WardrobeA_Blueprint.label>-->
-  <!--<WardrobeA_Blueprint_Install.label>wardrobe (blueprint)</WardrobeA_Blueprint_Install.label>-->
-  <!--<WardrobeA_Frame.label>wardrobe (building)</WardrobeA_Frame.label>-->
-  <!--<WardrobeA_Frame.description>Shelves and drawers for storing clothes.</WardrobeA_Frame.description>-->
-  <!--<WardrobeB_Blueprint.label>wardrobe (blueprint)</WardrobeB_Blueprint.label>-->
-  <!--<WardrobeB_Blueprint_Install.label>wardrobe (blueprint)</WardrobeB_Blueprint_Install.label>-->
-  <!--<WardrobeB_Frame.label>wardrobe (building)</WardrobeB_Frame.label>-->
-  <!--<WardrobeB_Frame.description>Shelves and drawers for storing clothes.</WardrobeB_Frame.description>-->
-  <!--<RGK_Manger_Blueprint.label>manger (blueprint)</RGK_Manger_Blueprint.label>-->
-  <!--<RGK_Manger_Blueprint_Install.label>manger (blueprint)</RGK_Manger_Blueprint_Install.label>-->
-  <!--<RGK_Manger_Frame.label>manger (building)</RGK_Manger_Frame.label>-->
-  <!--<RGK_Manger_Frame.description>It's a cask for animals. You can store food and hay.</RGK_Manger_Frame.description>-->
-  <!--<GL_Shelf_Blueprint.label>shelf (blueprint)</GL_Shelf_Blueprint.label>-->
-  <!--<GL_Shelf_Blueprint_Install.label>shelf (blueprint)</GL_Shelf_Blueprint_Install.label>-->
-  <!--<GL_Shelf_Frame.label>shelf (building)</GL_Shelf_Frame.label>-->
-  <!--<GL_Shelf_Frame.description>A shelf for storing miscellaneous items. Items stored in this will not deteriorate, even if outside.</GL_Shelf_Frame.description>-->
-  <!--<RGK_DogBowl_Blueprint.label>bowl (blueprint)</RGK_DogBowl_Blueprint.label>-->
-  <!--<RGK_DogBowl_Blueprint_Install.label>bowl (blueprint)</RGK_DogBowl_Blueprint_Install.label>-->
-  <!--<RGK_DogBowl_Frame.label>bowl (building)</RGK_DogBowl_Frame.label>-->
-  <!--<RGK_DogBowl_Frame.description>It's a cask for animals. You can store food and hay.</RGK_DogBowl_Frame.description>-->
-  <!--<Blueprint_RGK_bedSingle.label>ベッド(設計)</Blueprint_RGK_bedSingle.label>-->
-  <!--<Blueprint_Install_RGK_bedSingle.label>ベッド(移動先)</Blueprint_Install_RGK_bedSingle.label>-->
-  <!--<Frame_RGK_bedSingle.label>ベッド(施工)</Frame_RGK_bedSingle.label>-->
-  <!--<Frame_RGK_bedSingle.description>寝心地の良いマットレスとベッドフレームに布団とシーツがかけられています。</Frame_RGK_bedSingle.description>-->
-  <!--<Blueprint_RGK_bedSingleB.label>ベッド2(設計)</Blueprint_RGK_bedSingleB.label>-->
-  <!--<Blueprint_Install_RGK_bedSingleB.label>ベッド2(移動先)</Blueprint_Install_RGK_bedSingleB.label>-->
-  <!--<Frame_RGK_bedSingleB.label>ベッド2(施工)</Frame_RGK_bedSingleB.label>-->
-  <!--<Frame_RGK_bedSingleB.description>寝心地の良いマットレスとベッドフレームに布団とシーツがかけられています。</Frame_RGK_bedSingleB.description>-->
-  <!--<Blueprint_RGK_bedDouble.label>ダブルベッド(設計)</Blueprint_RGK_bedDouble.label>-->
-  <!--<Blueprint_Install_RGK_bedDouble.label>ダブルベッド(移動先)</Blueprint_Install_RGK_bedDouble.label>-->
-  <!--<Frame_RGK_bedDouble.label>ダブルベッド(施工)</Frame_RGK_bedDouble.label>-->
-  <!--<Frame_RGK_bedDouble.description>二人で寝るにはちょうど良いシンプルなダブルベッドです。</Frame_RGK_bedDouble.description>-->
-  <!--<Blueprint_RGK_bedDoubleB.label>ダブルベッド2(設計)</Blueprint_RGK_bedDoubleB.label>-->
-  <!--<Blueprint_Install_RGK_bedDoubleB.label>ダブルベッド2(移動先)</Blueprint_Install_RGK_bedDoubleB.label>-->
-  <!--<Frame_RGK_bedDoubleB.label>ダブルベッド2(施工)</Frame_RGK_bedDoubleB.label>-->
-  <!--<Frame_RGK_bedDoubleB.description>二人で寝るにはちょうど良いシンプルなケルト風ダブルベッドです。</Frame_RGK_bedDoubleB.description>-->
-  <!--<Blueprint_RGK_Dresser.label>タンス(設計)</Blueprint_RGK_Dresser.label>-->
-  <!--<Blueprint_Install_RGK_Dresser.label>タンス(移動先)</Blueprint_Install_RGK_Dresser.label>-->
-  <!--<Frame_RGK_Dresser.label>タンス(施工)</Frame_RGK_Dresser.label>-->
-  <!--<Frame_RGK_Dresser.description>タンスです。近くにある全てのベッドに僅かですが快適性にボーナスを与えます。 同じベッドの近くに2つ以上のタンスを置いても効果はありません。</Frame_RGK_Dresser.description>-->
-  <!--<Blueprint_RGK_EndTable.label>エンドテーブル(設計)</Blueprint_RGK_EndTable.label>-->
-  <!--<Blueprint_Install_RGK_EndTable.label>エンドテーブル(移動先)</Blueprint_Install_RGK_EndTable.label>-->
-  <!--<Frame_RGK_EndTable.label>エンドテーブル(施工)</Frame_RGK_EndTable.label>-->
-  <!--<Frame_RGK_EndTable.description>小型のベッドの横に置くサイドテーブルです。近くにあるベッドに僅かですが快適性にボーナスを与えます。必ずベッドの頭側の横に隣接して置かなければ効果はありません。同じベッドに2つ以上のエンドテーブルを置いても効果はありません。</Frame_RGK_EndTable.description>-->
-  <!-- <Blueprint_RGK_EndTableWithLamp.label>エンドテーブル(設計)</Blueprint_RGK_EndTableWithLamp.label> -->
-  <!--<Blueprint_Install_RGK_EndTableWithLamp.label>エンドテーブル(移動先)</Blueprint_Install_RGK_EndTableWithLamp.label>-->
-  <!-- <Frame_RGK_EndTableWithLamp.label>エンドテーブル(施工)</Frame_RGK_EndTableWithLamp.label>
-  <Frame_RGK_EndTableWithLamp.description>小型のベッドの横に置くサイドテーブルです。近くにあるベッドに僅かですが快適性にボーナスを与えます。必ずベッドの頭側の横に隣接して置かなければ効果はありません。同じベッドに2つ以上のエンドテーブルを置いても効果はありません。</Frame_RGK_EndTableWithLamp.description> -->
-  <!-- <Blueprint_RGK_EndTableWithLampE.label>エンドテーブル(電)(設計)</Blueprint_RGK_EndTableWithLampE.label> -->
-  <!--<Blueprint_Install_RGK_EndTableWithLampE.label>エンドテーブル(電)(移動先)</Blueprint_Install_RGK_EndTableWithLampE.label>-->
-  <!-- <Frame_RGK_EndTableWithLampE.label>エンドテーブル(電)(施工)</Frame_RGK_EndTableWithLampE.label>
-  <Frame_RGK_EndTableWithLampE.description>小型のベッドの横に置くサイドテーブルです。近くにあるベッドに僅かですが快適性にボーナスを与えます。必ずベッドの頭側の横に隣接して置かなければ効果はありません。同じベッドに2つ以上のエンドテーブルを置いても効果はありません。電気が必要です。</Frame_RGK_EndTableWithLampE.description> -->
-  <!--<Blueprint_RGK_bucketr.label>バケツ (RGK)(設計)</Blueprint_RGK_bucketr.label>-->
-  <!--<Blueprint_Install_RGK_bucketr.label>バケツ (RGK)(移動先)</Blueprint_Install_RGK_bucketr.label>-->
-  <!--<Frame_RGK_bucketr.label>バケツ (RGK)(施工)</Frame_RGK_bucketr.label>-->
-  <!--<Frame_RGK_bucketr.description>バケツです。</Frame_RGK_bucketr.description>-->
-  <!--<Blueprint_RGK_orc.label>オーク樽 (RGK)(設計)</Blueprint_RGK_orc.label>-->
-  <!--<Blueprint_Install_RGK_orc.label>オーク樽 (RGK)(移動先)</Blueprint_Install_RGK_orc.label>-->
-  <!--<Frame_RGK_orc.label>オーク樽 (RGK)(施工)</Frame_RGK_orc.label>-->
-  <!--<Frame_RGK_orc.description>オーク材で作られた樽です。</Frame_RGK_orc.description>-->
-  <!--<Blueprint_RGK_SimpleChair.label>シンプル チェア(設計)</Blueprint_RGK_SimpleChair.label>-->
-  <!--<Blueprint_Install_RGK_SimpleChair.label>シンプル チェア(移動先)</Blueprint_Install_RGK_SimpleChair.label>-->
-  <!--<Frame_RGK_SimpleChair.label>シンプル チェア(施工)</Frame_RGK_SimpleChair.label>-->
-  <!--<Frame_RGK_SimpleChair.description>座るためのシンプルな椅子です。それほど快適ではありませんが、何も無いよりはマシでしょう。テーブルや作業台、その他の場所に置いて使用できます。</Frame_RGK_SimpleChair.description>-->
-  <!--<Blueprint_RGK_Chair.label>ノーマル チェア(設計)</Blueprint_RGK_Chair.label>-->
-  <!--<Blueprint_Install_RGK_Chair.label>ノーマル チェア(移動先)</Blueprint_Install_RGK_Chair.label>-->
-  <!--<Frame_RGK_Chair.label>ノーマル チェア(施工)</Frame_RGK_Chair.label>-->
-  <!--<Frame_RGK_Chair.description>快適な椅子です。テーブルや作業台、その他の場所に置いて使用できます。</Frame_RGK_Chair.description>-->
-  <!--<Blueprint_RGKDiningChair.label>ダイニング チェア(設計)</Blueprint_RGKDiningChair.label>-->
-  <!--<Blueprint_Install_RGKDiningChair.label>ダイニング チェア(移動先)</Blueprint_Install_RGKDiningChair.label>-->
-  <!--<Frame_RGKDiningChair.label>ダイニング チェア(施工)</Frame_RGKDiningChair.label>-->
-  <!--<Frame_RGKDiningChair.description>快適で見栄えがよい椅子です。テーブルや作業台、その他の場所に置いて使用できます。</Frame_RGKDiningChair.description>-->
-  <!-- Park bench -->
-  <!--<Blueprint_GL_Bench.label>ベンチ(設計)</Blueprint_GL_Bench.label>-->
-  <!--<Blueprint_Install_GL_Bench.label>ベンチ(移動先)</Blueprint_Install_GL_Bench.label>-->
-  <!--<Frame_GL_Bench.label>ベンチ(施工)</Frame_GL_Bench.label>-->
-  <!--<Frame_GL_Bench.description>これは公園のベンチ型の椅子です。カップルでここに座ることはできません。</Frame_GL_Bench.description>-->
-  <!--<Blueprint_RGK_TableA.label>テーブル(2x2)(設計)</Blueprint_RGK_TableA.label>-->
-  <!--<Blueprint_Install_RGK_TableA.label>テーブル(2x2)(移動先)</Blueprint_Install_RGK_TableA.label>-->
-  <!--<Frame_RGK_TableA.label>テーブル(2x2)(施工)</Frame_RGK_TableA.label>-->
-  <!--<Frame_RGK_TableA.description>イスを向き合うように配置すると、人々はここで食事をとるようになります。</Frame_RGK_TableA.description>-->
-  <!--<Blueprint_RGK_TableC.label>テーブルC(2x2)(設計)</Blueprint_RGK_TableC.label>-->
-  <!--<Blueprint_Install_RGK_TableC.label>テーブルC(2x2)(移動先)</Blueprint_Install_RGK_TableC.label>-->
-  <!--<Frame_RGK_TableC.label>テーブルC(2x2)(施工)</Frame_RGK_TableC.label>-->
-  <!--<Frame_RGK_TableC.description>イスを向き合うように配置すると、人々はここで食事をとるようになります。</Frame_RGK_TableC.description>-->
-  <!--<Blueprint_RGK_TableB.label>ケルト テーブル(2x2)(設計)</Blueprint_RGK_TableB.label>-->
-  <!--<Blueprint_Install_RGK_TableB.label>ケルト テーブル(2x2)(移動先)</Blueprint_Install_RGK_TableB.label>-->
-  <!--<Frame_RGK_TableB.label>ケルト テーブル(2x2)(施工)</Frame_RGK_TableB.label>-->
-  <!--<Frame_RGK_TableB.description>イスを向き合うように配置すると、人々はここで食事をとるようになります。</Frame_RGK_TableB.description>-->
-  <!-- <Blueprint_RGK_TableD.label>ケルト テーブルD(2x2)(設計)</Blueprint_RGK_TableD.label> -->
-  <!--<Blueprint_Install_RGK_TableD.label>ケルト テーブルD(2x2)(移動先)</Blueprint_Install_RGK_TableD.label>-->
-  <!-- <Frame_RGK_TableD.label>ケルト テーブルD(2x2)(施工)</Frame_RGK_TableD.label>
-  <Frame_RGK_TableD.description>イスを向き合うように配置すると、人々はここで食事をとるようになります。</Frame_RGK_TableD.description>-->
-  <!--<Blueprint_RGK_TableE.label>ケルト テーブル(2x1)(設計)</Blueprint_RGK_TableE.label>-->
-  <!--<Blueprint_Install_RGK_TableE.label>ケルト テーブル(2x1)(移動先)</Blueprint_Install_RGK_TableE.label>-->
-  <!--<Frame_RGK_TableE.label>ケルト テーブル(2x1)(施工)</Frame_RGK_TableE.label>-->
-  <!--<Frame_RGK_TableE.description>イスを向き合うように配置すると、人々はここで食事をとるようになります。</Frame_RGK_TableE.description>-->
-  <!--<Blueprint_RGK_TableF.label>ケルト テーブル(3x2)(設計)</Blueprint_RGK_TableF.label>-->
-  <!--<Blueprint_Install_RGK_TableF.label>ケルト テーブル(3x2)(移動先)</Blueprint_Install_RGK_TableF.label>-->
-  <!--<Frame_RGK_TableF.label>ケルト テーブル(3x2)(施工)</Frame_RGK_TableF.label>-->
-  <!--<Frame_RGK_TableF.description>イスを向き合うように配置すると、人々はここで食事をとるようになります。</Frame_RGK_TableF.description>-->
-  <!--<Blueprint_RGK_TableG.label>ケルト テーブルG(2x2)(設計)</Blueprint_RGK_TableG.label>-->
-  <!--<Blueprint_Install_RGK_TableG.label>ケルト テーブルG(2x2)(移動先)</Blueprint_Install_RGK_TableG.label>-->
-  <!--<Frame_RGK_TableG.label>ケルト テーブルG(2x2)(施工)</Frame_RGK_TableG.label>-->
-  <!--<Frame_RGK_TableG.description>イスを向き合うように配置すると、人々はここで食事をとるようになります。</Frame_RGK_TableG.description>-->
-  <!--<Blueprint_RGK_TableH.label>ケルト テーブル(3x3)(設計)</Blueprint_RGK_TableH.label>-->
-  <!--<Blueprint_Install_RGK_TableH.label>ケルト テーブル(3x3)(移動先)</Blueprint_Install_RGK_TableH.label>-->
-  <!--<Frame_RGK_TableH.label>ケルト テーブル(3x3)(施工)</Frame_RGK_TableH.label>-->
-  <!--<Frame_RGK_TableH.description>イスを向き合うように配置すると、人々はここで食事をとるようになります。</Frame_RGK_TableH.description>-->
-  <!--<Blueprint_RGK_MiniTableA.label>ミニテーブル(設計)</Blueprint_RGK_MiniTableA.label>-->
-  <!--<Blueprint_Install_RGK_MiniTableA.label>ミニテーブル(移動先)</Blueprint_Install_RGK_MiniTableA.label>-->
-  <!--<Frame_RGK_MiniTableA.label>ミニテーブル(施工)</Frame_RGK_MiniTableA.label>-->
-  <!--<Frame_RGK_MiniTableA.description>イスを向き合うように配置すると、人々はここで食事をとるようになります。</Frame_RGK_MiniTableA.description>-->
-  <!--<Blueprint_RGK_MiniTableB.label>ミニテーブル2(設計)</Blueprint_RGK_MiniTableB.label>-->
-  <!--<Blueprint_Install_RGK_MiniTableB.label>ミニテーブル2(移動先)</Blueprint_Install_RGK_MiniTableB.label>-->
-  <!--<Frame_RGK_MiniTableB.label>ミニテーブル2(施工)</Frame_RGK_MiniTableB.label>-->
-  <!--<Frame_RGK_MiniTableB.description>イスを向き合うように配置すると、人々はここで食事をとるようになります。</Frame_RGK_MiniTableB.description>-->
   <!--<Blueprint_RKGWineRackB.label>ワインラック(設計)</Blueprint_RKGWineRackB.label>-->
   <!--<Blueprint_Install_RKGWineRackB.label>ワインラック(移動先)</Blueprint_Install_RKGWineRackB.label>-->
   <!--<Frame_RKGWineRackB.label>ワインラック(施工)</Frame_RKGWineRackB.label>-->
   <!--<Frame_RKGWineRackB.description>ワインやお酒を保管するための棚です。</Frame_RKGWineRackB.description>-->
+
+  <WardrobeA.label>ワードローブ</WardrobeA.label>
+  <WardrobeA.description>服を収納するための棚やタンスです。</WardrobeA.description>
   <!--<Blueprint_WardrobeA.label>ワードローブ(設計)</Blueprint_WardrobeA.label>-->
   <!--<Blueprint_Install_WardrobeA.label>ワードローブ(移動先)</Blueprint_Install_WardrobeA.label>-->
   <!--<Frame_WardrobeA.label>ワードローブ(施工)</Frame_WardrobeA.label>-->
   <!--<Frame_WardrobeA.description>服を収納するための棚やタンスです。</Frame_WardrobeA.description>-->
+
+  <WardrobeB.label>ワードローブ2</WardrobeB.label>
+  <WardrobeB.description>服を収納するための棚やタンスです。</WardrobeB.description>
   <!--<Blueprint_WardrobeB.label>ワードローブ2(設計)</Blueprint_WardrobeB.label>-->
   <!--<Blueprint_Install_WardrobeB.label>ワードローブ2(移動先)</Blueprint_Install_WardrobeB.label>-->
   <!--<Frame_WardrobeB.label>ワードローブ2(施工)</Frame_WardrobeB.label>-->
   <!--<Frame_WardrobeB.description>服を収納するための棚やタンスです。</Frame_WardrobeB.description>-->
+
+  <RGK_Manger.label>飼い葉おけ</RGK_Manger.label>
+  <RGK_Manger.description>これは動物用のおけです。ペットフードや干し草を保管することができます。</RGK_Manger.description>
   <!--<Blueprint_RGK_Manger.label>飼い葉おけ(設計)</Blueprint_RGK_Manger.label>-->
   <!--<Blueprint_Install_RGK_Manger.label>飼い葉おけ(移動先)</Blueprint_Install_RGK_Manger.label>-->
   <!--<Frame_RGK_Manger.label>飼い葉おけ(施工)</Frame_RGK_Manger.label>-->
   <!--<Frame_RGK_Manger.description>これは動物用のおけです。ペットフードや干し草を保管することができます。</Frame_RGK_Manger.description>-->
-  <!-- shelf -->
+
+
+  <!-- Shelf -->
+
+  <GL_Shelf.label>ロッカー</GL_Shelf.label>
+  <GL_Shelf.description>この中に保存されたアイテムは、ロッカーが外気に触れていても劣化しません。</GL_Shelf.description>
   <!--<Blueprint_GL_Shelf.label>ロッカー(設計)</Blueprint_GL_Shelf.label>-->
   <!--<Blueprint_Install_GL_Shelf.label>ロッカー(移動先)</Blueprint_Install_GL_Shelf.label>-->
   <!--<Frame_GL_Shelf.label>ロッカー(施工)</Frame_GL_Shelf.label>-->
   <!--<Frame_GL_Shelf.description>この中に保存されたアイテムは、ロッカーが外気に触れていても劣化しません。</Frame_GL_Shelf.description>-->
-  <!-- Bowl of petfood -->
+
+
+  <!-- Bowl of dog food -->
+
+  <RGK_DogBowl.label>餌入れ</RGK_DogBowl.label>
+  <RGK_DogBowl.description>これは動物用のエサ入れです。ペットフードや干し草を保管することができます。</RGK_DogBowl.description>
   <!--<Blueprint_RGK_DogBowl.label>餌入れ(設計)</Blueprint_RGK_DogBowl.label>-->
   <!--<Blueprint_Install_RGK_DogBowl.label>餌入れ(移動先)</Blueprint_Install_RGK_DogBowl.label>-->
   <!--<Frame_RGK_DogBowl.label>餌入れ(施工)</Frame_RGK_DogBowl.label>-->
   <!--<Frame_RGK_DogBowl.description>これは動物用のエサ入れです。ペットフードや干し草を保管することができます。</Frame_RGK_DogBowl.description>-->
+
+
+  <!-- Locker -->
+
+  <GL_Locker.label>防火ロッカー</GL_Locker.label>
+  <GL_Locker.description>この中に保存されたアイテムは、ロッカーが外気に触れていても劣化しません。収容されたアイテムが火災でダメージを受けることを防ぎます。</GL_Locker.description>
+  <!--<Blueprint_GL_Locker.label>防火ロッカー(設計)</Blueprint_GL_Locker.label>-->
+  <!--<Blueprint_Install_GL_Locker.label>防火ロッカー(移動先)</Blueprint_Install_GL_Locker.label>-->
+  <!--<Frame_GL_Locker.label>防火ロッカー(施工)</Frame_GL_Locker.label>-->
+  <!--<Frame_GL_Locker.description>この中に保存されたアイテムは、ロッカーが外気に触れていても劣化しません。収容されたアイテムが火災でダメージを受けることを防ぎます。</Frame_GL_Locker.description>-->
+
+  <RGK_Flower.label>植木鉢 （造花)</RGK_Flower.label>
+  <RGK_Flower.description>造花が飾られた植木鉢です。その花はいつまでも咲き続けるでしょう。</RGK_Flower.description>
   <!--<Blueprint_RGK_Flower.label>植木鉢(造花)(設計)</Blueprint_RGK_Flower.label>-->
   <!--<Blueprint_Install_RGK_Flower.label>植木鉢(造花)(移動先)</Blueprint_Install_RGK_Flower.label>-->
   <!--<Frame_RGK_Flower.label>植木鉢(造花)(施工)</Frame_RGK_Flower.label>-->
   <!--<Frame_RGK_Flower.description>造花が飾られた植木鉢です。その花はいつまでも咲き続けるでしょう。</Frame_RGK_Flower.description>-->
+
+  <RGK_Teaset.label>ティーセット</RGK_Teaset.label>
+  <RGK_Teaset.description>これは装飾されたティーカップなどのセットです。とても贅沢な作りで、使うのが勿体ないぐらいです。</RGK_Teaset.description>
   <!--<Blueprint_RGK_Teaset.label>ティーセット(設計)</Blueprint_RGK_Teaset.label>-->
   <!--<Blueprint_Install_RGK_Teaset.label>ティーセット(移動先)</Blueprint_Install_RGK_Teaset.label>-->
   <!--<Frame_RGK_Teaset.label>ティーセット(施工)</Frame_RGK_Teaset.label>-->
   <!--<Frame_RGK_Teaset.description>これは装飾されたティーカップなどのセットです。とても贅沢な作りで、使うのが勿体ないぐらいです。</Frame_RGK_Teaset.description>-->
+
 
 </LanguageData>
