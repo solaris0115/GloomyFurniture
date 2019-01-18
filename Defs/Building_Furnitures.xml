@@ -1608,7 +1608,10 @@
 				<priority>Important</priority>
 				<filter>
 					<categories>
+						<li>Manufactured</li>
+						<li>Items</li>
 						<li>Weapons</li>
+						<li>Apparel</li>
 					</categories>
 				</filter>
 			</defaultStorageSettings>
