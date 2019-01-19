@@ -107,7 +107,6 @@ namespace Gloomylynx
     internal class CompSecondLayer : ThingComp
     {
         bool drawOnlySouth = false;
-        bool followParentColor = false;
         private Graphic graphicInt;
         public override void PostDeSpawn(Map map)
         {

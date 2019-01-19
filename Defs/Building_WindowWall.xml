@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-		<stuffCategories>		
-			<li>Woody</li>		
-			<li>Stony</li>		
-			<li>Metallic</li>
-		</stuffCategories>
-		<costStuffCount>5</costStuffCount>
-
-
 	<!--don't touch-->
 	<ThingDef Name="RKGFence" Abstract="True">
 		<category>Building</category>
