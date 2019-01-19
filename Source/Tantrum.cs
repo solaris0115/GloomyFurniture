@@ -21,6 +21,8 @@ namespace Gloomylynx
             harmonyInstance.Patch(AccessTools.Method(typeof(TantrumMentalStateUtility), "CanSmash"), null, new HarmonyMethod(patchType, "CanSmashPostfix", null));
             harmonyInstance.Patch(AccessTools.Method(typeof(Pawn), "CheckForDisturbedSleep"), new HarmonyMethod(patchType, "CheckForDisturbedSleepPrefix", null));
             harmonyInstance.Patch(AccessTools.Method(typeof(GenConstruct), "CanPlaceBlueprintOver"), new HarmonyMethod(patchType, "CanPlaceBlueprintOverPrefix", null));
+            harmonyInstance.Patch(AccessTools.Method(typeof(GenSpawn), "SpawningWipes"), new HarmonyMethod(patchType, "SpawningWipesPrefix", null));
+
         }
 
         public static void CanSmashPostfix(ref bool __result, Thing thing)
@@ -31,49 +33,13 @@ namespace Gloomylynx
             }
 
         }
-        public static bool CheckForDisturbedSleepPrefix(Pawn __instance, Pawn source,ref int ___lastSleepDisturbedTick)
+        public static bool CheckForDisturbedSleepPrefix(Pawn __instance)
         {
-            if (__instance.needs.mood == null)
+            if (__instance.CurrentBed().def.defName == "GL_ClassyDoubleBed")
             {
                 return false;
             }
-            if (__instance.Awake())
-            {
-                return false;
-            }
-            if (__instance.Faction != Faction.OfPlayer)
-            {
-                return false;
-            }
-            if (Find.TickManager.TicksGame < ___lastSleepDisturbedTick + 300)
-            {
-                return false;
-            }
-            if (source != null)
-            {
-                if (LovePartnerRelationUtility.LovePartnerRelationExists(__instance, source))
-                {
-                    return false;
-                }
-                if (source.RaceProps.petness > 0f)
-                {
-                    return false;
-                }
-                if (source.relations != null)
-                {
-                    if (source.relations.DirectRelations.Any((DirectPawnRelation dr) => dr.def == PawnRelationDefOf.Bond))
-                    {
-                        return false;
-                    }
-                }
-            }
-            if(__instance.CurrentBed().def.defName == "GL_ClassyDoubleBed")
-            {
-                return false;
-            }
-            ___lastSleepDisturbedTick = Find.TickManager.TicksGame;
-            __instance.needs.mood.thoughts.memories.TryGainMemory(ThoughtDefOf.SleepDisturbed, null);
-            return false;
+            return true;
         }
         public static bool CanPlaceBlueprintOverPrefix(ref bool __result, BuildableDef newDef, ThingDef oldDef)
         {
@@ -126,7 +92,7 @@ namespace Gloomylynx
                         __result = thingDef.building == null || thingDef.building.canBuildNonEdificesUnder;
                         return false;
                     }
-                    if (thingDef2 != null && (thingDef2 == ThingDefOf.Wall || thingDef2.IsSmoothed) && thingDef.building != null && thingDef.building.canPlaceOverWall)
+                    if (thingDef2 != null && (thingDef2 == ThingDefOf.Wall || thingDef2.IsSmoothed || thingDef2.thingClass == typeof(GL_Building)) && thingDef.building != null && thingDef.building.canPlaceOverWall)
                     {
                         __result = true;
                         return false;
@@ -143,5 +109,128 @@ namespace Gloomylynx
             __result = true;
             return false;
         }
+        public static bool SpawningWipesPrefix(ref bool __result, BuildableDef newEntDef, BuildableDef oldEntDef)
+        {
+            ThingDef thingDef = newEntDef as ThingDef;
+            ThingDef thingDef2 = oldEntDef as ThingDef;
+            if (thingDef == null || thingDef2 == null)
+            {
+                __result = false;
+                return false;
+            }
+            if (thingDef.category == ThingCategory.Attachment || thingDef.category == ThingCategory.Mote || thingDef.category == ThingCategory.Filth || thingDef.category == ThingCategory.Projectile)
+            {
+                __result = false;
+                return false;
+            }
+            if (!thingDef2.destroyable)
+            {
+                __result = false;
+                return false;
+            }
+            if (thingDef.category == ThingCategory.Plant)
+            {
+                __result = false;
+                return false;
+            }
+            if (thingDef2.category == ThingCategory.Filth && thingDef.passability != Traversability.Standable)
+            {
+                __result = true;
+                return false;
+            }
+            if (thingDef2.category == ThingCategory.Item && thingDef.passability == Traversability.Impassable && thingDef.surfaceType == SurfaceType.None)
+            {
+                __result = true;
+                return false;
+            }
+            if (thingDef.EverTransmitsPower && thingDef2 == ThingDefOf.PowerConduit)
+            {
+                __result = true;
+                return false;
+            }
+            if (thingDef.IsFrame && GenSpawn.SpawningWipes(thingDef.entityDefToBuild, oldEntDef))
+            {
+                __result = true;
+                return false;
+            }
+            BuildableDef buildableDef = GenConstruct.BuiltDefOf(thingDef);
+            BuildableDef buildableDef2 = GenConstruct.BuiltDefOf(thingDef2);
+            if (buildableDef == null || buildableDef2 == null)
+            {
+                __result = false;
+                return false;
+            }
+            ThingDef thingDef3 = thingDef.entityDefToBuild as ThingDef;
+            if (thingDef2.IsBlueprint)
+            {
+                if (thingDef.IsBlueprint)
+                {
+                    if (thingDef3 != null && thingDef3.building != null && thingDef3.building.canPlaceOverWall && thingDef2.entityDefToBuild is ThingDef && ((ThingDef)thingDef2.entityDefToBuild == ThingDefOf.Wall || ((ThingDef)thingDef2.entityDefToBuild).thingClass == typeof(GL_Building) ))
+                    {
+                        __result = true;
+                        return false;
+                    }
+                    if (thingDef2.entityDefToBuild is TerrainDef)
+                    {
+                        if (thingDef.entityDefToBuild is ThingDef && ((ThingDef)thingDef.entityDefToBuild).coversFloor)
+                        {
+                            __result = true;
+                            return false;
+                        }
+                        if (thingDef.entityDefToBuild is TerrainDef)
+                        {
+                            __result = true;
+                            return false;
+                        }
+                    }
+                }
+                __result = thingDef2.entityDefToBuild == ThingDefOf.PowerConduit && thingDef.entityDefToBuild is ThingDef && (thingDef.entityDefToBuild as ThingDef).EverTransmitsPower;
+                return false;
+            }
+            if ((thingDef2.IsFrame || thingDef2.IsBlueprint) && thingDef2.entityDefToBuild is TerrainDef)
+            {
+                ThingDef thingDef4 = buildableDef as ThingDef;
+                if (thingDef4 != null && !thingDef4.CoexistsWithFloors)
+                {
+                    __result = true;
+                    return false;
+                }
+            }
+            if (thingDef2 == ThingDefOf.ActiveDropPod)
+            {
+                __result = false;
+                return false;
+            }
+            if (thingDef == ThingDefOf.ActiveDropPod)
+            {
+                __result = thingDef2 != ThingDefOf.ActiveDropPod && (thingDef2.category == ThingCategory.Building && thingDef2.passability == Traversability.Impassable);
+                return false;
+            }
+            if (thingDef.IsEdifice())
+            {
+                if (thingDef.BlockPlanting && thingDef2.category == ThingCategory.Plant)
+                {
+                    __result = true;
+                    return false;
+                }
+                if (!(buildableDef is TerrainDef) && buildableDef2.IsEdifice())
+                {
+                    __result = true;
+                    return false;
+                }
+            }
+            __result = false;
+            return false;
+        }
+    }
+    [DefOf]
+    public static class WallDefOf
+    {
+        public static ThingDef RGK_Wall;
+        public static ThingDef GL_Wall;
+    }
+    public class GL_Building : Building
+    {
+
     }
 }

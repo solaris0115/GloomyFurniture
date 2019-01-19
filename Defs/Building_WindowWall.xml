@@ -19,7 +19,7 @@
 		<defName>RGK_Wall</defName>
 		<label>wall</label>
 		<description>An impassable wall. Capable of holding up a roof.</description>
-		<thingClass>Building</thingClass>
+		<thingClass>Gloomylynx.GL_Building</thingClass>
 		<category>Building</category>
 		<graphicData>
 			<texPath>Things/Building/Linked/RGK_Wall</texPath>
@@ -83,7 +83,7 @@
 		<defName>GL_Wall</defName>
 		<label>wall</label>
 		<description>An impassable wall. Capable of holding up a roof.</description>
-		<thingClass>Building</thingClass>
+		<thingClass>Gloomylynx.GL_Building</thingClass>
 		<category>Building</category>
 		<graphicData>
 			<texPath>Things/Building/Linked/GL_Wall</texPath>
@@ -302,7 +302,7 @@
 
 	<!--Don't touch-->
 	<ThingDef Abstract="True" Name="WallWindowBase" ParentName="BuildingBase">
-		<thingClass>Building</thingClass>
+		<thingClass>Gloomylynx.GL_Building</thingClass>
 		<category>Building</category>
 		<thingCategories>
 			<li>BuildingsFurniture</li>
@@ -352,7 +352,7 @@
 	<ThingDef ParentName="RKGFence">
 		<defName>RGK_WindowWall</defName>
 		<label>window wall</label>
-		<thingClass>Building</thingClass>
+		<thingClass>Gloomylynx.GL_Building</thingClass>
 		<category>Building</category>
 		<description>A window through which light can pass through.</description>
 		<graphicData>
@@ -420,7 +420,7 @@
 	<ThingDef ParentName="RKGFence">
 		<defName>GL_WindowWall</defName>
 		<label>window wall</label>
-		<thingClass>Building</thingClass>
+		<thingClass>Gloomylynx.GL_Building</thingClass>
 		<category>Building</category>
 		<description>A window through which light can pass through.</description>
 		<graphicData>
@@ -489,7 +489,7 @@
 	<ThingDef ParentName="RKGFence">
 		<defName>RGK_WoodFence</defName>
 		<label>fence</label>
-		<thingClass>Building</thingClass>
+		<thingClass>Gloomylynx.GL_Building</thingClass>
 		<category>Building</category>
 		<description>A fence to trap livestock or protect it from outside beasts.</description>
 		<graphicData>
@@ -552,7 +552,7 @@
 		<defName>GL_FlowerWall</defName>
 		<label>Flower wall</label>
 		<description>Wall decorated with flowers.</description>
-		<thingClass>Building</thingClass>
+		<thingClass>Gloomylynx.GL_Building</thingClass>
 		<category>Building</category>
 		<graphicData>
 			<texPath>Things/Building/Linked/GL_FlowerWall</texPath>
