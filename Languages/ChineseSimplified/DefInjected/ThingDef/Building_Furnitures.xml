@@ -25,7 +25,15 @@
   <RGK_bedDoubleB_Blueprint_Install.label>双人床B (蓝图)</RGK_bedDoubleB_Blueprint_Install.label>
   <RGK_bedDoubleB_Frame.label>双人床B (建造中)</RGK_bedDoubleB_Frame.label>
   <RGK_bedDoubleB_Frame.description>一张简单的双人床。圆圈图案。</RGK_bedDoubleB_Frame.description>
-  <!-- Table -->
+ <!-- 레이스 더블 침대 -->
+  <GL_ClassyDoubleBed.label>古典双人床</GL_ClassyDoubleBed.label>
+  <GL_ClassyDoubleBed.description>带有蕾丝装饰的优美双人床。非常舒适，睡觉时不会受到打扰。</GL_ClassyDoubleBed.description>
+  <GL_ClassyDoubleBed_Blueprint.label>古典双人床 (蓝图)</GL_ClassyDoubleBed_Blueprint.label>
+  <GL_ClassyDoubleBed_Blueprint_Install.label>古典双人床 (蓝图)</GL_ClassyDoubleBed_Blueprint_Install.label>
+  <GL_ClassyDoubleBed_Frame.label>古典双人床 (建造中)</GL_ClassyDoubleBed_Frame.label>
+  <GL_ClassyDoubleBed_Frame.description>带有蕾丝装饰的优美双人床。非常舒适，睡觉时不会受到打扰。</GL_ClassyDoubleBed_Frame.description>
+
+ <!-- Table -->
   <RGK_Dresser.label>梳妆台</RGK_Dresser.label>
   <RGK_Dresser.description>梳妆台。让附近的床稍微舒服一点。把一个以上的梳妆台放在同一张床边没有叠加效果。</RGK_Dresser.description>
   <RGK_Dresser_Blueprint.label>梳妆台 (蓝图)</RGK_Dresser_Blueprint.label>
@@ -38,13 +46,13 @@
   <RGK_EndTable_Blueprint_Install.label>床头柜 (蓝图)</RGK_EndTable_Blueprint_Install.label>
   <RGK_EndTable_Frame.label>床头柜 (建造中)</RGK_EndTable_Frame.label>
   <RGK_EndTable_Frame.description>一张小床头柜，让附近的床稍微舒服一点。必须直接放置在床头附近。把一张以上的床头柜放在同一张床边没有叠加效果。</RGK_EndTable_Frame.description>
-  <RGK_EndTableWithLamp.label>带灯床头柜</RGK_EndTableWithLamp.label>
-  <RGK_EndTableWithLamp.description>一张带灯小床头柜，让附近的床稍微舒服一点。必须直接放置在床头附近。把一张以上的床头柜放在同一张床边没有叠加效果。</RGK_EndTableWithLamp.description>
+  <RGK_EndTableWithLamp.label>带灯床头柜（燃料）</RGK_EndTableWithLamp.label>
+  <RGK_EndTableWithLamp.description>一张带灯小床头柜，让附近的床稍微舒服一点。必须直接放置在床头附近。把一张以上的床头柜放在同一张床边没有叠加效果。需要燃料。</RGK_EndTableWithLamp.description>
   <RGK_EndTableWithLamp_Blueprint.label>带灯床头柜 (蓝图)</RGK_EndTableWithLamp_Blueprint.label>
   <RGK_EndTableWithLamp_Blueprint_Install.label>带灯床头柜 (蓝图)</RGK_EndTableWithLamp_Blueprint_Install.label>
   <RGK_EndTableWithLamp_Frame.label>带灯床头柜 (建造中)</RGK_EndTableWithLamp_Frame.label>
-  <RGK_EndTableWithLamp_Frame.description>一张带灯小床头柜，让附近的床稍微舒服一点。必须直接放置在床头附近。把一张以上的床头柜放在同一张床边没有叠加效果。</RGK_EndTableWithLamp_Frame.description>
-  <RGK_EndTableWithLampE.label>带灯床头柜E</RGK_EndTableWithLampE.label>
+  <RGK_EndTableWithLamp_Frame.description>一张带灯小床头柜，让附近的床稍微舒服一点。必须直接放置在床头附近。把一张以上的床头柜放在同一张床边没有叠加效果。需要燃料。</RGK_EndTableWithLamp_Frame.description>
+  <RGK_EndTableWithLampE.label>带灯床头柜（电）</RGK_EndTableWithLampE.label>
   <RGK_EndTableWithLampE.description>一张小带灯床头柜，让附近的床稍微舒服一点。必须直接放置在床头附近。把一张以上的床头柜放在同一张床边没有叠加效果。</RGK_EndTableWithLampE.description>
   <RGK_EndTableWithLampE_Blueprint.label>带灯床头柜E (蓝图)</RGK_EndTableWithLampE_Blueprint.label>
   <RGK_EndTableWithLampE_Blueprint_Install.label>带灯床头柜E (蓝图)</RGK_EndTableWithLampE_Blueprint_Install.label>
@@ -187,6 +195,14 @@
   <RGK_DogBowl_Blueprint_Install.label>食盆 (蓝图)</RGK_DogBowl_Blueprint_Install.label>
   <RGK_DogBowl_Frame.label>食盆 (建造中)</RGK_DogBowl_Frame.label>
   <RGK_DogBowl_Frame.description>一个动物的食碗。你可以在中储存食物和干草。</RGK_DogBowl_Frame.description>
+  <!-- 보관함 -->
+  <GL_Locker.label>储物箱</GL_Locker.label>
+  <GL_Locker.description>存放杂物的储物柜。即使在户外，存储在其中的物品也不会老化。它还可以有效防止储存在其中物品被火损坏。</GL_Locker.description>
+  <GL_Locker_Blueprint.label>储物箱 (蓝图)</GL_Locker_Blueprint.label>
+  <GL_Locker_Blueprint_Install.label>储物箱 (蓝图)</GL_Locker_Blueprint_Install.label>
+  <GL_Locker_Frame.label>储物箱 (建造中)</GL_Locker_Frame.label>
+  <GL_Locker_Frame.description>存放杂物的储物柜。即使在户外，存储在其中的物品也不会老化。它还可以有效防止储存在其中物品被火损坏。</GL_Locker_Frame.description>
+  
   <RGK_Flower.label>仿真花盆</RGK_Flower.label>
   <RGK_Flower.description>花盆复制品。永远盛开。</RGK_Flower.description>
   <RGK_Flower_Blueprint.label>仿真花盆 (蓝图)</RGK_Flower_Blueprint.label>
