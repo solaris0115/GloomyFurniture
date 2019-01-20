@@ -31,7 +31,7 @@
   <RGK_LampM.label>램프 (중앙)</RGK_LampM.label>
   <RGK_LampM.description>작은 램프입니다. 비가와도 안심하고 사용할 수 있습니다</RGK_LampM.description>
   <RGK_LampM_Blueprint.label>램프 (중앙) (청사진)</RGK_LampM_Blueprint.label>
-  <RGK_LampM_Blueprint_Install.label>Lamp (중앙) (청사진)</RGK_LampM_Blueprint_Install.label>
+  <RGK_LampM_Blueprint_Install.label>램프 (중앙) (청사진)</RGK_LampM_Blueprint_Install.label>
   <RGK_LampM_Frame.label>램프 (중앙) (건설 중)</RGK_LampM_Frame.label>
   <RGK_LampM_Frame.description>작은 램프입니다. 비가와도 안심하고 사용할 수 있습니다</RGK_LampM_Frame.description>
 
@@ -50,8 +50,8 @@
 
   <RGK_Street_Lamp_L.label>가로등</RGK_Street_Lamp_L.label>
   <RGK_Street_Lamp_L.description>길을 밝혀주는 가로등 입니다. 전기로 작동합니다.</RGK_Street_Lamp_L.description>
-  <RGK_Street_Lamp_L_Blueprint.label>Street lamp (청사진)</RGK_Street_Lamp_L_Blueprint.label>
-  <RGK_Street_Lamp_L_Frame.label>Street lamp (건설 중)</RGK_Street_Lamp_L_Frame.label>
+  <RGK_Street_Lamp_L_Blueprint.label>가로등 (청사진)</RGK_Street_Lamp_L_Blueprint.label>
+  <RGK_Street_Lamp_L_Frame.label>가로등 (건설 중)</RGK_Street_Lamp_L_Frame.label>
   <RGK_Street_Lamp_L_Frame.description>길을 밝혀주는 가로등 입니다. 전기로 작동합니다.</RGK_Street_Lamp_L_Frame.description>
 
   <RGK_Street_Lamp.label>전기식 가로등</RGK_Street_Lamp.label>
@@ -80,24 +80,16 @@
 
   <GL_Wall_Lamp.label>벽 랜턴</GL_Wall_Lamp.label>
   <GL_Wall_Lamp.description>벽에 설치 가능한 랜턴입니다.</GL_Wall_Lamp.description>
-  <GL_Wall_Lamp_Blueprint.label>wall lamp (blueprint)</GL_Wall_Lamp_Blueprint.label>
-  <GL_Wall_Lamp_Frame.label>wall lamp (building)</GL_Wall_Lamp_Frame.label>
-  <GL_Wall_Lamp_Frame.description>A light fixture designed to be mounted on a wall.</GL_Wall_Lamp_Frame.description>
+  <GL_Wall_Lamp_Blueprint.label>벽 랜턴 (청사진)</GL_Wall_Lamp_Blueprint.label>
+  <GL_Wall_Lamp_Frame.label>벽 랜턴 (건설중)</GL_Wall_Lamp_Frame.label>
+  <GL_Wall_Lamp_Frame.description>벽에 설치 가능한 랜턴입니다.</GL_Wall_Lamp_Frame.description>
 
   <GL_Wall_LampE.label>전기식 벽 랜턴</GL_Wall_LampE.label>
-  <GL_Wall_LampE.description>벽에 설치 가능한 랜턴입니다.전기로 동작합니다</GL_Wall_LampE.description>
-  <GL_Wall_LampE_Blueprint.label>wall lamp E (blueprint)</GL_Wall_LampE_Blueprint.label>
-  <GL_Wall_LampE_Frame.label>wall lamp E (building)</GL_Wall_LampE_Frame.label>
-  <GL_Wall_LampE_Frame.description>A light fixture designed to be mounted on a wall.</GL_Wall_LampE_Frame.description>
+  <GL_Wall_LampE.description>벽에 설치 가능한 랜턴입니다.전기로 동작합니다.</GL_Wall_LampE.description>
+  <GL_Wall_LampE_Blueprint.label>전기식 벽 랜턴 (청사진)</GL_Wall_LampE_Blueprint.label>
+  <GL_Wall_LampE_Frame.label>전기식 벽 랜턴 (건설중)</GL_Wall_LampE_Frame.label>
+  <GL_Wall_LampE_Frame.description>벽에 설치 가능한 랜턴입니다.전기로 동작합니다.</GL_Wall_LampE_Frame.description>
 
-  <GlowObject.label>벽 불빛</GlowObject.label>
-
-
-  <!--<GL_Wall_Lamp_Blueprint.label>벽 랜턴 (청사진)</GL_Wall_Lamp_Blueprint.label>-->
-  <!--<GL_Wall_Lamp_Frame.label>벽 랜턴 (건설 중)</GL_Wall_Lamp_Frame.label>-->
-  <!--<GL_Wall_Lamp_Frame.description>벽에 설치 가능한 랜턴입니다.</GL_Wall_Lamp_Frame.description>-->
-  <!--<GL_Wall_LampE_Blueprint.label>전기식 벽 랜턴 (청사진)</GL_Wall_LampE_Blueprint.label>-->
-  <!--<GL_Wall_LampE_Frame.label>전기식 벽 랜턴 (건설 중)</GL_Wall_LampE_Frame.label>-->
-  <!--<GL_Wall_LampE_Frame.description>벽에 설치 가능한 랜턴입니다. 전기로 동작합니다.</GL_Wall_LampE_Frame.description>-->
+  <GlowObject.label>벽등 불빛</GlowObject.label>
 
 </LanguageData>

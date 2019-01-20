@@ -32,8 +32,8 @@
 
   <GL_VentWall.label>환풍벽</GL_VentWall.label>
   <GL_VentWall.description>공기가 통할 수 있는 벽입니다.</GL_VentWall.description>
-  <GL_VentWall_Blueprint.label>vent 벽(청사진)</GL_VentWall_Blueprint.label>
-  <GL_VentWall_Frame.label>vent 벽(건설 중)</GL_VentWall_Frame.label>
+  <GL_VentWall_Blueprint.label>환풍 벽(청사진)</GL_VentWall_Blueprint.label>
+  <GL_VentWall_Frame.label>환풍 벽(건설 중)</GL_VentWall_Frame.label>
   <GL_VentWall_Frame.description>공기가 통할 수 있는 벽입니다.</GL_VentWall_Frame.description>
 
 
@@ -81,38 +81,27 @@
 
   <RGK_DoorOld.label>문</RGK_DoorOld.label>
   <RGK_DoorOld.description>방을 나눕니다. 수동으로 열고 닫으며 문 통과시 이동속도가 느려집니다.</RGK_DoorOld.description>
-  <RGK_DoorOld_Blueprint.label>antique door (blueprint)</RGK_DoorOld_Blueprint.label>
-  <RGK_DoorOld_Frame.label>antique door (building)</RGK_DoorOld_Frame.label>
-  <RGK_DoorOld_Frame.description>Divides rooms. Simple doors must be manually opened, which slows people down. The amount of slowdown depends on what the door is made of.</RGK_DoorOld_Frame.description>
+  <RGK_DoorOld_Blueprint.label>문 (청사진)</RGK_DoorOld_Blueprint.label>
+  <RGK_DoorOld_Frame.label>문 (건설중)</RGK_DoorOld_Frame.label>
+  <RGK_DoorOld_Frame.description>방을 나눕니다. 수동으로 열고 닫으며 문 통과시 이동속도가 느려집니다.</RGK_DoorOld_Frame.description>
 
 
   <!-- 울타리문 -->
 
   <RGK_Door.label>울타리 문</RGK_Door.label>
   <RGK_Door.description>울타리 사이에 놓을 수 있는 울타리 문입니다.</RGK_Door.description>
-  <RGK_Door_Blueprint.label>fence door (blueprint)</RGK_Door_Blueprint.label>
-  <RGK_Door_Frame.label>fence door (building)</RGK_Door_Frame.label>
-  <RGK_Door_Frame.description>Divides rooms. Simple doors must be manually opened, which slows people down. The amount of slowdown depends on what the door is made of.</RGK_Door_Frame.description>
+  <RGK_Door_Blueprint.label>울타리 문 (청사진)</RGK_Door_Blueprint.label>
+  <RGK_Door_Frame.label>울타리 문 (건설중)</RGK_Door_Frame.label>
+  <RGK_Door_Frame.description>울타리 사이에 놓을 수 있는 울타리 문입니다.</RGK_Door_Frame.description>
 
 
   <!-- 문틀 -->
 
   <GL_DoorFrame.label>문틀</GL_DoorFrame.label>
   <GL_DoorFrame.description>문주변을 꾸며주는 틀입니다.</GL_DoorFrame.description>
-  <GL_DoorFrame_Blueprint.label>door frame (blueprint)</GL_DoorFrame_Blueprint.label>
-  <GL_DoorFrame_Frame.label>door frame (building)</GL_DoorFrame_Frame.label>
-  <GL_DoorFrame_Frame.description>It is a frame to decorate the door.</GL_DoorFrame_Frame.description>
+  <GL_DoorFrame_Blueprint.label>문틀 (청사진)</GL_DoorFrame_Blueprint.label>
+  <GL_DoorFrame_Frame.label>문틀 (건설중)</GL_DoorFrame_Frame.label>
+  <GL_DoorFrame_Frame.description>문주변을 꾸며주는 틀입니다.</GL_DoorFrame_Frame.description>
 
-
-  <!--<RGK_DoorOld_Blueprint.label>문 (청사진)</RGK_DoorOld_Blueprint.label>-->
-  <!--<RGK_DoorOld_Frame.label>문 (건설 중)</RGK_DoorOld_Frame.label>-->
-  <!--<RGK_DoorOld_Frame.description>방을 나눕니다. 수동으로 열고 닫으며 문 통과시 이동속도가 느려집니다.</RGK_DoorOld_Frame.description>-->
-  <!--<RGK_Door_Blueprint.label>울타리 문(청사진)</RGK_Door_Blueprint.label>-->
-  <!--<RGK_Door_Frame.label>울타리 문 (건설 중)</RGK_Door_Frame.label>-->
-  <!--<RGK_Door_Frame.description>울타리 사이에 놓을 수 있는 울타리 문입니다.</RGK_Door_Frame.description>-->
-  <!--<GL_DoorFrame_Blueprint.label>문틀 (청사진)</GL_DoorFrame_Blueprint.label>-->
-  <!--<GL_DoorFrame_Frame.label>문틀 (건설 중)</GL_DoorFrame_Frame.label>-->
-  <!--<GL_DoorFrame_Frame.description>문주변을 꾸며주는 틀입니다.</GL_DoorFrame_Frame.description>-->
-  <!-- window -->
 
 </LanguageData>

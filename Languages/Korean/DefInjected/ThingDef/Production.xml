@@ -3,26 +3,17 @@
 
   <RGK_SimpleResearchBench.label>간단한 연구대</RGK_SimpleResearchBench.label>
   <RGK_SimpleResearchBench.description>지저분하게 종이와 필기구가 놓여있는 연구대입니다. 여기서 새로운 무언가를 발견해낼 수 있을 것 같습니다.</RGK_SimpleResearchBench.description>
-  <RGK_SimpleResearchBench_Blueprint.label>simple research bench (blueprint)</RGK_SimpleResearchBench_Blueprint.label>
-  <RGK_SimpleResearchBench_Blueprint_Install.label>simple research bench (blueprint)</RGK_SimpleResearchBench_Blueprint_Install.label>
-  <RGK_SimpleResearchBench_Frame.label>simple research bench (building)</RGK_SimpleResearchBench_Frame.label>
-  <RGK_SimpleResearchBench_Frame.description>A simple bench with writing implements and simple measurement devices. Researchers work here to discover new things.</RGK_SimpleResearchBench_Frame.description>
+  <RGK_SimpleResearchBench_Blueprint.label>간단한 연구대 (청사진)</RGK_SimpleResearchBench_Blueprint.label>
+  <RGK_SimpleResearchBench_Blueprint_Install.label>간단한 연구대 (청사진)</RGK_SimpleResearchBench_Blueprint_Install.label>
+  <RGK_SimpleResearchBench_Frame.label>간단한 연구대 (건설중)</RGK_SimpleResearchBench_Frame.label>
+  <RGK_SimpleResearchBench_Frame.description>지저분하게 종이와 필기구가 놓여있는 연구대입니다. 여기서 새로운 무언가를 발견해낼 수 있을 것 같습니다.</RGK_SimpleResearchBench_Frame.description>
 
   <RGK_FueledStove.label>조리대</RGK_FueledStove.label>
   <RGK_FueledStove.description>음식을 만들 수 있는 조리대입니다. 땔감같은 것을 넣어 불로 요리할 수 있습니다.</RGK_FueledStove.description>
-  <RGK_FueledStove_Blueprint.label>fueled stove (blueprint)</RGK_FueledStove_Blueprint.label>
-  <RGK_FueledStove_Blueprint_Install.label>fueled stove (blueprint)</RGK_FueledStove_Blueprint_Install.label>
-  <RGK_FueledStove_Frame.label>fueled stove (building)</RGK_FueledStove_Frame.label>
-  <RGK_FueledStove_Frame.description>A wood-fueled stove with an attached countertop for preparing meals.</RGK_FueledStove_Frame.description>
+  <RGK_FueledStove_Blueprint.label>조리대 (청사진)</RGK_FueledStove_Blueprint.label>
+  <RGK_FueledStove_Blueprint_Install.label>조리대 (청사진)</RGK_FueledStove_Blueprint_Install.label>
+  <RGK_FueledStove_Frame.label>조리대 (건설중)</RGK_FueledStove_Frame.label>
+  <RGK_FueledStove_Frame.description>음식을 만들 수 있는 조리대입니다. 땔감같은 것을 넣어 불로 요리할 수 있습니다.</RGK_FueledStove_Frame.description>
 
-
-  <!--<RGK_SimpleResearchBench_Blueprint.label>간단한 연구대 (청사진)</RGK_SimpleResearchBench_Blueprint.label>-->
-  <!--<RGK_SimpleResearchBench_Blueprint_Install.label>간단한 연구대(청사진)</RGK_SimpleResearchBench_Blueprint_Install.label>-->
-  <!--<RGK_SimpleResearchBench_Frame.label>간단한 연구대 (건설 중)</RGK_SimpleResearchBench_Frame.label>-->
-  <!--<RGK_SimpleResearchBench_Frame.description>지저분하게 종이와 필기구가 놓여있는 연구대입니다. 여기서 새로운 무언가를 발견해낼 수 있을 것 같습니다.</RGK_SimpleResearchBench_Frame.description>-->
-  <!--<RGK_FueledStove_Blueprint.label>조리대 (청사진)</RGK_FueledStove_Blueprint.label>-->
-  <!--<RGK_FueledStove_Blueprint_Install.label>조리대 (청사진)</RGK_FueledStove_Blueprint_Install.label>-->
-  <!--<RGK_FueledStove_Frame.label>조리대 (건설 중)</RGK_FueledStove_Frame.label>-->
-  <!--<RGK_FueledStove_Frame.description>음식을 만들 수 있는 조리대입니다. 땔감같은 것을 넣어 불로 요리할 수 있습니다.</RGK_FueledStove_Frame.description>-->
 
 </LanguageData>
