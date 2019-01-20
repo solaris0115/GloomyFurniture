@@ -1,7 +1,7 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <!-- </TerrainDef> -->
+  <!-- TerrainDef -->
 
   <RGK_Terrain.label>木製の床(古い)</RGK_Terrain.label>
   <RGK_Terrain.description>暖かく家庭的な雰囲気の板張りの床です。床を張るのは簡単ですが、非常に燃えやすいので注意です。</RGK_Terrain.description>
@@ -23,8 +23,5 @@
 
   <PebbleMarble.label>大理石砂利床</PebbleMarble.label>
   <PebbleMarble.description>大理石の砂利で作られている床です。</PebbleMarble.description>
-
-
-  <!-- TerrainDef -->
 
 </LanguageData>
