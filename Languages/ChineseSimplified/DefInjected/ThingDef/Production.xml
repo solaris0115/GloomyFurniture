@@ -3,9 +3,17 @@
 
   <RGK_SimpleResearchBench.label>简易研究台</RGK_SimpleResearchBench.label>
   <RGK_SimpleResearchBench.description>一台由简易书写台和简易测量装置构成的研究台。研究人员在这里研究新事物。</RGK_SimpleResearchBench.description>
+  <RGK_SimpleResearchBench_Blueprint.label>simple research bench (blueprint)</RGK_SimpleResearchBench_Blueprint.label>
+  <RGK_SimpleResearchBench_Blueprint_Install.label>simple research bench (blueprint)</RGK_SimpleResearchBench_Blueprint_Install.label>
+  <RGK_SimpleResearchBench_Frame.label>simple research bench (building)</RGK_SimpleResearchBench_Frame.label>
+  <RGK_SimpleResearchBench_Frame.description>A simple bench with writing implements and simple measurement devices. Researchers work here to discover new things.</RGK_SimpleResearchBench_Frame.description>
 
   <RGK_FueledStove.label>燃油炉</RGK_FueledStove.label>
   <RGK_FueledStove.description>一台木制炉子，有固定的台面用于烹饪。</RGK_FueledStove.description>
+  <RGK_FueledStove_Blueprint.label>fueled stove (blueprint)</RGK_FueledStove_Blueprint.label>
+  <RGK_FueledStove_Blueprint_Install.label>fueled stove (blueprint)</RGK_FueledStove_Blueprint_Install.label>
+  <RGK_FueledStove_Frame.label>fueled stove (building)</RGK_FueledStove_Frame.label>
+  <RGK_FueledStove_Frame.description>A wood-fueled stove with an attached countertop for preparing meals.</RGK_FueledStove_Frame.description>
 
 
   <!--<RGK_SimpleResearchBench_Blueprint.label>简易研究台 (蓝图)</RGK_SimpleResearchBench_Blueprint.label>-->

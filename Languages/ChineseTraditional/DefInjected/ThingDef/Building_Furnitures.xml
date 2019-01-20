@@ -5,123 +5,242 @@
 
   <RGK_bedSingle.label>單人床(格子)</RGK_bedSingle.label>
   <RGK_bedSingle.description>一個配有舒適的床墊和床單，可以用來休息。</RGK_bedSingle.description>
+  <RGK_bedSingle_Blueprint.label>bed (blueprint)</RGK_bedSingle_Blueprint.label>
+  <RGK_bedSingle_Blueprint_Install.label>bed (blueprint)</RGK_bedSingle_Blueprint_Install.label>
+  <RGK_bedSingle_Frame.label>bed (building)</RGK_bedSingle_Frame.label>
+  <RGK_bedSingle_Frame.description>A cozy mattress and sheets on a frame for resting.</RGK_bedSingle_Frame.description>
 
   <RGK_bedSingleB.label>單人床(印花)</RGK_bedSingleB.label>
   <RGK_bedSingleB.description>一個配有舒適的床墊和床單，可以用來休息。</RGK_bedSingleB.description>
+  <RGK_bedSingleB_Blueprint.label>bed2 (blueprint)</RGK_bedSingleB_Blueprint.label>
+  <RGK_bedSingleB_Blueprint_Install.label>bed2 (blueprint)</RGK_bedSingleB_Blueprint_Install.label>
+  <RGK_bedSingleB_Frame.label>bed2 (building)</RGK_bedSingleB_Frame.label>
+  <RGK_bedSingleB_Frame.description>A cozy mattress and sheets on a frame for resting.</RGK_bedSingleB_Frame.description>
 
   <RGK_bedDouble.label>雙人床(格子)</RGK_bedDouble.label>
   <RGK_bedDouble.description>一張簡單的雙人床，適合兩個人。</RGK_bedDouble.description>
+  <RGK_bedDouble_Blueprint.label>double bed (blueprint)</RGK_bedDouble_Blueprint.label>
+  <RGK_bedDouble_Blueprint_Install.label>double bed (blueprint)</RGK_bedDouble_Blueprint_Install.label>
+  <RGK_bedDouble_Frame.label>double bed (building)</RGK_bedDouble_Frame.label>
+  <RGK_bedDouble_Frame.description>A simple double-wide bed that fits two people.</RGK_bedDouble_Frame.description>
 
   <RGK_bedDoubleB.label>雙人床(印花)</RGK_bedDoubleB.label>
   <RGK_bedDoubleB.description>這張印花雙人床適合兩個人。</RGK_bedDoubleB.description>
+  <RGK_bedDoubleB_Blueprint.label>double bed2 (blueprint)</RGK_bedDoubleB_Blueprint.label>
+  <RGK_bedDoubleB_Blueprint_Install.label>double bed2 (blueprint)</RGK_bedDoubleB_Blueprint_Install.label>
+  <RGK_bedDoubleB_Frame.label>double bed2 (building)</RGK_bedDoubleB_Frame.label>
+  <RGK_bedDoubleB_Frame.description>A Celtic double-wide bed that fits two people.</RGK_bedDoubleB_Frame.description>
 
 
   <!-- 레이스 더블 침대 -->
 
   <GL_ClassyDoubleBed.label>classy double bed</GL_ClassyDoubleBed.label>
   <GL_ClassyDoubleBed.description>Elegant bed decorated with lace that fits two people.</GL_ClassyDoubleBed.description>
+  <GL_ClassyDoubleBed_Blueprint.label>classy double bed (blueprint)</GL_ClassyDoubleBed_Blueprint.label>
+  <GL_ClassyDoubleBed_Blueprint_Install.label>classy double bed (blueprint)</GL_ClassyDoubleBed_Blueprint_Install.label>
+  <GL_ClassyDoubleBed_Frame.label>classy double bed (building)</GL_ClassyDoubleBed_Frame.label>
+  <GL_ClassyDoubleBed_Frame.description>Elegant bed decorated with lace that fits two people. It is very comfortable and doesn't get disturbed during sleep.</GL_ClassyDoubleBed_Frame.description>
 
 
   <!-- Table -->
 
   <RGK_Dresser.label>梳妝台</RGK_Dresser.label>
   <RGK_Dresser.description>一個梳妝台。 為附近的所有床鋪提供小額舒適加值。 在同一張床附近放置一個以上的梳妝台沒有效果。</RGK_Dresser.description>
+  <RGK_Dresser_Blueprint.label>dresser (blueprint)</RGK_Dresser_Blueprint.label>
+  <RGK_Dresser_Blueprint_Install.label>dresser (blueprint)</RGK_Dresser_Blueprint_Install.label>
+  <RGK_Dresser_Frame.label>dresser (building)</RGK_Dresser_Frame.label>
+  <RGK_Dresser_Frame.description>A dresser. Gives a small comfort bonus to all nearby beds. Placing more than one dresser near the same bed has no effect.</RGK_Dresser_Frame.description>
 
   <RGK_EndTable.label>床頭櫃</RGK_EndTable.label>
   <RGK_EndTable.description>能使附近的一張床獲得少量的舒適度。必須直接放置鄰床的頭部。多個床頭櫃不會對一張床有疊加效果。</RGK_EndTable.description>
+  <RGK_EndTable_Blueprint.label>End table (blueprint)</RGK_EndTable_Blueprint.label>
+  <RGK_EndTable_Blueprint_Install.label>End table (blueprint)</RGK_EndTable_Blueprint_Install.label>
+  <RGK_EndTable_Frame.label>End table (building)</RGK_EndTable_Frame.label>
+  <RGK_EndTable_Frame.description>A small bedside table which makes nearby beds a little bit more comfortable. Must be placed directly adjacent to the head of the bed. Placing more than one end table near the same bed has no effect.</RGK_EndTable_Frame.description>
 
   <RGK_EndTableWithLamp.label>床頭櫃(油燈)</RGK_EndTableWithLamp.label>
   <RGK_EndTableWithLamp.description>能使附近的一張床獲得少量的舒適度。必須直接放置鄰床的頭部。多個床頭櫃不會對一張床有疊加效果。</RGK_EndTableWithLamp.description>
+  <RGK_EndTableWithLamp_Blueprint_Install.label>end table (blueprint)</RGK_EndTableWithLamp_Blueprint_Install.label>
 
   <RGK_EndTableWithLampE.label>床頭櫃(電燈)</RGK_EndTableWithLampE.label>
   <RGK_EndTableWithLampE.description>能使附近的一張床獲得少量的舒適度。必須直接放置鄰床的頭部。多個床頭櫃不會對一張床有疊加效果。需要電力。</RGK_EndTableWithLampE.description>
+  <RGK_EndTableWithLampE_Blueprint_Install.label>end table (blueprint)</RGK_EndTableWithLampE_Blueprint_Install.label>
 
 
   <!-- Chair -->
 
   <RGK_bucketr.label>水桶</RGK_bucketr.label>
   <RGK_bucketr.description>一個小水桶，可以用來裝飾你家， 雖然並沒有美觀度可言。</RGK_bucketr.description>
+  <RGK_bucketr_Blueprint.label>RGK bucket (blueprint)</RGK_bucketr_Blueprint.label>
+  <RGK_bucketr_Blueprint_Install.label>RGK bucket (blueprint)</RGK_bucketr_Blueprint_Install.label>
+  <RGK_bucketr_Frame.label>RGK bucket (building)</RGK_bucketr_Frame.label>
+  <RGK_bucketr_Frame.description>bucket.</RGK_bucketr_Frame.description>
 
   <RGK_orc.label>酒桶</RGK_orc.label>
   <RGK_orc.description>裡面可能裝著滿滿蘭姆酒， 然而你家小人打不開~</RGK_orc.description>
+  <RGK_orc_Blueprint.label>RGK orc barrel (blueprint)</RGK_orc_Blueprint.label>
+  <RGK_orc_Blueprint_Install.label>RGK orc barrel (blueprint)</RGK_orc_Blueprint_Install.label>
+  <RGK_orc_Frame.label>RGK orc barrel (building)</RGK_orc_Frame.label>
+  <RGK_orc_Frame.description>Just orc barrel</RGK_orc_Frame.description>
 
   <RGK_SimpleChair.label>凳子</RGK_SimpleChair.label>
   <RGK_SimpleChair.description>一個簡單的凳子。 不是很舒服，但總比沒有好。 可以搭配桌子或工作台使用。</RGK_SimpleChair.description>
+  <RGK_SimpleChair_Blueprint.label>simple chair (blueprint)</RGK_SimpleChair_Blueprint.label>
+  <RGK_SimpleChair_Blueprint_Install.label>simple chair (blueprint)</RGK_SimpleChair_Blueprint_Install.label>
+  <RGK_SimpleChair_Frame.label>simple chair (building)</RGK_SimpleChair_Frame.label>
+  <RGK_SimpleChair_Frame.description>A simple platform on which to sit. Not very comfortable, but much better than nothing. Can be used at tables, work stations, and elsewhere.</RGK_SimpleChair_Frame.description>
 
   <RGK_Chair.label>椅子</RGK_Chair.label>
   <RGK_Chair.description>舒適的椅子。 可以搭配桌子或工作台使用。</RGK_Chair.description>
+  <RGK_Chair_Blueprint.label>chair (blueprint)</RGK_Chair_Blueprint.label>
+  <RGK_Chair_Blueprint_Install.label>chair (blueprint)</RGK_Chair_Blueprint_Install.label>
+  <RGK_Chair_Frame.label>chair (building)</RGK_Chair_Frame.label>
+  <RGK_Chair_Frame.description>A comfortable chair. Can be used at tables, work stations, and elsewhere.</RGK_Chair_Frame.description>
 
   <RGKDiningChair.label>餐椅</RGKDiningChair.label>
   <RGKDiningChair.description>一個舒適且惹人喜愛的椅子。 可以搭配桌子或工作台使用。</RGKDiningChair.description>
+  <RGKDiningChair_Blueprint.label>dining chair (blueprint)</RGKDiningChair_Blueprint.label>
+  <RGKDiningChair_Blueprint_Install.label>dining chair (blueprint)</RGKDiningChair_Blueprint_Install.label>
+  <RGKDiningChair_Frame.label>dining chair (building)</RGKDiningChair_Frame.label>
+  <RGKDiningChair_Frame.description>A comfortable and attractive chair. Can be used at tables, work stations, and elsewhere.</RGKDiningChair_Frame.description>
 
 
   <!-- 공원벤치 -->
 
   <GL_Bench.label>bench</GL_Bench.label>
   <GL_Bench.description>It's a park bench chair. Couples can't sit here.</GL_Bench.description>
+  <GL_Bench_Blueprint.label>bench (blueprint)</GL_Bench_Blueprint.label>
+  <GL_Bench_Blueprint_Install.label>bench (blueprint)</GL_Bench_Blueprint_Install.label>
+  <GL_Bench_Frame.label>bench (building)</GL_Bench_Frame.label>
+  <GL_Bench_Frame.description>It's a park bench chair. Couples can't sit here.</GL_Bench_Frame.description>
 
   <RGK_TableA.label>桌子(2X2)</RGK_TableA.label>
   <RGK_TableA.description>把椅子貼近放置時，人們會在桌子上用餐。</RGK_TableA.description>
+  <RGK_TableA_Blueprint.label>table (2x2) (blueprint)</RGK_TableA_Blueprint.label>
+  <RGK_TableA_Blueprint_Install.label>table (2x2) (blueprint)</RGK_TableA_Blueprint_Install.label>
+  <RGK_TableA_Frame.label>table (2x2) (building)</RGK_TableA_Frame.label>
+  <RGK_TableA_Frame.description>People eat off tables when chairs are placed facing them.</RGK_TableA_Frame.description>
 
   <RGK_TableC.label>復古桌(2x2)</RGK_TableC.label>
   <RGK_TableC.description>把椅子貼近放置時，人們會在桌子上用餐。</RGK_TableC.description>
+  <RGK_TableC_Blueprint.label>table C (2x2) (blueprint)</RGK_TableC_Blueprint.label>
+  <RGK_TableC_Blueprint_Install.label>table C (2x2) (blueprint)</RGK_TableC_Blueprint_Install.label>
+  <RGK_TableC_Frame.label>table C (2x2) (building)</RGK_TableC_Frame.label>
+  <RGK_TableC_Frame.description>People eat off tables when chairs are placed facing them.</RGK_TableC_Frame.description>
 
   <RGK_TableB.label>餐巾桌(2X2)</RGK_TableB.label>
   <RGK_TableB.description>把椅子貼近放置時，人們會在桌子上用餐。</RGK_TableB.description>
+  <RGK_TableB_Blueprint.label>celtic table (2x2) (blueprint)</RGK_TableB_Blueprint.label>
+  <RGK_TableB_Blueprint_Install.label>celtic table (2x2) (blueprint)</RGK_TableB_Blueprint_Install.label>
+  <RGK_TableB_Frame.label>celtic table (2x2) (building)</RGK_TableB_Frame.label>
+  <RGK_TableB_Frame.description>People eat off tables when chairs are placed facing them.</RGK_TableB_Frame.description>
 
   <RGK_TableD.label>泡茶桌(2X2)</RGK_TableD.label>
   <RGK_TableD.description>把椅子貼近放置時，人們會在桌子上用餐。</RGK_TableD.description>
+  <RGK_TableD_Blueprint_Install.label>celtic table (2x2) (blueprint)</RGK_TableD_Blueprint_Install.label>
 
   <RGK_TableE.label>長桌子(2x1)</RGK_TableE.label>
   <RGK_TableE.description>把椅子貼近放置時，人們會在桌子上用餐。</RGK_TableE.description>
+  <RGK_TableE_Blueprint.label>celtic table (2x1) (blueprint)</RGK_TableE_Blueprint.label>
+  <RGK_TableE_Blueprint_Install.label>celtic table (2x1) (blueprint)</RGK_TableE_Blueprint_Install.label>
+  <RGK_TableE_Frame.label>celtic table (2x1) (building)</RGK_TableE_Frame.label>
+  <RGK_TableE_Frame.description>People eat off tables when chairs are placed facing them.</RGK_TableE_Frame.description>
 
   <RGK_TableF.label>印花長桌子(3x2)</RGK_TableF.label>
   <RGK_TableF.description>把椅子貼近放置時，人們會在桌子上用餐。</RGK_TableF.description>
+  <RGK_TableF_Blueprint.label>celtic table (3x2) (blueprint)</RGK_TableF_Blueprint.label>
+  <RGK_TableF_Blueprint_Install.label>celtic table (3x2) (blueprint)</RGK_TableF_Blueprint_Install.label>
+  <RGK_TableF_Frame.label>celtic table (3x2) (building)</RGK_TableF_Frame.label>
+  <RGK_TableF_Frame.description>People eat off tables when chairs are placed facing them.</RGK_TableF_Frame.description>
 
   <RGK_TableG.label>印花桌(2x2)</RGK_TableG.label>
   <RGK_TableG.description>把椅子貼近放置時，人們會在桌子上用餐。</RGK_TableG.description>
+  <RGK_TableG_Blueprint.label>celtic table (2x2) (blueprint)</RGK_TableG_Blueprint.label>
+  <RGK_TableG_Blueprint_Install.label>celtic table (2x2) (blueprint)</RGK_TableG_Blueprint_Install.label>
+  <RGK_TableG_Frame.label>celtic table (2x2) (building)</RGK_TableG_Frame.label>
+  <RGK_TableG_Frame.description>People eat off tables when chairs are placed facing them.</RGK_TableG_Frame.description>
 
   <RGK_TableH.label>印花桌(3x3)</RGK_TableH.label>
   <RGK_TableH.description>把椅子貼近放置時，人們會在桌子上用餐。</RGK_TableH.description>
+  <RGK_TableH_Blueprint.label>celtic table (3x3) (blueprint)</RGK_TableH_Blueprint.label>
+  <RGK_TableH_Blueprint_Install.label>celtic table (3x3) (blueprint)</RGK_TableH_Blueprint_Install.label>
+  <RGK_TableH_Frame.label>celtic table (3x3) (building)</RGK_TableH_Frame.label>
+  <RGK_TableH_Frame.description>People eat off tables when chairs are placed facing them.</RGK_TableH_Frame.description>
 
   <RGK_MiniTableA.label>小桌子</RGK_MiniTableA.label>
   <RGK_MiniTableA.description>把椅子貼近放置時，人們會在桌子上用餐。</RGK_MiniTableA.description>
+  <RGK_MiniTableA_Blueprint.label>mini table (blueprint)</RGK_MiniTableA_Blueprint.label>
+  <RGK_MiniTableA_Blueprint_Install.label>mini table (blueprint)</RGK_MiniTableA_Blueprint_Install.label>
+  <RGK_MiniTableA_Frame.label>mini table (building)</RGK_MiniTableA_Frame.label>
+  <RGK_MiniTableA_Frame.description>People eat off tables when chairs are placed facing them.</RGK_MiniTableA_Frame.description>
 
   <RGK_MiniTableB.label>小餐巾桌</RGK_MiniTableB.label>
   <RGK_MiniTableB.description>把椅子貼近放置時，人們會在桌子上用餐。</RGK_MiniTableB.description>
+  <RGK_MiniTableB_Blueprint.label>mini table (blueprint)</RGK_MiniTableB_Blueprint.label>
+  <RGK_MiniTableB_Blueprint_Install.label>mini table (blueprint)</RGK_MiniTableB_Blueprint_Install.label>
+  <RGK_MiniTableB_Frame.label>mini table (building)</RGK_MiniTableB_Frame.label>
+  <RGK_MiniTableB_Frame.description>People eat off tables when chairs are placed facing them.</RGK_MiniTableB_Frame.description>
 
 
   <!-- Storage -->
 
   <RKGWineRackB.label>酒架</RKGWineRackB.label>
   <RKGWineRackB.description>這個架子上能存放酒或酒精飲品。</RKGWineRackB.description>
+  <RKGWineRackB_Blueprint.label>wine rack (blueprint)</RKGWineRackB_Blueprint.label>
+  <RKGWineRackB_Blueprint_Install.label>wine rack (blueprint)</RKGWineRackB_Blueprint_Install.label>
+  <RKGWineRackB_Frame.label>wine rack (building)</RKGWineRackB_Frame.label>
+  <RKGWineRackB_Frame.description>A shelf that stores wine or alcohol.</RKGWineRackB_Frame.description>
 
   <WardrobeA.label>衣櫃</WardrobeA.label>
   <WardrobeA.description>用於存放衣服的架子和抽屜。</WardrobeA.description>
+  <WardrobeA_Blueprint.label>wardrobe (blueprint)</WardrobeA_Blueprint.label>
+  <WardrobeA_Blueprint_Install.label>wardrobe (blueprint)</WardrobeA_Blueprint_Install.label>
+  <WardrobeA_Frame.label>wardrobe (building)</WardrobeA_Frame.label>
+  <WardrobeA_Frame.description>Shelves and drawers for storing clothes.</WardrobeA_Frame.description>
 
   <WardrobeB.label>衣櫥</WardrobeB.label>
   <WardrobeB.description>用於存放衣服的架子和抽屜。</WardrobeB.description>
+  <WardrobeB_Blueprint.label>wardrobe (blueprint)</WardrobeB_Blueprint.label>
+  <WardrobeB_Blueprint_Install.label>wardrobe (blueprint)</WardrobeB_Blueprint_Install.label>
+  <WardrobeB_Frame.label>wardrobe (building)</WardrobeB_Frame.label>
+  <WardrobeB_Frame.description>Shelves and drawers for storing clothes.</WardrobeB_Frame.description>
 
   <RGK_Manger.label>飼料槽</RGK_Manger.label>
   <RGK_Manger.description>這是動物的飼料槽。 可以放置寵物的食物。</RGK_Manger.description>
+  <RGK_Manger_Blueprint.label>manger (blueprint)</RGK_Manger_Blueprint.label>
+  <RGK_Manger_Blueprint_Install.label>manger (blueprint)</RGK_Manger_Blueprint_Install.label>
+  <RGK_Manger_Frame.label>manger (building)</RGK_Manger_Frame.label>
+  <RGK_Manger_Frame.description>It's a cask for animals. You can store food and hay.</RGK_Manger_Frame.description>
 
 
   <!-- 선반 -->
 
   <GL_Shelf.label>shelf</GL_Shelf.label>
   <GL_Shelf.description>A shelf for storing miscellaneous items. Items stored in this will not deteriorate, even if outside.</GL_Shelf.description>
+  <GL_Shelf_Blueprint.label>shelf (blueprint)</GL_Shelf_Blueprint.label>
+  <GL_Shelf_Blueprint_Install.label>shelf (blueprint)</GL_Shelf_Blueprint_Install.label>
+  <GL_Shelf_Frame.label>shelf (building)</GL_Shelf_Frame.label>
+  <GL_Shelf_Frame.description>A shelf for storing miscellaneous items. Items stored in this will not deteriorate, even if outside.</GL_Shelf_Frame.description>
 
 
   <!-- 개밥그릇 -->
 
   <RGK_DogBowl.label>bowl</RGK_DogBowl.label>
   <RGK_DogBowl.description>It's a cask for animals. You can store food and hay.</RGK_DogBowl.description>
+  <RGK_DogBowl_Blueprint.label>bowl (blueprint)</RGK_DogBowl_Blueprint.label>
+  <RGK_DogBowl_Blueprint_Install.label>bowl (blueprint)</RGK_DogBowl_Blueprint_Install.label>
+  <RGK_DogBowl_Frame.label>bowl (building)</RGK_DogBowl_Frame.label>
+  <RGK_DogBowl_Frame.description>It's a cask for animals. You can store food and hay.</RGK_DogBowl_Frame.description>
 
 
   <!-- 보관함 -->
 
   <GL_Locker.label>locker</GL_Locker.label>
   <GL_Locker.description>A locker for storing miscellaneous items. Items stored in this will not deteriorate, even if outside. Also it prevents the contents from being damaged by fire.</GL_Locker.description>
+  <GL_Locker_Blueprint.label>locker (blueprint)</GL_Locker_Blueprint.label>
+  <GL_Locker_Blueprint_Install.label>locker (blueprint)</GL_Locker_Blueprint_Install.label>
+  <GL_Locker_Frame.label>locker (building)</GL_Locker_Frame.label>
+  <GL_Locker_Frame.description>A locker for storing miscellaneous items. Items stored in this will not deteriorate, even if outside. Also it prevents the contents from being damaged by fire.</GL_Locker_Frame.description>
 
   <RGK_Flower.label>replica flower</RGK_Flower.label>
   <RGK_Flower.description>It's a flowerpot replica. It'll be in bloom forever.</RGK_Flower.description>

@@ -81,18 +81,27 @@
 
   <RGK_DoorOld.label>复古门</RGK_DoorOld.label>
   <RGK_DoorOld.description>分隔房间。必须手动打开，这会减慢人们通过的速度。减速程度取决于门由什么材料构成。</RGK_DoorOld.description>
+  <RGK_DoorOld_Blueprint.label>antique door (blueprint)</RGK_DoorOld_Blueprint.label>
+  <RGK_DoorOld_Frame.label>antique door (building)</RGK_DoorOld_Frame.label>
+  <RGK_DoorOld_Frame.description>Divides rooms. Simple doors must be manually opened, which slows people down. The amount of slowdown depends on what the door is made of.</RGK_DoorOld_Frame.description>
 
 
   <!-- 울타리문 -->
 
   <RGK_Door.label>门</RGK_Door.label>
   <RGK_Door.description>分隔房间。必须手动打开，这会减慢人们通过的速度。减速程度取决于门由什么材料构成。</RGK_Door.description>
+  <RGK_Door_Blueprint.label>fence door (blueprint)</RGK_Door_Blueprint.label>
+  <RGK_Door_Frame.label>fence door (building)</RGK_Door_Frame.label>
+  <RGK_Door_Frame.description>Divides rooms. Simple doors must be manually opened, which slows people down. The amount of slowdown depends on what the door is made of.</RGK_Door_Frame.description>
 
 
   <!-- 문틀 -->
 
   <GL_DoorFrame.label>门框</GL_DoorFrame.label>
   <GL_DoorFrame.description>一个用来装饰门的框架。</GL_DoorFrame.description>
+  <GL_DoorFrame_Blueprint.label>door frame (blueprint)</GL_DoorFrame_Blueprint.label>
+  <GL_DoorFrame_Frame.label>door frame (building)</GL_DoorFrame_Frame.label>
+  <GL_DoorFrame_Frame.description>It is a frame to decorate the door.</GL_DoorFrame_Frame.description>
 
 
   <!-- window -->

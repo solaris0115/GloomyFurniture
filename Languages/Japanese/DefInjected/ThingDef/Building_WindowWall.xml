@@ -81,18 +81,27 @@
 
   <RGK_DoorOld.label>アンティークドア</RGK_DoorOld.label>
   <RGK_DoorOld.description>部屋を隔てる手動扉です。手動で開閉しなければならないので通過する速度が遅くなります。移動速度が遅くなる量は、ドアの材質によって決まります。</RGK_DoorOld.description>
+  <RGK_DoorOld_Blueprint.label>antique door (blueprint)</RGK_DoorOld_Blueprint.label>
+  <RGK_DoorOld_Frame.label>antique door (building)</RGK_DoorOld_Frame.label>
+  <RGK_DoorOld_Frame.description>Divides rooms. Simple doors must be manually opened, which slows people down. The amount of slowdown depends on what the door is made of.</RGK_DoorOld_Frame.description>
 
 
   <!-- 울타리문 -->
 
   <RGK_Door.label>フェンスドア</RGK_Door.label>
   <RGK_Door.description>部屋を隔てる扉です。手で開け閉めしないといけない分だけ通過するのが遅くなります。低下する移動速度はドアの材質によって異なります。</RGK_Door.description>
+  <RGK_Door_Blueprint.label>fence door (blueprint)</RGK_Door_Blueprint.label>
+  <RGK_Door_Frame.label>fence door (building)</RGK_Door_Frame.label>
+  <RGK_Door_Frame.description>Divides rooms. Simple doors must be manually opened, which slows people down. The amount of slowdown depends on what the door is made of.</RGK_Door_Frame.description>
 
 
   <!-- 문틀 -->
 
   <GL_DoorFrame.label>ドアフレーム</GL_DoorFrame.label>
   <GL_DoorFrame.description>ドアを装飾するためのドア枠です。</GL_DoorFrame.description>
+  <GL_DoorFrame_Blueprint.label>door frame (blueprint)</GL_DoorFrame_Blueprint.label>
+  <GL_DoorFrame_Frame.label>door frame (building)</GL_DoorFrame_Frame.label>
+  <GL_DoorFrame_Frame.description>It is a frame to decorate the door.</GL_DoorFrame_Frame.description>
 
 
   <!--<RGK_DoorOld_Blueprint.label>antique door (blueprint)</RGK_DoorOld_Blueprint.label>-->
