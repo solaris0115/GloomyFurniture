@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <RugA.label>ケルト風 ラグマット</RugA.label>
+  <RugA.description>」の4x4サイズのラグマットか元ネタです。</RugA.description>
+  <Blueprint_RugA.label>ケルト風 ラグマット(設計)</Blueprint_RugA.label>
+  <Blueprint_Install_RugA.label>ケルト風 ラグマット(移動先)</Blueprint_Install_RugA.label>
+  <Frame_RugA.label>ケルト風 ラグマット(施工)</Frame_RugA.label>
+  <Frame_RugA.description>」の4x4サイズのラグマットか元ネタです。</Frame_RugA.description>
+
+  <RugB.label>ケルト風 ラグマットB</RugB.label>
+  <RugB.description>」の4x4サイズのラグマットか元ネタです。</RugB.description>
+  <Blueprint_RugB.label>ケルト風 ラグマットB(設計)</Blueprint_RugB.label>
+  <Blueprint_Install_RugB.label>ケルト風 ラグマットB(移動先)</Blueprint_Install_RugB.label>
+  <Frame_RugB.label>ケルト風 ラグマットB(施工)</Frame_RugB.label>
+  <Frame_RugB.description>」の4x4サイズのラグマットか元ネタです。</Frame_RugB.description>
+
+  <RugC.label>ケルト風 ラグマットC</RugC.label>
+  <RugC.description>」の4x4サイズのラグマットか元ネタです。</RugC.description>
+  <Blueprint_RugC.label>ケルト風 ラグマットC(設計)</Blueprint_RugC.label>
+  <Blueprint_Install_RugC.label>ケルト風 ラグマットC(移動先)</Blueprint_Install_RugC.label>
+  <Frame_RugC.label>ケルト風 ラグマットC(施工)</Frame_RugC.label>
+  <Frame_RugC.description>」の4x4サイズのラグマットか元ネタです。</Frame_RugC.description>
+
+</LanguageData>
