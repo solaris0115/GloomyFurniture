@@ -52,10 +52,10 @@
   <GL_FlowerWall_Frame.label>花墙 (建造中)</GL_FlowerWall_Frame.label>
   <GL_FlowerWall_Frame.description>鲜花装饰的墙。</GL_FlowerWall_Frame.description>
   <!-- 올드스타일 문 -->
-  <RGK_DoorOld.label>复古门</RGK_DoorOld.label>
+  <RGK_DoorOld.label>古典门</RGK_DoorOld.label>
   <RGK_DoorOld.description>分隔房间。必须手动打开，这会减慢人们通过的速度。减速程度取决于门由什么材料构成。</RGK_DoorOld.description>
-  <RGK_DoorOld_Blueprint.label>复古门 (蓝图)</RGK_DoorOld_Blueprint.label>
-  <RGK_DoorOld_Frame.label>复古门 (建造中)</RGK_DoorOld_Frame.label>
+  <RGK_DoorOld_Blueprint.label>古典门 (蓝图)</RGK_DoorOld_Blueprint.label>
+  <RGK_DoorOld_Frame.label>古典门 (建造中)</RGK_DoorOld_Frame.label>
   <RGK_DoorOld_Frame.description>分隔房间。必须手动打开，这会减慢人们通过的速度。减速程度取决于门由什么材料构成。</RGK_DoorOld_Frame.description>
   <!-- 울타리문 -->
   <RGK_Door.label>栅门</RGK_Door.label>
