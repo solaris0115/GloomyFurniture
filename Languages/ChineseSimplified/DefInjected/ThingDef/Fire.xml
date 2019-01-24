@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <RGK_Fireplace.label>壁炉</RGK_Fireplace.label>
   <RGK_Fireplace.description>能使房间温暖的壁炉。需要燃料。</RGK_Fireplace.description>
@@ -67,5 +67,4 @@
   <GL_Wall_LampE_Frame.label>电壁灯 (建造中)</GL_Wall_LampE_Frame.label>
   <GL_Wall_LampE_Frame.description>一个用来挂在墙上的电灯。</GL_Wall_LampE_Frame.description>
   <GlowObject.label>壁灯</GlowObject.label>
-  <!--Wall Lamp -->
 </LanguageData>
