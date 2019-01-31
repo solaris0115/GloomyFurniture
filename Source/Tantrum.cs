@@ -35,7 +35,7 @@ namespace Gloomylynx
         }
         public static bool CheckForDisturbedSleepPrefix(Pawn __instance)
         {
-            if (__instance.CurrentBed() !=null && __instance.CurrentBed().def.defName == "GL_ClassyDoubleBed")
+            if (__instance!=null && __instance.CurrentBed() !=null && __instance.CurrentBed().def !=null && __instance.CurrentBed().def.defName == "GL_ClassyDoubleBed")
             {
                 return false;
             }
