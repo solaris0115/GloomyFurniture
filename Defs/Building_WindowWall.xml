@@ -710,6 +710,7 @@
 		</costList>
 		<designationHotKey>Misc12</designationHotKey>
 		<defaultPlacingRot>South</defaultPlacingRot>
+		<clearBuildingArea>false</clearBuildingArea>
 		<designationCategory>OldStyleFurniture</designationCategory>
 		<tradeability>None</tradeability>
 		<building>
