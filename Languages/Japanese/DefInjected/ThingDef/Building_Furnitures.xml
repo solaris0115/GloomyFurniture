@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
   <!-- Bed -->
@@ -35,11 +35,11 @@
   <!-- Lace double bed -->
 
   <GL_ClassyDoubleBed.label>高級なダブルベッド</GL_ClassyDoubleBed.label>
-  <GL_ClassyDoubleBed.description>二人用のレースで飾られた優雅なベッドです。</GL_ClassyDoubleBed.description>
+  <GL_ClassyDoubleBed.description>二人用のレースで飾られた優雅なベッドです。非常に快適で、睡眠中に邪魔されません。</GL_ClassyDoubleBed.description>
   <Blueprint_GL_ClassyDoubleBed.label>高級なダブルベッド(設計)</Blueprint_GL_ClassyDoubleBed.label>
   <Blueprint_Install_GL_ClassyDoubleBed.label>高級なダブルベッド(移動先)</Blueprint_Install_GL_ClassyDoubleBed.label>
   <Frame_GL_ClassyDoubleBed.label>高級なダブルベッド(施工)</Frame_GL_ClassyDoubleBed.label>
-  <Frame_GL_ClassyDoubleBed.description>二人用のレースで飾られた優雅なベッドです。</Frame_GL_ClassyDoubleBed.description>
+  <Frame_GL_ClassyDoubleBed.description>二人用のレースで飾られた優雅なベッドです。非常に快適で、睡眠中に邪魔されません。</Frame_GL_ClassyDoubleBed.description>
 
 
   <!-- Table -->
