@@ -57,6 +57,7 @@
 		<castEdgeShadows>true</castEdgeShadows>
 		<fillPercent>1</fillPercent>
 		<coversFloor>true</coversFloor>
+		<constructEffect>ConstructWood</constructEffect>
 		<placingDraggableDimensions>1</placingDraggableDimensions>
 		<tickerType>Never</tickerType>
 		<rotatable>false</rotatable>
@@ -589,6 +590,7 @@
 		<blockWind>false</blockWind>
 		<castEdgeShadows>true</castEdgeShadows>
 		<fillPercent>0.5</fillPercent>
+		<constructEffect>ConstructWood</constructEffect>
 		<placingDraggableDimensions>1</placingDraggableDimensions>
 		<tickerType>Never</tickerType>
 		<rotatable>false</rotatable>
