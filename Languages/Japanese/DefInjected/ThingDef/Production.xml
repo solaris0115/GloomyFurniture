@@ -15,4 +15,32 @@
   <Frame_RGK_FueledStove.label>カマド(施工)</Frame_RGK_FueledStove.label>
   <Frame_RGK_FueledStove.description>食事を準備するための調理台が付いた薪を燃料に使うコンロです。</Frame_RGK_FueledStove.description>
 
+  <GL_HandTailoringBench.label>ミシン台</GL_HandTailoringBench.label>
+  <GL_HandTailoringBench.description>この足踏みミシン付きの作業台で衣服を作成できます。電動ミシン台の半分程度しか作成速度がありません。</GL_HandTailoringBench.description>
+  <Blueprint_GL_HandTailoringBench.label>ミシン台(設計)</Blueprint_GL_HandTailoringBench.label>
+  <Blueprint_Install_GL_HandTailoringBench.label>ミシン台(移動先)</Blueprint_Install_GL_HandTailoringBench.label>
+  <Frame_GL_HandTailoringBench.label>ミシン台(施工)</Frame_GL_HandTailoringBench.label>
+  <Frame_GL_HandTailoringBench.description>この足踏みミシン付きの作業台で衣服を作成できます。電動ミシン台の半分程度しか作成速度がありません。</Frame_GL_HandTailoringBench.description>
+
+  <GL_ElectricTailoringBench.label>電動ミシン台</GL_ElectricTailoringBench.label>
+  <GL_ElectricTailoringBench.description>この電動ミシン付きの作業台は、とても早く衣服を作成できます。電気がない場合、通常のミシン台と同じ作成速度になります。</GL_ElectricTailoringBench.description>
+  <Blueprint_GL_ElectricTailoringBench.label>電動ミシン台(設計)</Blueprint_GL_ElectricTailoringBench.label>
+  <Blueprint_Install_GL_ElectricTailoringBench.label>電動ミシン台(移動先)</Blueprint_Install_GL_ElectricTailoringBench.label>
+  <Frame_GL_ElectricTailoringBench.label>電動ミシン台(施工)</Frame_GL_ElectricTailoringBench.label>
+  <Frame_GL_ElectricTailoringBench.description>この電動ミシン付きの作業台は、とても早く衣服を作成できます。電気がない場合、通常のミシン台と同じ作成速度になります。</Frame_GL_ElectricTailoringBench.description>
+
+  <GL_FueledSmithy.label>工作台</GL_FueledSmithy.label>
+  <GL_FueledSmithy.description>燃料に薪を使っています。機械的ではない武器や道具を作成できる工作台です。</GL_FueledSmithy.description>
+  <Blueprint_GL_FueledSmithy.label>工作台(設計)</Blueprint_GL_FueledSmithy.label>
+  <Blueprint_Install_GL_FueledSmithy.label>工作台(移動先)</Blueprint_Install_GL_FueledSmithy.label>
+  <Frame_GL_FueledSmithy.label>工作台(施工)</Frame_GL_FueledSmithy.label>
+  <Frame_GL_FueledSmithy.description>燃料に薪を使っています。機械的ではない武器や道具を作成できる工作台です。</Frame_GL_FueledSmithy.description>
+
+  <GL_ElectricSmithy.label>電動工作台</GL_ElectricSmithy.label>
+  <GL_ElectricSmithy.description>電気を動力としています。機械的ではない武器や道具を作成できる工作台です。</GL_ElectricSmithy.description>
+  <Blueprint_GL_ElectricSmithy.label>電動工作台(設計)</Blueprint_GL_ElectricSmithy.label>
+  <Blueprint_Install_GL_ElectricSmithy.label>電動工作台(移動先)</Blueprint_Install_GL_ElectricSmithy.label>
+  <Frame_GL_ElectricSmithy.label>電動工作台(施工)</Frame_GL_ElectricSmithy.label>
+  <Frame_GL_ElectricSmithy.description>電気を動力としています。機械的ではない武器や道具を作成できる工作台です。</Frame_GL_ElectricSmithy.description>
+
 </LanguageData>

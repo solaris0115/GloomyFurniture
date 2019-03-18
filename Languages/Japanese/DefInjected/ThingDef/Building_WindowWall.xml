@@ -103,4 +103,31 @@
   <Frame_GL_DoorFrame.description>ドアを装飾するためのドア枠です。</Frame_GL_DoorFrame.description>
 
 
+  <!-- 19.03.17 Bottom Boundary -->
+
+  <GL_BoundaryWood.label>縁石(木)</GL_BoundaryWood.label>
+  <GL_BoundaryWood.description>床同士の境界を区別するための木製の縁石です。</GL_BoundaryWood.description>
+  <Blueprint_GL_BoundaryWood.label>縁石(木)(設計)</Blueprint_GL_BoundaryWood.label>
+  <Frame_GL_BoundaryWood.label>縁石(木)(施行)</Frame_GL_BoundaryWood.label>
+  <Frame_GL_BoundaryWood.description>床同士の境界を区別するための木製の縁石です。</Frame_GL_BoundaryWood.description>
+
+  <GL_BoundaryStone.label>縁石(石)</GL_BoundaryStone.label>
+  <GL_BoundaryStone.description>床同士の境界を区別するための石材製の縁石です。</GL_BoundaryStone.description>
+  <Blueprint_GL_BoundaryStone.label>縁石(石)(設計)</Blueprint_GL_BoundaryStone.label>
+  <Frame_GL_BoundaryStone.label>縁石(石)(施行)</Frame_GL_BoundaryStone.label>
+  <Frame_GL_BoundaryStone.description>床同士の境界を区別するための石材製の縁石です。</Frame_GL_BoundaryStone.description>
+
+  <GL_BoundaryWoodCorner.label>縁石L字(木)</GL_BoundaryWoodCorner.label>
+  <GL_BoundaryWoodCorner.description>床同士の境界を区別するための木製の縁石です。コーナーで使うためにL字になっています。</GL_BoundaryWoodCorner.description>
+  <Blueprint_GL_BoundaryWoodCorner.label>縁石L字(木)(設計)</Blueprint_GL_BoundaryWoodCorner.label>
+  <Frame_GL_BoundaryWoodCorner.label>縁石L字(木)(施行)</Frame_GL_BoundaryWoodCorner.label>
+  <Frame_GL_BoundaryWoodCorner.description>床同士の境界を区別するための木製の縁石です。コーナーで使うためにL字になっています。</Frame_GL_BoundaryWoodCorner.description>
+
+  <GL_BoundaryStoneCorner.label>縁石L字(石)</GL_BoundaryStoneCorner.label>
+  <GL_BoundaryStoneCorner.description>床同士の境界を区別するための石材製の縁石です。コーナーで使うためにL字になっています。</GL_BoundaryStoneCorner.description>
+  <Blueprint_GL_BoundaryStoneCorner.label>縁石L字(石)(設計)</Blueprint_GL_BoundaryStoneCorner.label>
+  <Frame_GL_BoundaryStoneCorner.label>縁石L字(石)(施行)</Frame_GL_BoundaryStoneCorner.label>
+  <Frame_GL_BoundaryStoneCorner.description>床同士の境界を区別するための石材製の縁石です。コーナーで使うためにL字になっています。</Frame_GL_BoundaryStoneCorner.description>
+
+
 </LanguageData>
