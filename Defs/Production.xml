@@ -124,6 +124,7 @@
 		<designationHotKey>Misc8</designationHotKey>
 	</ThingDef>
 
+	<!-- 재봉틀 -->
 	<ThingDef ParentName="BenchBase">
 		<defName>GL_HandTailoringBench</defName>
 		<label>hand tailor bench</label>
@@ -260,6 +261,7 @@
 		</researchPrerequisites>
 	</ThingDef>
 
+	<!-- 단조대 -->
 	<ThingDef ParentName="BenchBase">
 		<defName>GL_FueledSmithy</defName>
 		<label>fueled smithy</label>
@@ -326,6 +328,10 @@
 				<linkableFacilities>
 					<li>ToolCabinet</li>
 				</linkableFacilities>
+			</li>
+			<li Class="CompProperties_Glower">
+				<glowRadius>4</glowRadius>
+				<glowColor>(210,110,50)</glowColor>
 			</li>
 		</comps>
 		<placeWorkers>
@@ -402,6 +408,10 @@
 			<li Class="CompProperties_HeatPusher">
 				<compClass>CompHeatPusherPowered</compClass>
 				<heatPerSecond>4</heatPerSecond>
+			</li>
+			<li Class="CompProperties_Glower">
+				<glowRadius>4</glowRadius>
+				<glowColor>(210,110,50)</glowColor>
 			</li>
 		</comps>
 		<placeWorkers>
