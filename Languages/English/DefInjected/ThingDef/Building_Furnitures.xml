@@ -114,6 +114,9 @@
   <GL_Bench_Frame.label>bench (building)</GL_Bench_Frame.label>
   <GL_Bench_Frame.description>It's a park bench chair. Couples can't sit here.</GL_Bench_Frame.description>
 
+
+  <!-- 테이블들 -->
+
   <RGK_TableA.label>Table (2x2)</RGK_TableA.label>
   <RGK_TableA.description>People eat off tables when chairs are placed facing them.</RGK_TableA.description>
   <RGK_TableA_Blueprint.label>table (2x2) (blueprint)</RGK_TableA_Blueprint.label>
@@ -205,6 +208,16 @@
   <WardrobeB_Frame.label>wardrobe (building)</WardrobeB_Frame.label>
   <WardrobeB_Frame.description>Shelves and drawers for storing clothes.</WardrobeB_Frame.description>
 
+
+  <!-- 책장 -->
+
+  <GL_Bookshelf.label>bookshelf</GL_Bookshelf.label>
+  <GL_Bookshelf.description>Increases research speed when placed near research table. Each research bench can  use two bookshelf.</GL_Bookshelf.description>
+  <GL_Bookshelf_Blueprint.label>bookshelf (blueprint)</GL_Bookshelf_Blueprint.label>
+  <GL_Bookshelf_Blueprint_Install.label>bookshelf (blueprint)</GL_Bookshelf_Blueprint_Install.label>
+  <GL_Bookshelf_Frame.label>bookshelf (building)</GL_Bookshelf_Frame.label>
+  <GL_Bookshelf_Frame.description>Increases research speed when placed near research table. Each research bench can  use two bookshelf.</GL_Bookshelf_Frame.description>
+
   <RGK_Manger.label>Manger</RGK_Manger.label>
   <RGK_Manger.description>It's a cask for animals. You can store food and hay.</RGK_Manger.description>
   <RGK_Manger_Blueprint.label>manger (blueprint)</RGK_Manger_Blueprint.label>
@@ -242,6 +255,9 @@
   <GL_Locker_Frame.label>locker (building)</GL_Locker_Frame.label>
   <GL_Locker_Frame.description>A locker for storing miscellaneous items. Items stored in this will not deteriorate, even if outside. Also it prevents the contents from being damaged by fire.</GL_Locker_Frame.description>
 
+
+  <!-- 모조 화분 -->
+
   <RGK_Flower.label>replica flower</RGK_Flower.label>
   <RGK_Flower.description>It's a flowerpot replica. It'll be in bloom forever.</RGK_Flower.description>
   <RGK_Flower_Blueprint.label>replica flower (blueprint)</RGK_Flower_Blueprint.label>
@@ -256,6 +272,15 @@
   <RGK_Teaset_Frame.label>tea set (building)</RGK_Teaset_Frame.label>
   <RGK_Teaset_Frame.description>This is a set of decorative teas. It looks like a luxury, and it's a shame to use it.</RGK_Teaset_Frame.description>
 
+
+  <!-- 곰인형 -->
+
+  <GL_Teddy.label>teddy bear</GL_Teddy.label>
+  <GL_Teddy.description>It is a fluffy teddy bear.</GL_Teddy.description>
+  <GL_Teddy_Blueprint.label>teddy bear (blueprint)</GL_Teddy_Blueprint.label>
+  <GL_Teddy_Blueprint_Install.label>teddy bear (blueprint)</GL_Teddy_Blueprint_Install.label>
+  <GL_Teddy_Frame.label>teddy bear (building)</GL_Teddy_Frame.label>
+  <GL_Teddy_Frame.description>It is a fluffy teddy bear.</GL_Teddy_Frame.description>
 
 
 </LanguageData>

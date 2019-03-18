@@ -104,4 +104,19 @@
   <GL_DoorFrame_Frame.description>문주변을 꾸며주는 틀입니다.</GL_DoorFrame_Frame.description>
 
 
+  <!-- 19.03.17 바닥 경계석 -->
+
+  <GL_BoundaryWood.description>바닥의 경계를 구분짓기 위한 경계목입니다.</GL_BoundaryWood.description>
+  <GL_BoundaryWood_Frame.description>바닥의 경계를 구분짓기 위한 경계목입니다.</GL_BoundaryWood_Frame.description>
+
+  <GL_BoundaryStone.description>바닥의 경계를 구분짓기 위한 경계석입니다.</GL_BoundaryStone.description>
+  <GL_BoundaryStone_Frame.description>바닥의 경계를 구분짓기 위한 경계석입니다.</GL_BoundaryStone_Frame.description>
+
+  <GL_BoundaryWoodCorner.description>바닥의 경계를 구분짓기 위한 경계목입니다.</GL_BoundaryWoodCorner.description>
+  <GL_BoundaryWoodCorner_Frame.description>바닥의 경계를 구분짓기 위한 경계목입니다.</GL_BoundaryWoodCorner_Frame.description>
+
+  <GL_BoundaryStoneCorner.description>바닥의 경계를 구분짓기 위한 경계석입니다.</GL_BoundaryStoneCorner.description>
+  <GL_BoundaryStoneCorner_Frame.description>바닥의 경계를 구분짓기 위한 경계석입니다.</GL_BoundaryStoneCorner_Frame.description>
+
+
 </LanguageData>

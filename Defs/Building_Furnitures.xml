@@ -24,6 +24,7 @@
 					<li>RGK_EndTableWithLampE</li>
 					<li>WardrobeA</li>
 					<li>WardrobeB</li>
+					<li>GL_Teddy</li>
 				</linkableFacilities>
 			</li>
 		</comps>
@@ -81,6 +82,7 @@
 					<li>RGK_EndTableWithLampE</li>
 					<li>WardrobeA</li>
 					<li>WardrobeB</li>
+					<li>GL_Teddy</li>
 				</linkableFacilities>
 			</li>
 		</comps>
@@ -138,6 +140,7 @@
 					<li>RGK_EndTable</li>
 					<li>WardrobeA</li>
 					<li>WardrobeB</li>
+					<li>GL_Teddy</li>
 				</linkableFacilities>
 			</li>
 		</comps>
@@ -197,6 +200,7 @@
 					<li>RGK_EndTable</li>
 					<li>WardrobeA</li>
 					<li>WardrobeB</li>
+					<li>GL_Teddy</li>
 				</linkableFacilities>
 			</li>
 		</comps>
@@ -239,7 +243,7 @@
 		<defName>GL_ClassyDoubleBed</defName>
 		<label>classy double bed</label>
 		<description>Elegant bed decorated with lace that fits two people. It is very comfortable and doesn't get disturbed during sleep.</description>
-		<altitudeLayer>ItemImportant</altitudeLayer>
+		<altitudeLayer>Building</altitudeLayer>
 		<graphicData>
 			<texPath>Things/Building/Furniture/GL_ClassyDoubleBed</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
@@ -258,6 +262,7 @@
 					<li>RGK_EndTable</li>
 					<li>WardrobeA</li>
 					<li>WardrobeB</li>
+					<li>GL_Teddy</li>
 				</linkableFacilities>
 			</li>						
 			<li Class="Gloomylynx.CompProperties_SecondLayerFollow">
@@ -278,9 +283,7 @@
 					<color>(1,1,1,0.93)</color>
 				</graphicData>
 				<altitudeLayer>Blueprint</altitudeLayer>
-			</li>			
-
-
+			</li>
 		</comps>
 		<statBases>
 			<MaxHitPoints>200</MaxHitPoints>
@@ -828,7 +831,7 @@
 		<size>(2,1)</size>		
 	</ThingDef>
 
-
+	<!-- 테이블들 -->
 	<ThingDef ParentName="RGKTableBase">
 		<defName>RGK_TableA</defName>
 		<label>table (2x2)</label>
@@ -1419,6 +1422,59 @@
 		</comps>
 	</ThingDef>	
 
+	<!-- 책장 -->
+	<ThingDef ParentName="BuildingBase">
+		<defName>GL_Bookshelf</defName>
+		<label>bookshelf</label>
+		<description>Increases research speed when placed near research table. Each research bench can  use two bookshelf.</description>
+		<graphicData>
+			<texPath>Things/Building/Furniture/GL_BookBox</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>3</drawSize>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<uiIconScale>0.8</uiIconScale>
+		<size>(1,1)</size>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<castEdgeShadows>true</castEdgeShadows>
+		<fillPercent>0.6</fillPercent>
+		<designationCategory>OldStyleFurniture</designationCategory>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<canOverlapZones>false</canOverlapZones>
+		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+		<thingCategories>
+			<li>BuildingsMisc</li>
+		</thingCategories>
+		<statBases>
+			<MaxHitPoints>120</MaxHitPoints>
+			<WorkToBuild>7500</WorkToBuild>
+			<Mass>70</Mass>
+			<Flammability>1.0</Flammability>
+			<Beauty>15</Beauty>
+		</statBases>
+		<costList>
+			<Steel>20</Steel>
+			<Cloth>120</Cloth>
+		</costList>
+		<stuffCategories>
+			<li>Woody</li>
+		</stuffCategories>
+		<costStuffCount>150</costStuffCount>
+		<comps>
+			<li Class="CompProperties_Facility">
+				<statOffsets>
+					<ResearchSpeedFactor>0.075</ResearchSpeedFactor>
+				</statOffsets>
+				<maxDistance>5</maxDistance>
+				<maxSimultaneous>2</maxSimultaneous>
+			</li>
+		</comps>
+		<placeWorkers>
+			<li>PlaceWorker_ShowFacilitiesConnections</li>
+		</placeWorkers>
+		<constructionSkillPrerequisite>6</constructionSkillPrerequisite>
+	</ThingDef>
 
 	<ThingDef ParentName="FurnitureWithQualityBase">
 		<defName>RGK_Manger</defName>
@@ -1628,9 +1684,9 @@
 		</researchPrerequisites>
 		<designationCategory>OldStyleFurniture</designationCategory>
 	</ThingDef>
-	
-	
 
+
+	<!-- 모조 화분 -->
 	<ThingDef ParentName="BuildingBase">
 		<defName>RGK_Flower</defName>
 		<label>replica flower</label>
@@ -1737,6 +1793,64 @@
 		</thingCategories>
 		<constructionSkillPrerequisite>5</constructionSkillPrerequisite>
 	</ThingDef>
-
-	
+	<!-- 곰인형 -->
+	<ThingDef ParentName="BuildingBase">
+		<defName>GL_Teddy</defName>
+		<label>teddy bear</label>
+		<description>It is a fluffy teddy bear.</description>
+		<category>Building</category>
+		<thingClass>Building</thingClass>
+		<graphicData>
+			<texPath>Things/Building/Furniture/GL_Teddy</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(2,2)</drawSize>
+			<damageData>
+				<rect>(0.35,0.35,0.3,0.3)</rect>
+			</damageData>
+		</graphicData>
+		<placeWorkers>
+			<li>Gloomylynx.PlaceWorker_PassableObject</li>
+		</placeWorkers>
+		<comps>			
+			<li Class="CompProperties_Facility">
+				<statOffsets>
+					<Comfort>0.05</Comfort>
+				</statOffsets>
+				<maxSimultaneous>1</maxSimultaneous>
+				<maxDistance>0.9</maxDistance>
+			</li>
+		</comps>
+		<uiIconScale>1</uiIconScale>
+		<rotatable>true</rotatable>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.15</fillPercent>
+		<stuffCategories>
+			<li>Fabric</li>
+			<li>Leathery</li>
+		</stuffCategories>
+		<costStuffCount>20</costStuffCount>
+		<statBases>
+			<MaxHitPoints>40</MaxHitPoints>
+			<WorkToBuild>100</WorkToBuild>
+			<Flammability>0</Flammability>
+			<Mass>1</Mass>
+			<Beauty>10</Beauty>
+		</statBases>
+		<selectable>true</selectable>
+		<building>
+			<isEdifice>false</isEdifice>
+		</building>
+		<soundImpactDefault>BulletImpact_Ground</soundImpactDefault>
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<designationCategory>OldStyleFurniture</designationCategory>
+		<destroyable>true</destroyable>
+		<tradeability>None</tradeability>
+		<clearBuildingArea>false</clearBuildingArea>
+		<minifiedDef>MinifiedThing</minifiedDef>		
+		<thingCategories>
+			<li>BuildingsFurniture</li>
+		</thingCategories>
+		<constructionSkillPrerequisite>5</constructionSkillPrerequisite>
+	</ThingDef>
 </Defs>
