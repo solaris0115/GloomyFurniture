@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
   <!-- Bed -->
@@ -112,6 +112,8 @@
   <Frame_GL_Bench.label>ベンチ(施工)</Frame_GL_Bench.label>
   <Frame_GL_Bench.description>これは公園のベンチ型の椅子です。カップルでここに座ることはできません。</Frame_GL_Bench.description>
 
+  <!-- Tables -->
+
   <RGK_TableA.label>テーブル(2x2)</RGK_TableA.label>
   <RGK_TableA.description>イスを向き合うように配置すると、人々はここで食事をとるようになります。</RGK_TableA.description>
   <Blueprint_RGK_TableA.label>テーブル(2x2)(設計)</Blueprint_RGK_TableA.label>
@@ -203,6 +205,16 @@
   <Frame_WardrobeB.label>ワードローブ2(施工)</Frame_WardrobeB.label>
   <Frame_WardrobeB.description>服を収納するための棚やタンスです。</Frame_WardrobeB.description>
 
+
+  <!-- Book Shelf -->
+
+  <GL_Bookshelf.label>本棚</GL_Bookshelf.label>
+  <GL_Bookshelf.description>研究設備の近くに置くと研究速度が上がります。それぞれの研究設備は2つの本棚を使用できます。</GL_Bookshelf.description>
+  <Blueprint_GL_Bookshelf.label>本棚(設計)</Blueprint_GL_Bookshelf.label>
+  <Blueprint_Install_GL_Bookshelf.label>本棚(移動先)</Blueprint_Install_GL_Bookshelf.label>
+  <Frame_GL_Bookshelf.label>本棚(施工)</Frame_GL_Bookshelf.label>
+  <Frame_GL_Bookshelf.description>研究設備の近くに置くと研究速度が上がります。それぞれの研究設備は2つの本棚を使用できます。</Frame_GL_Bookshelf.description>
+
   <RGK_Manger.label>飼い葉おけ</RGK_Manger.label>
   <RGK_Manger.description>これは動物用のおけです。ペットフードや干し草を保管することができます。</RGK_Manger.description>
   <Blueprint_RGK_Manger.label>飼い葉おけ(設計)</Blueprint_RGK_Manger.label>
@@ -240,6 +252,8 @@
   <Frame_GL_Locker.label>防火ロッカー(施工)</Frame_GL_Locker.label>
   <Frame_GL_Locker.description>この中に保存されたアイテムは、ロッカーが外気に触れていても劣化しません。収容されたアイテムが火災でダメージを受けることを防ぎます。</Frame_GL_Locker.description>
 
+  <!-- Imitation Flower Pot -->
+
   <RGK_Flower.label>植木鉢 （造花)</RGK_Flower.label>
   <RGK_Flower.description>造花が飾られた植木鉢です。その花はいつまでも咲き続けるでしょう。</RGK_Flower.description>
   <Blueprint_RGK_Flower.label>植木鉢(造花)(設計)</Blueprint_RGK_Flower.label>
@@ -253,6 +267,16 @@
   <Blueprint_Install_RGK_Teaset.label>ティーセット(移動先)</Blueprint_Install_RGK_Teaset.label>
   <Frame_RGK_Teaset.label>ティーセット(施工)</Frame_RGK_Teaset.label>
   <Frame_RGK_Teaset.description>これは装飾されたティーカップなどのセットです。とても贅沢な作りで、使うのが勿体ないぐらいです。</Frame_RGK_Teaset.description>
+
+
+  <!-- Teddy Bear -->
+
+  <GL_Teddy.label>テディベア</GL_Teddy.label>
+  <GL_Teddy.description>ふわふわなテディベアのぬいぐるみです。このModで追加されるベッドとバニラのソファにだけ快適さを追加します。</GL_Teddy.description>
+  <Blueprint_GL_Teddy.label>テディベア(設計)</Blueprint_GL_Teddy.label>
+  <Blueprint_Install_GL_Teddy.label>テディベア(移動先)</Blueprint_Install_GL_Teddy.label>
+  <Frame_GL_Teddy.label>テディベア(施工)</Frame_GL_Teddy.label>
+  <Frame_GL_Teddy.description>ふわふわなテディベアのぬいぐるみです。このModで追加されるベッドとバニラのソファにだけ快適さを追加します。</Frame_GL_Teddy.description>
 
 
 </LanguageData>
