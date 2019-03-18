@@ -5,7 +5,7 @@
 		<label>simple research bench</label>
 		<description>A simple bench with writing implements and simple measurement devices. Researchers work here to discover new things.</description>
 		<thingClass>Building_ResearchBench</thingClass>		
-		<size>(3,2)</size>
+		<size>(2,1)</size>
 		<stuffCategories>
 			<li>Woody</li>
 		</stuffCategories>
@@ -17,7 +17,7 @@
 			<texPath>Things/Building/Production/RGK_reserch</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
-			<drawSize>4</drawSize>
+			<drawSize>3</drawSize>
 			<damageData>
 				<cornerTL>Damage/Corner</cornerTL>
 				<cornerTR>Damage/Corner</cornerTR>
@@ -44,7 +44,7 @@
 			</li>
 		</comps>					
 		<fillPercent>0.5</fillPercent>
-		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
+		<interactionCellOffset>(1,0,-1)</interactionCellOffset>
 		<hasInteractionCell>true</hasInteractionCell>
 		<designationCategory>OldStyleFurniture</designationCategory>
 		<surfaceType>Item</surfaceType>
@@ -132,7 +132,7 @@
 		<graphicData>
 			<texPath>Things/Building/Production/GL_SewingMachine</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
-			<drawSize>4</drawSize>
+			<drawSize>3</drawSize>
 			<shaderType>CutoutComplex</shaderType>
 			<damageData>
 				<cornerTL>Damage/Corner</cornerTL>
@@ -159,12 +159,12 @@
 			<Flammability>1.0</Flammability>
 			<WorkTableWorkSpeedFactor>0.65</WorkTableWorkSpeedFactor>
 		</statBases>
-		<size>(3,2)</size>
+		<size>(2,1)</size>
 		<designationCategory>OldStyleFurniture</designationCategory>
 		<passability>PassThroughOnly</passability>
 		<pathCost>70</pathCost>
 		<hasInteractionCell>True</hasInteractionCell>
-		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
+		<interactionCellOffset>(1,0,-1)</interactionCellOffset>
 		<surfaceType>Item</surfaceType>
 		<inspectorTabs>
 			<li>ITab_Bills</li>
@@ -195,7 +195,7 @@
 		<graphicData>
 			<texPath>Things/Building/Production/GL_SewingMachine</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
-			<drawSize>4</drawSize>
+			<drawSize>3</drawSize>
 			<shaderType>CutoutComplex</shaderType>
 			<damageData>
 				<cornerTL>Damage/Corner</cornerTL>
@@ -222,12 +222,12 @@
 			<MaxHitPoints>180</MaxHitPoints>
 			<Flammability>1.0</Flammability>
 		</statBases>
-		<size>(3,2)</size>
+		<size>(2,1)</size>
 		<designationCategory>OldStyleFurniture</designationCategory>
 		<passability>PassThroughOnly</passability>
 		<pathCost>70</pathCost>
 		<hasInteractionCell>True</hasInteractionCell>
-		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
+		<interactionCellOffset>(1,0,-1)</interactionCellOffset>
 		<surfaceType>Item</surfaceType>
 		<constructionSkillPrerequisite>4</constructionSkillPrerequisite>
 		<inspectorTabs>
@@ -269,7 +269,7 @@
 			<texPath>Things/Building/Production/GL_Anvil</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
-			<drawSize>4</drawSize>
+			<drawSize>3</drawSize>
 			<shadowData>
 				<volume>(2.8, 0.35, 0.59)</volume>
 				<offset>(0, 0, 0.08)</offset>
@@ -297,12 +297,12 @@
 			<Flammability>1.0</Flammability>
 			<Cleanliness>-3</Cleanliness>
 		</statBases>
-		<size>(3,2)</size>
+		<size>(2,1)</size>
 		<designationCategory>OldStyleFurniture</designationCategory>
 		<passability>PassThroughOnly</passability>
 		<pathCost>70</pathCost>
 		<hasInteractionCell>True</hasInteractionCell>
-		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
+		<interactionCellOffset>(1,0,-1)</interactionCellOffset>
 		<surfaceType>Item</surfaceType>
 		<constructionSkillPrerequisite>4</constructionSkillPrerequisite>
 		<inspectorTabs>
@@ -326,10 +326,6 @@
 				<linkableFacilities>
 					<li>ToolCabinet</li>
 				</linkableFacilities>
-			</li>				
-			<li Class="CompProperties_Glower">
-				<glowRadius>4</glowRadius>
-				<glowColor>(235,150,85,0)</glowColor>
 			</li>
 		</comps>
 		<placeWorkers>
@@ -349,7 +345,7 @@
 			<texPath>Things/Building/Production/GL_Anvil</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
-			<drawSize>4</drawSize>
+			<drawSize>3</drawSize>
 			<shadowData>
 				<volume>(2.8, 0.35, 0.59)</volume>
 				<offset>(0, 0, 0.08)</offset>
@@ -377,12 +373,12 @@
 			<MaxHitPoints>180</MaxHitPoints>
 			<Flammability>1.0</Flammability>
 		</statBases>
-		<size>(3,2)</size>
+		<size>(2,1)</size>
 		<designationCategory>OldStyleFurniture</designationCategory>
 		<passability>PassThroughOnly</passability>
 		<pathCost>70</pathCost>
 		<hasInteractionCell>True</hasInteractionCell>
-		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
+		<interactionCellOffset>(1,0,-1)</interactionCellOffset>
 		<surfaceType>Item</surfaceType>
 		<constructionSkillPrerequisite>5</constructionSkillPrerequisite>
 		<inspectorTabs>
@@ -406,10 +402,6 @@
 			<li Class="CompProperties_HeatPusher">
 				<compClass>CompHeatPusherPowered</compClass>
 				<heatPerSecond>4</heatPerSecond>
-			</li>
-			<li Class="CompProperties_Glower">
-				<glowRadius>4</glowRadius>
-				<glowColor>(235,150,85,0)</glowColor>
 			</li>
 		</comps>
 		<placeWorkers>
