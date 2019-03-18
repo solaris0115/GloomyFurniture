@@ -724,6 +724,7 @@
 	<!-- 19.03.17 바닥 경계석 -->
 	<ThingDef ParentName="BuildingBase">
 		<defName>GL_BoundaryWood</defName>
+		<label>boundary wood</label>
 		<description>바닥의 경계를 구분짓기 위한 경계목입니다.</description>
 		<category>Building</category>
 		<thingClass>Building</thingClass>

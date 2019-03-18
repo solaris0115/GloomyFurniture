@@ -211,6 +211,12 @@
 
   <!-- 책장 -->
 
+  <GL_Bookshelf.label>책장</GL_Bookshelf.label>
+  <GL_Bookshelf.description>연구대 근처에 배치하면 연구속도가 증가합니다. 각 연구대는 2개의 책장만 배치할 수 있습니다.</GL_Bookshelf.description>
+  <GL_Bookshelf_Blueprint.label>책장 (청사진)</GL_Bookshelf_Blueprint.label>
+  <GL_Bookshelf_Blueprint_Install.label>책장 (청사진)</GL_Bookshelf_Blueprint_Install.label>
+  <GL_Bookshelf_Frame.label>책장 (건설중)</GL_Bookshelf_Frame.label>
+  <GL_Bookshelf_Frame.description>연구대 근처에 배치하면 연구속도가 증가합니다. 각 연구대는 2개의 책장만 배치할 수 있습니다.</GL_Bookshelf_Frame.description>
 
   <RGK_Manger.label>여물통</RGK_Manger.label>
   <RGK_Manger.description>가축의 여물이나 사료등을 담아두는 통입니다. 밥그릇으로 쓰지 마세요.</RGK_Manger.description>
@@ -269,6 +275,12 @@
 
   <!-- 곰인형 -->
 
+  <GL_Teddy.label>곰 인형</GL_Teddy.label>
+  <GL_Teddy.description>폭신폭신한 곰인형입니다.</GL_Teddy.description>
+  <GL_Teddy_Blueprint.label>곰 인형 (청사진)</GL_Teddy_Blueprint.label>
+  <GL_Teddy_Blueprint_Install.label>곰 인형 (청사진)</GL_Teddy_Blueprint_Install.label>
+  <GL_Teddy_Frame.label>곰 인형 (건설중)</GL_Teddy_Frame.label>
+  <GL_Teddy_Frame.description>폭신폭신한 곰인형입니다.</GL_Teddy_Frame.description>
 
 
   <!-- 침대 -->

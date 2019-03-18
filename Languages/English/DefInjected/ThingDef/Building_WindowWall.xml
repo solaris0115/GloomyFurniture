@@ -107,20 +107,28 @@
   <!-- 19.03.17 바닥 경계석 -->
 
   <GL_BoundaryWood.label>boundary stone</GL_BoundaryWood.label>
+  <GL_BoundaryWood.description>It is the boundary tree for boundary division.</GL_BoundaryWood.description>
   <GL_BoundaryWood_Blueprint.label>boundary stone (blueprint)</GL_BoundaryWood_Blueprint.label>
   <GL_BoundaryWood_Frame.label>boundary stone (building)</GL_BoundaryWood_Frame.label>
+  <GL_BoundaryWood_Frame.description>It is the boundary tree for boundary division.</GL_BoundaryWood_Frame.description>
 
   <GL_BoundaryStone.label>boundary stone</GL_BoundaryStone.label>
+  <GL_BoundaryStone.description>It is the boundary stone for boundary division.</GL_BoundaryStone.description>
   <GL_BoundaryStone_Blueprint.label>boundary stone (blueprint)</GL_BoundaryStone_Blueprint.label>
   <GL_BoundaryStone_Frame.label>boundary stone (building)</GL_BoundaryStone_Frame.label>
+  <GL_BoundaryStone_Frame.description>It is the boundary stone for boundary division.</GL_BoundaryStone_Frame.description>
 
   <GL_BoundaryWoodCorner.label>boundary wood corner</GL_BoundaryWoodCorner.label>
+  <GL_BoundaryWoodCorner.description>It is the boundary tree for boundary division.</GL_BoundaryWoodCorner.description>
   <GL_BoundaryWoodCorner_Blueprint.label>boundary wood corner (blueprint)</GL_BoundaryWoodCorner_Blueprint.label>
   <GL_BoundaryWoodCorner_Frame.label>boundary wood corner (building)</GL_BoundaryWoodCorner_Frame.label>
+  <GL_BoundaryWoodCorner_Frame.description>It is the boundary tree for boundary division.</GL_BoundaryWoodCorner_Frame.description>
 
   <GL_BoundaryStoneCorner.label>boundary stone corner</GL_BoundaryStoneCorner.label>
+  <GL_BoundaryStoneCorner.description>It is the boundary stone for boundary division.</GL_BoundaryStoneCorner.description>
   <GL_BoundaryStoneCorner_Blueprint.label>boundary stone corner (blueprint)</GL_BoundaryStoneCorner_Blueprint.label>
   <GL_BoundaryStoneCorner_Frame.label>boundary stone corner (building)</GL_BoundaryStoneCorner_Frame.label>
+  <GL_BoundaryStoneCorner_Frame.description>It is the boundary stone for boundary division.</GL_BoundaryStoneCorner_Frame.description>
 
 
   <!-- window -->
