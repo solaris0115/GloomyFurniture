@@ -1433,6 +1433,7 @@
 			<drawSize>3</drawSize>
 			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
+		<thingClass>Building</thingClass>
 		<uiIconScale>0.8</uiIconScale>
 		<size>(1,1)</size>
 		<altitudeLayer>Building</altitudeLayer>
