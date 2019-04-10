@@ -14,6 +14,14 @@
   <RGK_FueledStove_Blueprint_Install.label>fueled stove (blueprint)</RGK_FueledStove_Blueprint_Install.label>
   <RGK_FueledStove_Frame.label>fueled stove (building)</RGK_FueledStove_Frame.label>
   <RGK_FueledStove_Frame.description>A wood-fueled stove with an attached countertop for preparing meals.</RGK_FueledStove_Frame.description>
+  
+  
+  <GL_ElectricStove.label>electric stove</GL_ElectricStove.label>
+  <GL_ElectricStove.description>A electric stove with an attached countertop for preparing meals.</GL_ElectricStove.description>
+  <GL_ElectricStove_Blueprint.label>electric stove (blueprint)</GL_ElectricStove_Blueprint.label>
+  <GL_ElectricStove_Blueprint_Install.label>electric stove (blueprint)</GL_ElectricStove_Blueprint_Install.label>
+  <GL_ElectricStove_Frame.label>electric stove (building)</GL_ElectricStove_Frame.label>
+  <GL_ElectricStove_Frame.description>A electric stove with an attached countertop for preparing meals.</GL_ElectricStove_Frame.description>
 
 
   <!-- 화톳불 -->

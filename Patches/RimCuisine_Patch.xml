@@ -10,91 +10,91 @@
 				<li Class="PatchOperationAdd">
 					<xpath>*/RecipeDef[@Name="RecipeBase"]/recipeUsers</xpath>
 					<value>
-						<li>RGK_FueledStove</li>
+						<li>RGK_FueledStove</li>						<li>GL_ElectricStove</li>
 						<li>GL_Bonfire</li>
 					</value>
 				</li>
 				<li Class="PatchOperationAdd">
 					<xpath>*/RecipeDef[defName="CookMealExtravagant"]/recipeUsers</xpath>
 					<value>
-						<li>RGK_FueledStove</li>
+						<li>RGK_FueledStove</li>						<li>GL_ElectricStove</li>
 						<li>GL_Bonfire</li>
 					</value>
 				</li>
 				<li Class="PatchOperationAdd">
 					<xpath>*/RecipeDef[defName="CookWeakStew"]/recipeUsers</xpath>
 					<value>
-						<li>RGK_FueledStove</li>
+						<li>RGK_FueledStove</li>						<li>GL_ElectricStove</li>
 						<li>GL_Bonfire</li>
 					</value>
 				</li>
 				<li Class="PatchOperationAdd">
 					<xpath>*/RecipeDef[defName="CookHeartyStew"]/recipeUsers</xpath>
 					<value>
-						<li>RGK_FueledStove</li>
+						<li>RGK_FueledStove</li>						<li>GL_ElectricStove</li>
 						<li>GL_Bonfire</li>
 					</value>
 				</li>
 				<li Class="PatchOperationAdd">
 					<xpath>*/RecipeDef[defName="RC_MakeTart"]/recipeUsers</xpath>
 					<value>
-						<li>RGK_FueledStove</li>
+						<li>RGK_FueledStove</li>						<li>GL_ElectricStove</li>
 						<li>GL_Bonfire</li>
 					</value>
 				</li>
 				<li Class="PatchOperationAdd">
 					<xpath>*/RecipeDef[defName="MakeJuice"]/recipeUsers</xpath>
 					<value>
-						<li>RGK_FueledStove</li>
+						<li>RGK_FueledStove</li>						<li>GL_ElectricStove</li>
 						<li>GL_Bonfire</li>
 					</value>
 				</li>
 				<li Class="PatchOperationAdd">
 					<xpath>*/RecipeDef[@Name="RC_PreservationRecipeBase"]/recipeUsers</xpath>
 					<value>
-						<li>RGK_FueledStove</li>
+						<li>RGK_FueledStove</li>						<li>GL_ElectricStove</li>
 						<li>GL_Bonfire</li>
 					</value>
 				</li>
 				<li Class="PatchOperationAdd">
 					<xpath>*/RecipeDef[defName="MakePemmicanBulk"]/recipeUsers</xpath>
 					<value>
-						<li>RGK_FueledStove</li>
+						<li>RGK_FueledStove</li>						<li>GL_ElectricStove</li>
 						<li>GL_Bonfire</li>
 					</value>
 				</li>
 				<li Class="PatchOperationAdd">
 					<xpath>*/RecipeDef[defName="MakeHardtack"]/recipeUsers</xpath>
 					<value>
-						<li>RGK_FueledStove</li>
+						<li>RGK_FueledStove</li>						<li>GL_ElectricStove</li>
 						<li>GL_Bonfire</li>
 					</value>
 				</li>
 				<li Class="PatchOperationAdd">
 					<xpath>*/RecipeDef[defName="MakeHardtackBulk"]/recipeUsers</xpath>
 					<value>
-						<li>RGK_FueledStove</li>
+						<li>RGK_FueledStove</li>						<li>GL_ElectricStove</li>
 						<li>GL_Bonfire</li>
 					</value>
 				</li>
 				<li Class="PatchOperationAdd">
 					<xpath>*/RecipeDef[defName="Stirfrymeal"]/recipeUsers</xpath>
 					<value>
-						<li>RGK_FueledStove</li>
+						<li>RGK_FueledStove</li>						<li>GL_ElectricStove</li>
 						<li>GL_Bonfire</li>
 					</value>
 				</li>
 				<li Class="PatchOperationAdd">
 					<xpath>*/RecipeDef[defName="Cookstewpot"]/recipeUsers</xpath>
 					<value>
-						<li>RGK_FueledStove</li>
+						<li>RGK_FueledStove</li>						<li>GL_ElectricStove</li>
 						<li>GL_Bonfire</li>
 					</value>
 				</li>		
 				<li Class="PatchOperationAdd">
 					<xpath>*/RecipeDef[defName="MakePastry"]/recipeUsers</xpath>
 					<value>
-						<li>RGK_FueledStove</li>
+						<li>RGK_FueledStove</li>						<li>GL_ElectricStove</li>
 						<li>GL_Bonfire</li>
 					</value>
 				</li>
