@@ -167,12 +167,16 @@
   <Frame_RGK_TableH.label>ケルト テーブル(3x3)(施工)</Frame_RGK_TableH.label>
   <Frame_RGK_TableH.description>イスを向き合うように配置すると、人々はここで食事をとるようになります。</Frame_RGK_TableH.description>
 
+  <!-- Mini Table -->
+
   <RGK_MiniTableA.label>ミニテーブル</RGK_MiniTableA.label>
   <RGK_MiniTableA.description>イスを向き合うように配置すると、人々はここで食事をとるようになります。</RGK_MiniTableA.description>
   <Blueprint_RGK_MiniTableA.label>ミニテーブル(設計)</Blueprint_RGK_MiniTableA.label>
   <Blueprint_Install_RGK_MiniTableA.label>ミニテーブル(移動先)</Blueprint_Install_RGK_MiniTableA.label>
   <Frame_RGK_MiniTableA.label>ミニテーブル(施工)</Frame_RGK_MiniTableA.label>
   <Frame_RGK_MiniTableA.description>イスを向き合うように配置すると、人々はここで食事をとるようになります。</Frame_RGK_MiniTableA.description>
+
+  <!-- Cloth-covered Mini Table -->
 
   <RGK_MiniTableB.label>ミニテーブル2</RGK_MiniTableB.label>
   <RGK_MiniTableB.description>イスを向き合うように配置すると、人々はここで食事をとるようになります。</RGK_MiniTableB.description>
@@ -214,6 +218,26 @@
   <Blueprint_Install_GL_Bookshelf.label>本棚(移動先)</Blueprint_Install_GL_Bookshelf.label>
   <Frame_GL_Bookshelf.label>本棚(施工)</Frame_GL_Bookshelf.label>
   <Frame_GL_Bookshelf.description>研究設備の近くに置くと研究速度が上がります。それぞれの研究設備は2つの本棚を使用できます。</Frame_GL_Bookshelf.description>
+
+
+  <!-- Cupboard -->
+
+  <GL_Cupboard.label>カップボード</GL_Cupboard.label>
+  <GL_Cupboard.description>皿などの食器棚です。(古い家具タブで作る)カマドの近くに置くと、調理速度が上がります。</GL_Cupboard.description>
+  <Blueprint_GL_Cupboard.label>カップボード(設計)</Blueprint_GL_Cupboard.label>
+  <Blueprint_Install_GL_Cupboard.label>カップボード(移動先)</Blueprint_Install_GL_Cupboard.label>
+  <Frame_GL_Cupboard.label>カップボード(施工)</Frame_GL_Cupboard.label>
+  <Frame_GL_Cupboard.description>皿などの食器棚です。(古い家具タブで作る)カマドの近くに置くと、調理速度が上がります。</Frame_GL_Cupboard.description>
+
+
+  <!-- Tableware Shelf -->
+
+  <GL_TablewareShelf.label>食器調理器具棚</GL_TablewareShelf.label>
+  <GL_TablewareShelf.description>食事に使用するナイフ・フォーク・スプーンなどや調理器具を収納する棚です。(古い家具タブで作る)カマドの近くに置くと、調理速度が上がります。</GL_TablewareShelf.description>
+  <Blueprint_GL_TablewareShelf.label>食器調理器具棚(設計)</Blueprint_GL_TablewareShelf.label>
+  <Blueprint_Install_GL_TablewareShelf.label>食器調理器具棚(移動先)</Blueprint_Install_GL_TablewareShelf.label>
+  <Frame_GL_TablewareShelf.label>食器調理器具棚(施工)</Frame_GL_TablewareShelf.label>
+  <Frame_GL_TablewareShelf.description>食事に使用するナイフ・フォーク・スプーンなどや調理器具を収納する棚です。(古い家具タブで作る)カマドの近くに置くと、調理速度が上がります。</Frame_GL_TablewareShelf.description>
 
   <RGK_Manger.label>飼い葉おけ</RGK_Manger.label>
   <RGK_Manger.description>これは動物用のおけです。ペットフードや干し草を保管することができます。</RGK_Manger.description>
