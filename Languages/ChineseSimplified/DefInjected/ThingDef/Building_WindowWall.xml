@@ -69,6 +69,27 @@
   <GL_DoorFrame_Blueprint.label>门框 (蓝图)</GL_DoorFrame_Blueprint.label>
   <GL_DoorFrame_Frame.label>门框 (建造中)</GL_DoorFrame_Frame.label>
   <GL_DoorFrame_Frame.description>一个用来装饰门的框架。</GL_DoorFrame_Frame.description>
+  <!-- 19.03.17 바닥 경계석 -->
+  <GL_BoundaryWood.label>分界木板</GL_BoundaryWood.label>
+  <GL_BoundaryWood.description>区分地面边界的木板。</GL_BoundaryWood.description>
+  <GL_BoundaryWood_Blueprint.label>分界木板 (蓝图)</GL_BoundaryWood_Blueprint.label>
+  <GL_BoundaryWood_Frame.label>分界木板 (建造中)</GL_BoundaryWood_Frame.label>
+  <GL_BoundaryWood_Frame.description>区分地面边界的木板。</GL_BoundaryWood_Frame.description>
+  <GL_BoundaryStone.label>分界石板</GL_BoundaryStone.label>
+  <GL_BoundaryStone.description>区分地面边界的石板。</GL_BoundaryStone.description>
+  <GL_BoundaryStone_Blueprint.label>分界石板 (蓝图)</GL_BoundaryStone_Blueprint.label>
+  <GL_BoundaryStone_Frame.label>分界石板 (建造中)</GL_BoundaryStone_Frame.label>
+  <GL_BoundaryStone_Frame.description>区分地面边界的石板。</GL_BoundaryStone_Frame.description>
+  <GL_BoundaryWoodCorner.label>分界木板（边角）</GL_BoundaryWoodCorner.label>
+  <GL_BoundaryWoodCorner.description>区分地面边界的木板。</GL_BoundaryWoodCorner.description>
+  <GL_BoundaryWoodCorner_Blueprint.label>分界木板（边角） (蓝图)</GL_BoundaryWoodCorner_Blueprint.label>
+  <GL_BoundaryWoodCorner_Frame.label>分界木板（边角） (建造中)</GL_BoundaryWoodCorner_Frame.label>
+  <GL_BoundaryWoodCorner_Frame.description>区分地面边界的木板。</GL_BoundaryWoodCorner_Frame.description>
+  <GL_BoundaryStoneCorner.label>分界石板（边角）</GL_BoundaryStoneCorner.label>
+  <GL_BoundaryStoneCorner.description>区分地面边界的石板。</GL_BoundaryStoneCorner.description>
+  <GL_BoundaryStoneCorner_Blueprint.label>分界石板（边角） (蓝图)</GL_BoundaryStoneCorner_Blueprint.label>
+  <GL_BoundaryStoneCorner_Frame.label>分界石板（边角） (建造中)</GL_BoundaryStoneCorner_Frame.label>
+  <GL_BoundaryStoneCorner_Frame.description>区分地面边界的石板。</GL_BoundaryStoneCorner_Frame.description>
   <!-- window -->
   <!-- 2018 12 21 문짝 -->
 </LanguageData>

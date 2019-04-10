@@ -189,12 +189,18 @@
   <GL_Shelf_Frame.label>置物架 (建造中)</GL_Shelf_Frame.label>
   <GL_Shelf_Frame.description>存放杂物的架子。即使在户外，存储在其中的物品也不会老化。</GL_Shelf_Frame.description>
   <!-- 개밥그릇 -->
+  <GL_Bookshelf.label>书架</GL_Bookshelf.label>
+  <GL_Bookshelf.description>提高研究速度，需要放置在研究台附近。一个研究台最多同时链接两个书架。</GL_Bookshelf.description>
+  <GL_Bookshelf_Blueprint.label>书架 (蓝图)</GL_Bookshelf_Blueprint.label>
+  <GL_Bookshelf_Blueprint_Install.label>书架 (蓝图)</GL_Bookshelf_Blueprint_Install.label>
+  <GL_Bookshelf_Frame.label>书架 (建造中)</GL_Bookshelf_Frame.label>
+  <GL_Bookshelf_Frame.description>提高研究速度，需要放置在研究台附近。一个研究台最多同时链接两个书架。</GL_Bookshelf_Frame.description>
   <RGK_DogBowl.label>食盆</RGK_DogBowl.label>
   <RGK_DogBowl.description>一个动物的食碗。你可以在中储存食物和干草。</RGK_DogBowl.description>
   <RGK_DogBowl_Blueprint.label>食盆 (蓝图)</RGK_DogBowl_Blueprint.label>
   <RGK_DogBowl_Blueprint_Install.label>食盆 (蓝图)</RGK_DogBowl_Blueprint_Install.label>
   <RGK_DogBowl_Frame.label>食盆 (建造中)</RGK_DogBowl_Frame.label>
-  <RGK_DogBowl_Frame.description>一个动物的食碗。你可以在中储存食物和干草。</RGK_DogBowl_Frame.description>
+  <RGK_DogBowl_Frame.description>一个动物的食盆。你可以在中储存食物和干草。</RGK_DogBowl_Frame.description>
   <!-- 보관함 -->
   <GL_Locker.label>储物箱</GL_Locker.label>
   <GL_Locker.description>存放杂物的储物柜。即使在户外，存储在其中的物品也不会老化。它还可以有效防止储存在其中物品被火损坏。</GL_Locker.description>
@@ -202,7 +208,7 @@
   <GL_Locker_Blueprint_Install.label>储物箱 (蓝图)</GL_Locker_Blueprint_Install.label>
   <GL_Locker_Frame.label>储物箱 (建造中)</GL_Locker_Frame.label>
   <GL_Locker_Frame.description>存放杂物的储物柜。即使在户外，存储在其中的物品也不会老化。它还可以有效防止储存在其中物品被火损坏。</GL_Locker_Frame.description>
-  
+  <!-- 모조 화분 -->
   <RGK_Flower.label>仿真花盆</RGK_Flower.label>
   <RGK_Flower.description>花盆复制品。永远盛开。</RGK_Flower.description>
   <RGK_Flower_Blueprint.label>仿真花盆 (蓝图)</RGK_Flower_Blueprint.label>
@@ -215,4 +221,11 @@
   <RGK_Teaset_Blueprint_Install.label>茶具 (蓝图)</RGK_Teaset_Blueprint_Install.label>
   <RGK_Teaset_Frame.label>茶具 (建造中)</RGK_Teaset_Frame.label>
   <RGK_Teaset_Frame.description>这是一套装饰性的茶具。它看起来很奢华，奢华到让人不舍得使用它。</RGK_Teaset_Frame.description>
+  <!-- 곰인형 -->
+  <GL_Teddy.label>泰迪熊</GL_Teddy.label>
+  <GL_Teddy.description>一只毛茸茸的泰迪熊玩具。</GL_Teddy.description>
+  <GL_Teddy_Blueprint.label>泰迪熊 (蓝图)</GL_Teddy_Blueprint.label>
+  <GL_Teddy_Blueprint_Install.label>泰迪熊 (蓝图)</GL_Teddy_Blueprint_Install.label>
+  <GL_Teddy_Frame.label>泰迪熊 (建造中)</GL_Teddy_Frame.label>
+  <GL_Teddy_Frame.description>一只毛茸茸的泰迪熊玩具。</GL_Teddy_Frame.description>
 </LanguageData>

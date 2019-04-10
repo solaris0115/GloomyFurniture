@@ -170,12 +170,18 @@
   <RGK_TableH_Frame.label>켈틱 식탁 (3x3) (건설중)</RGK_TableH_Frame.label>
   <RGK_TableH_Frame.description>모여서 밥을 먹거나 얘기할 수 있는 탁자입니다.</RGK_TableH_Frame.description>
 
+
+  <!-- 미니 테이블 -->
+
   <RGK_MiniTableA.label>작은 탁자</RGK_MiniTableA.label>
   <RGK_MiniTableA.description>모여서 밥을 먹거나 얘기할 수 있는 탁자입니다.</RGK_MiniTableA.description>
   <RGK_MiniTableA_Blueprint.label>작은 탁자 (청사진)</RGK_MiniTableA_Blueprint.label>
   <RGK_MiniTableA_Blueprint_Install.label>작은 탁자 (청사진)</RGK_MiniTableA_Blueprint_Install.label>
   <RGK_MiniTableA_Frame.label>작은 탁자 (건설중)</RGK_MiniTableA_Frame.label>
   <RGK_MiniTableA_Frame.description>모여서 밥을 먹거나 얘기할 수 있는 탁자입니다.</RGK_MiniTableA_Frame.description>
+
+
+  <!-- 천덮힌 미니 -->
 
   <RGK_MiniTableB.label>작은 탁자</RGK_MiniTableB.label>
   <RGK_MiniTableB.description>모여서 밥을 먹거나 얘기할 수 있는 식탁입니다.</RGK_MiniTableB.description>
@@ -217,6 +223,26 @@
   <GL_Bookshelf_Blueprint_Install.label>책장 (청사진)</GL_Bookshelf_Blueprint_Install.label>
   <GL_Bookshelf_Frame.label>책장 (건설중)</GL_Bookshelf_Frame.label>
   <GL_Bookshelf_Frame.description>연구대 근처에 배치하면 연구속도가 증가합니다. 각 연구대는 2개의 책장만 배치할 수 있습니다.</GL_Bookshelf_Frame.description>
+
+
+  <!-- 식기장 -->
+
+  <GL_Cupboard.label>식기장</GL_Cupboard.label>
+  <GL_Cupboard.description>식기를 진열하는 진열장입니다. 조리대 옆에 배치하면 조리 속도가 증가합니다.</GL_Cupboard.description>
+  <GL_Cupboard_Blueprint.label>식기장 (청사진)</GL_Cupboard_Blueprint.label>
+  <GL_Cupboard_Blueprint_Install.label>식기장 (청사진)</GL_Cupboard_Blueprint_Install.label>
+  <GL_Cupboard_Frame.label>식기장 (건설 중)</GL_Cupboard_Frame.label>
+  <GL_Cupboard_Frame.description>식기를 진열하는 진열장입니다. 조리대 옆에 배치하면 조리 속도가 증가합니다.</GL_Cupboard_Frame.description>
+
+
+  <!-- 식기선반 -->
+
+  <GL_TablewareShelf.label>식기 선반</GL_TablewareShelf.label>
+  <GL_TablewareShelf.description>식기를 진열하는 진열장입니다. 조리대 옆에 배치하면 조리 속도가 증가합니다.</GL_TablewareShelf.description>
+  <GL_TablewareShelf_Blueprint.label>식기 선반 (청사진)</GL_TablewareShelf_Blueprint.label>
+  <GL_TablewareShelf_Blueprint_Install.label>식기 선반 (청사진)</GL_TablewareShelf_Blueprint_Install.label>
+  <GL_TablewareShelf_Frame.label>식기 선반 (건설 중)</GL_TablewareShelf_Frame.label>
+  <GL_TablewareShelf_Frame.description>식기를 진열하는 진열장입니다. 조리대 옆에 배치하면 조리 속도가 증가합니다.</GL_TablewareShelf_Frame.description>
 
   <RGK_Manger.label>여물통</RGK_Manger.label>
   <RGK_Manger.description>가축의 여물이나 사료등을 담아두는 통입니다. 밥그릇으로 쓰지 마세요.</RGK_Manger.description>

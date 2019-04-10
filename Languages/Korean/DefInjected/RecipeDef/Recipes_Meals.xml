@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  
+  <!-- EN: cook fine meal -->
+  <CookMealFineD.label>좋은 식사 4개 준비</CookMealFineD.label>
+  <!-- EN: Cook a somewhat complex meal from a combination of meat and plant ingredients. -->
+  <CookMealFineD.description>야채나 과일과 고기를 사용해 만든 다소 복잡한 요리입니다. 4개를 조리합니다.</CookMealFineD.description>
+  <!-- EN: Cooking fine meal. -->
+  <CookMealFineD.jobString>좋은 식사 4개 조리 중.</CookMealFineD.jobString>
+  
+  <!-- EN: cook lavish meal -->
+  <CookMealLavishD.label>호화로운 식사 4개 준비</CookMealLavishD.label>
+  <!-- EN: Cook a very complex meal from a combination of meat and plant ingredients. Much of the ingredients are wasted. -->
+  <CookMealLavishD.description>육류와 식물성 재료를 사용해 매우 복잡하게 조리한 요리입니다. 사용하는 식재료의 대부분이 낭비됩니다. 4개를 조리합니다.</CookMealLavishD.description>
+  <!-- EN: Cooking lavish meal. -->
+  <CookMealLavishD.jobString>호화로운 식사 4개 조리 중.</CookMealLavishD.jobString>
+  
+  <!-- EN: cook simple meal -->
+  <CookMealSimpleD.label>간단한 식사 4개 준비</CookMealSimpleD.label>
+  <!-- EN: Cook a straightforward meal from one ingredient. -->
+  <CookMealSimpleD.description>한 가지 재료로 만든 간단하고 쉬운 요리입니다. 4개를 조리합니다.</CookMealSimpleD.description>
+  <!-- EN: Cooking simple meal. -->
+  <CookMealSimpleD.jobString>간단한 식사 4개 조리 중.</CookMealSimpleD.jobString>
+  
+  <!-- EN: cook packaged survival meal -->
+  <CookMealSurvivalD.label>보존 식량 4개 만들기</CookMealSurvivalD.label>
+  <!-- EN: Prepare a packaged survival meal from a combination of meat and plant ingredients. Much of the ingredients are wasted in the preservation process. -->
+  <CookMealSurvivalD.description>육류와 식물성 재료를 사용해 포장된 보존 식량을 만듭니다. 약간의 식재료가 낭비됩니다. 4개를 조리합니다.</CookMealSurvivalD.description>
+  <!-- EN: Cooking survival meal. -->
+  <CookMealSurvivalD.jobString>보존 식량 4개 조리 중.</CookMealSurvivalD.jobString>
+  
+
+</LanguageData>

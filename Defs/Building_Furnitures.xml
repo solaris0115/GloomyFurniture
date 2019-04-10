@@ -291,7 +291,7 @@
 			<WorkToBuild>2500</WorkToBuild>
 			<Mass>75</Mass>
 			<Comfort>0.9</Comfort>
-			<Beauty>25</Beauty>
+			<Beauty>75</Beauty>
 			<BedRestEffectiveness>1.1</BedRestEffectiveness>
 			<ImmunityGainSpeedFactor>1.1</ImmunityGainSpeedFactor>
 			<SurgerySuccessChanceFactor>1</SurgerySuccessChanceFactor>
@@ -300,9 +300,9 @@
 		<stuffCategories>
 			<li>Woody</li>
 		</stuffCategories>
-		<costStuffCount>85</costStuffCount>
+		<costStuffCount>100</costStuffCount>
 		<costList>
-			<DevilstrandCloth>25</DevilstrandCloth>
+			<DevilstrandCloth>65</DevilstrandCloth>
 		</costList>
 		<building>
 			<bed_showSleeperBody>False</bed_showSleeperBody>
@@ -320,7 +320,7 @@
 			<li>ComplexFurniture</li>
 		</researchPrerequisites>
 		<designationCategory>OldStyleFurniture</designationCategory>
-		<uiIconScale>0.90</uiIconScale>
+		<uiIconScale>0.85</uiIconScale>
 	</ThingDef>
 	<!--Table-->
 	<ThingDef ParentName="RGKArtableFurnitureBase">
@@ -381,6 +381,7 @@
 		<label>End table</label>
 		<description>A small bedside table which makes nearby beds a little bit more comfortable. Must be placed directly adjacent to the head of the bed. Placing more than one end table near the same bed has no effect.</description>
 		<surfaceType>Item</surfaceType>
+		<uiIconScale>0.90</uiIconScale>
 		<graphicData>
 			<texPath>Things/Building/Furniture/RGK_EndTable</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
@@ -784,6 +785,8 @@
 		<designationHotKey>Misc3</designationHotKey>
 		<fillPercent>0.35</fillPercent>
 		<defaultPlacingRot>South</defaultPlacingRot>
+		<uiIconOffset>(0,0.1)</uiIconOffset>
+		<uiIconScale>0.90</uiIconScale>
 		<building>
 			<isSittable>true</isSittable>
 		</building>
@@ -1147,6 +1150,7 @@
 		<designationHotKey>Misc4</designationHotKey>
 	</ThingDef>
 
+	<!-- 미니 테이블 -->
 	<ThingDef ParentName="RGKTableBase">
 		<defName>RGK_MiniTableA</defName>
 		<label>mini table</label>
@@ -1161,7 +1165,8 @@
 				<cornerBR>Damage/Corner</cornerBR>
 			</damageData>
 		</graphicData>
-		<uiIconScale>0.8</uiIconScale>
+		<uiIconScale>0.7</uiIconScale>
+		<uiIconOffset>(0,0.1)</uiIconOffset>
 		<statBases>
 			<MaxHitPoints>75</MaxHitPoints>
 			<WorkToBuild>750</WorkToBuild>
@@ -1175,10 +1180,9 @@
 		</stuffCategories>
 		<costStuffCount>25</costStuffCount>
 		<rotatable>false</rotatable>
-
 		<designationHotKey>Misc4</designationHotKey>
 	</ThingDef>
-
+	<!-- 천덮힌 미니 -->
 	<ThingDef ParentName="RGKTableBase">
 		<defName>RGK_MiniTableB</defName>
 		<label>mini table</label>
@@ -1194,7 +1198,8 @@
 			</damageData>
 			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
-		<uiIconScale>0.8</uiIconScale>
+		<uiIconScale>0.7</uiIconScale>
+		<uiIconOffset>(0,0.1)</uiIconOffset>
 		<statBases>
 			<MaxHitPoints>75</MaxHitPoints>
 			<WorkToBuild>750</WorkToBuild>
@@ -1208,7 +1213,6 @@
 		</stuffCategories>
 		<costStuffCount>25</costStuffCount>
 		<rotatable>false</rotatable>
-
 		<designationHotKey>Misc4</designationHotKey>
 	</ThingDef>
 
@@ -1239,8 +1243,9 @@
 		<stuffCategories>
 			<li>Woody</li>
 		</stuffCategories>
-		<costStuffCount>50</costStuffCount>		
-		<uiIconScale>0.80</uiIconScale>
+		<costStuffCount>50</costStuffCount>
+		<uiIconScale>0.65</uiIconScale>
+		<uiIconOffset>(0, 0.15)</uiIconOffset>
 		<statBases>
 			<Beauty>12</Beauty>
 			<MaxHitPoints>100</MaxHitPoints>
@@ -1291,8 +1296,9 @@
 				<rectE>(0.28125,0.25,0.453125,0.25)</rectE>
 				<rectW>(0.28125,0.25,0.453125,0.25)</rectW>
 			</damageData>
-		</graphicData>		
-		<uiIconScale>0.80</uiIconScale>
+		</graphicData>
+		<uiIconScale>0.65</uiIconScale>
+		<uiIconOffset>(0, 0.15)</uiIconOffset>
 		<altitudeLayer>Pawn</altitudeLayer>
 		<passability>PassThroughOnly</passability>
 		<fillPercent>1</fillPercent>
@@ -1365,7 +1371,8 @@
 				<rectW>(0.28125,0.25,0.453125,0.25)</rectW>
 			</damageData>
 		</graphicData>		
-		<uiIconScale>0.80</uiIconScale>
+		<uiIconScale>0.65</uiIconScale>
+		<uiIconOffset>(0, 0.15)</uiIconOffset>
 		<altitudeLayer>Pawn</altitudeLayer>
 		<passability>PassThroughOnly</passability>
 		<fillPercent>1</fillPercent>
@@ -1434,7 +1441,8 @@
 			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
 		<thingClass>Building</thingClass>
-		<uiIconScale>0.8</uiIconScale>
+		<uiIconScale>0.65</uiIconScale>
+		<uiIconOffset>(0, 0.15)</uiIconOffset>
 		<size>(1,1)</size>
 		<altitudeLayer>Building</altitudeLayer>
 		<passability>PassThroughOnly</passability>
@@ -1475,6 +1483,120 @@
 			<li>PlaceWorker_ShowFacilitiesConnections</li>
 		</placeWorkers>
 		<constructionSkillPrerequisite>6</constructionSkillPrerequisite>
+	</ThingDef>
+	
+	<!-- 식기장 -->
+	<ThingDef ParentName="BuildingBase">
+		<defName>GL_Cupboard</defName>
+		<label>cupboard</label>
+		<description>A shelf for Tableware. Increases Cook speed when placed near fueled stove table.</description>
+		<graphicData>
+			<texPath>Things/Building/Furniture/GL_Cupboard</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>3</drawSize>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<thingClass>Building</thingClass>
+		<uiIconScale>0.65</uiIconScale>
+		<uiIconOffset>(0, 0.20)</uiIconOffset>
+		<size>(1,1)</size>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<castEdgeShadows>true</castEdgeShadows>
+		<fillPercent>0.6</fillPercent>
+		<designationCategory>OldStyleFurniture</designationCategory>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<canOverlapZones>false</canOverlapZones>
+		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+		<thingCategories>
+			<li>BuildingsMisc</li>
+		</thingCategories>
+		<statBases>
+			<MaxHitPoints>120</MaxHitPoints>
+			<WorkToBuild>2500</WorkToBuild>
+			<Mass>35</Mass>
+			<Flammability>1.0</Flammability>
+			<Beauty>30</Beauty>
+		</statBases>
+		<stuffCategories>
+			<li>Woody</li>
+		</stuffCategories>
+		<costStuffCount>120</costStuffCount>
+		<comps>
+			<li Class="CompProperties_Facility">
+				<statOffsets>
+					<WorkTableWorkSpeedFactor>0.10</WorkTableWorkSpeedFactor>
+				</statOffsets>
+				<maxDistance>3</maxDistance>
+				<maxSimultaneous>1</maxSimultaneous>
+			</li>
+		</comps>
+		<placeWorkers>
+			<li>PlaceWorker_ShowFacilitiesConnections</li>
+		</placeWorkers>
+		<constructionSkillPrerequisite>6</constructionSkillPrerequisite>
+	</ThingDef>
+	
+	<!-- 식기선반 -->
+	<ThingDef ParentName="BuildingBase">
+		<defName>GL_TablewareShelf</defName>
+		<label>tableware shelf</label>
+		<description>A shelf for Tableware. Increases Cook speed when placed near fueled stove table.</description>
+		<graphicData>
+			<texPath>Things/Building/Furniture/GL_TablewareShelf</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>4</drawSize>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<thingClass>Building</thingClass>
+		<uiIconScale>2.2</uiIconScale>
+		<uiIconPath>Things/Building/Furniture/GL_TablewareShelf_Icon</uiIconPath>
+		<uiIconOffset>(0, 0)</uiIconOffset>
+		<size>(2,1)</size>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>Standable</passability>
+		<castEdgeShadows>true</castEdgeShadows>
+		<fillPercent>0.1</fillPercent>
+		<designationCategory>OldStyleFurniture</designationCategory>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<canOverlapZones>false</canOverlapZones>
+		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+		<thingCategories>
+			<li>BuildingsMisc</li>
+		</thingCategories>
+		<statBases>
+			<MaxHitPoints>120</MaxHitPoints>
+			<WorkToBuild>3000</WorkToBuild>
+			<Mass>15</Mass>
+			<Flammability>1.0</Flammability>
+			<Beauty>15</Beauty>
+		</statBases>
+		<costList>
+			<Steel>35</Steel>
+		</costList>
+		<stuffCategories>
+			<li>Woody</li>
+		</stuffCategories>
+		<costStuffCount>45</costStuffCount>
+		<comps>
+			<li Class="CompProperties_Facility">
+				<statOffsets>
+					<WorkTableWorkSpeedFactor>0.15</WorkTableWorkSpeedFactor>
+				</statOffsets>
+				<maxDistance>2</maxDistance>
+				<maxSimultaneous>1</maxSimultaneous>
+			</li>
+		</comps>
+		<placeWorkers>
+			<li>PlaceWorker_ShowFacilitiesConnections</li>
+			<li>Gloomylynx.PlaceWorker_WallAttachmentNearby</li>
+		</placeWorkers>
+		<building>
+			<canPlaceOverWall>true</canPlaceOverWall>
+			<isEdifice>false</isEdifice>
+		</building>
+		<clearBuildingArea>false</clearBuildingArea>
+		<constructionSkillPrerequisite>7</constructionSkillPrerequisite>
 	</ThingDef>
 
 	<ThingDef ParentName="FurnitureWithQualityBase">
@@ -1639,7 +1761,7 @@
 			<graphicClass>Graphic_Multi</graphicClass>
 			<drawSize>(1,1)</drawSize>
 		</graphicData>		
-		<uiIconScale>1</uiIconScale>
+		<uiIconScale>0.75</uiIconScale>
 		<altitudeLayer>Pawn</altitudeLayer>
 		<passability>PassThroughOnly</passability>
 		<fillPercent>0.5</fillPercent>
@@ -1704,7 +1826,8 @@
 			</damageData>
 		</graphicData>
 		<uiIconPath>Things/Building/Furniture/RGK_Flower</uiIconPath>
-		<uiIconScale>1</uiIconScale>
+		<uiIconScale>2</uiIconScale>
+		<uiIconOffset>(0,0.15)</uiIconOffset>
 		<rotatable>true</rotatable>
 		<altitudeLayer>BuildingOnTop</altitudeLayer>
 		<passability>PassThroughOnly</passability>
@@ -1761,7 +1884,7 @@
 			<li>Gloomylynx.PlaceWorker_PassableObject</li>
 		</placeWorkers>
 		<uiIconPath>Things/Building/Furniture/RGK_Teaset</uiIconPath>
-		<uiIconScale>1</uiIconScale>
+		<uiIconScale>1.75</uiIconScale>
 		<rotatable>true</rotatable>
 		<altitudeLayer>BuildingOnTop</altitudeLayer>
 		<passability>PassThroughOnly</passability>
@@ -1821,7 +1944,8 @@
 				<maxDistance>0.9</maxDistance>
 			</li>
 		</comps>
-		<uiIconScale>1</uiIconScale>
+		<uiIconScale>1.5</uiIconScale>
+		<uiIconOffset>(0,0.35)</uiIconOffset>
 		<rotatable>true</rotatable>
 		<altitudeLayer>BuildingOnTop</altitudeLayer>
 		<passability>PassThroughOnly</passability>

@@ -15,6 +15,19 @@
   <RGK_FueledStove_Frame.label>조리대 (건설중)</RGK_FueledStove_Frame.label>
   <RGK_FueledStove_Frame.description>음식을 만들 수 있는 조리대입니다. 땔감같은 것을 넣어 불로 요리할 수 있습니다.</RGK_FueledStove_Frame.description>
 
+
+  <!-- 화톳불 -->
+
+  <GL_Bonfire.label>화톳불</GL_Bonfire.label>
+  <GL_Bonfire.description>요리가 가능한 화톳불입니다. 한번에 많은 양의 요리가 가능합니다.</GL_Bonfire.description>
+  <GL_Bonfire_Blueprint.label>화톳불 (청사진)</GL_Bonfire_Blueprint.label>
+  <GL_Bonfire_Blueprint_Install.label>화톳불 (청사진)</GL_Bonfire_Blueprint_Install.label>
+  <GL_Bonfire_Frame.label>화톳불 (건설 중)</GL_Bonfire_Frame.label>
+  <GL_Bonfire_Frame.description>요리가 가능한 화톳불입니다. 한번에 많은 양의 요리가 가능합니다.</GL_Bonfire_Frame.description>
+
+
+  <!-- 재봉틀 -->
+
   <GL_HandTailoringBench.label>수동 재봉틀</GL_HandTailoringBench.label>
   <GL_HandTailoringBench.description>의류 생산을 위한 작업대입니다. 전기 작업대의 65% 속도로 작동합니다.</GL_HandTailoringBench.description>
   <GL_HandTailoringBench_Blueprint.label>수동 재봉틀 (청사진)</GL_HandTailoringBench_Blueprint.label>
@@ -28,6 +41,9 @@
   <GL_ElectricTailoringBench_Blueprint_Install.label>전기 재봉틀 (청사진)</GL_ElectricTailoringBench_Blueprint_Install.label>
   <GL_ElectricTailoringBench_Frame.label>전기 재봉틀 (건설중)</GL_ElectricTailoringBench_Frame.label>
   <GL_ElectricTailoringBench_Frame.description>빠른 의류 생산을 위한 작업대입니다. 전기 없이도 65% 속도로 작동합니다.</GL_ElectricTailoringBench_Frame.description>
+
+
+  <!-- 단조대 -->
 
   <GL_FueledSmithy.label>단조대</GL_FueledSmithy.label>
   <GL_FueledSmithy.description>무기와 도구를 생산하기 위한 작업대입니다. 나무를 태워 작동합니다.</GL_FueledSmithy.description>

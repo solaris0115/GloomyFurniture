@@ -115,6 +115,12 @@
 				<compClass>CompHeatPusherPowered</compClass>
 				<heatPerSecond>4</heatPerSecond>
 			</li>
+			<li Class="CompProperties_AffectedByFacilities">
+				<linkableFacilities>
+					<li>GL_Cupboard</li>
+					<li>GL_TablewareShelf</li>
+				</linkableFacilities>
+			</li>
 		</comps>
 		<building>
 			<isMealSource>true</isMealSource>
@@ -124,6 +130,127 @@
 		<designationHotKey>Misc8</designationHotKey>
 	</ThingDef>
 
+	<!-- 화톳불  -->
+	<ThingDef ParentName="BuildingBase">
+		<defName>GL_Bonfire</defName>
+		<label>bonfire</label>
+		<description>요리가 가능한 화톳불입니다.</description>    
+		<thingClass>Building_WorkTable_HeatPush</thingClass>
+		<category>Building</category>		
+		<thingCategories>
+			<li>BuildingsFurniture</li>
+		</thingCategories>
+		<minifiedDef>MinifiedThing</minifiedDef>	
+		<graphicData>
+			<texPath>Things/Building/Production/GL_FurnaceBase</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(3,3)</drawSize>
+			<shaderType>CutoutComplex</shaderType>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+		</graphicData>
+		<uiIconScale>1</uiIconScale>
+		<altitudeLayer>Building</altitudeLayer>
+		<tickerType>Normal</tickerType>
+		<fillPercent>0.20</fillPercent>
+		<statBases>
+			<Mass>15</Mass>
+			<MaxHitPoints>200</MaxHitPoints>
+			<WorkToBuild>1200</WorkToBuild>
+			<Flammability>0</Flammability>
+			<WorkTableWorkSpeedFactor>1.15</WorkTableWorkSpeedFactor>
+			<!-- <WorkTableEfficiencyFactor>1.1</WorkTableEfficiencyFactor> -->
+		</statBases>
+		<selectable>true</selectable>
+		<costList>
+			<WoodLog>75</WoodLog>
+			<Steel>40</Steel>
+		</costList>
+		<costStuffCount>40</costStuffCount>
+		<stuffCategories>
+			<li>Stony</li>
+		</stuffCategories>
+		<soundImpactDefault>BulletImpact_Ground</soundImpactDefault>
+		<leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+		<placeWorkers>
+			<li>PlaceWorker_Heater</li>
+		</placeWorkers>
+		<drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+		<comps>
+			<li Class="CompProperties_Flickable">
+				<commandTexture>UI/Commands/OnOff</commandTexture>
+			</li>
+			<li Class="CompProperties_Refuelable">
+				<fuelConsumptionRate>3.0</fuelConsumptionRate>
+				<fuelCapacity>75.0</fuelCapacity>
+				<fuelFilter>
+					<thingDefs>
+						<li>WoodLog</li>
+					</thingDefs>
+				</fuelFilter>
+				<initialFuelPercent>1</initialFuelPercent>
+			</li>
+			<li Class="CompProperties_Glower">
+				<glowRadius>10</glowRadius>
+				<glowColor>(252,187,113,0)</glowColor>
+			</li>
+			<li Class="CompProperties_HeatPusher">
+				<compClass>CompHeatPusherPowered</compClass>
+				<heatPerSecond>25</heatPerSecond>
+				<heatPushMaxTemperature>25</heatPushMaxTemperature>
+			</li>
+			<li Class="Gloomylynx.CompProperties_FireOverlayRotatable">
+				<compClass>Gloomylynx.CompFireOverlayRotatable</compClass>
+				<fireSize>1.3</fireSize>
+			</li>
+			<li Class="Gloomylynx.CompProperties_SecondLayerOnOffable">
+				<graphicDataOn>
+					<texPath>Things/Building/Production/GL_FurnaceOn</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>(3,3)</drawSize>
+				</graphicDataOn>
+				<graphicDataOff>
+					<texPath>Things/Building/Production/GL_FurnaceOff</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>(3,3)</drawSize>
+				</graphicDataOff>
+				<altitudeLayer>Projectile</altitudeLayer>
+			</li>
+		</comps>
+		<designationCategory>OldStyleFurniture</designationCategory>
+		<designationHotKey>Misc6</designationHotKey>
+		<size>(2,2)</size>
+		<constructionSkillPrerequisite>5</constructionSkillPrerequisite>
+		<surfaceType>Item</surfaceType>
+		<inspectorTabs>
+			<li>ITab_Bills</li>
+		</inspectorTabs>
+		<recipes>
+			<li>CookMealSimple</li>
+			<li>CookMealFine</li>
+			<li>CookMealLavish</li>
+			<li>CookMealSurvival</li>
+			<li>Make_Pemmican</li>
+			<li>CookMealSimpleD</li>
+			<li>CookMealFineD</li>
+			<li>CookMealLavishD</li>
+			<li>CookMealSurvivalD</li>
+		</recipes>
+		<building>
+			<isMealSource>true</isMealSource>
+			<spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+			<heatPerTickWhileWorking>0.10</heatPerTickWhileWorking>
+		</building>
+		<passability>PassThroughOnly</passability>
+		<pathCost>15</pathCost>
+		<hasInteractionCell>True</hasInteractionCell>
+		<interactionCellOffset>(0,0,0)</interactionCellOffset>
+	</ThingDef>
+	
 	<!-- 재봉틀 -->
 	<ThingDef ParentName="BenchBase">
 		<defName>GL_HandTailoringBench</defName>

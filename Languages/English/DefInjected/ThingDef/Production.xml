@@ -15,6 +15,19 @@
   <RGK_FueledStove_Frame.label>fueled stove (building)</RGK_FueledStove_Frame.label>
   <RGK_FueledStove_Frame.description>A wood-fueled stove with an attached countertop for preparing meals.</RGK_FueledStove_Frame.description>
 
+
+  <!-- 화톳불 -->
+
+  <GL_Bonfire.label>bonfire</GL_Bonfire.label>
+  <GL_Bonfire.description>Cooks meals and produces heat, and burns out after a few days. As with all heat sources, it must be placed indoors so it has a closed space to heat. Refuelable.</GL_Bonfire.description>
+  <GL_Bonfire_Blueprint.label>bonfire (blueprint)</GL_Bonfire_Blueprint.label>
+  <GL_Bonfire_Blueprint_Install.label>bonfire (blueprint)</GL_Bonfire_Blueprint_Install.label>
+  <GL_Bonfire_Frame.label>bonfire (building)</GL_Bonfire_Frame.label>
+  <GL_Bonfire_Frame.description>Cooks meals and produces heat, and burns out after a few days. As with all heat sources, it must be placed indoors so it has a closed space to heat. Refuelable.</GL_Bonfire_Frame.description>
+
+
+  <!-- 재봉틀 -->
+
   <GL_HandTailoringBench.label>hand tailor bench</GL_HandTailoringBench.label>
   <GL_HandTailoringBench.description>A workbench for tailoring clothes by hand. Works at 50% of the speed of an electric tailoring bench.</GL_HandTailoringBench.description>
   <GL_HandTailoringBench_Blueprint.label>hand tailor bench (blueprint)</GL_HandTailoringBench_Blueprint.label>
@@ -28,6 +41,9 @@
   <GL_ElectricTailoringBench_Blueprint_Install.label>electric tailor bench (blueprint)</GL_ElectricTailoringBench_Blueprint_Install.label>
   <GL_ElectricTailoringBench_Frame.label>electric tailor bench (building)</GL_ElectricTailoringBench_Frame.label>
   <GL_ElectricTailoringBench_Frame.description>A workbench with a sewing machine for rapid tailoring of clothes. Can work without electricity at 50% of normal speed.</GL_ElectricTailoringBench_Frame.description>
+
+
+  <!-- 단조대 -->
 
   <GL_FueledSmithy.label>fueled smithy</GL_FueledSmithy.label>
   <GL_FueledSmithy.description>A wood-fueled station for smithing non-mechanical weapons and tools.</GL_FueledSmithy.description>

@@ -84,6 +84,7 @@ namespace Gloomylynx
             showRotateList.Add(Rot4.West);
         }
     }
+
     internal class CompProperties_SecondLayer : CompProperties
     {
         public GraphicData graphicData=null;
@@ -151,6 +152,7 @@ namespace Gloomylynx
             }            
         }
     }
+
     internal class CompProperties_SecondLayerFollow : CompProperties
     {
         public GraphicData graphicData = null;
@@ -220,6 +222,103 @@ namespace Gloomylynx
     }
 
 
+
+    internal class CompProperties_SecondLayerOnOffable : CompProperties
+    {
+        public GraphicData graphicDataOn = null;
+        public GraphicData graphicDataOff = null;
+
+        public AltitudeLayer altitudeLayer = AltitudeLayer.MoteOverhead;
+
+        public float Altitude
+        {
+            get
+            {
+                return altitudeLayer.AltitudeFor();
+            }
+        }
+
+        public CompProperties_SecondLayerOnOffable()
+        {
+            compClass = typeof(CompSecondLayerOnOffable);
+        }
+    }
+    internal class CompSecondLayerOnOffable : ThingComp
+    {
+        public CompRefuelable refuelableComp;
+        public CompFlickable compFlickable;
+        public Graphic graphicIntOn;
+        public Graphic graphicIntOff;
+        public override void PostSpawnSetup(bool respawningAfterLoad)
+        {
+            base.PostSpawnSetup(respawningAfterLoad);
+            refuelableComp = parent.GetComp<CompRefuelable>();
+            compFlickable = parent.GetComp<CompFlickable>();
+        }
+        public CompProperties_SecondLayerOnOffable Props
+        {
+            get
+            {
+                return (CompProperties_SecondLayerOnOffable)props;
+            }
+        }
+
+        public virtual Graphic GraphicOn
+        {
+            get
+            {
+                if (graphicIntOn == null)
+                {
+                    if (Props.graphicDataOn == null)
+                    {
+                        Log.ErrorOnce(parent.def + "GloomylynxFurniture - has no SecondLayerOnOffable graphicData but we are trying to access it.", 764532, false);
+                        return BaseContent.BadGraphic;
+                    }
+                    graphicIntOn = Props.graphicDataOn.Graphic;
+                }
+                return graphicIntOn;
+            }
+        }
+        public virtual Graphic GraphicOff
+        {
+            get
+            {
+                if (graphicIntOff == null)
+                {
+                    if (Props.graphicDataOff == null)
+                    {
+                        Log.ErrorOnce(parent.def + "GloomylynxFurniture - has no SecondLayerOnOffable graphicData but we are trying to access it.", 764532, false);
+                        return BaseContent.BadGraphic;
+                    }
+                    graphicIntOff = Props.graphicDataOff.Graphic;
+                }
+                return graphicIntOff;
+            }
+        }
+
+        public override void PostDraw()
+        {
+            //스위치 온 그리고 연료 유
+            if(compFlickable.SwitchIsOn && refuelableComp.HasFuel )
+            {
+                DrawCallOn();
+            }
+            else
+            {
+                Log.Message("off");
+                DrawCallOff();
+            }
+        }
+        public void DrawCallOn()
+        {
+            GraphicOn.Draw(GenThing.TrueCenter(parent.Position, parent.Rotation, parent.def.size, Props.Altitude), parent.Rotation, parent, 0f);
+        }
+        public void DrawCallOff()
+        {
+            GraphicOff.Draw(GenThing.TrueCenter(parent.Position, parent.Rotation, parent.def.size, Props.Altitude), parent.Rotation, parent, 0f);
+        }
+    }
+
     public class CompProperties_JukeBox:CompProperties
     {
         public SongDef stopSong;
@@ -232,7 +331,6 @@ namespace Gloomylynx
             }
         }
     }
-
 
     public class JoyGiver_ListenSong : JoyGiver_InteractBuilding
     {

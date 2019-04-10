@@ -118,10 +118,10 @@
   <GL_BoundaryStone_Frame.label>경계석 (건설중)</GL_BoundaryStone_Frame.label>
   <GL_BoundaryStone_Frame.description>바닥의 경계를 구분짓기 위한 경계석입니다.</GL_BoundaryStone_Frame.description>
 
-  <GL_BoundaryWoodCorner.label>곽경계목 (모서리)</GL_BoundaryWoodCorner.label>
+  <GL_BoundaryWoodCorner.label>경계목 (모서리)</GL_BoundaryWoodCorner.label>
   <GL_BoundaryWoodCorner.description>바닥의 경계를 구분짓기 위한 경계목입니다.</GL_BoundaryWoodCorner.description>
-  <GL_BoundaryWoodCorner_Blueprint.label>곽경계목 (모서리) (청사진)</GL_BoundaryWoodCorner_Blueprint.label>
-  <GL_BoundaryWoodCorner_Frame.label>곽경계목 (모서리) (건설중)</GL_BoundaryWoodCorner_Frame.label>
+  <GL_BoundaryWoodCorner_Blueprint.label>경계목 (모서리) (청사진)</GL_BoundaryWoodCorner_Blueprint.label>
+  <GL_BoundaryWoodCorner_Frame.label>경계목 (모서리) (건설중)</GL_BoundaryWoodCorner_Frame.label>
   <GL_BoundaryWoodCorner_Frame.description>바닥의 경계를 구분짓기 위한 경계목입니다.</GL_BoundaryWoodCorner_Frame.description>
 
   <GL_BoundaryStoneCorner.label>경계석 (모서리)</GL_BoundaryStoneCorner.label>

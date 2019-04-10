@@ -170,12 +170,18 @@
   <RGK_TableH_Frame.label>celtic table (3x3) (building)</RGK_TableH_Frame.label>
   <RGK_TableH_Frame.description>People eat off tables when chairs are placed facing them.</RGK_TableH_Frame.description>
 
+
+  <!-- 미니 테이블 -->
+
   <RGK_MiniTableA.label>Mini table</RGK_MiniTableA.label>
   <RGK_MiniTableA.description>People eat off tables when chairs are placed facing them.</RGK_MiniTableA.description>
   <RGK_MiniTableA_Blueprint.label>mini table (blueprint)</RGK_MiniTableA_Blueprint.label>
   <RGK_MiniTableA_Blueprint_Install.label>mini table (blueprint)</RGK_MiniTableA_Blueprint_Install.label>
   <RGK_MiniTableA_Frame.label>mini table (building)</RGK_MiniTableA_Frame.label>
   <RGK_MiniTableA_Frame.description>People eat off tables when chairs are placed facing them.</RGK_MiniTableA_Frame.description>
+
+
+  <!-- 천덮힌 미니 -->
 
   <RGK_MiniTableB.label>Mini table</RGK_MiniTableB.label>
   <RGK_MiniTableB.description>People eat off tables when chairs are placed facing them.</RGK_MiniTableB.description>
@@ -217,6 +223,26 @@
   <GL_Bookshelf_Blueprint_Install.label>bookshelf (blueprint)</GL_Bookshelf_Blueprint_Install.label>
   <GL_Bookshelf_Frame.label>bookshelf (building)</GL_Bookshelf_Frame.label>
   <GL_Bookshelf_Frame.description>Increases research speed when placed near research table. Each research bench can  use two bookshelf.</GL_Bookshelf_Frame.description>
+
+
+  <!-- 식기장 -->
+
+  <GL_Cupboard.label>cupboard</GL_Cupboard.label>
+  <GL_Cupboard.description>A shelf for Tableware. Increases Cook speed when placed near fueled stove table.</GL_Cupboard.description>
+  <GL_Cupboard_Blueprint.label>cupboard (blueprint)</GL_Cupboard_Blueprint.label>
+  <GL_Cupboard_Blueprint_Install.label>cupboard (blueprint)</GL_Cupboard_Blueprint_Install.label>
+  <GL_Cupboard_Frame.label>cupboard (building)</GL_Cupboard_Frame.label>
+  <GL_Cupboard_Frame.description>A shelf for Tableware. Increases Cook speed when placed near fueled stove table.</GL_Cupboard_Frame.description>
+
+
+  <!-- 식기선반 -->
+
+  <GL_TablewareShelf.label>tableware shelf</GL_TablewareShelf.label>
+  <GL_TablewareShelf.description>A shelf for Tableware. Increases Cook speed when placed near fueled stove table.</GL_TablewareShelf.description>
+  <GL_TablewareShelf_Blueprint.label>tableware shelf (blueprint)</GL_TablewareShelf_Blueprint.label>
+  <GL_TablewareShelf_Blueprint_Install.label>tableware shelf (blueprint)</GL_TablewareShelf_Blueprint_Install.label>
+  <GL_TablewareShelf_Frame.label>tableware shelf (building)</GL_TablewareShelf_Frame.label>
+  <GL_TablewareShelf_Frame.description>A shelf for Tableware. Increases Cook speed when placed near fueled stove table.</GL_TablewareShelf_Frame.description>
 
   <RGK_Manger.label>Manger</RGK_Manger.label>
   <RGK_Manger.description>It's a cask for animals. You can store food and hay.</RGK_Manger.description>

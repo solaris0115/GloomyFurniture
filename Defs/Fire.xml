@@ -189,6 +189,7 @@
 		<constructionSkillPrerequisite>5</constructionSkillPrerequisite>
 		<defaultPlacingRot>South</defaultPlacingRot>
 	</ThingDef>
+		
 	<!--Lamp-->
 	<ThingDef ParentName="BuildingBase">
 		<defName>RGK_lamp</defName>
@@ -425,7 +426,6 @@
 		</thingCategories>
 	</ThingDef>
 
-
 	<!-- Street Lamp -->
 	<ThingDef ParentName="BuildingBase">
 		<defName>RGK_Street_Lamp_L</defName>
@@ -442,8 +442,8 @@
 				<rect>(0.35,0.35,0.3,0.3)</rect>
 			</damageData>
 		</graphicData>
-		<uiIconPath>Things/Building/Furniture/RGK_Street_LampE</uiIconPath>
-		<uiIconScale>1.5</uiIconScale>
+		<uiIconPath>Things/Building/Furniture/GL_Street_Lamp_Icon</uiIconPath>
+		<uiIconScale>1.25</uiIconScale>
 		<rotatable>false</rotatable>
 		<altitudeLayer>Building</altitudeLayer>
 		<passability>PassThroughOnly</passability>
@@ -506,8 +506,8 @@
 				<rect>(0.35,0.35,0.3,0.3)</rect>
 			</damageData>
 		</graphicData>
-		<uiIconPath>Things/Building/Furniture/RGK_Street_LampE</uiIconPath>
-		<uiIconScale>1.5</uiIconScale>
+		<uiIconPath>Things/Building/Furniture/GL_Street_Lamp_Icon</uiIconPath>
+		<uiIconScale>1.25</uiIconScale>
 		<rotatable>false</rotatable>
 		<altitudeLayer>Building</altitudeLayer>
 		<passability>PassThroughOnly</passability>
@@ -548,7 +548,6 @@
 		<tradeability>None</tradeability>
 	</ThingDef>
 
-
 	<!-- Street Lamp Seven -->
 	<ThingDef ParentName="BuildingBase">
 		<defName>RGK_Street_Lamp_Seven</defName>
@@ -565,8 +564,8 @@
 				<rect>(0.35,0.35,0.3,0.3)</rect>
 			</damageData>
 		</graphicData>
-		<uiIconPath>Things/Building/Furniture/RGK_Lamp_SevenE_south</uiIconPath>
-		<uiIconScale>1.5</uiIconScale>
+		<uiIconPath>Things/Building/Furniture/GL_Lamp_Seven_Icon</uiIconPath>
+		<uiIconScale>1.25</uiIconScale>
 		<altitudeLayer>Building</altitudeLayer>
 		<passability>PassThroughOnly</passability>
 		<pathCost>8</pathCost>
@@ -640,8 +639,8 @@
 				<rect>(0.35,0.35,0.3,0.3)</rect>
 			</damageData>
 		</graphicData>
-		<uiIconPath>Things/Building/Furniture/RGK_Lamp_SevenE_south</uiIconPath>
-		<uiIconScale>1.5</uiIconScale>
+		<uiIconPath>Things/Building/Furniture/GL_Lamp_Seven_Icon</uiIconPath>
+		<uiIconScale>1.25</uiIconScale>
 		<altitudeLayer>Building</altitudeLayer>
 		<passability>PassThroughOnly</passability>
 		<pathCost>8</pathCost>
@@ -693,7 +692,6 @@
 		<clearBuildingArea>false</clearBuildingArea>
 	</ThingDef>
 
-	 
 	<!-- Wall Lamp -->
 	<ThingDef Abstract="True" Name="WallLightBase" ParentName="BuildingBase">
 		<thingClass>Building</thingClass>
@@ -754,7 +752,8 @@
 			</li>
 		</comps>
 		<uiIconPath>Things/Building/Furniture/GL_WallLit_south</uiIconPath>
-		<uiIconScale>2</uiIconScale>
+		<uiIconScale>3</uiIconScale>
+		<uiIconOffset>(0,-0.2)</uiIconOffset>
 		<description>A light fixture designed to be mounted on a wall.</description>
 		<thingClass>Gloomylynx.WallLamp</thingClass>
 		<researchPrerequisites>
@@ -780,7 +779,8 @@
 			</li>
 		</comps>
 		<uiIconPath>Things/Building/Furniture/GL_WallLit_south</uiIconPath>
-		<uiIconScale>2</uiIconScale>
+		<uiIconScale>3</uiIconScale>
+		<uiIconOffset>(0,-0.2)</uiIconOffset>
 		<description>A light fixture designed to be mounted on a wall.</description>
 		<thingClass>Gloomylynx.WallLamp</thingClass>
 		<researchPrerequisites>

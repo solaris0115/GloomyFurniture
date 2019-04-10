@@ -698,7 +698,8 @@
 			</linkFlags>
 			<drawSize>(3.25,3.25)</drawSize>
 		</graphicData>
-		<uiIconScale>2</uiIconScale>
+		<uiIconScale>1.75</uiIconScale>
+		<uiIconOffset>(0,0.15)</uiIconOffset>
 		<uiIconPath>Things/Building/Furniture/GL_DoorFrame_south</uiIconPath>
 		<stuffCategories Inherit="False">
 			<li>Woody</li>
@@ -734,6 +735,7 @@
 			<drawSize>1</drawSize>
 		</graphicData>
 		<uiIconScale>1</uiIconScale>
+		<uiIconOffset>(0,-0.35)</uiIconOffset>
 		<rotatable>true</rotatable>
 		<altitudeLayer>FloorEmplacement</altitudeLayer>
 		<passability>Standable</passability>
@@ -778,6 +780,7 @@
 			<drawSize>1</drawSize>
 		</graphicData>
 		<uiIconScale>1</uiIconScale>
+		<uiIconOffset>(0,-0.35)</uiIconOffset>
 		<rotatable>true</rotatable>
 		<altitudeLayer>FloorEmplacement</altitudeLayer>
 		<passability>Standable</passability>
@@ -823,6 +826,7 @@
 			<drawSize>1</drawSize>
 		</graphicData>
 		<uiIconScale>1</uiIconScale>
+		<uiIconOffset>(0.3,-0.35)</uiIconOffset>
 		<rotatable>true</rotatable>
 		<altitudeLayer>FloorEmplacement</altitudeLayer>
 		<passability>Standable</passability>
@@ -867,6 +871,7 @@
 			<drawSize>1</drawSize>
 		</graphicData>
 		<uiIconScale>1</uiIconScale>
+		<uiIconOffset>(0.3,-0.35)</uiIconOffset>
 		<rotatable>true</rotatable>
 		<altitudeLayer>FloorEmplacement</altitudeLayer>
 		<passability>Standable</passability>

@@ -17,6 +17,7 @@
 		<xpath>*/ThingDef[defName="PsychiteTea"]/recipeMaker/recipeUsers</xpath>
 		<value>
 			<li>RGK_FueledStove</li>
+			<li>GL_Bonfire</li>
 		</value>
 	</Operation>
 	<Operation Class="PatchOperationAdd">
@@ -31,6 +32,7 @@
 		<xpath>*/WorkGiverDef[defName="DoBillsCook"]/fixedBillGiverDefs</xpath>
 		<value>
 			<li>RGK_FueledStove</li>
+			<li>GL_Bonfire</li>
 		</value>
 	</Operation>
 </Patch>
