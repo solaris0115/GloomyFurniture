@@ -1,87 +1,146 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>Defs/ThingDef/recipeMaker/recipeUsers[li="FueledStove"]</xpath>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef/recipeMaker/recipeUsers[li="FueledStove"]</xpath>
+				<value>
+					<li>RGK_FueledStove</li>
+					<li>GL_ElectricStove</li>					
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>Defs/RecipeDef/recipeUsers[li="FueledStove"]</xpath>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/RecipeDef/recipeUsers[li="FueledStove"]</xpath>
+				<value>
+					<li>RGK_FueledStove</li>
+					<li>GL_ElectricStove</li>					
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+	<!-- VGP Vegetable Garden -->
 	<Operation Class="PatchOperationFindMod">
 		<mods>
 			<li>VGP Vegetable Garden</li>
 		</mods>
 		<match Class="PatchOperationSequence">
 			<success>Always</success>
-			<operations>
-				<li Class="PatchOperationAdd">
-					<xpath>*/RecipeDef[defName="Fruitdrink"]/recipeUsers</xpath>
-					<value>
-						<li>RGK_FueledStove</li>						<li>GL_ElectricStove</li>
-					</value>
-				</li>
-				<li Class="PatchOperationAdd">
-					<xpath>*/RecipeDef[defName="BrewCoffee"]/recipeUsers</xpath>
-					<value>
-						<li>RGK_FueledStove</li>						<li>GL_ElectricStove</li>
-					</value>
-				</li>
-				<li Class="PatchOperationAdd">
-					<xpath>*/RecipeDef[defName="BulkBrewCoffee"]/recipeUsers</xpath>
-					<value>
-						<li>RGK_FueledStove</li>						<li>GL_ElectricStove</li>
-					</value>
-				</li>
-				<li Class="PatchOperationAdd">
-					<xpath>*/RecipeDef[defName="BrewTea"]/recipeUsers</xpath>
-					<value>
-						<li>RGK_FueledStove</li>						<li>GL_ElectricStove</li>
-					</value>
-				</li>
-				<li Class="PatchOperationAdd">
-					<xpath>*/RecipeDef[defName="BulkBrewTea"]/recipeUsers</xpath>
-					<value>
-						<li>RGK_FueledStove</li>						<li>GL_ElectricStove</li>
-					</value>
-				</li>
-				<li Class="PatchOperationAdd">
-					<xpath>*/RecipeDef[defName="CookMealSimple_Bulk"]/recipeUsers</xpath>
-					<value>
-						<li>RGK_FueledStove</li>						<li>GL_ElectricStove</li>
-						<li>GL_Bonfire</li>
-					</value>
-				</li>
-				<li Class="PatchOperationAdd">
-					<xpath>*/RecipeDef[defName="CookMealFine_Bulk"]/recipeUsers</xpath>
-					<value>
-						<li>RGK_FueledStove</li>						<li>GL_ElectricStove</li>
-						<li>GL_Bonfire</li>
-					</value>
-				</li>
-				<li Class="PatchOperationAdd">
-					<xpath>*/RecipeDef[defName="CookMealLavish_Bulk"]/recipeUsers</xpath>
-					<value>
-						<li>RGK_FueledStove</li>						<li>GL_ElectricStove</li>
-					</value>
-				</li>
-				<li Class="PatchOperationAdd">
-					<xpath>*/RecipeDef[defName="CookBulkMealSurvival"]/recipeUsers</xpath>
-					<value>
-						<li>RGK_FueledStove</li>						<li>GL_ElectricStove</li>
-					</value>
-				</li>
-				<li Class="PatchOperationAdd">
-					<xpath>*/RecipeDef[defName="Stirfrymeal"]/recipeUsers</xpath>
-					<value>
-						<li>RGK_FueledStove</li>						<li>GL_ElectricStove</li>
-					</value>
-				</li>
-				<li Class="PatchOperationAdd">
+			<operations>				
+			<li Class="PatchOperationAdd">
 					<xpath>*/RecipeDef[defName="Cookstewpot"]/recipeUsers</xpath>
 					<value>
-						<li>RGK_FueledStove</li>						<li>GL_ElectricStove</li>
+						<li>GL_Bonfire</li>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+	
+	<!-- VGP Garden Gourmet -->
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>VGP Garden Gourmet</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<success>Always</success>
+			<operations>
+				<li Class="PatchOperationAdd">
+					<xpath>*/RecipeDef[defName="Makesoymilk"]/recipeUsers</xpath>
+					<value>
 						<li>GL_Bonfire</li>
 					</value>
 				</li>
 				<li Class="PatchOperationAdd">
-					<xpath>*/RecipeDef[defName="VG_MakebulkPemmican"]/recipeUsers</xpath>
+					<xpath>*/RecipeDef[defName="Makesoycheese"]/recipeUsers</xpath>
 					<value>
-						<li>RGK_FueledStove</li>						<li>GL_ElectricStove</li>
+						<li>GL_Bonfire</li>
 					</value>
 				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>*/RecipeDef[defName="Maketofu"]/recipeUsers</xpath>
+					<value>
+						<li>GL_Bonfire</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>*/RecipeDef[defName="Makebulktofu"]/recipeUsers</xpath>
+					<value>
+						<li>GL_Bonfire</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>*/RecipeDef[defName="MakePolenta"]/recipeUsers</xpath>
+					<value>
+						<li>GL_Bonfire</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>*/RecipeDef[defName="MakebulkPolenta"]/recipeUsers</xpath>
+					<value>
+						<li>GL_Bonfire</li>
+					</value>
+				</li>				
+			</operations>
+		</match>
+	</Operation>
+	
+	<!-- VGP Garden Drinks -->
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>VGP Garden Drinks</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<success>Always</success>
+			<operations>
+				<li Class="PatchOperationAdd">
+					<xpath>*/RecipeDef[defName="BrewSimpleSyrupVG"]/recipeUsers</xpath>
+					<value>
+						<li>GL_Bonfire</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>*/RecipeDef[defName="BulkBrewSimpleSyrupVG"]/recipeUsers</xpath>
+					<value>
+						<li>GL_Bonfire</li>
+					</value>
+				</li>		
+			</operations>
+		</match>
+	</Operation>
+	
+	<!-- VGP Garden Drinks -->
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>VGP Garden Drinks</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<success>Always</success>
+			<operations>
+				<li Class="PatchOperationAdd">
+					<xpath>*/RecipeDef[defName="BrewSimpleSyrupVG"]/recipeUsers</xpath>
+					<value>
+						<li>GL_Bonfire</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>*/RecipeDef[defName="BulkBrewSimpleSyrupVG"]/recipeUsers</xpath>
+					<value>
+						<li>GL_Bonfire</li>
+					</value>
+				</li>		
 			</operations>
 		</match>
 	</Operation>

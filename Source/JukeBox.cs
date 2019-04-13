@@ -105,7 +105,7 @@ namespace Gloomylynx
                 if (JukeBoxCore.orignalSongList.Count <= 0)
                 {
                     JukeBoxCore.orignalSongList.AddRange(DefDatabase<SongDef>.AllDefs);                    
-                    Log.Message("OriginalSongList is Empty");
+                    //Log.Message("OriginalSongList is Empty");
                 }
                 DefDatabase<SongDef>.Clear();
                 DefDatabase<SongDef>.Add(JukeBoxCore.orignalSongList);
@@ -266,9 +266,11 @@ namespace Gloomylynx
                 customSongList.Clear();
                 foreach (string s in files)
                 {
-                    SongEntry songDef = new SongEntry(@"Songs/" + s);
-                    songDef.tense = false;
-                    songDef.playOnMap = true;
+                    SongEntry songDef = new SongEntry(@"Songs/" + s)
+                    {
+                        tense = false,
+                        playOnMap = true
+                    };
                     customSongList.Add(songDef);
                 }
                 foreach (string s in files)

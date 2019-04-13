@@ -305,7 +305,7 @@ namespace Gloomylynx
             }
             else
             {
-                Log.Message("off");
+                //Log.Message("off");
                 DrawCallOff();
             }
         }
@@ -350,13 +350,11 @@ namespace Gloomylynx
 
         protected override Job TryGivePlayJob(Pawn pawn, Thing t)
         {
-            IntVec3 c;
-            Building t2;
-            if (!WatchBuildingUtility.TryFindBestWatchCell(t, pawn, this.def.desireSit, out c, out t2))
+            if (!WatchBuildingUtility.TryFindBestWatchCell(t, pawn, def.desireSit, out IntVec3 c, out Building t2))
             {
                 return null;
             }
-            return new Job(this.def.jobDef, t, c, t2);
+            return new Job(def.jobDef, t, c, t2);
         }
     }
     public class JobDriver_ListenSong : JobDriver_WatchBuilding
