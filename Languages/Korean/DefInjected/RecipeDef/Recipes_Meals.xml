@@ -1,5 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
+    <!-- EN: cook fine meal -->
+  <CookMealPasteD.label>영양 죽 4개 준비</CookMealPasteD.label>
+  <!-- EN: Cook a somewhat complex meal from a combination of meat and plant ingredients. -->
+  <CookMealPasteD.description>물에 먹을 수 있는 것을 적당히 넣어 만든 간단한 죽입니다. 4개를 조리합니다.</CookMealPasteD.description>
+  <!-- EN: Cooking fine meal. -->
+  <CookMealPasteD.jobString>영양 죽 4개 조리 중.</CookMealPasteD.jobString>
   
   <!-- EN: cook fine meal -->
   <CookMealFineD.label>좋은 식사 4개 준비</CookMealFineD.label>

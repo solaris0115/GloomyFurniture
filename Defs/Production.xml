@@ -313,15 +313,16 @@
 			<li>ITab_Bills</li>
 		</inspectorTabs>
 		<recipes>
-			<li>CookMealSimple</li>
-			<li>CookMealFine</li>
-			<li>CookMealLavish</li>
-			<li>CookMealSurvival</li>
-			<li>Make_Pemmican</li>
-			<li>CookMealSimpleD</li>
-			<li>CookMealFineD</li>
-			<li>CookMealLavishD</li>
-			<li>CookMealSurvivalD</li>
+			<li>CookMealPasteD</li>			
+			<!-- <li>CookMealSimple</li> -->
+			<!-- <li>CookMealFine</li> -->
+			<!-- <li>CookMealLavish</li> -->
+			<!-- <li>CookMealSurvival</li> -->
+			<!-- <li>Make_Pemmican</li> -->
+			<!-- <li>CookMealSimpleD</li> -->
+			<!-- <li>CookMealFineD</li> -->
+			<!-- <li>CookMealLavishD</li> -->
+			<!-- <li>CookMealSurvivalD</li> -->
 		</recipes>
 		<building>
 			<isMealSource>true</isMealSource>

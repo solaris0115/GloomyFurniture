@@ -11,35 +11,30 @@
 					<xpath>*/RecipeDef[defName="Fruitdrink"]/recipeUsers</xpath>
 					<value>
 						<li>RGK_FueledStove</li>						<li>GL_ElectricStove</li>
-						<li>GL_Bonfire</li>
 					</value>
 				</li>
 				<li Class="PatchOperationAdd">
 					<xpath>*/RecipeDef[defName="BrewCoffee"]/recipeUsers</xpath>
 					<value>
 						<li>RGK_FueledStove</li>						<li>GL_ElectricStove</li>
-						<li>GL_Bonfire</li>
 					</value>
 				</li>
 				<li Class="PatchOperationAdd">
 					<xpath>*/RecipeDef[defName="BulkBrewCoffee"]/recipeUsers</xpath>
 					<value>
 						<li>RGK_FueledStove</li>						<li>GL_ElectricStove</li>
-						<li>GL_Bonfire</li>
 					</value>
 				</li>
 				<li Class="PatchOperationAdd">
 					<xpath>*/RecipeDef[defName="BrewTea"]/recipeUsers</xpath>
 					<value>
 						<li>RGK_FueledStove</li>						<li>GL_ElectricStove</li>
-						<li>GL_Bonfire</li>
 					</value>
 				</li>
 				<li Class="PatchOperationAdd">
 					<xpath>*/RecipeDef[defName="BulkBrewTea"]/recipeUsers</xpath>
 					<value>
 						<li>RGK_FueledStove</li>						<li>GL_ElectricStove</li>
-						<li>GL_Bonfire</li>
 					</value>
 				</li>
 				<li Class="PatchOperationAdd">
@@ -60,21 +55,18 @@
 					<xpath>*/RecipeDef[defName="CookMealLavish_Bulk"]/recipeUsers</xpath>
 					<value>
 						<li>RGK_FueledStove</li>						<li>GL_ElectricStove</li>
-						<li>GL_Bonfire</li>
 					</value>
 				</li>
 				<li Class="PatchOperationAdd">
 					<xpath>*/RecipeDef[defName="CookBulkMealSurvival"]/recipeUsers</xpath>
 					<value>
 						<li>RGK_FueledStove</li>						<li>GL_ElectricStove</li>
-						<li>GL_Bonfire</li>
 					</value>
 				</li>
 				<li Class="PatchOperationAdd">
 					<xpath>*/RecipeDef[defName="Stirfrymeal"]/recipeUsers</xpath>
 					<value>
 						<li>RGK_FueledStove</li>						<li>GL_ElectricStove</li>
-						<li>GL_Bonfire</li>
 					</value>
 				</li>
 				<li Class="PatchOperationAdd">
@@ -88,7 +80,6 @@
 					<xpath>*/RecipeDef[defName="VG_MakebulkPemmican"]/recipeUsers</xpath>
 					<value>
 						<li>RGK_FueledStove</li>						<li>GL_ElectricStove</li>
-						<li>GL_Bonfire</li>
 					</value>
 				</li>
 			</operations>

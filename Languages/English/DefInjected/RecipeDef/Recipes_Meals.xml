@@ -1,5 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
+  <CookMealPasteD.label>cook paste meal X 4</CookMealPasteD.label>
+  <CookMealPasteD.description>Cook a straightforward meal from one ingredient.</CookMealPasteD.description>
+  <CookMealPasteD.jobString>Cooking paste meal.</CookMealPasteD.jobString>
 
   <CookMealSimpleD.label>cook simple meal X 4</CookMealSimpleD.label>
   <CookMealSimpleD.description>Cook a straightforward meal from one ingredient.</CookMealSimpleD.description>

@@ -2,6 +2,34 @@
 <Defs>
 
 	<RecipeDef ParentName="CookMealBase">
+		<defName>CookMealPasteD</defName>
+		<label>cook paste meal X 4</label>
+		<description>Cook a straightforward meal from one ingredient.</description>
+		<jobString>Cooking paste meal.</jobString>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<requiredGiverWorkType>Cooking</requiredGiverWorkType>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+		<workAmount>1000</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>FoodRaw</li>
+					</categories>
+				</filter>
+				<count>1.2</count>
+			</li>
+		</ingredients>
+		<products>
+			<MealNutrientPaste>4</MealNutrientPaste>
+		</products>
+		<workSkill>Cooking</workSkill>
+	</RecipeDef>
+
+	<RecipeDef ParentName="CookMealBase">
 		<defName>CookMealSimpleD</defName>
 		<label>cook simple meal X 4</label>
 		<description>Cook a straightforward meal from one ingredient.</description>
@@ -12,6 +40,7 @@
 		<soundWorking>Recipe_CookMeal</soundWorking>
 		<allowMixingIngredients>true</allowMixingIngredients>
 		<ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+		<workAmount>900</workAmount>
 		<ingredients>
 			<li>
 				<filter>
@@ -25,6 +54,9 @@
 		<products>
 			<MealSimple>4</MealSimple>
 		</products>
+		<skillRequirements>
+			<Cooking>5</Cooking>
+		</skillRequirements>
 		<workSkill>Cooking</workSkill>
 	</RecipeDef>
 
@@ -38,6 +70,7 @@
 		<soundWorking>Recipe_CookMeal</soundWorking>
 		<allowMixingIngredients>true</allowMixingIngredients>
 		<ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+		<workAmount>1350</workAmount>
 		<ingredients>
 			<li>
 				<filter>
@@ -61,7 +94,7 @@
 			<MealFine>4</MealFine>
 		</products>
 		<skillRequirements>
-			<Cooking>6</Cooking>
+			<Cooking>8</Cooking>
 		</skillRequirements>
 	</RecipeDef>
 
@@ -75,6 +108,7 @@
 		<soundWorking>Recipe_CookMeal</soundWorking>
 		<allowMixingIngredients>true</allowMixingIngredients>
 		<ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+		<workAmount>2400</workAmount>
 		<ingredients>
 			<li>
 				<filter>
@@ -98,7 +132,7 @@
 			<MealLavish>4</MealLavish>
 		</products>
 		<skillRequirements>
-			<Cooking>8</Cooking>
+			<Cooking>10</Cooking>
 		</skillRequirements>
 	</RecipeDef>
 	
@@ -112,6 +146,7 @@
 		<soundWorking>Recipe_CookMeal</soundWorking>
 		<allowMixingIngredients>true</allowMixingIngredients>
 		<ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+		<workAmount>1350</workAmount>
 		<ingredients>
 			<li>
 				<filter>
@@ -135,7 +170,7 @@
 			<MealSurvivalPack>4</MealSurvivalPack>
 		</products>
 		<skillRequirements>
-			<Cooking>8</Cooking>
+			<Cooking>10</Cooking>
 		</skillRequirements>
 		<researchPrerequisite>PackagedSurvivalMeal</researchPrerequisite>
 	</RecipeDef>
