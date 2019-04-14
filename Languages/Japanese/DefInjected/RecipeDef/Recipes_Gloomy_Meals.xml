@@ -1,5 +1,9 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
+
+  <CookMealPasteD.label>GF:栄養補給ペーストx4</CookMealPasteD.label>
+  <CookMealPasteD.description>1種類の食材で簡単な食事を作ります。(GloomyFurniture)</CookMealPasteD.description>
+  <CookMealPasteD.jobString>栄養補給ペーストを炊事中</CookMealPasteD.jobString>
 
   <CookMealSimpleD.label>GF:簡単な食事x4</CookMealSimpleD.label>
   <CookMealSimpleD.description>1種類の食材で簡単な食事を作ります。(GloomyFurniture)</CookMealSimpleD.description>
