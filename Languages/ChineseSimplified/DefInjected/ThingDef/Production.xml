@@ -13,6 +13,19 @@
   <RGK_FueledStove_Blueprint_Install.label>燃油炉 (蓝图)</RGK_FueledStove_Blueprint_Install.label>
   <RGK_FueledStove_Frame.label>燃油炉 (建造中)</RGK_FueledStove_Frame.label>
   <RGK_FueledStove_Frame.description>一台木制炉子，有固定的台面用于烹饪。</RGK_FueledStove_Frame.description>
+  <GL_ElectricStove.label>电力炉</GL_ElectricStove.label>
+  <GL_ElectricStove.description>一台木制电力炉，有固定的台面用于烹饪。</GL_ElectricStove.description>
+  <GL_ElectricStove_Blueprint.label>电力炉 (蓝图)</GL_ElectricStove_Blueprint.label>
+  <GL_ElectricStove_Blueprint_Install.label>电力炉 (蓝图)</GL_ElectricStove_Blueprint_Install.label>
+  <GL_ElectricStove_Frame.label>电力炉 (建造中)</GL_ElectricStove_Frame.label>
+  <GL_ElectricStove_Frame.description>一台木制电力炉，有固定的台面用于烹饪。</GL_ElectricStove_Frame.description>
+  <!-- 화톳불 -->
+  <GL_Bonfire.label>篝火</GL_Bonfire.label>
+  <GL_Bonfire.description>篝火上可烹饪食材。</GL_Bonfire.description>
+  <GL_Bonfire_Blueprint.label>篝火 (蓝图)</GL_Bonfire_Blueprint.label>
+  <GL_Bonfire_Blueprint_Install.label>篝火 (蓝图)</GL_Bonfire_Blueprint_Install.label>
+  <GL_Bonfire_Frame.label>篝火 (建造中)</GL_Bonfire_Frame.label>
+  <GL_Bonfire_Frame.description>篝火上可烹饪食材。</GL_Bonfire_Frame.description>
   <!-- 재봉틀 -->
   <GL_HandTailoringBench.label>手动缝纫台</GL_HandTailoringBench.label>
   <GL_HandTailoringBench.description>手动缝制衣服的工作台。工作速度为电动缝纫工作台的50%。</GL_HandTailoringBench.description>

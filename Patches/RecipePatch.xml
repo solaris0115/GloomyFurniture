@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
+	<!-- 아이템 호환성 추가 -->
 	<Operation Class="PatchOperationSequence">
 		<success>Always</success>
 		<operations>
@@ -24,6 +25,39 @@
 			</li>
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/ThingDef/recipeMaker/recipeUsers[li="ElectricTailoringBench"]</xpath>
+				<value>
+					<li>GL_HandTailoringBench</li>
+					<li>GL_ElectricTailoringBench</li>					
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	
+	<!-- 레시피 호환성 추가 -->
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>Defs/RecipeDef/recipeUsers[li="ElectricSmithy"]</xpath>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/RecipeDef/recipeUsers[li="ElectricSmithy"]</xpath>
+				<value>
+					<li>GL_FueledSmithy</li>
+					<li>GL_ElectricSmithy</li>					
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>Defs/RecipeDef/recipeUsers[li="ElectricTailoringBench"]</xpath>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/RecipeDef/recipeUsers[li="ElectricTailoringBench"]</xpath>
 				<value>
 					<li>GL_HandTailoringBench</li>
 					<li>GL_ElectricTailoringBench</li>					

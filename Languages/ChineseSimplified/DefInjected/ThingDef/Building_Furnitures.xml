@@ -195,6 +195,20 @@
   <GL_Bookshelf_Blueprint_Install.label>书架 (蓝图)</GL_Bookshelf_Blueprint_Install.label>
   <GL_Bookshelf_Frame.label>书架 (建造中)</GL_Bookshelf_Frame.label>
   <GL_Bookshelf_Frame.description>提高研究速度，需要放置在研究台附近。一个研究台最多同时链接两个书架。</GL_Bookshelf_Frame.description>
+  <!-- 식기장 -->
+  <GL_Cupboard.label>橱柜</GL_Cupboard.label>
+  <GL_Cupboard.description>置放餐具的橱柜。放置在灶台附近时，加快烹饪速度。</GL_Cupboard.description>
+  <GL_Cupboard_Blueprint.label>橱柜 (蓝图)</GL_Cupboard_Blueprint.label>
+  <GL_Cupboard_Blueprint_Install.label>橱柜 (蓝图)</GL_Cupboard_Blueprint_Install.label>
+  <GL_Cupboard_Frame.label>橱柜 (建造中)</GL_Cupboard_Frame.label>
+  <GL_Cupboard_Frame.description>置放餐具的橱柜。放置在灶台附近时，加快烹饪速度。</GL_Cupboard_Frame.description>
+  <!-- 식기선반 -->
+  <GL_TablewareShelf.label>餐具台</GL_TablewareShelf.label>
+  <GL_TablewareShelf.description>置放餐具的台子。放置在灶台附近时，加快烹饪速度。</GL_TablewareShelf.description>
+  <GL_TablewareShelf_Blueprint.label>餐具台 (蓝图)</GL_TablewareShelf_Blueprint.label>
+  <GL_TablewareShelf_Blueprint_Install.label>餐具台 (蓝图)</GL_TablewareShelf_Blueprint_Install.label>
+  <GL_TablewareShelf_Frame.label>餐具台 (建造中)</GL_TablewareShelf_Frame.label>
+  <GL_TablewareShelf_Frame.description>置放餐具的台子。放置在灶台附近时，加快烹饪速度。</GL_TablewareShelf_Frame.description>
   <RGK_DogBowl.label>食盆</RGK_DogBowl.label>
   <RGK_DogBowl.description>一个动物的食碗。你可以在中储存食物和干草。</RGK_DogBowl.description>
   <RGK_DogBowl_Blueprint.label>食盆 (蓝图)</RGK_DogBowl_Blueprint.label>
