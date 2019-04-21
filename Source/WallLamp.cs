@@ -145,6 +145,7 @@ namespace Gloomylynx
         }
         public override void Tick()
         {
+            base.Tick();
             if (Spawned && !Destroyed)
             {
                 if (!GenGrid.Impassable(Position, Map))
