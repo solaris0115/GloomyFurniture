@@ -49,10 +49,10 @@
   <!-- Street Lamp -->
 
   <RGK_Street_Lamp_L.label>가로등</RGK_Street_Lamp_L.label>
-  <RGK_Street_Lamp_L.description>길을 밝혀주는 가로등 입니다. 전기로 작동합니다.</RGK_Street_Lamp_L.description>
+  <RGK_Street_Lamp_L.description>길을 밝혀주는 가로등 입니다.</RGK_Street_Lamp_L.description>
   <RGK_Street_Lamp_L_Blueprint.label>가로등 (청사진)</RGK_Street_Lamp_L_Blueprint.label>
   <RGK_Street_Lamp_L_Frame.label>가로등 (건설 중)</RGK_Street_Lamp_L_Frame.label>
-  <RGK_Street_Lamp_L_Frame.description>길을 밝혀주는 가로등 입니다. 전기로 작동합니다.</RGK_Street_Lamp_L_Frame.description>
+  <RGK_Street_Lamp_L_Frame.description>길을 밝혀주는 가로등 입니다.</RGK_Street_Lamp_L_Frame.description>
 
   <RGK_Street_Lamp.label>전기식 가로등</RGK_Street_Lamp.label>
   <RGK_Street_Lamp.description>길을 밝혀주는 전기식 가로등 입니다. 전기로 작동합니다.</RGK_Street_Lamp.description>
