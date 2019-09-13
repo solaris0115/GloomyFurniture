@@ -18,7 +18,7 @@
 
   <!-- Lamp -->
 
-  <RGK_lamp.label>Lamp</RGK_lamp.label>
+  <RGK_lamp.label>lamp</RGK_lamp.label>
   <RGK_lamp.description>It's a small lamp. I think I can use it safely even when it rains.</RGK_lamp.description>
   <RGK_lamp_Blueprint.label>Lamp (blueprint)</RGK_lamp_Blueprint.label>
   <RGK_lamp_Blueprint_Install.label>Lamp (blueprint)</RGK_lamp_Blueprint_Install.label>
@@ -28,7 +28,7 @@
 
   <!-- Lamp M -->
 
-  <RGK_LampM.label>Lamp M</RGK_LampM.label>
+  <RGK_LampM.label>lamp M</RGK_LampM.label>
   <RGK_LampM.description>It's a small lamp. I think I can use it safely even when it rains.</RGK_LampM.description>
   <RGK_LampM_Blueprint.label>Lamp M (blueprint)</RGK_LampM_Blueprint.label>
   <RGK_LampM_Blueprint_Install.label>Lamp M (blueprint)</RGK_LampM_Blueprint_Install.label>
@@ -38,7 +38,7 @@
 
   <!-- Lamp E -->
 
-  <RGK_lampE.label>Lamp E</RGK_lampE.label>
+  <RGK_lampE.label>lamp E</RGK_lampE.label>
   <RGK_lampE.description>It's a small lamp. I think I can use it safely even when it rains. Works as electricity.</RGK_lampE.description>
   <RGK_lampE_Blueprint.label>Lamp E (blueprint)</RGK_lampE_Blueprint.label>
   <RGK_lampE_Blueprint_Install.label>Lamp E (blueprint)</RGK_lampE_Blueprint_Install.label>
@@ -48,13 +48,13 @@
 
   <!-- Street Lamp -->
 
-  <RGK_Street_Lamp_L.label>Street lamp</RGK_Street_Lamp_L.label>
+  <RGK_Street_Lamp_L.label>street lamp</RGK_Street_Lamp_L.label>
   <RGK_Street_Lamp_L.description>It's a street lamp.</RGK_Street_Lamp_L.description>
   <RGK_Street_Lamp_L_Blueprint.label>Street lamp (blueprint)</RGK_Street_Lamp_L_Blueprint.label>
   <RGK_Street_Lamp_L_Frame.label>Street lamp (building)</RGK_Street_Lamp_L_Frame.label>
   <RGK_Street_Lamp_L_Frame.description>It's a street lamp.</RGK_Street_Lamp_L_Frame.description>
 
-  <RGK_Street_Lamp.label>Street lamp</RGK_Street_Lamp.label>
+  <RGK_Street_Lamp.label>street lamp</RGK_Street_Lamp.label>
   <RGK_Street_Lamp.description>It's a street lamp. It lights the way in the dark. Works as electricity.</RGK_Street_Lamp.description>
   <RGK_Street_Lamp_Blueprint.label>Street lamp (blueprint)</RGK_Street_Lamp_Blueprint.label>
   <RGK_Street_Lamp_Frame.label>Street lamp (building)</RGK_Street_Lamp_Frame.label>
@@ -63,13 +63,13 @@
 
   <!-- Street Lamp Seven -->
 
-  <RGK_Street_Lamp_Seven.label>Street lamp</RGK_Street_Lamp_Seven.label>
+  <RGK_Street_Lamp_Seven.label>street lamp</RGK_Street_Lamp_Seven.label>
   <RGK_Street_Lamp_Seven.description>It's a street lamp. It lights the way in the dark.</RGK_Street_Lamp_Seven.description>
   <RGK_Street_Lamp_Seven_Blueprint.label>Street lamp (blueprint)</RGK_Street_Lamp_Seven_Blueprint.label>
   <RGK_Street_Lamp_Seven_Frame.label>Street lamp (building)</RGK_Street_Lamp_Seven_Frame.label>
   <RGK_Street_Lamp_Seven_Frame.description>It's a street lamp. It lights the way in the dark.</RGK_Street_Lamp_Seven_Frame.description>
 
-  <RGK_Street_Lamp_SevenE.label>Street lamp E</RGK_Street_Lamp_SevenE.label>
+  <RGK_Street_Lamp_SevenE.label>street lamp E</RGK_Street_Lamp_SevenE.label>
   <RGK_Street_Lamp_SevenE.description>It's a street lamp. It lights the way in the dark. Works as electricity.</RGK_Street_Lamp_SevenE.description>
   <RGK_Street_Lamp_SevenE_Blueprint.label>Street lamp E (blueprint)</RGK_Street_Lamp_SevenE_Blueprint.label>
   <RGK_Street_Lamp_SevenE_Frame.label>Street lamp E (building)</RGK_Street_Lamp_SevenE_Frame.label>
@@ -90,7 +90,7 @@
   <GL_Wall_LampE_Frame.label>wall lamp E (building)</GL_Wall_LampE_Frame.label>
   <GL_Wall_LampE_Frame.description>A light fixture designed to be mounted on a wall.</GL_Wall_LampE_Frame.description>
 
-  <GlowObject.label>Wall light</GlowObject.label>
+  <GlowObject.label>wall light</GlowObject.label>
 
 
   <!--<GL_Wall_Lamp_Blueprint.label>wall lamp (blueprint)</GL_Wall_Lamp_Blueprint.label>-->

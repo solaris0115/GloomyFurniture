@@ -70,19 +70,19 @@
 
   <!-- 꽃벽 -->
 
-  <GL_FlowerWall.label>Flower wall</GL_FlowerWall.label>
+  <GL_FlowerWall.label>flower wall</GL_FlowerWall.label>
   <GL_FlowerWall.description>Wall decorated with flowers.</GL_FlowerWall.description>
   <GL_FlowerWall_Blueprint.label>Flower wall (blueprint)</GL_FlowerWall_Blueprint.label>
-  <GL_FlowerWall_Frame.label>Flower wall (building)</GL_FlowerWall_Frame.label>
+  <GL_FlowerWall_Frame.label>flower wall (building)</GL_FlowerWall_Frame.label>
   <GL_FlowerWall_Frame.description>Wall decorated with flowers.</GL_FlowerWall_Frame.description>
 
 
   <!-- 올드스타일 문 -->
 
-  <RGK_DoorOld.label>antique door</RGK_DoorOld.label>
+  <RGK_DoorOld.label>classic door</RGK_DoorOld.label>
   <RGK_DoorOld.description>Divides rooms. Simple doors must be manually opened, which slows people down. The amount of slowdown depends on what the door is made of.</RGK_DoorOld.description>
-  <RGK_DoorOld_Blueprint.label>antique door (blueprint)</RGK_DoorOld_Blueprint.label>
-  <RGK_DoorOld_Frame.label>antique door (building)</RGK_DoorOld_Frame.label>
+  <RGK_DoorOld_Blueprint.label>classic door (blueprint)</RGK_DoorOld_Blueprint.label>
+  <RGK_DoorOld_Frame.label>classic door (building)</RGK_DoorOld_Frame.label>
   <RGK_DoorOld_Frame.description>Divides rooms. Simple doors must be manually opened, which slows people down. The amount of slowdown depends on what the door is made of.</RGK_DoorOld_Frame.description>
 
 

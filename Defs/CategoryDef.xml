@@ -21,4 +21,14 @@
 			<li>Designator_Deconstruct</li>
 		</specialDesignatorClasses>
 	</DesignationCategoryDef>
+	
+	<DesignationCategoryDef>
+		<defName>OldStyleDeco</defName>
+		<label>GloomyDeco</label>
+		<order>510</order>
+		<specialDesignatorClasses>
+			<li>Designator_Cancel</li>
+			<li>Designator_Deconstruct</li>
+		</specialDesignatorClasses>
+	</DesignationCategoryDef>  
 </Defs>

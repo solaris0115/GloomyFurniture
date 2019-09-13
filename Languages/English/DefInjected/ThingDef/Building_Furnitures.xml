@@ -3,21 +3,21 @@
 
   <!-- Bed -->
 
-  <RGK_bedSingle.label>Bed</RGK_bedSingle.label>
+  <RGK_bedSingle.label>bed</RGK_bedSingle.label>
   <RGK_bedSingle.description>A cozy mattress and sheets on a frame for resting.</RGK_bedSingle.description>
   <RGK_bedSingle_Blueprint.label>bed (blueprint)</RGK_bedSingle_Blueprint.label>
   <RGK_bedSingle_Blueprint_Install.label>bed (blueprint)</RGK_bedSingle_Blueprint_Install.label>
   <RGK_bedSingle_Frame.label>bed (building)</RGK_bedSingle_Frame.label>
   <RGK_bedSingle_Frame.description>A cozy mattress and sheets on a frame for resting.</RGK_bedSingle_Frame.description>
 
-  <RGK_bedSingleB.label>Bed</RGK_bedSingleB.label>
+  <RGK_bedSingleB.label>bed</RGK_bedSingleB.label>
   <RGK_bedSingleB.description>A cozy mattress and sheets on a frame for resting.</RGK_bedSingleB.description>
   <RGK_bedSingleB_Blueprint.label>bed2 (blueprint)</RGK_bedSingleB_Blueprint.label>
   <RGK_bedSingleB_Blueprint_Install.label>bed2 (blueprint)</RGK_bedSingleB_Blueprint_Install.label>
   <RGK_bedSingleB_Frame.label>bed2 (building)</RGK_bedSingleB_Frame.label>
   <RGK_bedSingleB_Frame.description>A cozy mattress and sheets on a frame for resting.</RGK_bedSingleB_Frame.description>
 
-  <RGK_bedDouble.label>Double bed</RGK_bedDouble.label>
+  <RGK_bedDouble.label>double bed</RGK_bedDouble.label>
   <RGK_bedDouble.description>A simple double-wide bed that fits two people.</RGK_bedDouble.description>
   <RGK_bedDouble_Blueprint.label>double bed (blueprint)</RGK_bedDouble_Blueprint.label>
   <RGK_bedDouble_Blueprint_Install.label>double bed (blueprint)</RGK_bedDouble_Blueprint_Install.label>
@@ -44,60 +44,60 @@
 
   <!-- Table -->
 
-  <RGK_Dresser.label>Dresser</RGK_Dresser.label>
+  <RGK_Dresser.label>dresser</RGK_Dresser.label>
   <RGK_Dresser.description>A dresser. Gives a small comfort bonus to all nearby beds. Placing more than one dresser near the same bed has no effect.</RGK_Dresser.description>
   <RGK_Dresser_Blueprint.label>dresser (blueprint)</RGK_Dresser_Blueprint.label>
   <RGK_Dresser_Blueprint_Install.label>dresser (blueprint)</RGK_Dresser_Blueprint_Install.label>
   <RGK_Dresser_Frame.label>dresser (building)</RGK_Dresser_Frame.label>
   <RGK_Dresser_Frame.description>A dresser. Gives a small comfort bonus to all nearby beds. Placing more than one dresser near the same bed has no effect.</RGK_Dresser_Frame.description>
 
-  <RGK_EndTable.label>End table</RGK_EndTable.label>
+  <RGK_EndTable.label>end table</RGK_EndTable.label>
   <RGK_EndTable.description>A small bedside table which makes nearby beds a little bit more comfortable. Must be placed directly adjacent to the head of the bed. Placing more than one end table near the same bed has no effect.</RGK_EndTable.description>
   <RGK_EndTable_Blueprint.label>End table (blueprint)</RGK_EndTable_Blueprint.label>
   <RGK_EndTable_Blueprint_Install.label>End table (blueprint)</RGK_EndTable_Blueprint_Install.label>
   <RGK_EndTable_Frame.label>End table (building)</RGK_EndTable_Frame.label>
   <RGK_EndTable_Frame.description>A small bedside table which makes nearby beds a little bit more comfortable. Must be placed directly adjacent to the head of the bed. Placing more than one end table near the same bed has no effect.</RGK_EndTable_Frame.description>
 
-  <RGK_EndTableWithLamp.label>End table</RGK_EndTableWithLamp.label>
+  <RGK_EndTableWithLamp.label>end table</RGK_EndTableWithLamp.label>
   <RGK_EndTableWithLamp.description>A small bedside table which makes nearby beds a little bit more comfortable. Must be placed directly adjacent to the head of the bed. Placing more than one end table near the same bed has no effect.</RGK_EndTableWithLamp.description>
   <RGK_EndTableWithLamp_Blueprint_Install.label>end table (blueprint)</RGK_EndTableWithLamp_Blueprint_Install.label>
 
-  <RGK_EndTableWithLampE.label>End table</RGK_EndTableWithLampE.label>
+  <RGK_EndTableWithLampE.label>end table</RGK_EndTableWithLampE.label>
   <RGK_EndTableWithLampE.description>A small bedside table which makes nearby beds a little bit more comfortable. Must be placed directly adjacent to the head of the bed. Placing more than one end table near the same bed has no effect. Works as electricity</RGK_EndTableWithLampE.description>
   <RGK_EndTableWithLampE_Blueprint_Install.label>end table (blueprint)</RGK_EndTableWithLampE_Blueprint_Install.label>
 
 
   <!-- Chair -->
 
-  <RGK_bucketr.label>Bucket</RGK_bucketr.label>
+  <RGK_bucketr.label>bucket</RGK_bucketr.label>
   <RGK_bucketr.description>Just wooden bucket.</RGK_bucketr.description>
   <RGK_bucketr_Blueprint.label>RGK bucket (blueprint)</RGK_bucketr_Blueprint.label>
   <RGK_bucketr_Blueprint_Install.label>RGK bucket (blueprint)</RGK_bucketr_Blueprint_Install.label>
   <RGK_bucketr_Frame.label>RGK bucket (building)</RGK_bucketr_Frame.label>
   <RGK_bucketr_Frame.description>bucket.</RGK_bucketr_Frame.description>
 
-  <RGK_orc.label>Oak barrel</RGK_orc.label>
+  <RGK_orc.label>oak barrel</RGK_orc.label>
   <RGK_orc.description>Just oak barrel</RGK_orc.description>
   <RGK_orc_Blueprint.label>RGK orc barrel (blueprint)</RGK_orc_Blueprint.label>
   <RGK_orc_Blueprint_Install.label>RGK orc barrel (blueprint)</RGK_orc_Blueprint_Install.label>
   <RGK_orc_Frame.label>RGK orc barrel (building)</RGK_orc_Frame.label>
   <RGK_orc_Frame.description>Just orc barrel</RGK_orc_Frame.description>
 
-  <RGK_SimpleChair.label>Simple chair</RGK_SimpleChair.label>
+  <RGK_SimpleChair.label>simple chair</RGK_SimpleChair.label>
   <RGK_SimpleChair.description>A simple platform on which to sit. Not very comfortable, but much better than nothing. Can be used at tables, work stations, and elsewhere.</RGK_SimpleChair.description>
   <RGK_SimpleChair_Blueprint.label>simple chair (blueprint)</RGK_SimpleChair_Blueprint.label>
   <RGK_SimpleChair_Blueprint_Install.label>simple chair (blueprint)</RGK_SimpleChair_Blueprint_Install.label>
   <RGK_SimpleChair_Frame.label>simple chair (building)</RGK_SimpleChair_Frame.label>
   <RGK_SimpleChair_Frame.description>A simple platform on which to sit. Not very comfortable, but much better than nothing. Can be used at tables, work stations, and elsewhere.</RGK_SimpleChair_Frame.description>
 
-  <RGK_Chair.label>Chair</RGK_Chair.label>
+  <RGK_Chair.label>chair</RGK_Chair.label>
   <RGK_Chair.description>A comfortable chair. Can be used at tables, work stations, and elsewhere.</RGK_Chair.description>
   <RGK_Chair_Blueprint.label>chair (blueprint)</RGK_Chair_Blueprint.label>
   <RGK_Chair_Blueprint_Install.label>chair (blueprint)</RGK_Chair_Blueprint_Install.label>
   <RGK_Chair_Frame.label>chair (building)</RGK_Chair_Frame.label>
   <RGK_Chair_Frame.description>A comfortable chair. Can be used at tables, work stations, and elsewhere.</RGK_Chair_Frame.description>
 
-  <RGKDiningChair.label>Dining chair</RGKDiningChair.label>
+  <RGKDiningChair.label>dining chair</RGKDiningChair.label>
   <RGKDiningChair.description>A comfortable and attractive chair. Can be used at tables, work stations, and elsewhere.</RGKDiningChair.description>
   <RGKDiningChair_Blueprint.label>dining chair (blueprint)</RGKDiningChair_Blueprint.label>
   <RGKDiningChair_Blueprint_Install.label>dining chair (blueprint)</RGKDiningChair_Blueprint_Install.label>
@@ -117,63 +117,63 @@
 
   <!-- 테이블들 -->
 
-  <RGK_TableA.label>Table (2x2)</RGK_TableA.label>
+  <RGK_TableA.label>table (2x2)</RGK_TableA.label>
   <RGK_TableA.description>People eat off tables when chairs are placed facing them.</RGK_TableA.description>
   <RGK_TableA_Blueprint.label>table (2x2) (blueprint)</RGK_TableA_Blueprint.label>
   <RGK_TableA_Blueprint_Install.label>table (2x2) (blueprint)</RGK_TableA_Blueprint_Install.label>
   <RGK_TableA_Frame.label>table (2x2) (building)</RGK_TableA_Frame.label>
   <RGK_TableA_Frame.description>People eat off tables when chairs are placed facing them.</RGK_TableA_Frame.description>
 
-  <RGK_TableC.label>Table (2x2)</RGK_TableC.label>
+  <RGK_TableC.label>table (2x2)</RGK_TableC.label>
   <RGK_TableC.description>People eat off tables when chairs are placed facing them.</RGK_TableC.description>
   <RGK_TableC_Blueprint.label>table C (2x2) (blueprint)</RGK_TableC_Blueprint.label>
   <RGK_TableC_Blueprint_Install.label>table C (2x2) (blueprint)</RGK_TableC_Blueprint_Install.label>
   <RGK_TableC_Frame.label>table C (2x2) (building)</RGK_TableC_Frame.label>
   <RGK_TableC_Frame.description>People eat off tables when chairs are placed facing them.</RGK_TableC_Frame.description>
 
-  <RGK_TableB.label>Celtic table (2x2)</RGK_TableB.label>
+  <RGK_TableB.label>classic table (2x2)</RGK_TableB.label>
   <RGK_TableB.description>People eat off tables when chairs are placed facing them.</RGK_TableB.description>
-  <RGK_TableB_Blueprint.label>celtic table (2x2) (blueprint)</RGK_TableB_Blueprint.label>
-  <RGK_TableB_Blueprint_Install.label>celtic table (2x2) (blueprint)</RGK_TableB_Blueprint_Install.label>
-  <RGK_TableB_Frame.label>celtic table (2x2) (building)</RGK_TableB_Frame.label>
+  <RGK_TableB_Blueprint.label>classic table (2x2) (blueprint)</RGK_TableB_Blueprint.label>
+  <RGK_TableB_Blueprint_Install.label>classic table (2x2) (blueprint)</RGK_TableB_Blueprint_Install.label>
+  <RGK_TableB_Frame.label>classic table (2x2) (building)</RGK_TableB_Frame.label>
   <RGK_TableB_Frame.description>People eat off tables when chairs are placed facing them.</RGK_TableB_Frame.description>
 
-  <RGK_TableD.label>Celtic table (2x2)</RGK_TableD.label>
+  <RGK_TableD.label>classic table (2x2)</RGK_TableD.label>
   <RGK_TableD.description>People eat off tables when chairs are placed facing them.</RGK_TableD.description>
-  <RGK_TableD_Blueprint_Install.label>celtic table (2x2) (blueprint)</RGK_TableD_Blueprint_Install.label>
+  <RGK_TableD_Blueprint_Install.label>classic table (2x2) (blueprint)</RGK_TableD_Blueprint_Install.label>
 
-  <RGK_TableE.label>celtic table (2x1)</RGK_TableE.label>
+  <RGK_TableE.label>classic table (2x1)</RGK_TableE.label>
   <RGK_TableE.description>People eat off tables when chairs are placed facing them.</RGK_TableE.description>
-  <RGK_TableE_Blueprint.label>celtic table (2x1) (blueprint)</RGK_TableE_Blueprint.label>
-  <RGK_TableE_Blueprint_Install.label>celtic table (2x1) (blueprint)</RGK_TableE_Blueprint_Install.label>
-  <RGK_TableE_Frame.label>celtic table (2x1) (building)</RGK_TableE_Frame.label>
+  <RGK_TableE_Blueprint.label>classic table (2x1) (blueprint)</RGK_TableE_Blueprint.label>
+  <RGK_TableE_Blueprint_Install.label>classic table (2x1) (blueprint)</RGK_TableE_Blueprint_Install.label>
+  <RGK_TableE_Frame.label>classic table (2x1) (building)</RGK_TableE_Frame.label>
   <RGK_TableE_Frame.description>People eat off tables when chairs are placed facing them.</RGK_TableE_Frame.description>
 
-  <RGK_TableF.label>celtic table (3x2)</RGK_TableF.label>
+  <RGK_TableF.label>classic table (3x2)</RGK_TableF.label>
   <RGK_TableF.description>People eat off tables when chairs are placed facing them.</RGK_TableF.description>
-  <RGK_TableF_Blueprint.label>celtic table (3x2) (blueprint)</RGK_TableF_Blueprint.label>
-  <RGK_TableF_Blueprint_Install.label>celtic table (3x2) (blueprint)</RGK_TableF_Blueprint_Install.label>
-  <RGK_TableF_Frame.label>celtic table (3x2) (building)</RGK_TableF_Frame.label>
+  <RGK_TableF_Blueprint.label>classic table (3x2) (blueprint)</RGK_TableF_Blueprint.label>
+  <RGK_TableF_Blueprint_Install.label>classic table (3x2) (blueprint)</RGK_TableF_Blueprint_Install.label>
+  <RGK_TableF_Frame.label>classic table (3x2) (building)</RGK_TableF_Frame.label>
   <RGK_TableF_Frame.description>People eat off tables when chairs are placed facing them.</RGK_TableF_Frame.description>
 
-  <RGK_TableG.label>celtic table (2x2)</RGK_TableG.label>
+  <RGK_TableG.label>classic table (2x2)</RGK_TableG.label>
   <RGK_TableG.description>People eat off tables when chairs are placed facing them.</RGK_TableG.description>
-  <RGK_TableG_Blueprint.label>celtic table (2x2) (blueprint)</RGK_TableG_Blueprint.label>
-  <RGK_TableG_Blueprint_Install.label>celtic table (2x2) (blueprint)</RGK_TableG_Blueprint_Install.label>
-  <RGK_TableG_Frame.label>celtic table (2x2) (building)</RGK_TableG_Frame.label>
+  <RGK_TableG_Blueprint.label>classic table (2x2) (blueprint)</RGK_TableG_Blueprint.label>
+  <RGK_TableG_Blueprint_Install.label>classic table (2x2) (blueprint)</RGK_TableG_Blueprint_Install.label>
+  <RGK_TableG_Frame.label>classic table (2x2) (building)</RGK_TableG_Frame.label>
   <RGK_TableG_Frame.description>People eat off tables when chairs are placed facing them.</RGK_TableG_Frame.description>
 
-  <RGK_TableH.label>celtic table (3x3)</RGK_TableH.label>
+  <RGK_TableH.label>classic table (3x3)</RGK_TableH.label>
   <RGK_TableH.description>People eat off tables when chairs are placed facing them.</RGK_TableH.description>
-  <RGK_TableH_Blueprint.label>celtic table (3x3) (blueprint)</RGK_TableH_Blueprint.label>
-  <RGK_TableH_Blueprint_Install.label>celtic table (3x3) (blueprint)</RGK_TableH_Blueprint_Install.label>
-  <RGK_TableH_Frame.label>celtic table (3x3) (building)</RGK_TableH_Frame.label>
+  <RGK_TableH_Blueprint.label>classic table (3x3) (blueprint)</RGK_TableH_Blueprint.label>
+  <RGK_TableH_Blueprint_Install.label>classic table (3x3) (blueprint)</RGK_TableH_Blueprint_Install.label>
+  <RGK_TableH_Frame.label>classic table (3x3) (building)</RGK_TableH_Frame.label>
   <RGK_TableH_Frame.description>People eat off tables when chairs are placed facing them.</RGK_TableH_Frame.description>
 
 
   <!-- 미니 테이블 -->
 
-  <RGK_MiniTableA.label>Mini table</RGK_MiniTableA.label>
+  <RGK_MiniTableA.label>mini table</RGK_MiniTableA.label>
   <RGK_MiniTableA.description>People eat off tables when chairs are placed facing them.</RGK_MiniTableA.description>
   <RGK_MiniTableA_Blueprint.label>mini table (blueprint)</RGK_MiniTableA_Blueprint.label>
   <RGK_MiniTableA_Blueprint_Install.label>mini table (blueprint)</RGK_MiniTableA_Blueprint_Install.label>
@@ -193,7 +193,7 @@
 
   <!-- Storage -->
 
-  <RKGWineRackB.label>Wine rack</RKGWineRackB.label>
+  <RKGWineRackB.label>wine rack</RKGWineRackB.label>
   <RKGWineRackB.description>A shelf that stores wine or alcohol.</RKGWineRackB.description>
   <RKGWineRackB_Blueprint.label>wine rack (blueprint)</RKGWineRackB_Blueprint.label>
   <RKGWineRackB_Blueprint_Install.label>wine rack (blueprint)</RKGWineRackB_Blueprint_Install.label>
@@ -244,7 +244,7 @@
   <GL_TablewareShelf_Frame.label>tableware shelf (building)</GL_TablewareShelf_Frame.label>
   <GL_TablewareShelf_Frame.description>A shelf for Tableware. Increases Cook speed when placed near fueled stove table.</GL_TablewareShelf_Frame.description>
 
-  <RGK_Manger.label>Manger</RGK_Manger.label>
+  <RGK_Manger.label>manger</RGK_Manger.label>
   <RGK_Manger.description>It's a cask for animals. You can store food and hay.</RGK_Manger.description>
   <RGK_Manger_Blueprint.label>manger (blueprint)</RGK_Manger_Blueprint.label>
   <RGK_Manger_Blueprint_Install.label>manger (blueprint)</RGK_Manger_Blueprint_Install.label>

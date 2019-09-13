@@ -17,7 +17,7 @@
   <WallLight_DestroyedBlocked>벽등 앞에 무언가 건설되어 벽등이 파괴되었습니다.</WallLight_DestroyedBlocked>
   <WallLight_DestroyedWall>벽이 파괴되어 벽등도 같이 파괴되었습니다.</WallLight_DestroyedWall>
 
-  <DoorAttachment_WarningNeedWall>Must be placed over a wall.</DoorAttachment_WarningNeedWall>
+  <DoorAttachment_WarningNeedWall>반드시 문 위에 설치해야만 합니다..</DoorAttachment_WarningNeedWall>
   <DoorAttachment_WarningBlocked>Must be facing a passable tile.</DoorAttachment_WarningBlocked>
   <DoorAttachment_Both>Must be placed over a wall, facing a passable tile.</DoorAttachment_Both>
 
