@@ -24,11 +24,11 @@
   <RGK_bedDouble_Frame.label>double 침대 (건설중)</RGK_bedDouble_Frame.label>
   <RGK_bedDouble_Frame.description>두사람이 자기에 알맞은 침대입니다.</RGK_bedDouble_Frame.description>
 
-  <RGK_bedDoubleB.label>켈틱 자수 침대</RGK_bedDoubleB.label>
+  <RGK_bedDoubleB.label>클래식 침대</RGK_bedDoubleB.label>
   <RGK_bedDoubleB.description>켈틱 자수가 놓여진 2인용 침대입니다.</RGK_bedDoubleB.description>
-  <RGK_bedDoubleB_Blueprint.label>켈틱 자수 침대 (청사진)</RGK_bedDoubleB_Blueprint.label>
-  <RGK_bedDoubleB_Blueprint_Install.label>켈틱 자수 침대 (청사진)</RGK_bedDoubleB_Blueprint_Install.label>
-  <RGK_bedDoubleB_Frame.label>켈틱 자수 침대 (건설중)</RGK_bedDoubleB_Frame.label>
+  <RGK_bedDoubleB_Blueprint.label>클래식 침대 (청사진)</RGK_bedDoubleB_Blueprint.label>
+  <RGK_bedDoubleB_Blueprint_Install.label>클래식 침대 (청사진)</RGK_bedDoubleB_Blueprint_Install.label>
+  <RGK_bedDoubleB_Frame.label>클래식 침대 (건설중)</RGK_bedDoubleB_Frame.label>
   <RGK_bedDoubleB_Frame.description>켈틱 자수가 놓여진 2인용 침대입니다.</RGK_bedDoubleB_Frame.description>
 
 
@@ -131,43 +131,43 @@
   <RGK_TableC_Frame.label>식탁 (2x2) (건설중)</RGK_TableC_Frame.label>
   <RGK_TableC_Frame.description>모여서 밥을 먹거나 얘기할 수 있는 탁자입니다.</RGK_TableC_Frame.description>
 
-  <RGK_TableB.label>켈틱 식탁 (2x2)</RGK_TableB.label>
+  <RGK_TableB.label>클래식 식탁 (2x2)</RGK_TableB.label>
   <RGK_TableB.description>모여서 밥을 먹거나 얘기할 수 있는 식탁입니다.</RGK_TableB.description>
-  <RGK_TableB_Blueprint.label>켈틱 식탁 (2x2) (청사진)</RGK_TableB_Blueprint.label>
-  <RGK_TableB_Blueprint_Install.label>켈틱 식탁 (2x2) (청사진)</RGK_TableB_Blueprint_Install.label>
-  <RGK_TableB_Frame.label>켈틱 식탁 (2x2) (건설중)</RGK_TableB_Frame.label>
+  <RGK_TableB_Blueprint.label>클래식 식탁 (2x2) (청사진)</RGK_TableB_Blueprint.label>
+  <RGK_TableB_Blueprint_Install.label>클래식 식탁 (2x2) (청사진)</RGK_TableB_Blueprint_Install.label>
+  <RGK_TableB_Frame.label>클래식 식탁 (2x2) (건설중)</RGK_TableB_Frame.label>
   <RGK_TableB_Frame.description>모여서 밥을 먹거나 얘기할 수 있는 탁자입니다.</RGK_TableB_Frame.description>
 
-  <RGK_TableD.label>켈틱 식탁 (2x2)</RGK_TableD.label>
+  <RGK_TableD.label>클래식 식탁 (2x2)</RGK_TableD.label>
   <RGK_TableD.description>모여서 밥을 먹거나 얘기할 수 있는 식탁입니다.</RGK_TableD.description>
-  <RGK_TableD_Blueprint_Install.label>켈틱 식탁 (2x2) (청사진)</RGK_TableD_Blueprint_Install.label>
+  <RGK_TableD_Blueprint_Install.label>클래식 식탁 (2x2) (청사진)</RGK_TableD_Blueprint_Install.label>
 
-  <RGK_TableE.label>켈틱 식탁(2x1)</RGK_TableE.label>
+  <RGK_TableE.label>클래식 식탁(2x1)</RGK_TableE.label>
   <RGK_TableE.description>모여서 밥을 먹거나 얘기할 수 있는 식탁입니다.</RGK_TableE.description>
-  <RGK_TableE_Blueprint.label>켈틱 식탁 (2x1) (청사진)</RGK_TableE_Blueprint.label>
-  <RGK_TableE_Blueprint_Install.label>켈틱 식탁 (2x1) (청사진)</RGK_TableE_Blueprint_Install.label>
-  <RGK_TableE_Frame.label>켈틱 식탁 (2x1) (건설중)</RGK_TableE_Frame.label>
+  <RGK_TableE_Blueprint.label>클래식 식탁 (2x1) (청사진)</RGK_TableE_Blueprint.label>
+  <RGK_TableE_Blueprint_Install.label>클래식 식탁 (2x1) (청사진)</RGK_TableE_Blueprint_Install.label>
+  <RGK_TableE_Frame.label>클래식 식탁 (2x1) (건설중)</RGK_TableE_Frame.label>
   <RGK_TableE_Frame.description>모여서 밥을 먹거나 얘기할 수 있는 탁자입니다.</RGK_TableE_Frame.description>
 
-  <RGK_TableF.label>켈틱 식탁(3x2)</RGK_TableF.label>
+  <RGK_TableF.label>클래식 식탁(3x2)</RGK_TableF.label>
   <RGK_TableF.description>모여서 밥을 먹거나 얘기할 수 있는 식탁입니다.</RGK_TableF.description>
-  <RGK_TableF_Blueprint.label>켈틱 식탁 (3x2) (청사진)</RGK_TableF_Blueprint.label>
-  <RGK_TableF_Blueprint_Install.label>켈틱 식탁 (3x2) (청사진)</RGK_TableF_Blueprint_Install.label>
-  <RGK_TableF_Frame.label>켈틱 식탁 (3x2) (건설중)</RGK_TableF_Frame.label>
+  <RGK_TableF_Blueprint.label>클래식 식탁 (3x2) (청사진)</RGK_TableF_Blueprint.label>
+  <RGK_TableF_Blueprint_Install.label>클래식 식탁 (3x2) (청사진)</RGK_TableF_Blueprint_Install.label>
+  <RGK_TableF_Frame.label>클래식 식탁 (3x2) (건설중)</RGK_TableF_Frame.label>
   <RGK_TableF_Frame.description>모여서 밥을 먹거나 얘기할 수 있는 탁자입니다.</RGK_TableF_Frame.description>
 
-  <RGK_TableG.label>켈틱 식탁(2x2)</RGK_TableG.label>
+  <RGK_TableG.label>클래식 식탁(2x2)</RGK_TableG.label>
   <RGK_TableG.description>모여서 밥을 먹거나 얘기할 수 있는 식탁입니다.</RGK_TableG.description>
-  <RGK_TableG_Blueprint.label>켈틱 식탁 (2x2) (청사진)</RGK_TableG_Blueprint.label>
-  <RGK_TableG_Blueprint_Install.label>켈틱 식탁 (2x2) (청사진)</RGK_TableG_Blueprint_Install.label>
-  <RGK_TableG_Frame.label>켈틱 식탁 (2x2) (건설중)</RGK_TableG_Frame.label>
+  <RGK_TableG_Blueprint.label>클래식 식탁 (2x2) (청사진)</RGK_TableG_Blueprint.label>
+  <RGK_TableG_Blueprint_Install.label>클래식 식탁 (2x2) (청사진)</RGK_TableG_Blueprint_Install.label>
+  <RGK_TableG_Frame.label>클래식 식탁 (2x2) (건설중)</RGK_TableG_Frame.label>
   <RGK_TableG_Frame.description>모여서 밥을 먹거나 얘기할 수 있는 탁자입니다.</RGK_TableG_Frame.description>
 
-  <RGK_TableH.label>켈틱 대형 식탁</RGK_TableH.label>
+  <RGK_TableH.label>클래식 대형 식탁</RGK_TableH.label>
   <RGK_TableH.description>모여서 밥을 먹거나 얘기할 수 있는 식탁입니다.</RGK_TableH.description>
-  <RGK_TableH_Blueprint.label>켈틱 식탁 (3x3) (청사진)</RGK_TableH_Blueprint.label>
-  <RGK_TableH_Blueprint_Install.label>켈틱 식탁 (3x3) (청사진)</RGK_TableH_Blueprint_Install.label>
-  <RGK_TableH_Frame.label>켈틱 식탁 (3x3) (건설중)</RGK_TableH_Frame.label>
+  <RGK_TableH_Blueprint.label>클래식 식탁 (3x3) (청사진)</RGK_TableH_Blueprint.label>
+  <RGK_TableH_Blueprint_Install.label>클래식 식탁 (3x3) (청사진)</RGK_TableH_Blueprint_Install.label>
+  <RGK_TableH_Frame.label>클래식 식탁 (3x3) (건설중)</RGK_TableH_Frame.label>
   <RGK_TableH_Frame.description>모여서 밥을 먹거나 얘기할 수 있는 탁자입니다.</RGK_TableH_Frame.description>
 
 

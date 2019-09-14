@@ -615,7 +615,8 @@
 			<isSittable>true</isSittable>
 		</building>
 		<uiIconOffset>(0, -0.05)</uiIconOffset>
-		<rotatable>false</rotatable>
+		<rotatable>false</rotatable>		
+		<designationCategory>OldStyleDeco</designationCategory>
 	</ThingDef>
 	<ThingDef ParentName="RGKFurnitureWithQualityBase">
 		<defName>RGK_orc</defName>
@@ -656,7 +657,8 @@
 		<costStuffCount>25</costStuffCount>
 		<pathCost>30</pathCost>
 		<designationHotKey>Misc3</designationHotKey>
-		<fillPercent>0.20</fillPercent>
+		<fillPercent>0.20</fillPercent>		
+		<designationCategory>OldStyleDeco</designationCategory>
 		<building>
 			<isSittable>true</isSittable>
 		</building>
@@ -1854,7 +1856,7 @@
 		</placeWorkers>
 		<soundImpactDefault>BulletImpact_Ground</soundImpactDefault>
 		<defaultPlacingRot>South</defaultPlacingRot>
-		<designationCategory>OldStyleFurniture</designationCategory>
+		<designationCategory>OldStyleDeco</designationCategory>
 		<destroyable>true</destroyable>
 		<tradeability>None</tradeability>
 		<clearBuildingArea>false</clearBuildingArea>
@@ -1907,7 +1909,7 @@
 		</building>
 		<soundImpactDefault>BulletImpact_Ground</soundImpactDefault>
 		<defaultPlacingRot>South</defaultPlacingRot>
-		<designationCategory>OldStyleFurniture</designationCategory>
+		<designationCategory>OldStyleDeco</designationCategory>
 		<destroyable>true</destroyable>
 		<tradeability>None</tradeability>
 		<clearBuildingArea>false</clearBuildingArea>
@@ -1968,7 +1970,7 @@
 		</building>
 		<soundImpactDefault>BulletImpact_Ground</soundImpactDefault>
 		<defaultPlacingRot>South</defaultPlacingRot>
-		<designationCategory>OldStyleFurniture</designationCategory>
+		<designationCategory>OldStyleDeco</designationCategory>
 		<destroyable>true</destroyable>
 		<tradeability>None</tradeability>
 		<clearBuildingArea>false</clearBuildingArea>

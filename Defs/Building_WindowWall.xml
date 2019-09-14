@@ -761,7 +761,7 @@
 			<li>Gloomylynx.PlaceWorker_PassableObject</li>
 		</placeWorkers>
 		<defaultPlacingRot>South</defaultPlacingRot>
-		<designationCategory>OldStyleFurniture</designationCategory>
+		<designationCategory>OldStyleDeco</designationCategory>
 		<destroyable>true</destroyable>
 		<tradeability>None</tradeability>
 		<clearBuildingArea>false</clearBuildingArea>	
@@ -806,7 +806,7 @@
 			<li>Gloomylynx.PlaceWorker_PassableObject</li>
 		</placeWorkers>
 		<defaultPlacingRot>South</defaultPlacingRot>
-		<designationCategory>OldStyleFurniture</designationCategory>
+		<designationCategory>OldStyleDeco</designationCategory>
 		<destroyable>true</destroyable>
 		<tradeability>None</tradeability>
 		<clearBuildingArea>false</clearBuildingArea>	
@@ -852,7 +852,7 @@
 			<li>Gloomylynx.PlaceWorker_PassableObject</li>
 		</placeWorkers>
 		<defaultPlacingRot>South</defaultPlacingRot>
-		<designationCategory>OldStyleFurniture</designationCategory>
+		<designationCategory>OldStyleDeco</designationCategory>
 		<destroyable>true</destroyable>
 		<tradeability>None</tradeability>
 		<clearBuildingArea>false</clearBuildingArea>	
@@ -897,7 +897,7 @@
 			<li>Gloomylynx.PlaceWorker_PassableObject</li>
 		</placeWorkers>
 		<defaultPlacingRot>South</defaultPlacingRot>
-		<designationCategory>OldStyleFurniture</designationCategory>
+		<designationCategory>OldStyleDeco</designationCategory>
 		<destroyable>true</destroyable>
 		<tradeability>None</tradeability>
 		<clearBuildingArea>false</clearBuildingArea>	
