@@ -166,18 +166,18 @@ namespace Gloomylynx
         {
             if (glower == null)
             {
-                glower = ThingMaker.MakeThing(ThingDef.Named(defStr), null);
-                GenSpawn.Spawn(glower, glowPos, Map, 0);
+                glower = Map.thingGrid.ThingAt(glowPos, ThingDef.Named(defStr));
+                if (glower == null)
+                {
+                    glower = ThingMaker.MakeThing(ThingDef.Named(defStr), null);
+                    GenSpawn.Spawn(glower, glowPos, Map, 0);
+                }
                 glowerObject = (GlowObject)glower;
             }
         }
 
         private void DespawnGlower()
         {
-            if (glower != null)
-            {
-                glower.DeSpawn(DestroyMode.Vanish);
-            }
             glower = null;
             glowerObject = null;
         }
@@ -202,7 +202,7 @@ namespace Gloomylynx
         public override void ExposeData()
         {
             base.ExposeData();
-            Scribe_References.Look(ref glower, "glower", false);
+            //Scribe_References.Look(ref glower, "glower", true);
         }
     }
     public class GlowObject : ThingWithComps
@@ -261,5 +261,155 @@ namespace Gloomylynx
         }
     }
 
+    public class WallLampComp : ThingComp
+    {
+        private Thing glower = null;
 
+        private GlowObject glowerObject = null;
+
+        public CompPowerTrader compPower;
+        public CompFlickable compFlick;
+        public CompRefuelable compRefuel;
+        
+        public WallLampCompProperties Prop
+        {
+            get
+            {
+                return (WallLampCompProperties)props;
+            }
+        }
+
+        private IntVec3 glowPos;
+
+        public override void PostSpawnSetup(bool respawningAfterLoad)
+        {
+            base.PostSpawnSetup(respawningAfterLoad);
+            compPower = parent.GetComp<CompPowerTrader>();
+            compFlick = parent.GetComp<CompFlickable>();
+            compRefuel = parent.GetComp<CompRefuelable>();
+            glowPos = parent.Position + parent.Rotation.FacingCell;
+            if (glower == null)
+            {
+                SpawnGlower();
+            }
+            else
+            {
+                if (glowerObject == null)
+                {
+                    glowerObject = (GlowObject)glower;
+                }
+            }
+            if ((compPower != null && !compPower.PowerOn) || (compRefuel != null && !compRefuel.HasFuel))
+            {
+                glowerObject.ToggleGlower(false);
+            }
+        }
+        public override void PostDeSpawn(Map map)
+        {
+            DespawnGlower();
+            base.PostDeSpawn(map);
+        }
+        public override void PostDestroy(DestroyMode mode, Map previousMap)
+        {
+            DespawnGlower();
+            base.PostDestroy(mode, previousMap);
+        }
+
+        public override void ReceiveCompSignal(string signal)
+        {
+            if (signal == "FlickedOff" || signal == "PowerTurnedOff" || signal == "RanOutOfFuel")
+            {
+                glowerObject.ToggleGlower(false);
+            }
+            else
+            {
+                switch (signal)
+                {
+                    case "FlickedOn":
+                        if ((compPower != null && compPower.PowerOn) || (compRefuel != null && compRefuel.HasFuel))
+                        {
+                            glowerObject.ToggleGlower(true);
+                        }
+                        break;
+                    case "PowerTurnedOn":
+                        if (compFlick == null || !compFlick.SwitchIsOn)
+                        {
+                            break;
+                        }
+                        glowerObject.ToggleGlower(true);
+                        break;
+                    case "Refueled":
+                        if (!compRefuel.HasFuel || compFlick == null || !compFlick.SwitchIsOn)
+                        {
+                            glowerObject.ToggleGlower(false);
+                            break;
+                        }
+                        glowerObject.ToggleGlower(true);
+                        break;
+                    default:
+                        break;
+                }
+            }
+        }
+        public override void CompTick()
+        {
+            base.CompTick();
+            if (parent.Spawned && !parent.Destroyed)
+            {
+                if (!GenGrid.Impassable(parent.Position, parent.Map))
+                {
+                    WallDestroyed();
+                }
+                else
+                {
+                    if (GenGrid.Impassable(glowPos, parent.Map))
+                    {
+                        LightSmashed();
+                    }
+                }
+            }
+        }
+
+        private void SpawnGlower()
+        {
+            if (glower == null)
+            {
+                glower = ThingMaker.MakeThing(Prop.lighingObject, null);
+                GenSpawn.Spawn(glower, glowPos, parent.Map, 0);
+                glowerObject = (GlowObject)glower;
+            }
+        }
+
+        private void DespawnGlower()
+        {
+            if (glower != null)
+            {
+                glower.DeSpawn(DestroyMode.Vanish);
+            }
+            glower = null;
+            glowerObject = null;
+        }
+
+        private void LightSmashed()
+        {
+            Messages.Message(Translator.Translate("WallLight_DestroyedBlocked"), MessageTypeDefOf.NegativeEvent, true);
+            parent.Destroy(DestroyMode.Vanish);
+        }
+
+        private void WallDestroyed()
+        {
+            Messages.Message(Translator.Translate("WallLight_DestroyedWall"), MessageTypeDefOf.NegativeEvent, true);
+            parent.Destroy(DestroyMode.Deconstruct);
+        }
+
+        public override void PostExposeData()
+        {
+            base.PostExposeData();
+            Scribe_References.Look(ref glower, "glower", false);
+        }
+    }
+    public class WallLampCompProperties : CompProperties
+    {
+        public ThingDef lighingObject;
+    }
 }
