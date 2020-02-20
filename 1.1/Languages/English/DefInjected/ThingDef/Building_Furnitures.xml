@@ -1,0 +1,312 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Bed -->
+
+  <RGK_bedSingle.label>bed</RGK_bedSingle.label>
+  <RGK_bedSingle.description>A cozy mattress and sheets on a frame for resting.</RGK_bedSingle.description>
+  <RGK_bedSingle_Blueprint.label>bed (blueprint)</RGK_bedSingle_Blueprint.label>
+  <RGK_bedSingle_Blueprint_Install.label>bed (blueprint)</RGK_bedSingle_Blueprint_Install.label>
+  <RGK_bedSingle_Frame.label>bed (building)</RGK_bedSingle_Frame.label>
+  <RGK_bedSingle_Frame.description>A cozy mattress and sheets on a frame for resting.</RGK_bedSingle_Frame.description>
+
+  <RGK_bedSingleB.label>bed</RGK_bedSingleB.label>
+  <RGK_bedSingleB.description>A cozy mattress and sheets on a frame for resting.</RGK_bedSingleB.description>
+  <RGK_bedSingleB_Blueprint.label>bed2 (blueprint)</RGK_bedSingleB_Blueprint.label>
+  <RGK_bedSingleB_Blueprint_Install.label>bed2 (blueprint)</RGK_bedSingleB_Blueprint_Install.label>
+  <RGK_bedSingleB_Frame.label>bed2 (building)</RGK_bedSingleB_Frame.label>
+  <RGK_bedSingleB_Frame.description>A cozy mattress and sheets on a frame for resting.</RGK_bedSingleB_Frame.description>
+
+  <RGK_bedDouble.label>double bed</RGK_bedDouble.label>
+  <RGK_bedDouble.description>A simple double-wide bed that fits two people.</RGK_bedDouble.description>
+  <RGK_bedDouble_Blueprint.label>double bed (blueprint)</RGK_bedDouble_Blueprint.label>
+  <RGK_bedDouble_Blueprint_Install.label>double bed (blueprint)</RGK_bedDouble_Blueprint_Install.label>
+  <RGK_bedDouble_Frame.label>double bed (building)</RGK_bedDouble_Frame.label>
+  <RGK_bedDouble_Frame.description>A simple double-wide bed that fits two people.</RGK_bedDouble_Frame.description>
+
+  <RGK_bedDoubleB.label>double bed2</RGK_bedDoubleB.label>
+  <RGK_bedDoubleB.description>A Celtic double-wide bed that fits two people.</RGK_bedDoubleB.description>
+  <RGK_bedDoubleB_Blueprint.label>double bed2 (blueprint)</RGK_bedDoubleB_Blueprint.label>
+  <RGK_bedDoubleB_Blueprint_Install.label>double bed2 (blueprint)</RGK_bedDoubleB_Blueprint_Install.label>
+  <RGK_bedDoubleB_Frame.label>double bed2 (building)</RGK_bedDoubleB_Frame.label>
+  <RGK_bedDoubleB_Frame.description>A Celtic double-wide bed that fits two people.</RGK_bedDoubleB_Frame.description>
+
+
+  <!-- 레이스 더블 침대 -->
+
+  <GL_ClassyDoubleBed.label>classy double bed</GL_ClassyDoubleBed.label>
+  <GL_ClassyDoubleBed.description>Elegant bed decorated with lace that fits two people. It is very comfortable and doesn't get disturbed during sleep.</GL_ClassyDoubleBed.description>
+  <GL_ClassyDoubleBed_Blueprint.label>classy double bed (blueprint)</GL_ClassyDoubleBed_Blueprint.label>
+  <GL_ClassyDoubleBed_Blueprint_Install.label>classy double bed (blueprint)</GL_ClassyDoubleBed_Blueprint_Install.label>
+  <GL_ClassyDoubleBed_Frame.label>classy double bed (building)</GL_ClassyDoubleBed_Frame.label>
+  <GL_ClassyDoubleBed_Frame.description>Elegant bed decorated with lace that fits two people. It is very comfortable and doesn't get disturbed during sleep.</GL_ClassyDoubleBed_Frame.description>
+
+
+  <!-- Table -->
+
+  <RGK_Dresser.label>dresser</RGK_Dresser.label>
+  <RGK_Dresser.description>A dresser. Gives a small comfort bonus to all nearby beds. Placing more than one dresser near the same bed has no effect.</RGK_Dresser.description>
+  <RGK_Dresser_Blueprint.label>dresser (blueprint)</RGK_Dresser_Blueprint.label>
+  <RGK_Dresser_Blueprint_Install.label>dresser (blueprint)</RGK_Dresser_Blueprint_Install.label>
+  <RGK_Dresser_Frame.label>dresser (building)</RGK_Dresser_Frame.label>
+  <RGK_Dresser_Frame.description>A dresser. Gives a small comfort bonus to all nearby beds. Placing more than one dresser near the same bed has no effect.</RGK_Dresser_Frame.description>
+
+  <RGK_EndTable.label>end table</RGK_EndTable.label>
+  <RGK_EndTable.description>A small bedside table which makes nearby beds a little bit more comfortable. Must be placed directly adjacent to the head of the bed. Placing more than one end table near the same bed has no effect.</RGK_EndTable.description>
+  <RGK_EndTable_Blueprint.label>End table (blueprint)</RGK_EndTable_Blueprint.label>
+  <RGK_EndTable_Blueprint_Install.label>End table (blueprint)</RGK_EndTable_Blueprint_Install.label>
+  <RGK_EndTable_Frame.label>End table (building)</RGK_EndTable_Frame.label>
+  <RGK_EndTable_Frame.description>A small bedside table which makes nearby beds a little bit more comfortable. Must be placed directly adjacent to the head of the bed. Placing more than one end table near the same bed has no effect.</RGK_EndTable_Frame.description>
+
+  <RGK_EndTableWithLamp.label>end table</RGK_EndTableWithLamp.label>
+  <RGK_EndTableWithLamp.description>A small bedside table which makes nearby beds a little bit more comfortable. Must be placed directly adjacent to the head of the bed. Placing more than one end table near the same bed has no effect.</RGK_EndTableWithLamp.description>
+  <RGK_EndTableWithLamp_Blueprint_Install.label>end table (blueprint)</RGK_EndTableWithLamp_Blueprint_Install.label>
+
+  <RGK_EndTableWithLampE.label>end table</RGK_EndTableWithLampE.label>
+  <RGK_EndTableWithLampE.description>A small bedside table which makes nearby beds a little bit more comfortable. Must be placed directly adjacent to the head of the bed. Placing more than one end table near the same bed has no effect. Works as electricity</RGK_EndTableWithLampE.description>
+  <RGK_EndTableWithLampE_Blueprint_Install.label>end table (blueprint)</RGK_EndTableWithLampE_Blueprint_Install.label>
+
+
+  <!-- Chair -->
+
+  <RGK_bucketr.label>bucket</RGK_bucketr.label>
+  <RGK_bucketr.description>Just wooden bucket.</RGK_bucketr.description>
+  <RGK_bucketr_Blueprint.label>RGK bucket (blueprint)</RGK_bucketr_Blueprint.label>
+  <RGK_bucketr_Blueprint_Install.label>RGK bucket (blueprint)</RGK_bucketr_Blueprint_Install.label>
+  <RGK_bucketr_Frame.label>RGK bucket (building)</RGK_bucketr_Frame.label>
+  <RGK_bucketr_Frame.description>bucket.</RGK_bucketr_Frame.description>
+
+  <RGK_orc.label>oak barrel</RGK_orc.label>
+  <RGK_orc.description>Just oak barrel</RGK_orc.description>
+  <RGK_orc_Blueprint.label>RGK orc barrel (blueprint)</RGK_orc_Blueprint.label>
+  <RGK_orc_Blueprint_Install.label>RGK orc barrel (blueprint)</RGK_orc_Blueprint_Install.label>
+  <RGK_orc_Frame.label>RGK orc barrel (building)</RGK_orc_Frame.label>
+  <RGK_orc_Frame.description>Just orc barrel</RGK_orc_Frame.description>
+
+  <RGK_SimpleChair.label>simple chair</RGK_SimpleChair.label>
+  <RGK_SimpleChair.description>A simple platform on which to sit. Not very comfortable, but much better than nothing. Can be used at tables, work stations, and elsewhere.</RGK_SimpleChair.description>
+  <RGK_SimpleChair_Blueprint.label>simple chair (blueprint)</RGK_SimpleChair_Blueprint.label>
+  <RGK_SimpleChair_Blueprint_Install.label>simple chair (blueprint)</RGK_SimpleChair_Blueprint_Install.label>
+  <RGK_SimpleChair_Frame.label>simple chair (building)</RGK_SimpleChair_Frame.label>
+  <RGK_SimpleChair_Frame.description>A simple platform on which to sit. Not very comfortable, but much better than nothing. Can be used at tables, work stations, and elsewhere.</RGK_SimpleChair_Frame.description>
+
+  <RGK_Chair.label>chair</RGK_Chair.label>
+  <RGK_Chair.description>A comfortable chair. Can be used at tables, work stations, and elsewhere.</RGK_Chair.description>
+  <RGK_Chair_Blueprint.label>chair (blueprint)</RGK_Chair_Blueprint.label>
+  <RGK_Chair_Blueprint_Install.label>chair (blueprint)</RGK_Chair_Blueprint_Install.label>
+  <RGK_Chair_Frame.label>chair (building)</RGK_Chair_Frame.label>
+  <RGK_Chair_Frame.description>A comfortable chair. Can be used at tables, work stations, and elsewhere.</RGK_Chair_Frame.description>
+
+  <RGKDiningChair.label>dining chair</RGKDiningChair.label>
+  <RGKDiningChair.description>A comfortable and attractive chair. Can be used at tables, work stations, and elsewhere.</RGKDiningChair.description>
+  <RGKDiningChair_Blueprint.label>dining chair (blueprint)</RGKDiningChair_Blueprint.label>
+  <RGKDiningChair_Blueprint_Install.label>dining chair (blueprint)</RGKDiningChair_Blueprint_Install.label>
+  <RGKDiningChair_Frame.label>dining chair (building)</RGKDiningChair_Frame.label>
+  <RGKDiningChair_Frame.description>A comfortable and attractive chair. Can be used at tables, work stations, and elsewhere.</RGKDiningChair_Frame.description>
+
+
+  <!-- 공원벤치 -->
+
+  <GL_Bench.label>bench</GL_Bench.label>
+  <GL_Bench.description>It's a park bench chair. Couples can't sit here.</GL_Bench.description>
+  <GL_Bench_Blueprint.label>bench (blueprint)</GL_Bench_Blueprint.label>
+  <GL_Bench_Blueprint_Install.label>bench (blueprint)</GL_Bench_Blueprint_Install.label>
+  <GL_Bench_Frame.label>bench (building)</GL_Bench_Frame.label>
+  <GL_Bench_Frame.description>It's a park bench chair. Couples can't sit here.</GL_Bench_Frame.description>
+
+
+  <!-- 테이블들 -->
+
+  <RGK_TableA.label>table (2x2)</RGK_TableA.label>
+  <RGK_TableA.description>People eat off tables when chairs are placed facing them.</RGK_TableA.description>
+  <RGK_TableA_Blueprint.label>table (2x2) (blueprint)</RGK_TableA_Blueprint.label>
+  <RGK_TableA_Blueprint_Install.label>table (2x2) (blueprint)</RGK_TableA_Blueprint_Install.label>
+  <RGK_TableA_Frame.label>table (2x2) (building)</RGK_TableA_Frame.label>
+  <RGK_TableA_Frame.description>People eat off tables when chairs are placed facing them.</RGK_TableA_Frame.description>
+
+  <RGK_TableC.label>table (2x2)</RGK_TableC.label>
+  <RGK_TableC.description>People eat off tables when chairs are placed facing them.</RGK_TableC.description>
+  <RGK_TableC_Blueprint.label>table C (2x2) (blueprint)</RGK_TableC_Blueprint.label>
+  <RGK_TableC_Blueprint_Install.label>table C (2x2) (blueprint)</RGK_TableC_Blueprint_Install.label>
+  <RGK_TableC_Frame.label>table C (2x2) (building)</RGK_TableC_Frame.label>
+  <RGK_TableC_Frame.description>People eat off tables when chairs are placed facing them.</RGK_TableC_Frame.description>
+
+  <RGK_TableB.label>classic table (2x2)</RGK_TableB.label>
+  <RGK_TableB.description>People eat off tables when chairs are placed facing them.</RGK_TableB.description>
+  <RGK_TableB_Blueprint.label>classic table (2x2) (blueprint)</RGK_TableB_Blueprint.label>
+  <RGK_TableB_Blueprint_Install.label>classic table (2x2) (blueprint)</RGK_TableB_Blueprint_Install.label>
+  <RGK_TableB_Frame.label>classic table (2x2) (building)</RGK_TableB_Frame.label>
+  <RGK_TableB_Frame.description>People eat off tables when chairs are placed facing them.</RGK_TableB_Frame.description>
+
+  <RGK_TableD.label>classic table (2x2)</RGK_TableD.label>
+  <RGK_TableD.description>People eat off tables when chairs are placed facing them.</RGK_TableD.description>
+  <RGK_TableD_Blueprint_Install.label>classic table (2x2) (blueprint)</RGK_TableD_Blueprint_Install.label>
+
+  <RGK_TableE.label>classic table (2x1)</RGK_TableE.label>
+  <RGK_TableE.description>People eat off tables when chairs are placed facing them.</RGK_TableE.description>
+  <RGK_TableE_Blueprint.label>classic table (2x1) (blueprint)</RGK_TableE_Blueprint.label>
+  <RGK_TableE_Blueprint_Install.label>classic table (2x1) (blueprint)</RGK_TableE_Blueprint_Install.label>
+  <RGK_TableE_Frame.label>classic table (2x1) (building)</RGK_TableE_Frame.label>
+  <RGK_TableE_Frame.description>People eat off tables when chairs are placed facing them.</RGK_TableE_Frame.description>
+
+  <RGK_TableF.label>classic table (3x2)</RGK_TableF.label>
+  <RGK_TableF.description>People eat off tables when chairs are placed facing them.</RGK_TableF.description>
+  <RGK_TableF_Blueprint.label>classic table (3x2) (blueprint)</RGK_TableF_Blueprint.label>
+  <RGK_TableF_Blueprint_Install.label>classic table (3x2) (blueprint)</RGK_TableF_Blueprint_Install.label>
+  <RGK_TableF_Frame.label>classic table (3x2) (building)</RGK_TableF_Frame.label>
+  <RGK_TableF_Frame.description>People eat off tables when chairs are placed facing them.</RGK_TableF_Frame.description>
+
+  <RGK_TableG.label>classic table (2x2)</RGK_TableG.label>
+  <RGK_TableG.description>People eat off tables when chairs are placed facing them.</RGK_TableG.description>
+  <RGK_TableG_Blueprint.label>classic table (2x2) (blueprint)</RGK_TableG_Blueprint.label>
+  <RGK_TableG_Blueprint_Install.label>classic table (2x2) (blueprint)</RGK_TableG_Blueprint_Install.label>
+  <RGK_TableG_Frame.label>classic table (2x2) (building)</RGK_TableG_Frame.label>
+  <RGK_TableG_Frame.description>People eat off tables when chairs are placed facing them.</RGK_TableG_Frame.description>
+
+  <RGK_TableH.label>classic table (3x3)</RGK_TableH.label>
+  <RGK_TableH.description>People eat off tables when chairs are placed facing them.</RGK_TableH.description>
+  <RGK_TableH_Blueprint.label>classic table (3x3) (blueprint)</RGK_TableH_Blueprint.label>
+  <RGK_TableH_Blueprint_Install.label>classic table (3x3) (blueprint)</RGK_TableH_Blueprint_Install.label>
+  <RGK_TableH_Frame.label>classic table (3x3) (building)</RGK_TableH_Frame.label>
+  <RGK_TableH_Frame.description>People eat off tables when chairs are placed facing them.</RGK_TableH_Frame.description>
+
+
+  <!-- 미니 테이블 -->
+
+  <RGK_MiniTableA.label>mini table</RGK_MiniTableA.label>
+  <RGK_MiniTableA.description>People eat off tables when chairs are placed facing them.</RGK_MiniTableA.description>
+  <RGK_MiniTableA_Blueprint.label>mini table (blueprint)</RGK_MiniTableA_Blueprint.label>
+  <RGK_MiniTableA_Blueprint_Install.label>mini table (blueprint)</RGK_MiniTableA_Blueprint_Install.label>
+  <RGK_MiniTableA_Frame.label>mini table (building)</RGK_MiniTableA_Frame.label>
+  <RGK_MiniTableA_Frame.description>People eat off tables when chairs are placed facing them.</RGK_MiniTableA_Frame.description>
+
+
+  <!-- 천덮힌 미니 -->
+
+  <RGK_MiniTableB.label>Mini table</RGK_MiniTableB.label>
+  <RGK_MiniTableB.description>People eat off tables when chairs are placed facing them.</RGK_MiniTableB.description>
+  <RGK_MiniTableB_Blueprint.label>mini table (blueprint)</RGK_MiniTableB_Blueprint.label>
+  <RGK_MiniTableB_Blueprint_Install.label>mini table (blueprint)</RGK_MiniTableB_Blueprint_Install.label>
+  <RGK_MiniTableB_Frame.label>mini table (building)</RGK_MiniTableB_Frame.label>
+  <RGK_MiniTableB_Frame.description>People eat off tables when chairs are placed facing them.</RGK_MiniTableB_Frame.description>
+
+
+  <!-- Storage -->
+
+  <RKGWineRackB.label>wine rack</RKGWineRackB.label>
+  <RKGWineRackB.description>A shelf that stores wine or alcohol.</RKGWineRackB.description>
+  <RKGWineRackB_Blueprint.label>wine rack (blueprint)</RKGWineRackB_Blueprint.label>
+  <RKGWineRackB_Blueprint_Install.label>wine rack (blueprint)</RKGWineRackB_Blueprint_Install.label>
+  <RKGWineRackB_Frame.label>wine rack (building)</RKGWineRackB_Frame.label>
+  <RKGWineRackB_Frame.description>A shelf that stores wine or alcohol.</RKGWineRackB_Frame.description>
+
+  <WardrobeA.label>wardrobe</WardrobeA.label>
+  <WardrobeA.description>Shelves and drawers for storing clothes.</WardrobeA.description>
+  <WardrobeA_Blueprint.label>wardrobe (blueprint)</WardrobeA_Blueprint.label>
+  <WardrobeA_Blueprint_Install.label>wardrobe (blueprint)</WardrobeA_Blueprint_Install.label>
+  <WardrobeA_Frame.label>wardrobe (building)</WardrobeA_Frame.label>
+  <WardrobeA_Frame.description>Shelves and drawers for storing clothes.</WardrobeA_Frame.description>
+
+  <WardrobeB.label>wardrobe</WardrobeB.label>
+  <WardrobeB.description>Shelves and drawers for storing clothes.</WardrobeB.description>
+  <WardrobeB_Blueprint.label>wardrobe (blueprint)</WardrobeB_Blueprint.label>
+  <WardrobeB_Blueprint_Install.label>wardrobe (blueprint)</WardrobeB_Blueprint_Install.label>
+  <WardrobeB_Frame.label>wardrobe (building)</WardrobeB_Frame.label>
+  <WardrobeB_Frame.description>Shelves and drawers for storing clothes.</WardrobeB_Frame.description>
+
+
+  <!-- 책장 -->
+
+  <GL_Bookshelf.label>bookshelf</GL_Bookshelf.label>
+  <GL_Bookshelf.description>Increases research speed when placed near research table. Each research bench can  use two bookshelf.</GL_Bookshelf.description>
+  <GL_Bookshelf_Blueprint.label>bookshelf (blueprint)</GL_Bookshelf_Blueprint.label>
+  <GL_Bookshelf_Blueprint_Install.label>bookshelf (blueprint)</GL_Bookshelf_Blueprint_Install.label>
+  <GL_Bookshelf_Frame.label>bookshelf (building)</GL_Bookshelf_Frame.label>
+  <GL_Bookshelf_Frame.description>Increases research speed when placed near research table. Each research bench can  use two bookshelf.</GL_Bookshelf_Frame.description>
+
+
+  <!-- 식기장 -->
+
+  <GL_Cupboard.label>cupboard</GL_Cupboard.label>
+  <GL_Cupboard.description>A shelf for Tableware. Increases Cook speed when placed near fueled stove table.</GL_Cupboard.description>
+  <GL_Cupboard_Blueprint.label>cupboard (blueprint)</GL_Cupboard_Blueprint.label>
+  <GL_Cupboard_Blueprint_Install.label>cupboard (blueprint)</GL_Cupboard_Blueprint_Install.label>
+  <GL_Cupboard_Frame.label>cupboard (building)</GL_Cupboard_Frame.label>
+  <GL_Cupboard_Frame.description>A shelf for Tableware. Increases Cook speed when placed near fueled stove table.</GL_Cupboard_Frame.description>
+
+
+  <!-- 식기선반 -->
+
+  <GL_TablewareShelf.label>tableware shelf</GL_TablewareShelf.label>
+  <GL_TablewareShelf.description>A shelf for Tableware. Increases Cook speed when placed near fueled stove table.</GL_TablewareShelf.description>
+  <GL_TablewareShelf_Blueprint.label>tableware shelf (blueprint)</GL_TablewareShelf_Blueprint.label>
+  <GL_TablewareShelf_Blueprint_Install.label>tableware shelf (blueprint)</GL_TablewareShelf_Blueprint_Install.label>
+  <GL_TablewareShelf_Frame.label>tableware shelf (building)</GL_TablewareShelf_Frame.label>
+  <GL_TablewareShelf_Frame.description>A shelf for Tableware. Increases Cook speed when placed near fueled stove table.</GL_TablewareShelf_Frame.description>
+
+  <RGK_Manger.label>manger</RGK_Manger.label>
+  <RGK_Manger.description>It's a cask for animals. You can store food and hay.</RGK_Manger.description>
+  <RGK_Manger_Blueprint.label>manger (blueprint)</RGK_Manger_Blueprint.label>
+  <RGK_Manger_Blueprint_Install.label>manger (blueprint)</RGK_Manger_Blueprint_Install.label>
+  <RGK_Manger_Frame.label>manger (building)</RGK_Manger_Frame.label>
+  <RGK_Manger_Frame.description>It's a cask for animals. You can store food and hay.</RGK_Manger_Frame.description>
+
+
+  <!-- 선반 -->
+
+  <GL_Shelf.label>shelf</GL_Shelf.label>
+  <GL_Shelf.description>A shelf for storing miscellaneous items. Items stored in this will not deteriorate, even if outside.</GL_Shelf.description>
+  <GL_Shelf_Blueprint.label>shelf (blueprint)</GL_Shelf_Blueprint.label>
+  <GL_Shelf_Blueprint_Install.label>shelf (blueprint)</GL_Shelf_Blueprint_Install.label>
+  <GL_Shelf_Frame.label>shelf (building)</GL_Shelf_Frame.label>
+  <GL_Shelf_Frame.description>A shelf for storing miscellaneous items. Items stored in this will not deteriorate, even if outside.</GL_Shelf_Frame.description>
+
+
+  <!-- 개밥그릇 -->
+
+  <RGK_DogBowl.label>bowl</RGK_DogBowl.label>
+  <RGK_DogBowl.description>It's a cask for animals. You can store food and hay.</RGK_DogBowl.description>
+  <RGK_DogBowl_Blueprint.label>bowl (blueprint)</RGK_DogBowl_Blueprint.label>
+  <RGK_DogBowl_Blueprint_Install.label>bowl (blueprint)</RGK_DogBowl_Blueprint_Install.label>
+  <RGK_DogBowl_Frame.label>bowl (building)</RGK_DogBowl_Frame.label>
+  <RGK_DogBowl_Frame.description>It's a cask for animals. You can store food and hay.</RGK_DogBowl_Frame.description>
+
+
+  <!-- 보관함 -->
+
+  <GL_Locker.label>locker</GL_Locker.label>
+  <GL_Locker.description>A locker for storing miscellaneous items. Items stored in this will not deteriorate, even if outside. Also it prevents the contents from being damaged by fire.</GL_Locker.description>
+  <GL_Locker_Blueprint.label>locker (blueprint)</GL_Locker_Blueprint.label>
+  <GL_Locker_Blueprint_Install.label>locker (blueprint)</GL_Locker_Blueprint_Install.label>
+  <GL_Locker_Frame.label>locker (building)</GL_Locker_Frame.label>
+  <GL_Locker_Frame.description>A locker for storing miscellaneous items. Items stored in this will not deteriorate, even if outside. Also it prevents the contents from being damaged by fire.</GL_Locker_Frame.description>
+
+
+  <!-- 모조 화분 -->
+
+  <RGK_Flower.label>replica flower</RGK_Flower.label>
+  <RGK_Flower.description>It's a flowerpot replica. It'll be in bloom forever.</RGK_Flower.description>
+  <RGK_Flower_Blueprint.label>replica flower (blueprint)</RGK_Flower_Blueprint.label>
+  <RGK_Flower_Blueprint_Install.label>replica flower (blueprint)</RGK_Flower_Blueprint_Install.label>
+  <RGK_Flower_Frame.label>replica flower (building)</RGK_Flower_Frame.label>
+  <RGK_Flower_Frame.description>It's a flowerpot replica. It'll be in bloom forever.</RGK_Flower_Frame.description>
+
+  <RGK_Teaset.label>tea set</RGK_Teaset.label>
+  <RGK_Teaset.description>This is a set of decorative teas. It looks like a luxury, and it's a shame to use it.</RGK_Teaset.description>
+  <RGK_Teaset_Blueprint.label>tea set (blueprint)</RGK_Teaset_Blueprint.label>
+  <RGK_Teaset_Blueprint_Install.label>tea set (blueprint)</RGK_Teaset_Blueprint_Install.label>
+  <RGK_Teaset_Frame.label>tea set (building)</RGK_Teaset_Frame.label>
+  <RGK_Teaset_Frame.description>This is a set of decorative teas. It looks like a luxury, and it's a shame to use it.</RGK_Teaset_Frame.description>
+
+
+  <!-- 곰인형 -->
+
+  <GL_Teddy.label>teddy bear</GL_Teddy.label>
+  <GL_Teddy.description>It is a fluffy teddy bear.</GL_Teddy.description>
+  <GL_Teddy_Blueprint.label>teddy bear (blueprint)</GL_Teddy_Blueprint.label>
+  <GL_Teddy_Blueprint_Install.label>teddy bear (blueprint)</GL_Teddy_Blueprint_Install.label>
+  <GL_Teddy_Frame.label>teddy bear (building)</GL_Teddy_Frame.label>
+  <GL_Teddy_Frame.description>It is a fluffy teddy bear.</GL_Teddy_Frame.description>
+
+
+</LanguageData>

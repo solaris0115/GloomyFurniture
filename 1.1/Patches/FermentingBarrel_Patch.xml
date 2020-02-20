@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<!--FermentingBarrel Skin Patch-->
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>Defs/ThingDef[defName = "FermentingBarrel"]</xpath>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>*/ThingDef[defName="FermentingBarrel"]/graphicData</xpath>
+				<value>
+					<graphicData>
+						<texPath>Things/Building/Furniture/RGK_orcB</texPath>
+						<graphicClass>Graphic_Multi</graphicClass>
+						<shaderType>CutoutComplex</shaderType>
+						<damageData>
+							<rect>(0.05,0.1,0.9,0.9)</rect>
+						</damageData>
+						<shadowData>
+							<volume>(0.75, 0.35, 0.33)</volume>
+						</shadowData>
+						<drawSize>(2,2)</drawSize>
+					</graphicData>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+	<!-- 베지터블 가든 패치 -->
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>VGP Garden Drinks</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<success>Always</success>
+			<operations>
+				<!-- 그래픽패치 -->
+				<li Class="PatchOperationTest">
+					<xpath>Defs/ThingDef[defName = "FermentingBarrel"]</xpath>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>*/ThingDef[defName="FermentingBarrel"]/graphicData</xpath>
+					<value>
+						<graphicData>
+							<texPath>Things/Building/Furniture/RGK_orcB</texPath>
+							<graphicClass>Graphic_Multi</graphicClass>
+							<shaderType>CutoutComplex</shaderType>
+							<damageData>
+								<rect>(0.05,0.1,0.9,0.9)</rect>
+							</damageData>
+							<shadowData>
+								<volume>(0.75, 0.35, 0.33)</volume>
+							</shadowData>
+							<drawSize>(2,2)</drawSize>
+						</graphicData>
+					</value>
+				</li>
+				<!-- 큰술통 패치 -->
+				<li Class="PatchOperationTest">
+					<xpath>Defs/ThingDef[defName = "VG_LargeFermentingBarrel"]</xpath>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName = "VG_LargeFermentingBarrel"]/graphicData</xpath>
+					<value>
+						<graphicData>
+							<texPath>Things/Building/Furniture/RGK_orcB</texPath>
+							<graphicClass>Graphic_Multi</graphicClass>
+							<shaderType>CutoutComplex</shaderType>
+							<damageData>
+								<rect>(0.05,0.1,0.9,0.9)</rect>
+							</damageData>
+							<shadowData>
+								<volume>(0.75, 0.35, 0.33)</volume>
+							</shadowData>
+							<drawSize>(4,4)</drawSize>
+						</graphicData>
+					</value>
+				</li>
+				<!-- 와인랙 패치 -->
+				<li Class="PatchOperationTest">
+					<xpath>*/ThingCategoryDef[defName = "PrecursorBase"]</xpath>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>*/ThingDef[defName = "RKGWineRackB"]/building/defaultStorageSettings/filter/categories</xpath>
+					<value>
+						<li>VG_Sodas</li>
+						<li>VG_Drinks</li>
+						<li>PrecursorBase</li>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+
+	<!-- 소재 패치 -->
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>Defs/ThingDef[defName = "FermentingBarrel"]/stuffCategories</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>*/ThingDef[defName="FermentingBarrel"]</xpath>
+				<value>
+					<stuffCategories>
+						<li>Woody</li>
+					</stuffCategories>
+					<costStuffCount>50</costStuffCount>
+				</value>
+			</li>
+			<li Class="PatchOperationRemove">
+				<xpath>*/ThingDef[defName="FermentingBarrel"]/constructEffect</xpath>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>*/ThingDef[defName="FermentingBarrel"]/costList</xpath>
+				<value>
+					<costList>
+						<Steel>10</Steel>
+					</costList>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+</Patch>

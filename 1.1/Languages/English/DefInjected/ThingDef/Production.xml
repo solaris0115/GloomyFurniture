@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <RGK_SimpleResearchBench.label>simple research bench</RGK_SimpleResearchBench.label>
+  <RGK_SimpleResearchBench.description>A simple bench with writing implements and simple measurement devices. Researchers work here to discover new things.</RGK_SimpleResearchBench.description>
+  <RGK_SimpleResearchBench_Blueprint.label>simple research bench (blueprint)</RGK_SimpleResearchBench_Blueprint.label>
+  <RGK_SimpleResearchBench_Blueprint_Install.label>simple research bench (blueprint)</RGK_SimpleResearchBench_Blueprint_Install.label>
+  <RGK_SimpleResearchBench_Frame.label>simple research bench (building)</RGK_SimpleResearchBench_Frame.label>
+  <RGK_SimpleResearchBench_Frame.description>A simple bench with writing implements and simple measurement devices. Researchers work here to discover new things.</RGK_SimpleResearchBench_Frame.description>
+
+  <RGK_FueledStove.label>fueled stove</RGK_FueledStove.label>
+  <RGK_FueledStove.description>A wood-fueled stove with an attached countertop for preparing meals.</RGK_FueledStove.description>
+  <RGK_FueledStove_Blueprint.label>fueled stove (blueprint)</RGK_FueledStove_Blueprint.label>
+  <RGK_FueledStove_Blueprint_Install.label>fueled stove (blueprint)</RGK_FueledStove_Blueprint_Install.label>
+  <RGK_FueledStove_Frame.label>fueled stove (building)</RGK_FueledStove_Frame.label>
+  <RGK_FueledStove_Frame.description>A wood-fueled stove with an attached countertop for preparing meals.</RGK_FueledStove_Frame.description>
+
+  <GL_ElectricStove.label>electric stove</GL_ElectricStove.label>
+  <GL_ElectricStove.description>A electric stove with an attached countertop for preparing meals.</GL_ElectricStove.description>
+  <GL_ElectricStove_Blueprint.label>electric stove (blueprint)</GL_ElectricStove_Blueprint.label>
+  <GL_ElectricStove_Blueprint_Install.label>electric stove (blueprint)</GL_ElectricStove_Blueprint_Install.label>
+  <GL_ElectricStove_Frame.label>electric stove (building)</GL_ElectricStove_Frame.label>
+  <GL_ElectricStove_Frame.description>A electric stove with an attached countertop for preparing meals.</GL_ElectricStove_Frame.description>
+
+
+  <!-- 화톳불 -->
+
+  <GL_Bonfire.label>bonfire</GL_Bonfire.label>
+  <GL_Bonfire.description>Cooks meals and produces heat, and burns out after a few days. As with all heat sources, it must be placed indoors so it has a closed space to heat. Refuelable.</GL_Bonfire.description>
+  <GL_Bonfire_Blueprint.label>bonfire (blueprint)</GL_Bonfire_Blueprint.label>
+  <GL_Bonfire_Blueprint_Install.label>bonfire (blueprint)</GL_Bonfire_Blueprint_Install.label>
+  <GL_Bonfire_Frame.label>bonfire (building)</GL_Bonfire_Frame.label>
+  <GL_Bonfire_Frame.description>Cooks meals and produces heat, and burns out after a few days. As with all heat sources, it must be placed indoors so it has a closed space to heat. Refuelable.</GL_Bonfire_Frame.description>
+
+
+  <!-- 재봉틀 -->
+
+  <GL_HandTailoringBench.label>hand tailor bench</GL_HandTailoringBench.label>
+  <GL_HandTailoringBench.description>A workbench for tailoring clothes by hand. Works at 50% of the speed of an electric tailoring bench.</GL_HandTailoringBench.description>
+  <GL_HandTailoringBench_Blueprint.label>hand tailor bench (blueprint)</GL_HandTailoringBench_Blueprint.label>
+  <GL_HandTailoringBench_Blueprint_Install.label>hand tailor bench (blueprint)</GL_HandTailoringBench_Blueprint_Install.label>
+  <GL_HandTailoringBench_Frame.label>hand tailor bench (building)</GL_HandTailoringBench_Frame.label>
+  <GL_HandTailoringBench_Frame.description>A workbench for tailoring clothes by hand. Works at 50% of the speed of an electric tailoring bench.</GL_HandTailoringBench_Frame.description>
+
+  <GL_ElectricTailoringBench.label>electric tailor bench</GL_ElectricTailoringBench.label>
+  <GL_ElectricTailoringBench.description>A workbench with a sewing machine for rapid tailoring of clothes. Can work without electricity at 50% of normal speed.</GL_ElectricTailoringBench.description>
+  <GL_ElectricTailoringBench_Blueprint.label>electric tailor bench (blueprint)</GL_ElectricTailoringBench_Blueprint.label>
+  <GL_ElectricTailoringBench_Blueprint_Install.label>electric tailor bench (blueprint)</GL_ElectricTailoringBench_Blueprint_Install.label>
+  <GL_ElectricTailoringBench_Frame.label>electric tailor bench (building)</GL_ElectricTailoringBench_Frame.label>
+  <GL_ElectricTailoringBench_Frame.description>A workbench with a sewing machine for rapid tailoring of clothes. Can work without electricity at 50% of normal speed.</GL_ElectricTailoringBench_Frame.description>
+
+
+  <!-- 단조대 -->
+
+  <GL_FueledSmithy.label>fueled smithy</GL_FueledSmithy.label>
+  <GL_FueledSmithy.description>A wood-fueled station for smithing non-mechanical weapons and tools.</GL_FueledSmithy.description>
+  <GL_FueledSmithy_Blueprint.label>fueled smithy (blueprint)</GL_FueledSmithy_Blueprint.label>
+  <GL_FueledSmithy_Blueprint_Install.label>fueled smithy (blueprint)</GL_FueledSmithy_Blueprint_Install.label>
+  <GL_FueledSmithy_Frame.label>fueled smithy (building)</GL_FueledSmithy_Frame.label>
+  <GL_FueledSmithy_Frame.description>A wood-fueled station for smithing non-mechanical weapons and tools.</GL_FueledSmithy_Frame.description>
+
+  <GL_ElectricSmithy.label>electric smithy</GL_ElectricSmithy.label>
+  <GL_ElectricSmithy.description>An electric-powered station for smithing non-mechanical weapons and tools.</GL_ElectricSmithy.description>
+  <GL_ElectricSmithy_Blueprint.label>electric smithy (blueprint)</GL_ElectricSmithy_Blueprint.label>
+  <GL_ElectricSmithy_Blueprint_Install.label>electric smithy (blueprint)</GL_ElectricSmithy_Blueprint_Install.label>
+  <GL_ElectricSmithy_Frame.label>electric smithy (building)</GL_ElectricSmithy_Frame.label>
+  <GL_ElectricSmithy_Frame.description>An electric-powered station for smithing non-mechanical weapons and tools.</GL_ElectricSmithy_Frame.description>
+
+
+</LanguageData>
