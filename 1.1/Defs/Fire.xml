@@ -1353,6 +1353,10 @@
 			<li Class="CompProperties_Flickable">
 				<commandTexture>UI/Commands/OnOff</commandTexture>
 			</li>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<basePowerConsumption>10</basePowerConsumption>
+			</li>
 			<li Class="Gloomylynx.WallLampCompProperties">
 				<lighingObject>GlowObject_White</lighingObject>
 				<compClass>Gloomylynx.WallLampComp</compClass>

@@ -6,9 +6,10 @@
 		<li>1.0</li>
 		<li>1.1</li>
 	</supportedVersions>
+	<packageId>Solaris.FurnitureBase</packageId>
 	<description>
 Old Style FurniturePack
-	
+
 Feature
 - Add New Old Style Furnitures
 - Add New Functional Furniture: JukeBox
