@@ -95,6 +95,10 @@
 			<li>CookMealFine</li>
 			<li>CookMealLavish</li>
 			<li>CookMealSurvival</li>
+			<li>CookMealSimpleBulk</li>
+			<li>CookMealFineBulk</li>
+			<li>CookMealLavishBulk</li>
+			<li>CookMealSurvivalBulk</li>
 			<li>Make_Pemmican</li>
 		</recipes>
 		<inspectorTabs>
@@ -129,7 +133,7 @@
 		</building>
 		<designationHotKey>Misc8</designationHotKey>
 	</ThingDef>
-	
+
 	<ThingDef ParentName="BenchBase">
 		<defName>GL_ElectricStove</defName>
 		<label>electric stove</label>
@@ -177,6 +181,10 @@
 			<li>CookMealFine</li>
 			<li>CookMealLavish</li>
 			<li>CookMealSurvival</li>
+			<li>CookMealSimpleBulk</li>
+			<li>CookMealFineBulk</li>
+			<li>CookMealLavishBulk</li>
+			<li>CookMealSurvivalBulk</li>
 			<li>Make_Pemmican</li>
 		</recipes>
 		<inspectorTabs>
@@ -313,7 +321,16 @@
 			<li>ITab_Bills</li>
 		</inspectorTabs>
 		<recipes>
-			<li>CookMealPasteD</li>			
+			<li>CookMealPasteD</li>				
+			<li>CookMealSimple</li>
+			<li>CookMealFine</li>
+			<li>CookMealLavish</li>
+			<li>CookMealSurvival</li>
+			<li>CookMealSimpleBulk</li>
+			<li>CookMealFineBulk</li>
+			<li>CookMealLavishBulk</li>
+			<li>CookMealSurvivalBulk</li>
+			<li>Make_Pemmican</li>	
 		</recipes>
 		<building>
 			<isMealSource>true</isMealSource>
@@ -325,7 +342,7 @@
 		<hasInteractionCell>True</hasInteractionCell>
 		<interactionCellOffset>(0,0,0)</interactionCellOffset>
 	</ThingDef>
-	
+
 	<!-- 재봉틀 -->
 	<ThingDef ParentName="BenchBase">
 		<defName>GL_HandTailoringBench</defName>

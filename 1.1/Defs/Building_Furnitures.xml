@@ -35,7 +35,7 @@
 			<WorkToBuild>800</WorkToBuild>
 			<Mass>45</Mass>
 			<BedRestEffectiveness>1</BedRestEffectiveness>
-			<Comfort>0.80</Comfort>
+			<Comfort>0.75</Comfort>
 			<ImmunityGainSpeedFactor>1.07</ImmunityGainSpeedFactor>
 			<SurgerySuccessChanceFactor>1</SurgerySuccessChanceFactor>
 		</statBases>
@@ -93,7 +93,7 @@
 			<WorkToBuild>800</WorkToBuild>
 			<Mass>45</Mass>
 			<BedRestEffectiveness>1</BedRestEffectiveness>
-			<Comfort>0.80</Comfort>
+			<Comfort>0.75</Comfort>
 			<ImmunityGainSpeedFactor>1.07</ImmunityGainSpeedFactor>
 			<SurgerySuccessChanceFactor>1</SurgerySuccessChanceFactor>
 		</statBases>
@@ -149,7 +149,7 @@
 			<Flammability>1.0</Flammability>
 			<WorkToBuild>1400</WorkToBuild>
 			<Mass>75</Mass>
-			<Comfort>0.75</Comfort>
+			<Comfort>0.85</Comfort>
 			<Beauty>8</Beauty>
 			<BedRestEffectiveness>1</BedRestEffectiveness>
 			<ImmunityGainSpeedFactor>1.07</ImmunityGainSpeedFactor>
@@ -209,7 +209,7 @@
 			<Flammability>1.0</Flammability>
 			<WorkToBuild>1400</WorkToBuild>
 			<Mass>75</Mass>
-			<Comfort>0.75</Comfort>
+			<Comfort>0.85</Comfort>
 			<Beauty>8</Beauty>
 			<BedRestEffectiveness>1</BedRestEffectiveness>
 			<ImmunityGainSpeedFactor>1.07</ImmunityGainSpeedFactor>
