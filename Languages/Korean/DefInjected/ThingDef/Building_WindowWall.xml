@@ -81,27 +81,18 @@
 
   <RGK_DoorOld.label>문</RGK_DoorOld.label>
   <RGK_DoorOld.description>방을 나눕니다. 수동으로 열고 닫으며 문 통과시 이동속도가 느려집니다.</RGK_DoorOld.description>
-  <RGK_DoorOld_Blueprint.label>문 (청사진)</RGK_DoorOld_Blueprint.label>
-  <RGK_DoorOld_Frame.label>문 (건설중)</RGK_DoorOld_Frame.label>
-  <RGK_DoorOld_Frame.description>방을 나눕니다. 수동으로 열고 닫으며 문 통과시 이동속도가 느려집니다.</RGK_DoorOld_Frame.description>
 
 
   <!-- 울타리문 -->
 
   <RGK_Door.label>울타리 문</RGK_Door.label>
   <RGK_Door.description>울타리 사이에 놓을 수 있는 울타리 문입니다.</RGK_Door.description>
-  <RGK_Door_Blueprint.label>울타리 문 (청사진)</RGK_Door_Blueprint.label>
-  <RGK_Door_Frame.label>울타리 문 (건설중)</RGK_Door_Frame.label>
-  <RGK_Door_Frame.description>울타리 사이에 놓을 수 있는 울타리 문입니다.</RGK_Door_Frame.description>
 
 
   <!-- 문틀 -->
 
   <GL_DoorFrame.label>문틀</GL_DoorFrame.label>
   <GL_DoorFrame.description>문주변을 꾸며주는 틀입니다.</GL_DoorFrame.description>
-  <GL_DoorFrame_Blueprint.label>문틀 (청사진)</GL_DoorFrame_Blueprint.label>
-  <GL_DoorFrame_Frame.label>문틀 (건설중)</GL_DoorFrame_Frame.label>
-  <GL_DoorFrame_Frame.description>문주변을 꾸며주는 틀입니다.</GL_DoorFrame_Frame.description>
 
 
   <!-- 19.03.17 바닥 경계석 -->
@@ -129,6 +120,5 @@
   <GL_BoundaryStoneCorner_Blueprint.label>경계석 (모서리) (청사진)</GL_BoundaryStoneCorner_Blueprint.label>
   <GL_BoundaryStoneCorner_Frame.label>경계석 (모서리) (건설중)</GL_BoundaryStoneCorner_Frame.label>
   <GL_BoundaryStoneCorner_Frame.description>바닥의 경계를 구분짓기 위한 경계석입니다.</GL_BoundaryStoneCorner_Frame.description>
-
 
 </LanguageData>

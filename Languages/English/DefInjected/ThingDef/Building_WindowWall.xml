@@ -81,27 +81,18 @@
 
   <RGK_DoorOld.label>classic door</RGK_DoorOld.label>
   <RGK_DoorOld.description>Divides rooms. Simple doors must be manually opened, which slows people down. The amount of slowdown depends on what the door is made of.</RGK_DoorOld.description>
-  <RGK_DoorOld_Blueprint.label>classic door (blueprint)</RGK_DoorOld_Blueprint.label>
-  <RGK_DoorOld_Frame.label>classic door (building)</RGK_DoorOld_Frame.label>
-  <RGK_DoorOld_Frame.description>Divides rooms. Simple doors must be manually opened, which slows people down. The amount of slowdown depends on what the door is made of.</RGK_DoorOld_Frame.description>
 
 
   <!-- 울타리문 -->
 
   <RGK_Door.label>door</RGK_Door.label>
   <RGK_Door.description>Divides rooms. Simple doors must be manually opened, which slows people down. The amount of slowdown depends on what the door is made of.</RGK_Door.description>
-  <RGK_Door_Blueprint.label>fence door (blueprint)</RGK_Door_Blueprint.label>
-  <RGK_Door_Frame.label>fence door (building)</RGK_Door_Frame.label>
-  <RGK_Door_Frame.description>Divides rooms. Simple doors must be manually opened, which slows people down. The amount of slowdown depends on what the door is made of.</RGK_Door_Frame.description>
 
 
   <!-- 문틀 -->
 
   <GL_DoorFrame.label>door frame</GL_DoorFrame.label>
   <GL_DoorFrame.description>It is a frame to decorate the door.</GL_DoorFrame.description>
-  <GL_DoorFrame_Blueprint.label>door frame (blueprint)</GL_DoorFrame_Blueprint.label>
-  <GL_DoorFrame_Frame.label>door frame (building)</GL_DoorFrame_Frame.label>
-  <GL_DoorFrame_Frame.description>It is a frame to decorate the door.</GL_DoorFrame_Frame.description>
 
 
   <!-- 19.03.17 바닥 경계석 -->
@@ -129,8 +120,6 @@
   <GL_BoundaryStoneCorner_Blueprint.label>boundary stone corner (blueprint)</GL_BoundaryStoneCorner_Blueprint.label>
   <GL_BoundaryStoneCorner_Frame.label>boundary stone corner (building)</GL_BoundaryStoneCorner_Frame.label>
   <GL_BoundaryStoneCorner_Frame.description>It is the boundary stone for boundary division.</GL_BoundaryStoneCorner_Frame.description>
-
-
   <!-- window -->
 
 </LanguageData>

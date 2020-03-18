@@ -24,9 +24,4 @@
   <PassableObject_CantPass>통과 가능한 지형에 설치해야 합니다.</PassableObject_CantPass>
 
   <StandableObject_CantPass>서있을 수 있는 지형 위에 설치해야 합니다..</StandableObject_CantPass>
-
-  <!--[Core] <State>State</State>-->
-  <!--<State>State</State>-->
-  <!--<State>상태</State>-->
-
 </LanguageData>

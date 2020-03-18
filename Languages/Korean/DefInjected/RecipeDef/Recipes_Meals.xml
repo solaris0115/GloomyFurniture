@@ -21,18 +21,4 @@
   <CookMealSurvivalD.description>육류와 식물성 재료를 사용해 포장된 보존 식량을 만듭니다. 약간의 식재료가 낭비됩니다. 4개를 조리합니다.</CookMealSurvivalD.description>
   <CookMealSurvivalD.jobString>보존 식량 4개 조리 중.</CookMealSurvivalD.jobString>
 
-
-  <!-- EN: cook fine meal -->
-  <!-- EN: Cook a somewhat complex meal from a combination of meat and plant ingredients. -->
-  <!-- EN: Cooking fine meal. -->
-  <!-- EN: cook lavish meal -->
-  <!-- EN: Cook a very complex meal from a combination of meat and plant ingredients. Much of the ingredients are wasted. -->
-  <!-- EN: Cooking lavish meal. -->
-  <!-- EN: cook simple meal -->
-  <!-- EN: Cook a straightforward meal from one ingredient. -->
-  <!-- EN: Cooking simple meal. -->
-  <!-- EN: cook packaged survival meal -->
-  <!-- EN: Prepare a packaged survival meal from a combination of meat and plant ingredients. Much of the ingredients are wasted in the preservation process. -->
-  <!-- EN: Cooking survival meal. -->
-
 </LanguageData>

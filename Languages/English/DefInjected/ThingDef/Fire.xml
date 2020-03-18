@@ -46,6 +46,36 @@
   <RGK_lampE_Frame.description>It's a small lamp. I think I can use it safely even when it rains. Works as electricity.</RGK_lampE_Frame.description>
 
 
+  <!-- Lamp -->
+
+  <GL_lamp_White.label>Lamp(white)</GL_lamp_White.label>
+  <GL_lamp_White.description>It's a small lamp. I think I can use it safely even when it rains.</GL_lamp_White.description>
+  <GL_lamp_White_Blueprint.label>Lamp(white) (blueprint)</GL_lamp_White_Blueprint.label>
+  <GL_lamp_White_Blueprint_Install.label>Lamp(white) (blueprint)</GL_lamp_White_Blueprint_Install.label>
+  <GL_lamp_White_Frame.label>Lamp(white) (building)</GL_lamp_White_Frame.label>
+  <GL_lamp_White_Frame.description>It's a small lamp. I think I can use it safely even when it rains.</GL_lamp_White_Frame.description>
+
+
+  <!-- Lamp M -->
+
+  <GL_LampM_White.label>Lamp M(white)</GL_LampM_White.label>
+  <GL_LampM_White.description>It's a small lamp. I think I can use it safely even when it rains.</GL_LampM_White.description>
+  <GL_LampM_White_Blueprint.label>Lamp M(white) (blueprint)</GL_LampM_White_Blueprint.label>
+  <GL_LampM_White_Blueprint_Install.label>Lamp M(white) (blueprint)</GL_LampM_White_Blueprint_Install.label>
+  <GL_LampM_White_Frame.label>Lamp M(white) (building)</GL_LampM_White_Frame.label>
+  <GL_LampM_White_Frame.description>It's a small lamp. I think I can use it safely even when it rains.</GL_LampM_White_Frame.description>
+
+
+  <!-- Lamp E -->
+
+  <GL_lampE_White.label>Lamp E(white)</GL_lampE_White.label>
+  <GL_lampE_White.description>It's a small lamp. I think I can use it safely even when it rains. Works as electricity.</GL_lampE_White.description>
+  <GL_lampE_White_Blueprint.label>Lamp E(white) (blueprint)</GL_lampE_White_Blueprint.label>
+  <GL_lampE_White_Blueprint_Install.label>Lamp E(white) (blueprint)</GL_lampE_White_Blueprint_Install.label>
+  <GL_lampE_White_Frame.label>Lamp E(white) (building)</GL_lampE_White_Frame.label>
+  <GL_lampE_White_Frame.description>It's a small lamp. I think I can use it safely even when it rains. Works as electricity.</GL_lampE_White_Frame.description>
+
+
   <!-- Street Lamp -->
 
   <RGK_Street_Lamp_L.label>street lamp</RGK_Street_Lamp_L.label>
@@ -76,28 +106,55 @@
   <RGK_Street_Lamp_SevenE_Frame.description>It's a street lamp. It lights the way in the dark. Works as electricity.</RGK_Street_Lamp_SevenE_Frame.description>
 
 
+  <!-- Street Lamp -->
+
+  <GL_Street_Lamp_L_White.label>Street lamp(white)</GL_Street_Lamp_L_White.label>
+  <GL_Street_Lamp_L_White.description>It's a street lamp.</GL_Street_Lamp_L_White.description>
+  <GL_Street_Lamp_L_White_Blueprint.label>Street lamp(white) (blueprint)</GL_Street_Lamp_L_White_Blueprint.label>
+  <GL_Street_Lamp_L_White_Frame.label>Street lamp(white) (building)</GL_Street_Lamp_L_White_Frame.label>
+  <GL_Street_Lamp_L_White_Frame.description>It's a street lamp.</GL_Street_Lamp_L_White_Frame.description>
+
+  <GL_Street_Lamp_White.label>Street lamp E(white)</GL_Street_Lamp_White.label>
+  <GL_Street_Lamp_White.description>It's a street lamp. It lights the way in the dark. Works as electricity.</GL_Street_Lamp_White.description>
+  <GL_Street_Lamp_White_Blueprint.label>Street lamp E(white) (blueprint)</GL_Street_Lamp_White_Blueprint.label>
+  <GL_Street_Lamp_White_Frame.label>Street lamp E(white) (building)</GL_Street_Lamp_White_Frame.label>
+  <GL_Street_Lamp_White_Frame.description>It's a street lamp. It lights the way in the dark. Works as electricity.</GL_Street_Lamp_White_Frame.description>
+
+
+  <!-- Street Lamp Seven -->
+
+  <GL_Street_Lamp_Seven_White.label>Street lamp(white)</GL_Street_Lamp_Seven_White.label>
+  <GL_Street_Lamp_Seven_White.description>It's a street lamp. It lights the way in the dark.</GL_Street_Lamp_Seven_White.description>
+  <GL_Street_Lamp_Seven_White_Blueprint.label>Street lamp(white) (blueprint)</GL_Street_Lamp_Seven_White_Blueprint.label>
+  <GL_Street_Lamp_Seven_White_Frame.label>Street lamp(white) (building)</GL_Street_Lamp_Seven_White_Frame.label>
+  <GL_Street_Lamp_Seven_White_Frame.description>It's a street lamp. It lights the way in the dark.</GL_Street_Lamp_Seven_White_Frame.description>
+
+  <GL_Street_Lamp_SevenE_White.label>Street lamp E(white)</GL_Street_Lamp_SevenE_White.label>
+  <GL_Street_Lamp_SevenE_White.description>It's a street lamp. It lights the way in the dark. Works as electricity.</GL_Street_Lamp_SevenE_White.description>
+  <GL_Street_Lamp_SevenE_White_Blueprint.label>Street lamp E(white) (blueprint)</GL_Street_Lamp_SevenE_White_Blueprint.label>
+  <GL_Street_Lamp_SevenE_White_Frame.label>Street lamp E(white) (building)</GL_Street_Lamp_SevenE_White_Frame.label>
+  <GL_Street_Lamp_SevenE_White_Frame.description>It's a street lamp. It lights the way in the dark. Works as electricity.</GL_Street_Lamp_SevenE_White_Frame.description>
+
+
   <!-- 랜턴 -->
 
   <GL_Wall_Lamp.label>wall lamp</GL_Wall_Lamp.label>
   <GL_Wall_Lamp.description>A light fixture designed to be mounted on a wall.</GL_Wall_Lamp.description>
-  <GL_Wall_Lamp_Blueprint.label>wall lamp (blueprint)</GL_Wall_Lamp_Blueprint.label>
-  <GL_Wall_Lamp_Frame.label>wall lamp (building)</GL_Wall_Lamp_Frame.label>
-  <GL_Wall_Lamp_Frame.description>A light fixture designed to be mounted on a wall.</GL_Wall_Lamp_Frame.description>
 
   <GL_Wall_LampE.label>wall lamp E</GL_Wall_LampE.label>
   <GL_Wall_LampE.description>A light fixture designed to be mounted on a wall.</GL_Wall_LampE.description>
-  <GL_Wall_LampE_Blueprint.label>wall lamp E (blueprint)</GL_Wall_LampE_Blueprint.label>
-  <GL_Wall_LampE_Frame.label>wall lamp E (building)</GL_Wall_LampE_Frame.label>
-  <GL_Wall_LampE_Frame.description>A light fixture designed to be mounted on a wall.</GL_Wall_LampE_Frame.description>
+
+  <GL_Wall_Lamp_White.label>wall lamp(white)</GL_Wall_Lamp_White.label>
+  <GL_Wall_Lamp_White.description>A light fixture designed to be mounted on a wall.</GL_Wall_Lamp_White.description>
+
+  <GL_Wall_LampE_White.label>wall lamp E(white)</GL_Wall_LampE_White.label>
+  <GL_Wall_LampE_White.description>A light fixture designed to be mounted on a wall.</GL_Wall_LampE_White.description>
 
   <GlowObject.label>wall light</GlowObject.label>
 
 
-  <!--<GL_Wall_Lamp_Blueprint.label>wall lamp (blueprint)</GL_Wall_Lamp_Blueprint.label>-->
-  <!--<GL_Wall_Lamp_Frame.label>wall lamp (building)</GL_Wall_Lamp_Frame.label>-->
-  <!--<GL_Wall_Lamp_Frame.description>A light fixture designed to be mounted on a wall.</GL_Wall_Lamp_Frame.description>-->
-  <!--<GL_Wall_LampE_Blueprint.label>wall lamp E (blueprint)</GL_Wall_LampE_Blueprint.label>-->
-  <!--<GL_Wall_LampE_Frame.label>wall lamp E (building)</GL_Wall_LampE_Frame.label>-->
-  <!--<GL_Wall_LampE_Frame.description>A light fixture designed to be mounted on a wall.</GL_Wall_LampE_Frame.description>-->
+  <!-- white Type -->
+
+  <GlowObject_White.label>Wall light</GlowObject_White.label>
 
 </LanguageData>
