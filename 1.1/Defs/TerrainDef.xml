@@ -18,6 +18,9 @@
 		<!-- </costList> -->
 		<!-- <constructEffect>ConstructWood</constructEffect> -->
 		<!-- <designationHotKey>Misc7</designationHotKey> -->
+		<!-- <tags> -->
+		  <!-- <li>FineFloor</li> -->
+		<!-- </tags> -->
 	<!-- </TerrainDef> -->
 	
 	

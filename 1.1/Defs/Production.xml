@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
+	
 	<ThingDef ParentName="BenchBase">
 		<defName>RGK_SimpleResearchBench</defName>
 		<label>simple research bench</label>
@@ -51,6 +52,72 @@
 		<designationHotKey>Misc8</designationHotKey>
 	</ThingDef>
 
+	<!-- 도축대  -->
+	<ThingDef ParentName="BenchBase">
+		<defName>GL_TableButcher</defName>
+		<label>butcher table</label>
+		<description>A heavy table for butchering dead creatures into pieces of raw meat.</description>
+		<thingClass>Building_WorkTable</thingClass>
+		<graphicData>
+			<texPath>Things/Building/Production/GL_TableButcher</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(4,4)</drawSize>
+			<shaderType>CutoutComplex</shaderType>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+		</graphicData>
+		<castEdgeShadows>true</castEdgeShadows>
+		<staticSunShadowHeight>0.20</staticSunShadowHeight>
+		<costStuffCount>80</costStuffCount>
+		<stuffCategories>
+			<li>Woody</li>
+		</stuffCategories>
+		<altitudeLayer>Building</altitudeLayer>
+		<fillPercent>0.5</fillPercent>
+		<useHitPoints>True</useHitPoints>
+		<statBases>
+			<WorkToBuild>2000</WorkToBuild>
+			<MaxHitPoints>180</MaxHitPoints>
+			<Flammability>1.0</Flammability>
+			<Cleanliness>-15</Cleanliness>
+		</statBases>
+		<size>(2,1)</size>
+		<designationCategory>OldStyleFurniture</designationCategory>
+		<passability>PassThroughOnly</passability>
+		<pathCost>60</pathCost>
+		<hasInteractionCell>True</hasInteractionCell>
+		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
+		<surfaceType>Item</surfaceType>
+		<recipes>
+			<li>ButcherCorpseFlesh</li>
+			<li>Make_Kibble</li>
+		</recipes>
+		<inspectorTabs>
+			<li>ITab_Bills</li>
+		</inspectorTabs>
+		<building>
+			<spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+		</building>
+		<comps>
+			<li Class="CompProperties_AffectedByFacilities">
+				<linkableFacilities>
+					<li>ToolCabinet</li>
+				</linkableFacilities>
+			</li>
+		</comps>
+		<designationHotKey>Misc3</designationHotKey>
+		<placeWorkers>
+			<li>PlaceWorker_ShowFacilitiesConnections</li>
+			<li>PlaceWorker_PreventInteractionSpotOverlap</li>
+		</placeWorkers>
+	</ThingDef>
+	
+	
+	<!-- 연료 조리대  -->
 	<ThingDef ParentName="BenchBase">
 		<defName>RGK_FueledStove</defName>
 		<label>fueled stove</label>
@@ -134,6 +201,7 @@
 		<designationHotKey>Misc8</designationHotKey>
 	</ThingDef>
 
+	<!-- 전기 조리대  -->
 	<ThingDef ParentName="BenchBase">
 		<defName>GL_ElectricStove</defName>
 		<label>electric stove</label>
@@ -220,7 +288,6 @@
 		<constructionSkillPrerequisite>4</constructionSkillPrerequisite>
 		<designationHotKey>Misc8</designationHotKey>
 	</ThingDef>
-
 	<!-- 화톳불  -->
 	<ThingDef ParentName="BuildingBase">
 		<defName>GL_Bonfire</defName>
