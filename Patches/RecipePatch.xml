@@ -96,4 +96,20 @@
 			</li>
 		</operations>
 	</Operation>
+	
+	
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>Defs/WorkGiverDef[defName="DoBillsButcherFlesh"]/fixedBillGiverDefs</xpath>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/WorkGiverDef[defName="DoBillsButcherFlesh"]/fixedBillGiverDefs</xpath>
+				<value>
+					<li>GL_TableButcher</li>				
+				</value>
+			</li>
+		</operations>
+	</Operation>
 </Patch>
