@@ -97,7 +97,6 @@
 		</operations>
 	</Operation>
 	
-	
 	<Operation Class="PatchOperationSequence">
 		<success>Always</success>
 		<operations>
@@ -108,6 +107,34 @@
 				<xpath>Defs/WorkGiverDef[defName="DoBillsButcherFlesh"]/fixedBillGiverDefs</xpath>
 				<value>
 					<li>GL_TableButcher</li>				
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>Defs/ThingDef/recipeMaker/recipeUsers[li="TableButcher"]</xpath>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef/recipeMaker/recipeUsers[li="TableButcher"]</xpath>
+				<value>
+					<li>GL_TableButcher</li>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>Defs/RecipeDef/recipeUsers[li="TableButcher"]</xpath>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/RecipeDef/recipeUsers[li="TableButcher"]</xpath>
+				<value>
+					<li>GL_TableButcher</li>
 				</value>
 			</li>
 		</operations>
