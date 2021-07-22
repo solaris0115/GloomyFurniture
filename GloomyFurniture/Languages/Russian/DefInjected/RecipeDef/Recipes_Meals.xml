@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <CookMealPasteD.label>приготовить пасту X 4</CookMealPasteD.label>
+  <CookMealPasteD.description>Готовьте несложную еду из одного ингредиента.</CookMealPasteD.description>
+  <CookMealPasteD.jobString>Приготовление пасты.</CookMealPasteD.jobString>
+
+  <CookMealSimpleD.label>готовить простую еду X 4</CookMealSimpleD.label>
+  <CookMealSimpleD.description>Готовьте несложную еду из одного ингредиента.</CookMealSimpleD.description>
+  <CookMealSimpleD.jobString>Приготовление простой еды.</CookMealSimpleD.jobString>
+
+  <CookMealFineD.label>приготовить хорошую еду X 4</CookMealFineD.label>
+  <CookMealFineD.description>Приготовьте довольно сложную еду из сочетания мясных и растительных ингредиентов.</CookMealFineD.description>
+  <CookMealFineD.jobString>Приготовление хорошой еды.</CookMealFineD.jobString>
+
+  <CookMealLavishD.label>приготовить отличную еду X 4</CookMealLavishD.label>
+  <CookMealLavishD.description>Приготовьте очень сложное, но вкусное блюдо из сочетания мясных и растительных ингредиентов. Большая часть ингредиентов тратится впустую.</CookMealLavishD.description>
+  <CookMealLavishD.jobString>Приготовление отличной еды.</CookMealLavishD.jobString>
+
+  <CookMealSurvivalD.label>готовить упакованную еду X 4</CookMealSurvivalD.label>
+  <CookMealSurvivalD.description>Приготовьте упакованную еду для выживания из комбинации мясных и растительных ингредиентов. Большая часть ингредиентов теряется в процессе консервирования.</CookMealSurvivalD.description>
+  <CookMealSurvivalD.jobString>Приготовление упакованной еды.</CookMealSurvivalD.jobString>
+
+
+</LanguageData>
