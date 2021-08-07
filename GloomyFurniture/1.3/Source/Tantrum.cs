@@ -208,7 +208,7 @@ namespace Gloomylynx
             }
             if (thingDef.IsEdifice())
             {
-                if (thingDef.BlockPlanting && thingDef2.category == ThingCategory.Plant)
+                if (thingDef.blockPlants && thingDef2.category == ThingCategory.Plant)
                 {
                     __result = true;
                     return false;

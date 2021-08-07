@@ -10,6 +10,7 @@
 			<li>BuildingsFurniture</li>
 		</thingCategories>
 		<minifiedDef>MinifiedThing</minifiedDef>	
+		<drawerType>RealtimeOnly</drawerType>
 		<graphicData>
 			<texPath>Things/Building/Furniture/RGK_Fireplace2</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
@@ -103,6 +104,7 @@
 		<description>It's a warm fireplace that warms the room. Works as electricity.</description>    
 		<thingClass>Building_Heater</thingClass>
 		<category>Building</category>
+		<drawerType>RealtimeOnly</drawerType>
 		<graphicData>
 			<texPath>Things/Building/Furniture/RGK_Fireplace2</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
@@ -801,6 +803,7 @@
 				<rect>(0.35,0.35,0.3,0.3)</rect>
 			</damageData>
 		</graphicData>
+		<drawerType>RealtimeOnly</drawerType>
 		<uiIconPath>Things/Building/Furniture/GL_Lamp_Seven_Icon</uiIconPath>
 		<uiIconScale>1.25</uiIconScale>
 		<altitudeLayer>Building</altitudeLayer>
@@ -875,7 +878,8 @@
 			<damageData>
 				<rect>(0.35,0.35,0.3,0.3)</rect>
 			</damageData>
-		</graphicData>
+		</graphicData>		
+		<drawerType>RealtimeOnly</drawerType>
 		<uiIconPath>Things/Building/Furniture/GL_Lamp_Seven_Icon</uiIconPath>
 		<uiIconScale>1.25</uiIconScale>
 		<altitudeLayer>Building</altitudeLayer>

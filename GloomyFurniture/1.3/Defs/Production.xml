@@ -329,6 +329,7 @@
 				<cornerBR>Damage/Corner</cornerBR>
 			</damageData>
 		</graphicData>
+		<drawerType>RealtimeOnly</drawerType>
 		<uiIconScale>1</uiIconScale>
 		<altitudeLayer>Building</altitudeLayer>
 		<tickerType>Normal</tickerType>

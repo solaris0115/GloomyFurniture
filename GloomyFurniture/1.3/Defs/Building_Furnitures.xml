@@ -253,6 +253,7 @@
 				<rect>(0,0.05,2,1.95)</rect>
 			</damageData>
 		</graphicData>
+		<drawerType>RealtimeOnly</drawerType>
 		<comps>
 			<li Class="CompProperties_AffectedByFacilities">
 				<linkableFacilities>
