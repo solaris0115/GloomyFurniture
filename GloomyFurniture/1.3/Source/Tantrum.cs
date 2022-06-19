@@ -21,7 +21,7 @@ namespace Gloomylynx
             harmonyInstance.Patch(AccessTools.Method(typeof(TantrumMentalStateUtility), "CanSmash"), null, new HarmonyMethod(patchType, "CanSmashPostfix", null));
             harmonyInstance.Patch(AccessTools.Method(typeof(Pawn), "CheckForDisturbedSleep"), new HarmonyMethod(patchType, "CheckForDisturbedSleepPrefix", null));
             harmonyInstance.Patch(AccessTools.Method(typeof(GenConstruct), "CanPlaceBlueprintOver"), new HarmonyMethod(patchType, "CanPlaceBlueprintOverPrefix", null));
-            harmonyInstance.Patch(AccessTools.Method(typeof(GenSpawn), "SpawningWipes"), new HarmonyMethod(patchType, "SpawningWipesPrefix", null));
+            //harmonyInstance.Patch(AccessTools.Method(typeof(GenSpawn), "SpawningWipes"), new HarmonyMethod(patchType, "SpawningWipesPrefix", null));
 
         }
 
