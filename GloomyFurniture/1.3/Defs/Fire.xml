@@ -25,7 +25,7 @@
 		<uiIconPath>Things/Building/Furniture/RGK_Fireplace2_south</uiIconPath>
 		<uiIconOffset>(0, 0.15)</uiIconOffset>
 		<uiIconScale>1.5</uiIconScale>
-		<altitudeLayer>Building</altitudeLayer>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
 		<passability>Impassable</passability>
 		<tickerType>Normal</tickerType>
 		<fillPercent>0.20</fillPercent>
@@ -123,7 +123,7 @@
 		<uiIconPath>Things/Building/Furniture/RGK_Fireplace2_south</uiIconPath>
 		<uiIconOffset>(0, 0.15)</uiIconOffset>
 		<uiIconScale>1.5</uiIconScale>
-		<altitudeLayer>Building</altitudeLayer>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
 		<passability>Impassable</passability>
 		<tickerType>Rare</tickerType>
 		<fillPercent>0.20</fillPercent>
@@ -684,7 +684,7 @@
 		<uiIconPath>Things/Building/Furniture/GL_Street_Lamp_Icon</uiIconPath>
 		<uiIconScale>1.25</uiIconScale>
 		<rotatable>false</rotatable>
-		<altitudeLayer>Building</altitudeLayer>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
 		<passability>PassThroughOnly</passability>
 		<pathCost>8</pathCost>
 		<constructEffect>ConstructMetal</constructEffect>
@@ -748,7 +748,7 @@
 		<uiIconPath>Things/Building/Furniture/GL_Street_Lamp_Icon</uiIconPath>
 		<uiIconScale>1.25</uiIconScale>
 		<rotatable>false</rotatable>
-		<altitudeLayer>Building</altitudeLayer>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
 		<passability>PassThroughOnly</passability>
 		<pathCost>8</pathCost>
 		<constructEffect>ConstructMetal</constructEffect>
@@ -806,7 +806,7 @@
 		<drawerType>RealtimeOnly</drawerType>
 		<uiIconPath>Things/Building/Furniture/GL_Lamp_Seven_Icon</uiIconPath>
 		<uiIconScale>1.25</uiIconScale>
-		<altitudeLayer>Building</altitudeLayer>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
 		<passability>PassThroughOnly</passability>
 		<pathCost>8</pathCost>
 		<constructEffect>ConstructMetal</constructEffect>
@@ -882,7 +882,7 @@
 		<drawerType>RealtimeOnly</drawerType>
 		<uiIconPath>Things/Building/Furniture/GL_Lamp_Seven_Icon</uiIconPath>
 		<uiIconScale>1.25</uiIconScale>
-		<altitudeLayer>Building</altitudeLayer>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
 		<passability>PassThroughOnly</passability>
 		<pathCost>8</pathCost>
 		<constructEffect>ConstructMetal</constructEffect>
@@ -954,7 +954,7 @@
 		<uiIconPath>Things/Building/Furniture/GL_Street_Lamp_Icon</uiIconPath>
 		<uiIconScale>1.25</uiIconScale>
 		<rotatable>false</rotatable>
-		<altitudeLayer>Building</altitudeLayer>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
 		<passability>PassThroughOnly</passability>
 		<pathCost>8</pathCost>
 		<constructEffect>ConstructMetal</constructEffect>
@@ -1018,7 +1018,7 @@
 		<uiIconPath>Things/Building/Furniture/GL_Street_Lamp_Icon</uiIconPath>
 		<uiIconScale>1.25</uiIconScale>
 		<rotatable>false</rotatable>
-		<altitudeLayer>Building</altitudeLayer>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
 		<passability>PassThroughOnly</passability>
 		<pathCost>8</pathCost>
 		<constructEffect>ConstructMetal</constructEffect>
@@ -1075,7 +1075,7 @@
 		</graphicData>
 		<uiIconPath>Things/Building/Furniture/GL_Lamp_Seven_Icon</uiIconPath>
 		<uiIconScale>1.25</uiIconScale>
-		<altitudeLayer>Building</altitudeLayer>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
 		<passability>PassThroughOnly</passability>
 		<pathCost>8</pathCost>
 		<constructEffect>ConstructMetal</constructEffect>
@@ -1150,7 +1150,7 @@
 		</graphicData>
 		<uiIconPath>Things/Building/Furniture/GL_Lamp_Seven_Icon</uiIconPath>
 		<uiIconScale>1.25</uiIconScale>
-		<altitudeLayer>Building</altitudeLayer>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
 		<passability>PassThroughOnly</passability>
 		<pathCost>8</pathCost>
 		<constructEffect>ConstructMetal</constructEffect>
