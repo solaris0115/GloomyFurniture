@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Chess Table -->
+
+  <GL_ChessTable.label>チェス盤</GL_ChessTable.label>
+  <GL_ChessTable.description>古のゲームの王様です.随所で数時間は楽しめます.もちろん一人でも遊べます.知力スキルが鍛えられます.</GL_ChessTable.description>
+  <Blueprint_GL_ChessTable.label>チェス盤 (設計)</Blueprint_GL_ChessTable.label>
+  <Blueprint_Install_GL_ChessTable.label>チェス盤 (移動先)</Blueprint_Install_GL_ChessTable.label>
+  <Frame_GL_ChessTable.label>チェス盤 (施工)</Frame_GL_ChessTable.label>
+  <Frame_GL_ChessTable.description>古のゲームの王様です.随所で数時間は楽しめます.もちろん一人でも遊べます.知力スキルが鍛えられます.</Frame_GL_ChessTable.description>
+
+
+  <!-- Poker Table -->
+
+  <GL_PokerTable.label>ポーカーテーブル</GL_PokerTable.label>
+  <GL_PokerTable.description>ギャンブルカードゲーム,もっぱらポーカーを楽しむためにデザインされた机です.貴方の戦略眼と,ちょっとした運を試すには良い方法です.</GL_PokerTable.description>
+  <Blueprint_GL_PokerTable.label>ポーカーテーブル (設計)</Blueprint_GL_PokerTable.label>
+  <Blueprint_Install_GL_PokerTable.label>ポーカーテーブル (移動先)</Blueprint_Install_GL_PokerTable.label>
+  <Frame_GL_PokerTable.label>ポーカーテーブル (施工)</Frame_GL_PokerTable.label>
+  <Frame_GL_PokerTable.description>ギャンブルカードゲーム,もっぱらポーカーを楽しむためにデザインされた机です.貴方の戦略眼と,ちょっとした運を試すには良い方法です.</Frame_GL_PokerTable.description>
+
+
+  <!-- Billiards Table -->
+
+  <GL_BilliardsTable.label>ビリヤード台</GL_BilliardsTable.label>
+  <GL_BilliardsTable.description>表面を柔らかな布で覆い,周囲を枠で囲った台です.様々な種類のビリヤードゲームを楽しめます.射撃スキルが鍛えられます.</GL_BilliardsTable.description>
+  <Blueprint_GL_BilliardsTable.label>ビリヤード台 (設計)</Blueprint_GL_BilliardsTable.label>
+  <Blueprint_Install_GL_BilliardsTable.label>ビリヤード台 (移動先)</Blueprint_Install_GL_BilliardsTable.label>
+  <Frame_GL_BilliardsTable.label>ビリヤード台 (施工)</Frame_GL_BilliardsTable.label>
+  <Frame_GL_BilliardsTable.description>表面を柔らかな布で覆い,周囲を枠で囲った台です.様々な種類のビリヤードゲームを楽しめます.射撃スキルが鍛えられます.</Frame_GL_BilliardsTable.description>
+
+
+  <!-- Tube Television -->
+
+  <GL_TubeTelevision.label>ブラウン管テレビ</GL_TubeTelevision.label>
+  <GL_TubeTelevision.description>音声付きの動画を映し出す陰極線管ディスプレイです.ここ辺境世界でも,少しくらいは興味を持てるような放送をしている旧式の施設があるものです.</GL_TubeTelevision.description>
+  <Blueprint_GL_TubeTelevision.label>ブラウン管テレビ (設計)</Blueprint_GL_TubeTelevision.label>
+  <Blueprint_Install_GL_TubeTelevision.label>ブラウン管テレビ (移動先)</Blueprint_Install_GL_TubeTelevision.label>
+  <Frame_GL_TubeTelevision.label>ブラウン管テレビ (施工)</Frame_GL_TubeTelevision.label>
+  <Frame_GL_TubeTelevision.description>音声付きの動画を映し出す陰極線管ディスプレイです.ここ辺境世界でも,少しくらいは興味を持てるような放送をしている旧式の施設があるものです.</Frame_GL_TubeTelevision.description>
+
+</LanguageData>
