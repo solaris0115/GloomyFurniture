@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingCategoryDef>
+		<defName>AnimalFoods</defName>
+		<label>animal foods</label>
+		<iconPath>UI/Icon/Kibble</iconPath>
+	</ThingCategoryDef>	
+
+	<ThingCategoryDef>
+		<defName>Alcohol</defName>
+		<label>alcohol</label>
+		<iconPath>UI/Icon/Beer</iconPath>
+	</ThingCategoryDef>
+
+	<DesignationCategoryDef>
+		<defName>OldStyleFurniture</defName>
+		<label>old style</label>
+		<order>500</order>
+		<specialDesignatorClasses>
+			<li>Designator_Cancel</li>
+			<li>Designator_Deconstruct</li>
+		</specialDesignatorClasses>
+	</DesignationCategoryDef>
+	
+	<DesignationCategoryDef>
+		<defName>OldStyleDeco</defName>
+		<label>GloomyDeco</label>
+		<order>510</order>
+		<specialDesignatorClasses>
+			<li>Designator_Cancel</li>
+			<li>Designator_Deconstruct</li>
+		</specialDesignatorClasses>
+	</DesignationCategoryDef>  
+</Defs>
