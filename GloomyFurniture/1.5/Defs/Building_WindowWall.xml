@@ -496,10 +496,16 @@
 		<graphicData>
 			<texPath>Things/Building/Linked/RGK_WoodFence</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<linkType>Basic</linkType>
+			<linkType>Asymmetric</linkType>
 			<linkFlags>
 				<li>Custom1</li>
 			</linkFlags>
+			<asymmetricLink>
+				<linkFlags>
+					<li>Custom1</li>
+				</linkFlags>
+				<linkToDoors>false</linkToDoors>
+			</asymmetricLink>
 			<damageData>
 				<cornerTL>Damage/Corner</cornerTL>
 				<cornerTR>Damage/Corner</cornerTR>
@@ -526,7 +532,7 @@
 		<altitudeLayer>Building</altitudeLayer>
 		<passability>Impassable</passability>
 		<castEdgeShadows>true</castEdgeShadows>
-		<fillPercent>0.1</fillPercent>
+		<fillPercent>0.25</fillPercent>
 		<coversFloor>false</coversFloor>
 		<placingDraggableDimensions>1</placingDraggableDimensions>
 		<tickerType>Never</tickerType>
@@ -537,14 +543,19 @@
 		<holdsRoof>true</holdsRoof>
 		<blockLight>false</blockLight>
 		<building>
+			<isInert>true</isInert>
+			<isFence>true</isFence>
+			<isPlaceOverableWall>true</isPlaceOverableWall>
+			<ai_chillDestination>false</ai_chillDestination>
+			<ai_neverTrashThis>true</ai_neverTrashThis>
 			<blueprintGraphicData>
 				<texPath>Things/Building/Linked/RKG_WoodFence_Blueprint_Atlas</texPath>
 			</blueprintGraphicData>
-			<isInert>true</isInert>
 			<canPlaceOverWall>true</canPlaceOverWall>
 		</building>
 		<designationCategory>OldStyleFurniture</designationCategory>
 		<designationHotKey>Misc3</designationHotKey>
+		<disableImpassableShotOverConfigError>true</disableImpassableShotOverConfigError>
 	</ThingDef>	
 	
 	<!-- 2018 12 10 -->
@@ -671,6 +682,9 @@
 			<blueprintGraphicData>
 				<texPath>Things/Building/Furniture/RKG_WoodGate_Blueprint_Atlas</texPath>
 			</blueprintGraphicData>
+			<preferConnectingToFences>true</preferConnectingToFences>
+			<soundDoorOpenManual>Door_FenceGateManual</soundDoorOpenManual>
+			<soundDoorCloseManual>Door_FenceGateManual</soundDoorCloseManual>
 		</building>
 		<designationCategory>OldStyleFurniture</designationCategory>
 	</ThingDef>

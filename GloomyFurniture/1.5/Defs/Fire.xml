@@ -28,7 +28,7 @@
 		<altitudeLayer>BuildingOnTop</altitudeLayer>
 		<passability>Impassable</passability>
 		<tickerType>Normal</tickerType>
-		<fillPercent>0.20</fillPercent>
+		<fillPercent>1.0</fillPercent>
 		<statBases>
 			<Beauty>15</Beauty>
 			<Mass>15</Mass>
@@ -126,7 +126,7 @@
 		<altitudeLayer>BuildingOnTop</altitudeLayer>
 		<passability>Impassable</passability>
 		<tickerType>Rare</tickerType>
-		<fillPercent>0.20</fillPercent>
+		<fillPercent>1.0</fillPercent>
 		<statBases>
 			<Beauty>15</Beauty>
 			<Mass>15</Mass>
