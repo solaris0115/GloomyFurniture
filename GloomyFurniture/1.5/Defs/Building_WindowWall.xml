@@ -72,6 +72,7 @@
 		<building>
 			<isInert>true</isInert>
 			<ai_chillDestination>false</ai_chillDestination>
+			<supportsWallAttachments>true</supportsWallAttachments>
 			<blueprintGraphicData>
 				<texPath>Things/Building/Linked/RGK_Wall_Blueprint_Atlas</texPath>
 			</blueprintGraphicData>
@@ -139,6 +140,7 @@
 		<building>
 			<isInert>true</isInert>
 			<ai_chillDestination>false</ai_chillDestination>
+			<supportsWallAttachments>true</supportsWallAttachments>
 			<blueprintGraphicData>
 				<texPath>Things/Building/Linked/RGK_Wall_Blueprint_Atlas</texPath>
 			</blueprintGraphicData>
@@ -210,6 +212,7 @@
 			</blueprintGraphicData>
 			<isInert>true</isInert>
 			<ai_chillDestination>false</ai_chillDestination>
+			<supportsWallAttachments>true</supportsWallAttachments>
 			<canPlaceOverWall>true</canPlaceOverWall>
 		</building>
 		<comps>
@@ -289,6 +292,7 @@
 			<isInert>true</isInert>
 			<ai_chillDestination>false</ai_chillDestination>
 			<canPlaceOverWall>true</canPlaceOverWall>
+			<supportsWallAttachments>true</supportsWallAttachments>
 		</building>
 		<comps>
 			<li Class="Gloomylynx.CompProperties_FlickableVent">
@@ -412,6 +416,7 @@
 			<isInert>true</isInert>
 			<ai_chillDestination>false</ai_chillDestination>
 			<canPlaceOverWall>true</canPlaceOverWall>
+			<supportsWallAttachments>true</supportsWallAttachments>
 		</building>
 		<designationCategory>OldStyleFurniture</designationCategory>
 		<designationHotKey>Misc3</designationHotKey>
@@ -481,6 +486,7 @@
 			<isInert>true</isInert>
 			<ai_chillDestination>false</ai_chillDestination>
 			<canPlaceOverWall>true</canPlaceOverWall>
+			<supportsWallAttachments>true</supportsWallAttachments>
 		</building>
 		<designationCategory>OldStyleFurniture</designationCategory>
 		<designationHotKey>Misc3</designationHotKey>
@@ -616,6 +622,7 @@
 			<blueprintGraphicData>
 				<texPath>Things/Building/Linked/RGK_Wall_Blueprint_Atlas</texPath>
 			</blueprintGraphicData>
+			<supportsWallAttachments>true</supportsWallAttachments>
 		</building>
 		<designationHotKey>Misc3</designationHotKey>
 	</ThingDef>
