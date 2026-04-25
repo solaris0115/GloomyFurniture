@@ -25,9 +25,9 @@ namespace Gloomylynx
             JukeBoxCore.AddJukeBox(this);
             compPowerTrader = parent.GetComp<CompPowerTrader>();
         }
-        public override void PostDeSpawn(Map map)
+        public override void PostDeSpawn(Map map, DestroyMode destroying)
         {
-            base.PostDeSpawn(map);
+            base.PostDeSpawn(map, destroying);
             JukeBoxCore.RemoveJukeBox(this);
             //마지막 한대면 복구
         }
@@ -88,13 +88,13 @@ namespace Gloomylynx
             }
             DefDatabase<SongDef>.Clear();
             DefDatabase<SongDef>.Add(JukeBoxCore.customSongList);
-            Find.MusicManagerPlay.ForceStartSong(DefDatabase<SongDef>.GetRandom(),false);
+            Find.MusicManagerPlay.ForcePlaySong(DefDatabase<SongDef>.GetRandom(),false);
         }
         public void NextSong()
         {
             if(currentState)
             {
-                Find.MusicManagerPlay.ForceStartSong(DefDatabase<SongDef>.GetRandom(), false);
+                Find.MusicManagerPlay.ForcePlaySong(DefDatabase<SongDef>.GetRandom(), false);
             }
         }
         public void StopSong()
@@ -109,7 +109,7 @@ namespace Gloomylynx
                 }
                 DefDatabase<SongDef>.Clear();
                 DefDatabase<SongDef>.Add(JukeBoxCore.orignalSongList);
-                Find.MusicManagerPlay.ForceStartSong(((CompProperties_JukeBox)props).stopSong, false);
+                Find.MusicManagerPlay.ForcePlaySong(((CompProperties_JukeBox)props).stopSong, false);
             }
             catch(Exception ee)
             {

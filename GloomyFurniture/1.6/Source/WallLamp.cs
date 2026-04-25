@@ -133,7 +133,7 @@ namespace Gloomylynx
                 }
             }
         }
-        public override void Tick()
+        protected override void Tick()
         {
             base.Tick();
             if (Spawned && !Destroyed)
@@ -295,10 +295,10 @@ namespace Gloomylynx
                 glowerObject.ToggleGlower(false);
             }
         }
-        public override void PostDeSpawn(Map map)
+        public override void PostDeSpawn(Map map, DestroyMode destroying)
         {
             DespawnGlower();
-            base.PostDeSpawn(map);
+            base.PostDeSpawn(map, destroying);
         }
         public override void PostDestroy(DestroyMode mode, Map previousMap)
         {

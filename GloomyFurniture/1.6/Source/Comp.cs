@@ -109,9 +109,9 @@ namespace Gloomylynx
     {
         bool drawOnlySouth = false;
         private Graphic graphicInt;
-        public override void PostDeSpawn(Map map)
+        public override void PostDeSpawn(Map map, DestroyMode destroying)
         {
-            base.PostDeSpawn(map);
+            base.PostDeSpawn(map, destroying);
             drawOnlySouth = Props.drawOnlySouth;
         }
 
@@ -177,9 +177,9 @@ namespace Gloomylynx
     {
         bool drawOnlySouth = false;
         private Graphic graphicInt;
-        public override void PostDeSpawn(Map map)
+        public override void PostDeSpawn(Map map, DestroyMode destroying)
         {
-            base.PostDeSpawn(map);
+            base.PostDeSpawn(map, destroying);
             drawOnlySouth = Props.drawOnlySouth;
         }
 
@@ -359,7 +359,7 @@ namespace Gloomylynx
     }
     public class JobDriver_ListenSong : JobDriver_WatchBuilding
     {
-        protected override void WatchTickAction()
+        protected override void WatchTickAction(int ticks)
         {
             Building thing = (Building)base.TargetA.Thing;
             if (!thing.TryGetComp<CompPowerTrader>().PowerOn)
@@ -367,7 +367,7 @@ namespace Gloomylynx
                 base.EndJobWith(JobCondition.Incompletable);
                 return;
             }
-            base.WatchTickAction();
+            base.WatchTickAction(ticks);
         }
     }
     public class CompProperties_FlickableVent : CompProperties_Flickable
