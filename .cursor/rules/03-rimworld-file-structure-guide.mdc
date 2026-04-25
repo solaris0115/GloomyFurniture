@@ -1,0 +1,36 @@
+---
+alwaysApply: true
+description: GloomyFurniture 모드 폴더·Def·리소스 구조
+---
+# Def·모드 구조 (GloomyFurniture)
+
+Def는 XML 등으로 게임 요소를 정의한다.
+
+## Def 개념 요약
+
+- **네이밍**: 보통 `XxxDef` 형태(RecipeDef, ThingDef, TerrainDef 등).
+- **구성**: `defName`, 값, 다른 Def 참조, 그래픽·사운드 경로 등.
+
+## 이 저장소 기준 경로
+
+| 용도 | 경로 |
+|------|------|
+| **1.6 Defs** | [GloomyFurniture/1.6/Defs/](mdc:GloomyFurniture/1.6/Defs/) |
+| **1.5 Defs** (레거시·대조용) | [GloomyFurniture/1.5/Defs/](mdc:GloomyFurniture/1.5/Defs/) |
+| **XML Def 패치** (`PatchOperation*`, 로더 Xml Patch) | [GloomyFurniture/Patches/](mdc:GloomyFurniture/Patches/) |
+| **번역·Keyed** | [GloomyFurniture/Languages/](mdc:GloomyFurniture/Languages/) |
+| **모드 메타** | [GloomyFurniture/About/](mdc:GloomyFurniture/About/) |
+| **텍스처** | [GloomyFurniture/Textures/](mdc:GloomyFurniture/Textures/) |
+| **사운드** | 관례상 `GloomyFurniture/Sounds/` (현재 트리에는 없을 수 있음) |
+| **1.6 C#** | [GloomyFurniture/1.6/Source/](mdc:GloomyFurniture/1.6/Source/) |
+| **빌드 DLL** | `GloomyFurniture/1.6/Assemblies/Gloomylynx.dll` |
+
+`Patches/`는 **Harmony가 아니다**. 바닐라·다른 모드 Def를 xpath로 고치는 **Xml Patch**다. **Harmony** 런타임 패치는 `1.6/Source`의 C#(예: `0Harmony` 참조)에서 다룬다.
+
+## 워크스페이스 밖 참조 (로컬에 있을 때만)
+
+바닐라·DLC Def/소스는 보통 Steam 설치 경로 등에 있다. 이 레포에 `RimworldData/`, `RimworldSource/` 폴더는 **없다**. Humanoid Alien Races 등 **다른 모드 소스**도 이 프로젝트에 포함되어 있지 않다.
+
+## 이 모드에서 자주 쓰는 Def 예
+
+ThingDef(가구·조명·주크박스 등), TerrainDef, RecipeDef, SongDef, DesignationCategoryDef, KeyBinding 등 — 실제 목록은 `1.6/Defs` 아래 XML을 보면 된다.

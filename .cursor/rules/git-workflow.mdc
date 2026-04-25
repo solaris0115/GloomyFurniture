@@ -1,0 +1,55 @@
+---
+alwaysApply: true
+description: Git workflow and commit rules (GloomyFurniture)
+---
+# Git Rules (GloomyFurniture)
+
+## 일반 (기본)
+
+- **stage, commit, push를 임의로 수행하지 않음** (사용자가 명시한 워크플로 제외)
+- 파일 수정 후 자동 stage 없음
+
+## commit / !커밋 — AI 세션 변경분만 커밋
+
+사용자가 `commit` 또는 `!커밋`이라고 하면 [.cursor/commands/commit.md](mdc:.cursor/commands/commit.md) 커맨드를 실행하고, 아래 규칙을 따른다.
+
+### 범위
+
+- **이 Cursor 채팅 세션에서 에이전트가 변경·추가한 파일만** 스테이징한다.
+- `git status`로 워킹트리를 확인하고, 세션에 없는 변경이 섞여 있으면 사용자에게 포함 여부를 확인한 뒤 진행한다.
+
+### 커밋 메시지
+
+1. **제목(첫 줄)**
+   - 반드시 **`[AI]`** 로 시작한다.
+   - 이번 세션에서 사용자가 요청한 작업 / 해결하려던 목적을 **한 줄로 요약**한다.
+   - 예: `[AI] Building_Furnitures 일부 건물 통계·재료 Def 조정`
+2. **본문(둘째 줄부터, 빈 줄 다음)**
+   - 변경이 **여러 주제**이거나 의미 단위가 나뉘면 본문을 쓴다.
+   - **의도, 배경, 어떤 이슈·요구 때문에 바꿨는지**를 적는다.
+   - 파일·라인·세부 diff 수준의 나열은 하지 않는다(코드에 남아 있음).
+
+### 실행 순서 (참고)
+
+1. `git status`
+2. 세션 변경 파일만 `git add <경로들>`
+3. `git commit` (위 형식의 메시지)
+4. **push는 사용자가 따로 요청할 때만**
+
+## Safety
+
+- Forbidden: `git reset --hard`, `git clean -fd`, `git rebase -i --hard`, `git branch -D`
+- Before destructive ops: `git stash push -m "desc"`
+
+## Shell (PowerShell 5.x)
+
+- `&&` is **NOT supported** → use `;`
+- `cd /d` is **NOT supported** → use `working_directory` param
+- External exe: `& "path"` syntax
+
+```powershell
+# OK
+& "C:\path\to\msbuild.exe" project.csproj
+# WRONG
+cd /d C:\path && dotnet build
+```

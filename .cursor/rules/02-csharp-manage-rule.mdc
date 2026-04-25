@@ -1,0 +1,27 @@
+---
+description: GloomyFurniture 1.6 C# csproj·소스 파일 관리
+globs: GloomyFurniture/1.6/Source/**/*
+alwaysApply: false
+---
+
+# C# (Gloomylynx)
+
+**프로젝트**: [Gloomylynx.csproj](mdc:GloomyFurniture/1.6/Source/Gloomylynx.csproj)
+
+전체 빌드 명령·HintPath·RimWorld 1.6 API 주의사항은 [.cursor/rules/rimworld-16-mod-build.mdc](mdc:.cursor/rules/rimworld-16-mod-build.mdc)를 따른다.
+
+## 파일 관리 (이 csproj 형식)
+
+- 새 **`.cs`** 추가 시 `<ItemGroup>`에 `<Compile Include="경로\파일.cs" />`를 넣는다.
+- **`.cs` 삭제** 시 해당 `<Compile Include="..." />`도 제거한다.
+
+## 빌드 참고 (요약)
+
+워크스페이스 루트에서 (에디션 폴더명은 환경에 맞게):
+
+```powershell
+& "${env:ProgramFiles}\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\MSBuild.exe" "GloomyFurniture/1.6/Source/Gloomylynx.csproj" /p:Configuration=Debug /restore:false /v:m
+```
+
+- **출력(Debug)**: `GloomyFurniture/1.6/Assemblies/Gloomylynx.dll`
+- **중간 산출물**: `GloomyFurniture/1.6/Source/obj/Debug/` 등

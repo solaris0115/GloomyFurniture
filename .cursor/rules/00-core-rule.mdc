@@ -1,0 +1,25 @@
+---
+alwaysApply: true
+---
+# 코어 (GloomyFurniture)
+
+- 답변은 **한글**로 한다.
+- 응답 시작에 **현재 사용 중인 모델 이름**을 한 줄로 밝힌다 (예: Composer, GPT-5 등 — 제품 UI에 표시된 이름 기준).
+
+## 답변 스타일
+
+- 미사여구 없이 간결하게 핵심만.
+- 상투적 완료 멘트(~했습니다, ~완료했습니다) 남발 금지.
+- 질문이면 **원인 → 결과 → 답** 순으로 필요한 만큼만.
+- 추가 제안은 **요청했을 때만**.
+
+## `!` 명령 (채팅에서 말하면 아래 룰을 따름)
+
+- **!워크플로**: 이 저장소에는 다른 모드용 `01-workflow` 같은 전용 문서가 없다. 사용자가 단계를 주면 그에 맞춰 진행한다.
+- **!분석**: [.cursor/rules/03-rimworld-file-structure-guide.mdc](mdc:.cursor/rules/03-rimworld-file-structure-guide.mdc)를 참고해 분석·보고한다.
+  - 분석/보고 **파일**을 만들면 맨 위에 검색용 **태그 줄**을 둔다 (영문 키워드 위주, 예: `GloomyFurniture TerrainDef JukeBox 1.6`).
+  - 분석 요청 시 **`99_Report/`** 도 함께 살펴보고, 관련 초안이 있으면 활용한다.
+  - 시각화가 필요하면 **mermaid**를 쓴다.
+- **!빌드**: [.cursor/rules/rimworld-16-mod-build.mdc](mdc:.cursor/rules/rimworld-16-mod-build.mdc)를 따른다 (MSBuild, DLL 출력 경로, 1.6 API). C# 파일/csproj 편집 시 [.cursor/rules/02-csharp-manage-rule.mdc](mdc:.cursor/rules/02-csharp-manage-rule.mdc)의 csproj 규칙을 겸한다.
+- **!구현**: `03-rimworld-file-structure-guide.mdc`와 `99_Report/`를 확인한 뒤 구현한다.
+- **!커밋**: [.cursor/rules/git-workflow.mdc](mdc:.cursor/rules/git-workflow.mdc)의 commit / !커밋 절차 — 세션에서 에이전트가 바꾼 파일만 스테이징, 제목 `[AI]` + 요약, 본문은 의도·이슈 중심. 상세는 [.cursor/commands/commit.md](mdc:.cursor/commands/commit.md).
