@@ -21,6 +21,10 @@
 		<description>An impassable wall. Capable of holding up a roof.</description>
 		<thingClass>Gloomylynx.GL_Building</thingClass>
 		<category>Building</category>
+		<noRightClickDraftAttack>true</noRightClickDraftAttack>
+		<replaceTags>
+			<li>Wall</li>
+		</replaceTags>
 		<graphicData>
 			<texPath>Things/Building/Linked/RGK_Wall</texPath>
 			<graphicClass>Graphic_Appearances</graphicClass>
@@ -42,10 +46,10 @@
 		</graphicData>
 		<uiIconPath>Things/Building/Linked/RGK_WallBricks_MenuIcon</uiIconPath>
 		<statBases>
-			<Beauty>1</Beauty>
-			<MaxHitPoints>250</MaxHitPoints>
-			<WorkToBuild>150</WorkToBuild>
-			<Flammability>0.5</Flammability>
+			<MaxHitPoints>300</MaxHitPoints>
+			<WorkToBuild>135</WorkToBuild>
+			<Flammability>1.0</Flammability>
+			<MeditationFocusStrength>0.22</MeditationFocusStrength>
 		</statBases>
 		<costList>
 			<WoodLog>5</WoodLog>
@@ -57,26 +61,51 @@
 		<castEdgeShadows>true</castEdgeShadows>
 		<fillPercent>1</fillPercent>
 		<coversFloor>true</coversFloor>
-		<constructEffect>ConstructWood</constructEffect>
-		<placingDraggableDimensions>1</placingDraggableDimensions>
+		<drawStyleCategory>Walls</drawStyleCategory>
 		<tickerType>Never</tickerType>
 		<rotatable>false</rotatable>
 		<selectable>true</selectable>
 		<neverMultiSelect>true</neverMultiSelect>
-		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
 		<holdsRoof>true</holdsRoof>
 		<designationCategory>OldStyleFurniture</designationCategory>
+		<uiOrder>2000</uiOrder>
 		<staticSunShadowHeight>1.0</staticSunShadowHeight>
 		<blockLight>true</blockLight>
 		<canOverlapZones>false</canOverlapZones>
+		<fertility>0</fertility>
 		<building>
+			<paintable>true</paintable>
 			<isInert>true</isInert>
+			<isWall>true</isWall>
+			<isPlaceOverableWall>true</isPlaceOverableWall>
 			<ai_chillDestination>false</ai_chillDestination>
+			<supportsWallAttachments>true</supportsWallAttachments>
+			<isStuffableAirtight>true</isStuffableAirtight>
 			<blueprintGraphicData>
 				<texPath>Things/Building/Linked/RGK_Wall_Blueprint_Atlas</texPath>
 			</blueprintGraphicData>
+			<relatedBuildCommands>
+			</relatedBuildCommands>
 		</building>
-		<designationHotKey>Misc3</designationHotKey>
+		<comps>
+			<li Class="CompProperties_MeditationFocus">
+				<statDef>MeditationFocusStrength</statDef>
+				<focusTypes>
+					<li>Minimal</li>
+				</focusTypes>
+			</li>
+		</comps>
+		<damageMultipliers>
+			<li>
+				<damageDef>Bomb</damageDef>
+				<multiplier>2</multiplier>
+			</li>
+			<li>
+				<damageDef>Thump</damageDef>
+				<multiplier>2</multiplier>
+			</li>
+		</damageMultipliers>
 	</ThingDef>
 
 	<!-- 신규 벽 -->
@@ -86,6 +115,10 @@
 		<description>An impassable wall. Capable of holding up a roof.</description>
 		<thingClass>Gloomylynx.GL_Building</thingClass>
 		<category>Building</category>
+		<noRightClickDraftAttack>true</noRightClickDraftAttack>
+		<replaceTags>
+			<li>Wall</li>
+		</replaceTags>
 		<graphicData>
 			<texPath>Things/Building/Linked/GL_Wall</texPath>
 			<graphicClass>Graphic_Appearances</graphicClass>
@@ -107,15 +140,15 @@
 		</graphicData>
 		<uiIconPath>Things/Building/Linked/GL_WallBricks_MenuIcon</uiIconPath>
 		<statBases>
-			<Beauty>1</Beauty>
-			<MaxHitPoints>250</MaxHitPoints>
-			<WorkToBuild>150</WorkToBuild>
-			<Flammability>0.5</Flammability>
+			<MaxHitPoints>300</MaxHitPoints>
+			<WorkToBuild>135</WorkToBuild>
+			<Flammability>1.0</Flammability>
+			<MeditationFocusStrength>0.22</MeditationFocusStrength>
 		</statBases>
-		<stuffCategories>		
-			<li>Woody</li>		
-			<li>Stony</li>		
+		<stuffCategories>
 			<li>Metallic</li>
+			<li>Woody</li>
+			<li>Stony</li>
 		</stuffCategories>
 		<costStuffCount>5</costStuffCount>
 		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
@@ -125,25 +158,52 @@
 		<castEdgeShadows>true</castEdgeShadows>
 		<fillPercent>1</fillPercent>
 		<coversFloor>true</coversFloor>
-		<placingDraggableDimensions>1</placingDraggableDimensions>
+		<drawStyleCategory>Walls</drawStyleCategory>
 		<tickerType>Never</tickerType>
 		<rotatable>false</rotatable>
 		<selectable>true</selectable>
 		<neverMultiSelect>true</neverMultiSelect>
-		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+		<useStuffTerrainAffordance>true</useStuffTerrainAffordance>
+		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
 		<holdsRoof>true</holdsRoof>
 		<designationCategory>OldStyleFurniture</designationCategory>
+		<uiOrder>2000</uiOrder>
 		<staticSunShadowHeight>1.0</staticSunShadowHeight>
 		<blockLight>true</blockLight>
 		<canOverlapZones>false</canOverlapZones>
+		<fertility>0</fertility>
 		<building>
+			<paintable>true</paintable>
 			<isInert>true</isInert>
+			<isWall>true</isWall>
+			<isPlaceOverableWall>true</isPlaceOverableWall>
 			<ai_chillDestination>false</ai_chillDestination>
+			<supportsWallAttachments>true</supportsWallAttachments>
+			<isStuffableAirtight>true</isStuffableAirtight>
 			<blueprintGraphicData>
 				<texPath>Things/Building/Linked/RGK_Wall_Blueprint_Atlas</texPath>
 			</blueprintGraphicData>
+			<relatedBuildCommands>
+			</relatedBuildCommands>
 		</building>
-		<designationHotKey>Misc3</designationHotKey>
+		<comps>
+			<li Class="CompProperties_MeditationFocus">
+				<statDef>MeditationFocusStrength</statDef>
+				<focusTypes>
+					<li>Minimal</li>
+				</focusTypes>
+			</li>
+		</comps>
+		<damageMultipliers>
+			<li>
+				<damageDef>Bomb</damageDef>
+				<multiplier>2</multiplier>
+			</li>
+			<li>
+				<damageDef>Thump</damageDef>
+				<multiplier>2</multiplier>
+			</li>
+		</damageMultipliers>
 	</ThingDef>
 
 	<!-- 환풍벽 -->
@@ -190,7 +250,7 @@
 		<castEdgeShadows>true</castEdgeShadows>
 		<fillPercent>1</fillPercent>
 		<coversFloor>true</coversFloor>
-		<placingDraggableDimensions>1</placingDraggableDimensions>
+		
 		<tickerType>Rare</tickerType>
 		<rotatable>true</rotatable>
 		<selectable>true</selectable>
@@ -210,6 +270,7 @@
 			</blueprintGraphicData>
 			<isInert>true</isInert>
 			<ai_chillDestination>false</ai_chillDestination>
+			<supportsWallAttachments>true</supportsWallAttachments>
 			<canPlaceOverWall>true</canPlaceOverWall>
 		</building>
 		<comps>
@@ -268,7 +329,7 @@
 		<castEdgeShadows>true</castEdgeShadows>
 		<fillPercent>1</fillPercent>
 		<coversFloor>true</coversFloor>
-		<placingDraggableDimensions>1</placingDraggableDimensions>
+		
 		<tickerType>Rare</tickerType>
 		<rotatable>true</rotatable>
 		<selectable>true</selectable>
@@ -289,6 +350,7 @@
 			<isInert>true</isInert>
 			<ai_chillDestination>false</ai_chillDestination>
 			<canPlaceOverWall>true</canPlaceOverWall>
+			<supportsWallAttachments>true</supportsWallAttachments>
 		</building>
 		<comps>
 			<li Class="Gloomylynx.CompProperties_FlickableVent">
@@ -393,7 +455,7 @@
 		<castEdgeShadows>true</castEdgeShadows>
 		<fillPercent>1</fillPercent>
 		<coversFloor>true</coversFloor>
-		<placingDraggableDimensions>1</placingDraggableDimensions>
+		
 		<selectable>true</selectable>
 		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
 		<holdsRoof>true</holdsRoof>
@@ -412,6 +474,7 @@
 			<isInert>true</isInert>
 			<ai_chillDestination>false</ai_chillDestination>
 			<canPlaceOverWall>true</canPlaceOverWall>
+			<supportsWallAttachments>true</supportsWallAttachments>
 		</building>
 		<designationCategory>OldStyleFurniture</designationCategory>
 		<designationHotKey>Misc3</designationHotKey>
@@ -462,7 +525,7 @@
 		<castEdgeShadows>true</castEdgeShadows>
 		<fillPercent>1</fillPercent>
 		<coversFloor>true</coversFloor>
-		<placingDraggableDimensions>1</placingDraggableDimensions>
+		
 		<selectable>true</selectable>
 		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
 		<holdsRoof>true</holdsRoof>
@@ -481,6 +544,7 @@
 			<isInert>true</isInert>
 			<ai_chillDestination>false</ai_chillDestination>
 			<canPlaceOverWall>true</canPlaceOverWall>
+			<supportsWallAttachments>true</supportsWallAttachments>
 		</building>
 		<designationCategory>OldStyleFurniture</designationCategory>
 		<designationHotKey>Misc3</designationHotKey>
@@ -496,10 +560,16 @@
 		<graphicData>
 			<texPath>Things/Building/Linked/RGK_WoodFence</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<linkType>Basic</linkType>
+			<linkType>Asymmetric</linkType>
 			<linkFlags>
 				<li>Custom1</li>
 			</linkFlags>
+			<asymmetricLink>
+				<linkFlags>
+					<li>Custom1</li>
+				</linkFlags>
+				<linkToDoors>false</linkToDoors>
+			</asymmetricLink>
 			<damageData>
 				<cornerTL>Damage/Corner</cornerTL>
 				<cornerTR>Damage/Corner</cornerTR>
@@ -526,9 +596,9 @@
 		<altitudeLayer>Building</altitudeLayer>
 		<passability>Impassable</passability>
 		<castEdgeShadows>true</castEdgeShadows>
-		<fillPercent>0.1</fillPercent>
+		<fillPercent>0.25</fillPercent>
 		<coversFloor>false</coversFloor>
-		<placingDraggableDimensions>1</placingDraggableDimensions>
+		
 		<tickerType>Never</tickerType>
 		<rotatable>false</rotatable>
 		<selectable>true</selectable>
@@ -537,14 +607,19 @@
 		<holdsRoof>true</holdsRoof>
 		<blockLight>false</blockLight>
 		<building>
+			<isInert>true</isInert>
+			<isFence>true</isFence>
+			<isPlaceOverableWall>true</isPlaceOverableWall>
+			<ai_chillDestination>false</ai_chillDestination>
+			<ai_neverTrashThis>true</ai_neverTrashThis>
 			<blueprintGraphicData>
 				<texPath>Things/Building/Linked/RKG_WoodFence_Blueprint_Atlas</texPath>
 			</blueprintGraphicData>
-			<isInert>true</isInert>
 			<canPlaceOverWall>true</canPlaceOverWall>
 		</building>
 		<designationCategory>OldStyleFurniture</designationCategory>
 		<designationHotKey>Misc3</designationHotKey>
+		<disableImpassableShotOverConfigError>true</disableImpassableShotOverConfigError>
 	</ThingDef>	
 	
 	<!-- 2018 12 10 -->
@@ -591,7 +666,7 @@
 		<castEdgeShadows>true</castEdgeShadows>
 		<fillPercent>0.5</fillPercent>
 		<constructEffect>ConstructWood</constructEffect>
-		<placingDraggableDimensions>1</placingDraggableDimensions>
+		
 		<tickerType>Never</tickerType>
 		<rotatable>false</rotatable>
 		<selectable>true</selectable>
@@ -605,6 +680,7 @@
 			<blueprintGraphicData>
 				<texPath>Things/Building/Linked/RGK_Wall_Blueprint_Atlas</texPath>
 			</blueprintGraphicData>
+			<supportsWallAttachments>true</supportsWallAttachments>
 		</building>
 		<designationHotKey>Misc3</designationHotKey>
 	</ThingDef>
@@ -671,6 +747,9 @@
 			<blueprintGraphicData>
 				<texPath>Things/Building/Furniture/RKG_WoodGate_Blueprint_Atlas</texPath>
 			</blueprintGraphicData>
+			<preferConnectingToFences>true</preferConnectingToFences>
+			<soundDoorOpenManual>Door_FenceGateManual</soundDoorOpenManual>
+			<soundDoorCloseManual>Door_FenceGateManual</soundDoorCloseManual>
 		</building>
 		<designationCategory>OldStyleFurniture</designationCategory>
 	</ThingDef>
@@ -766,7 +845,7 @@
 		<tradeability>None</tradeability>
 		<clearBuildingArea>false</clearBuildingArea>	
 		<resourcesFractionWhenDeconstructed>0</resourcesFractionWhenDeconstructed>
-		<placingDraggableDimensions>1</placingDraggableDimensions>
+		
 	</ThingDef>
 	<ThingDef ParentName="BuildingBase">
 		<defName>GL_BoundaryStone</defName>
@@ -811,7 +890,7 @@
 		<tradeability>None</tradeability>
 		<clearBuildingArea>false</clearBuildingArea>	
 		<resourcesFractionWhenDeconstructed>0</resourcesFractionWhenDeconstructed>
-		<placingDraggableDimensions>1</placingDraggableDimensions>
+		
 	</ThingDef>
 	
 	<ThingDef ParentName="BuildingBase">
