@@ -1550,8 +1550,6 @@
 			<graphicClass>Graphic_Multi</graphicClass>
 			<drawSize>4</drawSize>
 			<shaderType>CutoutComplex</shaderType>
-			<drawOffsetNorth>(0,0,0)</drawOffsetNorth>
-			<drawOffsetSouth>(0,-1,0)</drawOffsetSouth>
 		</graphicData>
 		<thingClass>Building</thingClass>
 		<uiIconScale>2.2</uiIconScale>

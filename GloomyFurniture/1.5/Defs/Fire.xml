@@ -15,8 +15,6 @@
 			<texPath>Things/Building/Furniture/RGK_Fireplace2</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
 			<drawSize>(3,3)</drawSize>
-			<drawOffsetNorth>(0,-1,0)</drawOffsetNorth>
-			<drawOffsetSouth>(0,0,0)</drawOffsetSouth>
 			<damageData>
 				<cornerTL>Damage/Corner</cornerTL>
 				<cornerTR>Damage/Corner</cornerTR>
@@ -30,7 +28,7 @@
 		<altitudeLayer>BuildingOnTop</altitudeLayer>
 		<passability>Impassable</passability>
 		<tickerType>Normal</tickerType>
-		<fillPercent>1.0</fillPercent>
+		<fillPercent>0.20</fillPercent>
 		<statBases>
 			<Beauty>15</Beauty>
 			<Mass>15</Mass>
@@ -78,7 +76,7 @@
 			<li Class="Gloomylynx.CompProperties_FireOverlayRotatable">
 				<compClass>Gloomylynx.CompFireOverlayRotatable</compClass>
 				<fireSize>0.5</fireSize>
-				<offset>(0,1,0.2)</offset>
+				<offset>(0,0,0.2)</offset>
 				<showRotateList>
 					<li>South</li>
 				</showRotateList>
@@ -99,6 +97,7 @@
 		<size>(2,1)</size>
 		<constructionSkillPrerequisite>5</constructionSkillPrerequisite>
 		<defaultPlacingRot>South</defaultPlacingRot>
+		<disableImpassableShotOverConfigError>true</disableImpassableShotOverConfigError>
 	</ThingDef>
 	<ThingDef ParentName="BuildingBase">
 		<defName>RGK_FireplaceE</defName>
@@ -111,8 +110,6 @@
 			<texPath>Things/Building/Furniture/RGK_Fireplace2</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
 			<drawSize>(3,3)</drawSize>
-			<drawOffsetNorth>(0,-1,0)</drawOffsetNorth>
-			<drawOffsetSouth>(0,0,0)</drawOffsetSouth>
 			<damageData>
 				<cornerTL>Damage/Corner</cornerTL>
 				<cornerTR>Damage/Corner</cornerTR>
@@ -130,7 +127,7 @@
 		<altitudeLayer>BuildingOnTop</altitudeLayer>
 		<passability>Impassable</passability>
 		<tickerType>Rare</tickerType>
-		<fillPercent>1.0</fillPercent>
+		<fillPercent>0.20</fillPercent>
 		<statBases>
 			<Beauty>15</Beauty>
 			<Mass>15</Mass>
@@ -173,7 +170,7 @@
 			<li Class="Gloomylynx.CompProperties_FireOverlayRotatable">
 				<compClass>Gloomylynx.CompFireOverlayRotatable</compClass>
 				<fireSize>0.5</fireSize>
-				<offset>(0,1,0.2)</offset>
+				<offset>(0,0,0.2)</offset>
 				<showRotateList>
 					<li>South</li>
 				</showRotateList>
@@ -194,6 +191,7 @@
 		<size>(2,1)</size>
 		<constructionSkillPrerequisite>5</constructionSkillPrerequisite>
 		<defaultPlacingRot>South</defaultPlacingRot>
+		<disableImpassableShotOverConfigError>true</disableImpassableShotOverConfigError>
 	</ThingDef>
 		
 	<!--Lamp-->
