@@ -27,6 +27,46 @@
 		</operations>
 	</Operation>
 
+	<!-- 건축 메뉴 아이콘: 동쪽 면 텍스처 + 스케일 -->
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>Defs/ThingDef[defName = "FermentingBarrel"]</xpath>
+			</li>
+			<li Class="PatchOperationConditional">
+				<xpath>*/ThingDef[defName="FermentingBarrel"]/uiIconScale</xpath>
+				<match Class="PatchOperationReplace">
+					<xpath>*/ThingDef[defName="FermentingBarrel"]/uiIconScale</xpath>
+					<value>
+						<uiIconScale>1</uiIconScale>
+					</value>
+				</match>
+				<nomatch Class="PatchOperationAdd">
+					<xpath>*/ThingDef[defName="FermentingBarrel"]</xpath>
+					<value>
+						<uiIconScale>1</uiIconScale>
+					</value>
+				</nomatch>
+			</li>
+			<li Class="PatchOperationConditional">
+				<xpath>*/ThingDef[defName="FermentingBarrel"]/uiIconPath</xpath>
+				<match Class="PatchOperationReplace">
+					<xpath>*/ThingDef[defName="FermentingBarrel"]/uiIconPath</xpath>
+					<value>
+						<uiIconPath>Things/Building/Furniture/RGK_orcB_east</uiIconPath>
+					</value>
+				</match>
+				<nomatch Class="PatchOperationAdd">
+					<xpath>*/ThingDef[defName="FermentingBarrel"]</xpath>
+					<value>
+						<uiIconPath>Things/Building/Furniture/RGK_orcB_east</uiIconPath>
+					</value>
+				</nomatch>
+			</li>
+		</operations>
+	</Operation>
+
 	<!-- 베지터블 가든 패치 -->
 	<Operation Class="PatchOperationFindMod">
 		<mods>
@@ -76,6 +116,39 @@
 							<drawSize>(4,4)</drawSize>
 						</graphicData>
 					</value>
+				</li>
+				<li Class="PatchOperationTest">
+					<xpath>Defs/ThingDef[defName = "VG_LargeFermentingBarrel"]</xpath>
+				</li>
+				<li Class="PatchOperationConditional">
+					<xpath>*/ThingDef[defName="VG_LargeFermentingBarrel"]/uiIconScale</xpath>
+					<match Class="PatchOperationReplace">
+						<xpath>*/ThingDef[defName="VG_LargeFermentingBarrel"]/uiIconScale</xpath>
+						<value>
+							<uiIconScale>1</uiIconScale>
+						</value>
+					</match>
+					<nomatch Class="PatchOperationAdd">
+						<xpath>*/ThingDef[defName="VG_LargeFermentingBarrel"]</xpath>
+						<value>
+							<uiIconScale>1</uiIconScale>
+						</value>
+					</nomatch>
+				</li>
+				<li Class="PatchOperationConditional">
+					<xpath>*/ThingDef[defName="VG_LargeFermentingBarrel"]/uiIconPath</xpath>
+					<match Class="PatchOperationReplace">
+						<xpath>*/ThingDef[defName="VG_LargeFermentingBarrel"]/uiIconPath</xpath>
+						<value>
+							<uiIconPath>Things/Building/Furniture/RGK_orcB_east</uiIconPath>
+						</value>
+					</match>
+					<nomatch Class="PatchOperationAdd">
+						<xpath>*/ThingDef[defName="VG_LargeFermentingBarrel"]</xpath>
+						<value>
+							<uiIconPath>Things/Building/Furniture/RGK_orcB_east</uiIconPath>
+						</value>
+					</nomatch>
 				</li>
 				<!-- 와인랙 패치 -->
 				<li Class="PatchOperationTest">
