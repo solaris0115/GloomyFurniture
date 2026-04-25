@@ -330,6 +330,7 @@
 			</damageData>
 		</graphicData>
 		<drawerType>RealtimeOnly</drawerType>
+		<uiIconPath>UI/Icon/GL_Texture_Furnace</uiIconPath>
 		<uiIconScale>1</uiIconScale>
 		<altitudeLayer>Building</altitudeLayer>
 		<tickerType>Normal</tickerType>
