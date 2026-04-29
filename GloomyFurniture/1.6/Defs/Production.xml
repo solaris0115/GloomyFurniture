@@ -206,6 +206,8 @@
 			<isMealSource>true</isMealSource>
 			<spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
 			<heatPerTickWhileWorking>0.10</heatPerTickWhileWorking>
+			<workTableRoomRole>Kitchen</workTableRoomRole>
+			<workTableNotInRoomRoleFactor>0.8</workTableNotInRoomRoleFactor>
 		</building>
 		<designationHotKey>Misc8</designationHotKey>
 	</ThingDef>
@@ -299,6 +301,8 @@
 			<isMealSource>true</isMealSource>
 			<spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
 			<heatPerTickWhileWorking>0.10</heatPerTickWhileWorking>
+			<workTableRoomRole>Kitchen</workTableRoomRole>
+			<workTableNotInRoomRoleFactor>0.8</workTableNotInRoomRoleFactor>
 		</building>
 		<researchPrerequisites>
 			<li>Electricity</li>
@@ -432,6 +436,8 @@
 			<isMealSource>true</isMealSource>
 			<spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
 			<heatPerTickWhileWorking>0.10</heatPerTickWhileWorking>
+			<workTableRoomRole>Kitchen</workTableRoomRole>
+			<workTableNotInRoomRoleFactor>0.8</workTableNotInRoomRoleFactor>
 		</building>
 		<passability>PassThroughOnly</passability>
 		<pathCost>15</pathCost>
