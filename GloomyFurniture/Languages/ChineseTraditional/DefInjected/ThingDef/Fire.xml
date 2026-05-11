@@ -90,7 +90,5 @@
   <GL_Wall_LampE_Frame.label>電力壁燈（建造中）</GL_Wall_LampE_Frame.label>
   <GL_Wall_LampE_Frame.description>設計用於安裝在牆壁上的燈具。</GL_Wall_LampE_Frame.description>
 
-  <GlowObject.label>壁燈</GlowObject.label>
-
 
 </LanguageData>

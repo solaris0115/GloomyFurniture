@@ -166,11 +166,4 @@
   <GL_Wall_LampE_White.label>электрический настенный светильник(белый)</GL_Wall_LampE_White.label>
   <GL_Wall_LampE_White.description>Светильник, предназначенный для крепления на стене. Для работы требуется электричество.</GL_Wall_LampE_White.description>
 
-  <GlowObject.label>настенный светильник</GlowObject.label>
-
-
-  <!-- white Type -->
-
-  <GlowObject_White.label>настенный светильник</GlowObject_White.label>
-
 </LanguageData>

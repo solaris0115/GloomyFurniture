@@ -150,13 +150,6 @@
   <GL_Wall_LampE_White.label>전기식 벽 랜턴(백색)</GL_Wall_LampE_White.label>
   <GL_Wall_LampE_White.description>벽에 설치 가능한 랜턴입니다.전기로 동작합니다.</GL_Wall_LampE_White.description>
 
-  <GlowObject.label>벽등 불빛</GlowObject.label>
-
-
-  <!-- white Type -->
-
-  <GlowObject_White.label>벽등 불빛</GlowObject_White.label>
-
 
 
 </LanguageData>

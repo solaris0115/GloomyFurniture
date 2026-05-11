@@ -150,11 +150,4 @@
   <GL_Wall_LampE_White.label>wall lamp E(white)</GL_Wall_LampE_White.label>
   <GL_Wall_LampE_White.description>A light fixture designed to be mounted on a wall.</GL_Wall_LampE_White.description>
 
-  <GlowObject.label>wall light</GlowObject.label>
-
-
-  <!-- white Type -->
-
-  <GlowObject_White.label>Wall light</GlowObject_White.label>
-
 </LanguageData>

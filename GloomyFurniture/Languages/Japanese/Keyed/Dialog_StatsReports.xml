@@ -14,9 +14,6 @@
   <WallAttachment_WarningBlocked>通過できるタイルと面している必要があります。</WallAttachment_WarningBlocked>
   <WallAttachment_Both>通過できるタイルと面して、壁の上に設置する必要があります。</WallAttachment_Both>
 
-  <WallLight_DestroyedBlocked>ランプが建設によって破壊されました。</WallLight_DestroyedBlocked>
-  <WallLight_DestroyedWall>ランプが壁の破壊によって破壊されました。</WallLight_DestroyedWall>
-
   <DoorAttachment_WarningNeedWall>壁の上に設置する必要があります。</DoorAttachment_WarningNeedWall>
   <DoorAttachment_WarningBlocked>通過できるタイルと面している必要があります。</DoorAttachment_WarningBlocked>
   <DoorAttachment_Both>通過できるタイルと面して、壁の上に設置する必要があります。</DoorAttachment_Both>

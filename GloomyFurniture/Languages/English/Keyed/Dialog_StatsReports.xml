@@ -14,9 +14,6 @@
   <WallAttachment_WarningBlocked>Must be facing a passable tile.</WallAttachment_WarningBlocked>
   <WallAttachment_Both>Must be placed over a wall, facing a passable tile.</WallAttachment_Both>
 
-  <WallLight_DestroyedBlocked>Lamp destroyed by construction.</WallLight_DestroyedBlocked>
-  <WallLight_DestroyedWall>Lamp destroyed by wall destruction.</WallLight_DestroyedWall>
-
   <DoorAttachment_WarningNeedWall>Must be placed over a wall.</DoorAttachment_WarningNeedWall>
   <DoorAttachment_WarningBlocked>Must be facing a passable tile.</DoorAttachment_WarningBlocked>
   <DoorAttachment_Both>Must be placed over a wall, facing a passable tile.</DoorAttachment_Both>

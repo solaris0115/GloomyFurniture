@@ -14,9 +14,6 @@
   <WallAttachment_WarningBlocked>必須面對可通行的地磚。</WallAttachment_WarningBlocked>
   <WallAttachment_Both>必須放在牆上，面向可通行的地磚。</WallAttachment_Both>
 
-  <WallLight_DestroyedBlocked>燈被建築毀壞了。</WallLight_DestroyedBlocked>
-  <WallLight_DestroyedWall>燈被建築毀壞了。</WallLight_DestroyedWall>
-
   <DoorAttachment_WarningNeedWall>必須放在牆上。</DoorAttachment_WarningNeedWall>
   <DoorAttachment_WarningBlocked>必須面對可通行的地磚。</DoorAttachment_WarningBlocked>
   <DoorAttachment_Both>必須放在牆上，面向可通行的地磚。</DoorAttachment_Both>

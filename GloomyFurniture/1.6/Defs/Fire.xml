@@ -1208,56 +1208,65 @@
 
 
 
-	<!-- Wall Lamp -->
-	<ThingDef Abstract="True" Name="WallLightBase" ParentName="BuildingBase">
-		<thingClass>Building</thingClass>
+	<!-- 글루미 벽랜턴: LampBase 계승. 바닐라 WallLamp와 동일한 벽부착·미니파이·building 블록; GlowRadius는 placeWorkers Inherit=False로 제거. 글루미 전용: 메뉴/드롭다운/재료·스탯·연구·연료형. -->
+	<ThingDef Abstract="True" Name="WallLightBase" ParentName="LampBase">
+		<researchPrerequisites Inherit="False" />
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<designationCategory>OldStyleFurniture</designationCategory>
+		<designatorDropdown>GL_WallLamp_DropDown</designatorDropdown>
 		<altitudeLayer>BuildingOnTop</altitudeLayer>
 		<passability>Standable</passability>
+		<terrainAffordanceNeeded IsNull="True" />
+		<pathCost>0</pathCost>
 		<statBases>
 			<MaxHitPoints>45</MaxHitPoints>
 			<WorkToBuild>100</WorkToBuild>
 			<Flammability>0.0</Flammability>
 			<Mass>2</Mass>
 		</statBases>
-		<size>(1,1)</size>
-		<placeWorkers>
-			<li>Gloomylynx.PlaceWorker_WallAttachment</li>
-		</placeWorkers>
 		<costList>
 			<Steel>20</Steel>
 			<WoodLog>5</WoodLog>
 		</costList>
-		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+		<placeWorkers Inherit="False">
+			<li>Placeworker_AttachedToWall</li>
+		</placeWorkers>
 		<building>
 			<isEdifice>false</isEdifice>
-			<canPlaceOverWall>true</canPlaceOverWall>
+			<isAttachment>true</isAttachment>
 		</building>
-		<tickerType>Normal</tickerType>
 		<rotatable>true</rotatable>
-		<selectable>true</selectable>
-		<destroyable>true</destroyable>
-		<clearBuildingArea>false</clearBuildingArea>
-		<defaultPlacingRot>South</defaultPlacingRot>
-		<designationCategory>OldStyleFurniture</designationCategory>
-		<designatorDropdown>GL_WallLamp_DropDown</designatorDropdown>
+		<overrideMinifiedRot>North</overrideMinifiedRot>
+		<minifiedDrawOffset>(0, 0, 0.2)</minifiedDrawOffset>
+		<uiIconPath>Things/Building/Furniture/GL_WallLit_menuicon</uiIconPath>
+		<uiIconScale>1.5</uiIconScale>
 	</ThingDef>
 
-	<!-- 랜턴 -->
+	<!-- 랜턴 (연료) -->
 	<ThingDef ParentName="WallLightBase">
 		<defName>GL_Wall_Lamp</defName>
 		<label>wall lamp</label>
+		<tickerType>Normal</tickerType>
+		<researchPrerequisites>
+			<li>ComplexFurniture</li>
+		</researchPrerequisites>
 		<graphicData>
 			<texPath>Things/Building/Furniture/GL_WallLit</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
 			<drawSize>(2.5,2.5)</drawSize>
+			<drawOffsetNorth>(0,0,0.9)</drawOffsetNorth>
+			<drawOffsetSouth>(0,0,-0.9)</drawOffsetSouth>
+			<drawOffsetWest>(-0.9,0,0)</drawOffsetWest>
+			<drawOffsetEast>(0.9,0,0)</drawOffsetEast>
+			<damageData>
+				<enabled>false</enabled>
+			</damageData>
 		</graphicData>
 		<comps>
-			<li Class="CompProperties_Flickable">
-				<commandTexture>UI/Commands/OnOff</commandTexture>
-			</li>
 			<li Class="CompProperties_Refuelable">
 				<fuelConsumptionRate>2.0</fuelConsumptionRate>
 				<fuelCapacity>10.0</fuelCapacity>
+				<fuelConsumptionPerTickInRain>0.0006</fuelConsumptionPerTickInRain>
 				<fuelFilter>
 					<thingDefs>
 						<li>WoodLog</li>
@@ -1265,68 +1274,84 @@
 					</thingDefs>
 				</fuelFilter>
 				<initialFuelPercent>1</initialFuelPercent>
+				<showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
+				<functionsInVacuum>false</functionsInVacuum>
 			</li>
-			<li Class="Gloomylynx.WallLampCompProperties">
-				<lighingObject>GlowObject</lighingObject>
-				<compClass>Gloomylynx.WallLampComp</compClass>
+			<li Class="CompProperties_Styleable" />
+			<li Class="CompProperties_Glower">
+				<glowRadius>10</glowRadius>
+				<glowColor>(252,187,113,0)</glowColor>
 			</li>
 		</comps>
-		<uiIconPath>Things/Building/Furniture/GL_WallLit_south</uiIconPath>
-		<uiIconScale>3</uiIconScale>
-		<uiIconOffset>(0,-0.2)</uiIconOffset>
 		<description>A light fixture designed to be mounted on a wall.</description>
-		<researchPrerequisites>
-			<li>ComplexFurniture</li>
-		</researchPrerequisites>
 	</ThingDef>
 
 	<ThingDef ParentName="WallLightBase">
 		<defName>GL_Wall_LampE</defName>
 		<label>wall lamp E</label>
-		<graphicData>
-			<texPath>Things/Building/Furniture/GL_WallLit</texPath>
-			<graphicClass>Graphic_Multi</graphicClass>
-			<drawSize>(2.5,2.5)</drawSize>
-		</graphicData>
-		<comps>
-			<li Class="CompProperties_Flickable">
-				<commandTexture>UI/Commands/OnOff</commandTexture>
-			</li>
-			<li Class="CompProperties_Power">
-				<compClass>CompPowerTrader</compClass>
-				<basePowerConsumption>10</basePowerConsumption>
-			</li>
-			<li Class="Gloomylynx.WallLampCompProperties">
-				<lighingObject>GlowObject</lighingObject>
-				<compClass>Gloomylynx.WallLampComp</compClass>
-			</li>
-		</comps>
-		<uiIconPath>Things/Building/Furniture/GL_WallLit_south</uiIconPath>
-		<uiIconScale>3</uiIconScale>
-		<uiIconOffset>(0,-0.2)</uiIconOffset>
-		<description>A light fixture designed to be mounted on a wall.</description>
 		<researchPrerequisites>
 			<li>Electricity</li>
 		</researchPrerequisites>
-	</ThingDef>
-
-	<!-- White type-->
-	<!-- 랜턴 -->
-	<ThingDef ParentName="WallLightBase">
-		<defName>GL_Wall_Lamp_White</defName>
-		<label>wall lamp(white)</label>
 		<graphicData>
 			<texPath>Things/Building/Furniture/GL_WallLit</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
 			<drawSize>(2.5,2.5)</drawSize>
+			<drawOffsetNorth>(0,0,0.9)</drawOffsetNorth>
+			<drawOffsetSouth>(0,0,-0.9)</drawOffsetSouth>
+			<drawOffsetWest>(-0.9,0,0)</drawOffsetWest>
+			<drawOffsetEast>(0.9,0,0)</drawOffsetEast>
+			<damageData>
+				<enabled>false</enabled>
+			</damageData>
 		</graphicData>
 		<comps>
-			<li Class="CompProperties_Flickable">
-				<commandTexture>UI/Commands/OnOff</commandTexture>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<basePowerConsumption>10</basePowerConsumption>
+				<powerUpgrades>
+					<li>
+						<researchProject>ColoredLights</researchProject>
+						<factor>0.5</factor>
+					</li>
+				</powerUpgrades>
 			</li>
+			<li Class="CompProperties_Styleable" />
+			<li Class="CompProperties_Glower">
+				<glowRadius>10</glowRadius>
+				<glowColor>(252,187,113,0)</glowColor>
+				<colorPickerEnabled>true</colorPickerEnabled>
+				<darklightToggle>true</darklightToggle>
+			</li>
+		</comps>
+		<description>A light fixture designed to be mounted on a wall.</description>
+	</ThingDef>
+
+	<!-- White type-->
+	<!-- 랜턴 (연료) -->
+	<ThingDef ParentName="WallLightBase">
+		<defName>GL_Wall_Lamp_White</defName>
+		<label>wall lamp(white)</label>
+		<tickerType>Normal</tickerType>
+		<researchPrerequisites>
+			<li>ComplexFurniture</li>
+		</researchPrerequisites>
+		<graphicData>
+			<texPath>Things/Building/Furniture/GL_WallLit</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(2.5,2.5)</drawSize>
+			<drawOffsetNorth>(0,0,0.9)</drawOffsetNorth>
+			<drawOffsetSouth>(0,0,-0.9)</drawOffsetSouth>
+			<drawOffsetWest>(-0.9,0,0)</drawOffsetWest>
+			<drawOffsetEast>(0.9,0,0)</drawOffsetEast>
+			<damageData>
+				<enabled>false</enabled>
+			</damageData>
+		</graphicData>
+		<comps>
 			<li Class="CompProperties_Refuelable">
 				<fuelConsumptionRate>2.0</fuelConsumptionRate>
 				<fuelCapacity>10.0</fuelCapacity>
+				<fuelConsumptionPerTickInRain>0.0006</fuelConsumptionPerTickInRain>
 				<fuelFilter>
 					<thingDefs>
 						<li>WoodLog</li>
@@ -1334,102 +1359,57 @@
 					</thingDefs>
 				</fuelFilter>
 				<initialFuelPercent>1</initialFuelPercent>
+				<showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
+				<functionsInVacuum>false</functionsInVacuum>
 			</li>
-			<li Class="Gloomylynx.WallLampCompProperties">
-				<lighingObject>GlowObject_White</lighingObject>
-				<compClass>Gloomylynx.WallLampComp</compClass>
+			<li Class="CompProperties_Styleable" />
+			<li Class="CompProperties_Glower">
+				<glowRadius>10</glowRadius>
+				<glowColor>(255,255,255,0)</glowColor>
 			</li>
 		</comps>
-		<uiIconPath>Things/Building/Furniture/GL_WallLit_south</uiIconPath>
-		<uiIconScale>3</uiIconScale>
-		<uiIconOffset>(0,-0.2)</uiIconOffset>
 		<description>A light fixture designed to be mounted on a wall.</description>
-		<researchPrerequisites>
-			<li>ComplexFurniture</li>
-		</researchPrerequisites>
 	</ThingDef>
 
 	<ThingDef ParentName="WallLightBase">
 		<defName>GL_Wall_LampE_White</defName>
 		<label>wall lamp E(white)</label>
+		<researchPrerequisites>
+			<li>Electricity</li>
+		</researchPrerequisites>
 		<graphicData>
 			<texPath>Things/Building/Furniture/GL_WallLit</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
 			<drawSize>(2.5,2.5)</drawSize>
+			<drawOffsetNorth>(0,0,0.9)</drawOffsetNorth>
+			<drawOffsetSouth>(0,0,-0.9)</drawOffsetSouth>
+			<drawOffsetWest>(-0.9,0,0)</drawOffsetWest>
+			<drawOffsetEast>(0.9,0,0)</drawOffsetEast>
+			<damageData>
+				<enabled>false</enabled>
+			</damageData>
 		</graphicData>
 		<comps>
-			<li Class="CompProperties_Flickable">
-				<commandTexture>UI/Commands/OnOff</commandTexture>
-			</li>
 			<li Class="CompProperties_Power">
 				<compClass>CompPowerTrader</compClass>
 				<basePowerConsumption>10</basePowerConsumption>
+				<powerUpgrades>
+					<li>
+						<researchProject>ColoredLights</researchProject>
+						<factor>0.5</factor>
+					</li>
+				</powerUpgrades>
 			</li>
-			<li Class="Gloomylynx.WallLampCompProperties">
-				<lighingObject>GlowObject_White</lighingObject>
-				<compClass>Gloomylynx.WallLampComp</compClass>
-			</li>
-		</comps>
-		<uiIconPath>Things/Building/Furniture/GL_WallLit_south</uiIconPath>
-		<uiIconScale>3</uiIconScale>
-		<uiIconOffset>(0,-0.2)</uiIconOffset>
-		<description>A light fixture designed to be mounted on a wall.</description>
-		<researchPrerequisites>
-			<li>Electricity</li>
-		</researchPrerequisites>
-	</ThingDef>
-
-
-	<ThingDef Abstract = "True" Name="WallLightGlowObjectBase" ParentName = "BuildingBase">
-		<thingClass>Gloomylynx.GlowObject</thingClass>
-		<label>Wall light</label>
-		<category>Attachment</category>
-		<graphicData>
-			<texPath>Things/Building/Furniture/GL_Glower</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>(1,1)</drawSize>
-		</graphicData>
-		<building>
-			<isEdifice>false</isEdifice>
-		</building>
-		<statBases>
-			<Flammability>0</Flammability>
-		</statBases>
-		<altitudeLayer>Floor</altitudeLayer>
-		<passability>Standable</passability>
-		<destroyable>false</destroyable>
-		<rotatable>false</rotatable>
-		<clearBuildingArea>false</clearBuildingArea>
-		<selectable>false</selectable>
-		<coversFloor>false</coversFloor>
-		<useHitPoints>false</useHitPoints>
-		<tradeability>None</tradeability>
-		<isAutoAttackableMapObject>false</isAutoAttackableMapObject>
-	</ThingDef>
-
-	<ThingDef ParentName = "WallLightGlowObjectBase">
-		<defName>GlowObject</defName>
-		<comps>
-			<li Class="CompProperties_Glower">
-				<glowRadius>10</glowRadius>
-				<glowColor>(252,187,113,0)</glowColor>
-			</li>
-			<li Class="CompProperties_Flickable" />
-		</comps>
-	</ThingDef>
-	<!-- white Type-->
-	<ThingDef ParentName = "WallLightGlowObjectBase">
-		<defName>GlowObject_White</defName>
-		<comps>
+			<li Class="CompProperties_Styleable" />
 			<li Class="CompProperties_Glower">
 				<glowRadius>10</glowRadius>
 				<glowColor>(255,255,255,0)</glowColor>
+				<colorPickerEnabled>true</colorPickerEnabled>
+				<darklightToggle>true</darklightToggle>
 			</li>
-			<li Class="CompProperties_Flickable" />
 		</comps>
+		<description>A light fixture designed to be mounted on a wall.</description>
 	</ThingDef>
-
-
 
 
 	<DesignatorDropdownGroupDef>

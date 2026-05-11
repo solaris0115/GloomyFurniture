@@ -163,11 +163,4 @@
   <Frame_GL_Wall_LampE_White.label>壁かけランプ (電気)(白色)(施工)</Frame_GL_Wall_LampE_White.label>
   <Frame_GL_Wall_LampE_White.description>壁に取り付けるように設計された照明器具です。</Frame_GL_Wall_LampE_White.description>
 
-  <GlowObject.label>壁掛け照明</GlowObject.label>
-  <!--<GlowObject.description>壁に取り付けるように設計された照明器具です。</GlowObject.description>-->
-
-  <!-- white Type -->
-
-  <GlowObject_White.label>壁掛け照明 (白色)</GlowObject_White.label>
-
 </LanguageData>
