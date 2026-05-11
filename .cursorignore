@@ -1,0 +1,4 @@
+﻿# RimWorld 로컬 참조: Git(.gitignore)에서는 제외하되, Cursor 인덱싱·에이전트 컨텍스트에는 포함.
+# https://cursor.com/docs/reference/ignore-file — gitignore 항목은 여기서 `!`로 무효화 가능.
+!RimworldData/
+!RimworldSource/

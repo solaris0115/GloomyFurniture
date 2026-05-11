@@ -218,5 +218,5 @@ pip-log.txt
 #############
 ## RimWorld reference (local — not tracked)
 #############
-/RimworldData/
-/RimworldSource/
+RimworldData/
+RimworldSource/

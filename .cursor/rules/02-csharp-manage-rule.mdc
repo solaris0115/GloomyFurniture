@@ -8,7 +8,7 @@ alwaysApply: false
 
 **프로젝트**: [Gloomylynx.csproj](mdc:GloomyFurniture/1.6/Source/Gloomylynx.csproj)
 
-전체 빌드 명령·HintPath·RimWorld 1.6 API 주의사항은 [.cursor/rules/rimworld-16-mod-build.mdc](mdc:.cursor/rules/rimworld-16-mod-build.mdc)를 따른다.
+에이전트가 채팅에서 빌드를 돌릴 때는 [.cursor/commands/build.md](mdc:.cursor/commands/build.md)를 따른다. HintPath·RimWorld 1.6 API 주의사항은 [.cursor/rules/rimworld-16-mod-build.mdc](mdc:.cursor/rules/rimworld-16-mod-build.mdc)를 따른다.
 
 ## 파일 관리 (이 csproj 형식)
 
@@ -17,11 +17,7 @@ alwaysApply: false
 
 ## 빌드 참고 (요약)
 
-워크스페이스 루트에서 (에디션 폴더명은 환경에 맞게):
+명령 한 줄·실행 순서는 [.cursor/commands/build.md](mdc:.cursor/commands/build.md). 사람이 수동으로 볼 때는 루트 [BUILD.md](mdc:BUILD.md)도 동일 내용.
 
-```powershell
-& "${env:ProgramFiles}\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\MSBuild.exe" "GloomyFurniture/1.6/Source/Gloomylynx.csproj" /p:Configuration=Debug /restore:false /v:m
-```
-
-- **출력(Debug)**: `GloomyFurniture/1.6/Assemblies/Gloomylynx.dll`
+- **출력**: `GloomyFurniture/1.6/Assemblies/Gloomylynx.dll` (Debug·Release 공통)
 - **중간 산출물**: `GloomyFurniture/1.6/Source/obj/Debug/` 등

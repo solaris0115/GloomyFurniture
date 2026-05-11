@@ -20,6 +20,6 @@ alwaysApply: true
   - 분석/보고 **파일**을 만들면 맨 위에 검색용 **태그 줄**을 둔다 (영문 키워드 위주, 예: `GloomyFurniture TerrainDef JukeBox 1.6`).
   - 분석 요청 시 **`99_Report/`** 도 함께 살펴보고, 관련 초안이 있으면 활용한다.
   - 시각화가 필요하면 **mermaid**를 쓴다.
-- **!빌드**: [.cursor/rules/rimworld-16-mod-build.mdc](mdc:.cursor/rules/rimworld-16-mod-build.mdc)를 따른다 (MSBuild, DLL 출력 경로, 1.6 API). C# 파일/csproj 편집 시 [.cursor/rules/02-csharp-manage-rule.mdc](mdc:.cursor/rules/02-csharp-manage-rule.mdc)의 csproj 규칙을 겸한다.
+- **!빌드** (또는 채팅에서 `build` 커맨드): [.cursor/commands/build.md](mdc:.cursor/commands/build.md)를 실행한다. MSBuild 인자·DLL 경로·1.6 API 보충은 [.cursor/rules/rimworld-16-mod-build.mdc](mdc:.cursor/rules/rimworld-16-mod-build.mdc). C# 파일/csproj 편집 시 [.cursor/rules/02-csharp-manage-rule.mdc](mdc:.cursor/rules/02-csharp-manage-rule.mdc)의 csproj 규칙을 겸한다.
 - **!구현**: `03-rimworld-file-structure-guide.mdc`와 `99_Report/`를 확인한 뒤 구현한다.
 - **!커밋**: [.cursor/rules/git-workflow.mdc](mdc:.cursor/rules/git-workflow.mdc)의 commit / !커밋 절차 — 세션에서 에이전트가 바꾼 파일만 스테이징, 제목 `[AI]` + 요약, 본문은 의도·이슈 중심. 상세는 [.cursor/commands/commit.md](mdc:.cursor/commands/commit.md).
