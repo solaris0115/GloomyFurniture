@@ -232,6 +232,6 @@
       <li>TubeTelevision</li>
     </researchPrerequisites>
     <constructionSkillPrerequisite>7</constructionSkillPrerequisite>
-    <uiIconScale>0.8</uiIconScale>
+    <uiIconScale>0.64</uiIconScale>
   </ThingDef>
 </Defs>
