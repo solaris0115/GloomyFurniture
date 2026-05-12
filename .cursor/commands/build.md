@@ -1,6 +1,6 @@
 # build
 
-GloomyFurniture **1.6** 모드만 빌드한다. 사용자가 지정한 RimWorld는 Steam 경로 `C:\Program Files (x86)\Steam\steamapps\common\RimWorld`이며, `Gloomylynx.csproj`의 HintPath가 이미 이 경로를 가리키므로 **별도 `/p:RimWorldPath`는 없다**.
+GloomyFurniture **1.6** 모드만 빌드한다. 사용자가 지정한 RimWorld는 Steam 경로 `C:\Program Files (x86)\Steam\steamapps\common\RimWorld`이며, `Gloomylynx.csproj`의 `RimWorldManaged` 등 속성이 이 경로를 가리키므로 **별도 `/p:RimWorldPath`는 없다**.
 
 ## 할 일
 
