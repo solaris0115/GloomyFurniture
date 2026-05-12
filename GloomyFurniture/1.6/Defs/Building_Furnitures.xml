@@ -1628,15 +1628,19 @@
 		<comps>
 			<li Class="Gloomylynx.CompProperties_GloomyBookshelfVisual">
 				<bookSpineTexPath>Things/Building/Furniture/GL_BookBox_book</bookSpineTexPath>
-				<!-- 1층 시작(슬롯1). drawLoc 기준. -->
-				<firstFloorStart>(-0.38, 0.018292684, 0.07)</firstFloorStart>
-				<!-- 슬롯 1→2→… 양쪽으로: X+ 등 벡터 -->
-				<bookAlongStep>(0.152, 0, 0)</bookAlongStep>
-				<!-- 2층(슬롯6~10) = 동일 슬롯 인덱스에 이 오프셋 추가 -->
-				<secondFloorOffset>(0, 0.012, -0.13)</secondFloorOffset>
+				<!-- 기본 false: 1권 = drawLoc + bookOriginOffset, 슬롯마다 +bookAlongStep. true면 바닐라 수식(남향 외는 의미 거의 없음). -->
+				<matchVanillaBookcaseMetrics>false</matchVanillaBookcaseMetrics>
+				<!-- 1권(슬롯1) 중심: drawLoc 기준 -->
+				<bookOriginOffset>(-0.27, 0.018292684, 0.07)</bookOriginOffset>
+				<bookAlongStep>(0.14, 0, 0)</bookAlongStep>
 				<bookScale>1</bookScale>
 				<booksPerRow>5</booksPerRow>
-				<bookSpineBaseDrawSize>(0.18, 0.5)</bookSpineBaseDrawSize>
+				<!-- 2층(슬롯 6~10) -->
+				<secondFloorOffset>(0, 0.012, 0.45)</secondFloorOffset>
+				<!-- 바닐라 책은 Cutout. 마스크 텍스처면 true -->
+				<useCutoutComplexShader>false</useCutoutComplexShader>
+				<!-- 책이 없을 때 VerticalGraphic drawSize가 없으면 이 값 사용 -->
+				<bookSpineBaseDrawSize>(0.8, 0.8)</bookSpineBaseDrawSize>
 			</li>
 			<li Class="CompProperties_Facility">
 				<statOffsets>

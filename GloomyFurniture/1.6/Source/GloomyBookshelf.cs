@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using RimWorld;
 using UnityEngine;
 using Verse;
@@ -5,10 +6,13 @@ using Verse;
 namespace Gloomylynx
 {
     /// <summary>
-    /// 글루미 책장: 남향일 때만 2열(1층 5권·2층 5권) 등 이미지를 그림. XML로 위치·간격·스케일 조절.
+    /// 글루미 책장: 남향일 때만 2열(1층 5권·2층 5권) 등 이미지.
+    /// 기본은 drawLoc + bookOriginOffset(1권) + bookAlongStep×슬롯. matchVanillaBookcaseMetrics=true면 바닐라 책장 수식 + bookOriginOffset 추가.
     /// </summary>
     public class Building_GloomyBookshelf : Building_Bookcase
     {
+        private static readonly Vector3 VanillaBookDrawOffset = new Vector3(0f, 0.018292684f, 0f);
+
         protected override void DrawAt(Vector3 drawLoc, bool flip = false)
         {
             drawLoc -= Altitudes.AltIncVect * 2f;
@@ -39,10 +43,27 @@ namespace Gloomylynx
             for (int i = 0; i < count; i++)
             {
                 int slotInRow = i % p.booksPerRow;
-                Vector3 rowShift = i >= p.booksPerRow ? p.secondFloorOffset : Vector3.zero;
-                Vector3 loc = drawLoc + p.firstFloorStart + p.bookAlongStep * slotInRow + rowShift;
+                bool secondRow = i >= p.booksPerRow;
+                Vector3 loc = SlotWorldPosition(drawLoc, p, slotInRow, secondRow);
                 spine.Draw(loc, bookRot, this, 0f);
             }
+        }
+
+        private Vector3 SlotWorldPosition(Vector3 drawLoc, CompProperties_GloomyBookshelfVisual p, int slotInRow, bool secondRow)
+        {
+            Vector3 rowShift = secondRow ? p.secondFloorOffset : Vector3.zero;
+
+            if (p.matchVanillaBookcaseMetrics)
+            {
+                Rot4 rot = this.Rotation.Rotated(RotationDirection.Counterclockwise);
+                float num = p.EffectiveSpacingAlong();
+                Vector3 a = rot.FacingCell.ToVector3() * num;
+                Vector3 bRow = rot.FacingCell.ToVector3() * (-(float)p.booksPerRow * num * 0.5f);
+                Vector3 b2 = this.RotOffsets[this.Rotation.AsInt];
+                return drawLoc + bRow + b2 + VanillaBookDrawOffset + (a * slotInRow) + rowShift + p.bookOriginOffset;
+            }
+
+            return drawLoc + p.bookOriginOffset + (p.bookAlongStep * slotInRow) + rowShift;
         }
 
         private Rot4 BookRotationForDraw()
@@ -67,29 +88,79 @@ namespace Gloomylynx
     {
         private Graphic spineGraphicInt;
 
+        private int lastFirstHeldBookId = int.MinValue;
+
+        private Vector2 lastDrawSizeUsed = Vector2.zero;
+
         public CompProperties_GloomyBookshelfVisual Props => (CompProperties_GloomyBookshelfVisual)this.props;
 
         public Graphic SpineGraphic
         {
             get
             {
-                if (this.spineGraphicInt == null && !string.IsNullOrEmpty(this.Props.bookSpineTexPath))
+                Building_GloomyBookshelf shelf = this.parent as Building_GloomyBookshelf;
+                if (shelf == null || string.IsNullOrEmpty(this.Props.bookSpineTexPath))
                 {
-                    Vector2 drawSize = this.Props.BaseDrawSize * this.Props.bookScale;
+                    return null;
+                }
+
+                int firstId = shelf.HeldBooks.Count > 0 ? shelf.HeldBooks[0].thingIDNumber : 0;
+                Vector2 drawSize = this.ResolveSpineDrawSize(shelf);
+
+                if (this.spineGraphicInt == null || firstId != this.lastFirstHeldBookId ||
+                    (this.lastDrawSizeUsed - drawSize).sqrMagnitude > 1E-06f)
+                {
+                    Shader shader = this.Props.useCutoutComplexShader ? ShaderDatabase.CutoutComplex : ShaderDatabase.Cutout;
                     this.spineGraphicInt = GraphicDatabase.Get<Graphic_Single>(
                         this.Props.bookSpineTexPath,
-                        ShaderDatabase.CutoutComplex,
+                        shader,
                         drawSize,
                         this.parent.DrawColor);
+                    this.lastFirstHeldBookId = firstId;
+                    this.lastDrawSizeUsed = drawSize;
                 }
 
                 return this.spineGraphicInt;
             }
         }
 
+        private Vector2 ResolveSpineDrawSize(Building_GloomyBookshelf shelf)
+        {
+            Vector2 baseSize;
+
+            if (shelf.HeldBooks.Count > 0)
+            {
+                baseSize = shelf.HeldBooks[0].VerticalGraphic.drawSize;
+            }
+            else
+            {
+                CompProperties_Book bookProps = ThingDefOf.TextBook.GetCompProperties<CompProperties_Book>();
+                GraphicData vg = bookProps?.verticalGraphic;
+                if (vg != null && vg.drawSize.sqrMagnitude > 0.0001f)
+                {
+                    baseSize = vg.drawSize;
+                }
+                else
+                {
+                    baseSize = ThingDefOf.TextBook.graphicData.drawSize;
+                }
+            }
+
+            if (shelf.HeldBooks.Count == 0 &&
+                (baseSize.sqrMagnitude < 0.0001f ||
+                 (Mathf.Abs(baseSize.x - 1f) < 0.001f && Mathf.Abs(baseSize.y - 1f) < 0.001f)))
+            {
+                baseSize = this.Props.bookSpineBaseDrawSize;
+            }
+
+            return baseSize * this.Props.bookScale;
+        }
+
         public void InvalidateSpineGraphic()
         {
             this.spineGraphicInt = null;
+            this.lastFirstHeldBookId = int.MinValue;
+            this.lastDrawSizeUsed = Vector2.zero;
         }
     }
 
@@ -100,27 +171,59 @@ namespace Gloomylynx
             this.compClass = typeof(Comp_GloomyBookshelfVisual);
         }
 
-        /// <summary>책 등 텍스처 경로(모드 루트 기준).</summary>
+        /// <summary>true면 바닐라 책장 bRow·축·RotOffsets·DrawOffset; bookAlongStep·bookOriginOffset(일반 모드의 “첫 권”)은 무시.</summary>
+        public bool matchVanillaBookcaseMetrics = false;
+
+        /// <summary>
+        /// 인접 슬롯 간 거리(월드). matchVanillaBookcaseMetrics 경로. 음수면 0.155 고정(이 책장은 남향에서만 책 표시). 0 이상이면 그 값.
+        /// </summary>
+        public float bookSpacingAlong = -1f;
+
         public string bookSpineTexPath = "Things/Building/Furniture/GL_BookBox_book";
 
-        /// <summary>1층(아랫줄) 첫 권(슬롯 1) 중심의 drawLoc 기준 오프셋.</summary>
-        public Vector3 firstFloorStart = new Vector3(-0.38f, 0.018292684f, 0.07f);
+        /// <summary>bookSpacingAlong &lt; 0이면 0.155 사용.</summary>
+        public bool UseVanillaBookSpacing => this.bookSpacingAlong < 0f;
 
-        /// <summary>같은 층에서 슬롯 n → n+1로 갈 때 더하는 벡터(좌표 양수 방향으로 쌓이게 XML에서 맞춤).</summary>
-        public Vector3 bookAlongStep = new Vector3(0.152f, 0f, 0f);
+        public float EffectiveSpacingAlong()
+        {
+            if (!this.UseVanillaBookSpacing)
+            {
+                return this.bookSpacingAlong;
+            }
 
-        /// <summary>2층(윗줄) 기준점 = 1층과 동일한 슬롯 인덱스일 때 1층 대비 추가 오프셋(678910 행).</summary>
+            return 0.155f;
+        }
+
+        /// <summary>일반 모드: 1권(슬롯1) 중심 = drawLoc + 이 값. 바닐라 모드: 바닐라 좌표에 더함.</summary>
+        public Vector3 bookOriginOffset = new Vector3(-0.38f, 0.018292684f, 0.07f);
+
+        /// <summary>일반 모드: 슬롯마다 더하는 벡터(슬롯1→2→…).</summary>
+        public Vector3 bookAlongStep = new Vector3(0.155f, 0f, 0f);
+
+        /// <summary>2층(슬롯 6~10)에 더하는 오프셋.</summary>
         public Vector3 secondFloorOffset = new Vector3(0f, 0.012f, -0.13f);
 
-        /// <summary>등 이미지 drawSize에 곱하는 배율.</summary>
         public float bookScale = 1f;
 
-        /// <summary>한 줄 최대 권수(기본 5). 1층 0..booksPerRow-1, 그 다음 층은 +secondFloorOffset.</summary>
         public int booksPerRow = 5;
 
-        /// <summary>스케일 적용 전 등 기본 크기(가로·세로).</summary>
-        public Vector2 bookSpineBaseDrawSize = new Vector2(0.18f, 0.5f);
+        /// <summary>텍스처에 마스크가 있으면 true. false면 바닐라 책 VerticalGraphic과 같은 Cutout.</summary>
+        public bool useCutoutComplexShader = false;
 
-        public Vector2 BaseDrawSize => this.bookSpineBaseDrawSize;
+        /// <summary>책이 없을 때 VerticalGraphic drawSize를 못 쓰면 이 값(보조).</summary>
+        public Vector2 bookSpineBaseDrawSize = new Vector2(0.8f, 0.8f);
+
+        public override IEnumerable<string> ConfigErrors(ThingDef parentDef)
+        {
+            foreach (string err in base.ConfigErrors(parentDef))
+            {
+                yield return err;
+            }
+
+            if (this.booksPerRow <= 0)
+            {
+                yield return $"{parentDef.defName} CompProperties_GloomyBookshelfVisual: booksPerRow must be > 0.";
+            }
+        }
     }
 }
