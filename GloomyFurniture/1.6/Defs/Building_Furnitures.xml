@@ -1805,7 +1805,7 @@
 		<size>(2,1)</size>
 		<defaultPlacingRot>South</defaultPlacingRot>
 		<building>
-			<maxItemsInCell>3</maxItemsInCell>
+			<maxItemsInCell>2</maxItemsInCell>
 			<preventDeteriorationOnTop>true</preventDeteriorationOnTop>
 			<ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty>
 			<fixedStorageSettings>
