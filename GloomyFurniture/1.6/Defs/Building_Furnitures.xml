@@ -24,7 +24,6 @@
 					<li>RGK_EndTableWithLampE</li>
 					<li>WardrobeA</li>
 					<li>WardrobeB</li>
-					<li>WardrobeC</li>
 					<li>GL_Teddy</li>
 				</linkableFacilities>
 			</li>
@@ -83,7 +82,6 @@
 					<li>RGK_EndTableWithLampE</li>
 					<li>WardrobeA</li>
 					<li>WardrobeB</li>
-					<li>WardrobeC</li>
 					<li>GL_Teddy</li>
 				</linkableFacilities>
 			</li>
@@ -142,7 +140,6 @@
 					<li>RGK_EndTable</li>
 					<li>WardrobeA</li>
 					<li>WardrobeB</li>
-					<li>WardrobeC</li>
 					<li>GL_Teddy</li>
 				</linkableFacilities>
 			</li>
@@ -203,7 +200,6 @@
 					<li>RGK_EndTable</li>
 					<li>WardrobeA</li>
 					<li>WardrobeB</li>
-					<li>WardrobeC</li>
 					<li>GL_Teddy</li>
 				</linkableFacilities>
 			</li>
@@ -267,7 +263,6 @@
 					<li>RGK_EndTable</li>
 					<li>WardrobeA</li>
 					<li>WardrobeB</li>
-					<li>WardrobeC</li>
 					<li>GL_Teddy</li>
 				</linkableFacilities>
 			</li>						
@@ -1302,178 +1297,12 @@
 		<designationCategory>OldStyleFurniture</designationCategory>
 	</ThingDef>	
 
+	<!-- 옷장: 내부 ThingOwner 보관(책장 패턴). A/B는 텍스처만 다름 -->
 	<ThingDef ParentName="FurnitureWithQualityBase">
 		<defName>WardrobeA</defName>
 		<label>wardrobe</label>
-		<description>Shelves and drawers for storing clothes.</description>
-		<thingClass>Building_Storage</thingClass>
-		<graphicData>
-			<texPath>Things/Building/Furniture/RGK_DresserA</texPath>
-			<graphicClass>Graphic_Multi</graphicClass>
-			<drawSize>(3,3)</drawSize>
-			<damageData>
-				<rectN>(0.25,0.234375,0.5,0.28125)</rectN>
-				<rectS>(0.25,0.234375,0.5,0.28125)</rectS>
-				<rectE>(0.28125,0.25,0.453125,0.25)</rectE>
-				<rectW>(0.28125,0.25,0.453125,0.25)</rectW>
-			</damageData>
-		</graphicData>
-		<uiIconScale>0.65</uiIconScale>
-		<uiIconOffset>(0, 0.15)</uiIconOffset>
-		<altitudeLayer>Pawn</altitudeLayer>
-		<passability>PassThroughOnly</passability>
-		<fillPercent>1</fillPercent>
-		<minifiedDef>MinifiedThing</minifiedDef>
-		<castEdgeShadows>true</castEdgeShadows>
-		<stuffCategories>
-			<li>Woody</li>
-		</stuffCategories>
-		<costStuffCount>120</costStuffCount>
-		<statBases>
-			<Beauty>8</Beauty>
-			<MaxHitPoints>100</MaxHitPoints>
-			<Mass>8</Mass>
-			<WorkToBuild>3000</WorkToBuild>
-			<Flammability>1.0</Flammability>
-		</statBases>
-		<size>(1,1)</size>
-		<defaultPlacingRot>South</defaultPlacingRot>
-		<building>
-			<maxItemsInCell>5</maxItemsInCell>
-			<preventDeteriorationOnTop>true</preventDeteriorationOnTop>
-			<ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty>
-			<fixedStorageSettings>
-				<filter>
-					<disallowNotEverStorable>true</disallowNotEverStorable>
-					<categories Inherit="False">
-						<li>Apparel</li>
-					</categories>
-				</filter>
-			</fixedStorageSettings>
-			<defaultStorageSettings>
-				<priority>Important</priority>
-				<filter>
-					<categories>
-						<li>Apparel</li>
-					</categories>
-				</filter>
-			</defaultStorageSettings>
-		</building>
-		<inspectorTabs>
-			<li>ITab_Storage</li>
-		</inspectorTabs>
-		<designationHotKey>Misc5</designationHotKey>
-		<staticSunShadowHeight>0.15</staticSunShadowHeight>
-		<surfaceType>Item</surfaceType>
-		<canOverlapZones>false</canOverlapZones>
-		<researchPrerequisites>
-			<li>ComplexFurniture</li>
-		</researchPrerequisites>
-		<constructionSkillPrerequisite>6</constructionSkillPrerequisite>
-		<designationCategory>OldStyleFurniture</designationCategory>
-		<placeWorkers>
-			<li>PlaceWorker_ShowFacilitiesConnections</li>
-		</placeWorkers>
-		<comps>
-			<li Class="CompProperties_Facility">
-				<statOffsets>
-					<Comfort>0.02</Comfort>
-				</statOffsets>
-				<maxSimultaneous>1</maxSimultaneous>
-				<maxDistance>4</maxDistance>
-			</li>
-		</comps>
-	</ThingDef>	
-
-	<ThingDef ParentName="FurnitureWithQualityBase">
-		<defName>WardrobeB</defName>
-		<label>wardrobe</label>
-		<description>Shelves and drawers for storing clothes.</description>
-		<thingClass>Building_Storage</thingClass>
-		<graphicData>
-			<texPath>Things/Building/Furniture/RGK_DresserB</texPath>
-			<graphicClass>Graphic_Multi</graphicClass>
-			<drawSize>(3,3)</drawSize>
-			<damageData>
-				<rectN>(0.25,0.234375,0.5,0.28125)</rectN>
-				<rectS>(0.25,0.234375,0.5,0.28125)</rectS>
-				<rectE>(0.28125,0.25,0.453125,0.25)</rectE>
-				<rectW>(0.28125,0.25,0.453125,0.25)</rectW>
-			</damageData>
-		</graphicData>		
-		<uiIconScale>0.65</uiIconScale>
-		<uiIconOffset>(0, 0.15)</uiIconOffset>
-		<altitudeLayer>Pawn</altitudeLayer>
-		<passability>PassThroughOnly</passability>
-		<fillPercent>1</fillPercent>
-		<minifiedDef>MinifiedThing</minifiedDef>
-		<castEdgeShadows>true</castEdgeShadows>
-		<stuffCategories>
-			<li>Woody</li>
-		</stuffCategories>
-		<costStuffCount>120</costStuffCount>
-		<statBases>
-			<Beauty>15</Beauty>
-			<MaxHitPoints>120</MaxHitPoints>
-			<Mass>8</Mass>
-			<WorkToBuild>5000</WorkToBuild>
-			<Flammability>1.0</Flammability>
-		</statBases>
-		<size>(1,1)</size>
-		<defaultPlacingRot>South</defaultPlacingRot>
-		<building>
-			<maxItemsInCell>5</maxItemsInCell>
-			<preventDeteriorationOnTop>true</preventDeteriorationOnTop>
-			<ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty>
-			<fixedStorageSettings>
-				<filter>
-					<disallowNotEverStorable>true</disallowNotEverStorable>
-					<categories Inherit="False">
-						<li>Apparel</li>
-					</categories>
-				</filter>
-			</fixedStorageSettings>
-			<defaultStorageSettings>
-				<priority>Important</priority>
-				<filter>
-					<categories>
-						<li>Apparel</li>
-					</categories>
-				</filter>
-			</defaultStorageSettings>
-		</building>
-		<inspectorTabs>
-			<li>ITab_Storage</li>
-		</inspectorTabs>
-		<designationHotKey>Misc5</designationHotKey>
-		<staticSunShadowHeight>0.15</staticSunShadowHeight>
-		<surfaceType>Item</surfaceType>
-		<canOverlapZones>false</canOverlapZones>
-		<researchPrerequisites>
-			<li>ComplexFurniture</li>
-		</researchPrerequisites>
-		<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
-		<designationCategory>OldStyleFurniture</designationCategory>
-		<placeWorkers>
-			<li>PlaceWorker_ShowFacilitiesConnections</li>
-		</placeWorkers>
-		<comps>
-			<li Class="CompProperties_Facility">
-				<statOffsets>
-					<Comfort>0.04</Comfort>
-				</statOffsets>
-				<maxSimultaneous>1</maxSimultaneous>
-				<maxDistance>4</maxDistance>
-			</li>
-		</comps>
-	</ThingDef>	
-
-	<!-- 옷장 C: 책장과 동일한 내부 ThingOwner 보관(바닥 슬롯 아님) -->
-	<ThingDef ParentName="FurnitureWithQualityBase">
-		<defName>WardrobeC</defName>
-		<label>wardrobe (type C)</label>
 		<description>Stores apparel inside the cabinet like books in a bookcase. Use the storage tab for filters and priorities; open the contents tab to eject items. Not a ground-stack shelf.</description>
-		<thingClass>Gloomylynx.Building_GloomyWardrobeC</thingClass>
+		<thingClass>Gloomylynx.Building_GloomyWardrobe</thingClass>
 		<drawerType>RealtimeOnly</drawerType>
 		<preventDroppingThingsOn>true</preventDroppingThingsOn>
 		<deselectedSelectionBracketFactor>0.3</deselectedSelectionBracketFactor>
@@ -1509,7 +1338,7 @@
 		<size>(1,1)</size>
 		<defaultPlacingRot>South</defaultPlacingRot>
 		<building>
-			<storageGroupTag>GL_WardrobeC</storageGroupTag>
+			<storageGroupTag>GL_Wardrobe</storageGroupTag>
 			<maxItemsInCell>10</maxItemsInCell>
 			<blueprintClass>Blueprint_StorageWithRoomHighlight</blueprintClass>
 			<preventDeteriorationOnTop>true</preventDeteriorationOnTop>
@@ -1533,7 +1362,96 @@
 		</building>
 		<inspectorTabs>
 			<li>ITab_Storage</li>
-			<li>Gloomylynx.ITab_ContentsGloomyWardrobeC</li>
+			<li>Gloomylynx.ITab_ContentsGloomyWardrobe</li>
+		</inspectorTabs>
+		<designationHotKey>Misc5</designationHotKey>
+		<staticSunShadowHeight>0.5</staticSunShadowHeight>
+		<surfaceType>None</surfaceType>
+		<canOverlapZones>false</canOverlapZones>
+		<researchPrerequisites>
+			<li>ComplexFurniture</li>
+		</researchPrerequisites>
+		<constructionSkillPrerequisite>6</constructionSkillPrerequisite>
+		<designationCategory>OldStyleFurniture</designationCategory>
+		<placeWorkers>
+			<li>PlaceWorker_ShowFacilitiesConnections</li>
+		</placeWorkers>
+		<comps>
+			<li Class="CompProperties_Facility">
+				<statOffsets>
+					<Comfort>0.02</Comfort>
+				</statOffsets>
+				<maxSimultaneous>1</maxSimultaneous>
+				<maxDistance>4</maxDistance>
+			</li>
+		</comps>
+	</ThingDef>
+
+	<ThingDef ParentName="FurnitureWithQualityBase">
+		<defName>WardrobeB</defName>
+		<label>wardrobe</label>
+		<description>Stores apparel inside the cabinet like books in a bookcase. Use the storage tab for filters and priorities; open the contents tab to eject items. Not a ground-stack shelf.</description>
+		<thingClass>Gloomylynx.Building_GloomyWardrobe</thingClass>
+		<drawerType>RealtimeOnly</drawerType>
+		<preventDroppingThingsOn>true</preventDroppingThingsOn>
+		<deselectedSelectionBracketFactor>0.3</deselectedSelectionBracketFactor>
+		<graphicData>
+			<texPath>Things/Building/Furniture/RGK_DresserB</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(3,3)</drawSize>
+			<damageData>
+				<rectN>(0.25,0.234375,0.5,0.28125)</rectN>
+				<rectS>(0.25,0.234375,0.5,0.28125)</rectS>
+				<rectE>(0.28125,0.25,0.453125,0.25)</rectE>
+				<rectW>(0.28125,0.25,0.453125,0.25)</rectW>
+			</damageData>
+		</graphicData>
+		<uiIconScale>0.65</uiIconScale>
+		<uiIconOffset>(0, 0.15)</uiIconOffset>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>1</fillPercent>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<castEdgeShadows>true</castEdgeShadows>
+		<stuffCategories>
+			<li>Woody</li>
+		</stuffCategories>
+		<costStuffCount>120</costStuffCount>
+		<statBases>
+			<Beauty>8</Beauty>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Mass>8</Mass>
+			<WorkToBuild>3000</WorkToBuild>
+			<Flammability>1.0</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<building>
+			<storageGroupTag>GL_Wardrobe</storageGroupTag>
+			<maxItemsInCell>10</maxItemsInCell>
+			<blueprintClass>Blueprint_StorageWithRoomHighlight</blueprintClass>
+			<preventDeteriorationOnTop>true</preventDeteriorationOnTop>
+			<ignoreStoredThingsBeauty>false</ignoreStoredThingsBeauty>
+			<fixedStorageSettings>
+				<filter>
+					<disallowNotEverStorable>true</disallowNotEverStorable>
+					<categories Inherit="False">
+						<li>Apparel</li>
+					</categories>
+				</filter>
+			</fixedStorageSettings>
+			<defaultStorageSettings>
+				<priority>Important</priority>
+				<filter>
+					<categories>
+						<li>Apparel</li>
+					</categories>
+				</filter>
+			</defaultStorageSettings>
+		</building>
+		<inspectorTabs>
+			<li>ITab_Storage</li>
+			<li>Gloomylynx.ITab_ContentsGloomyWardrobe</li>
 		</inspectorTabs>
 		<designationHotKey>Misc5</designationHotKey>
 		<staticSunShadowHeight>0.5</staticSunShadowHeight>

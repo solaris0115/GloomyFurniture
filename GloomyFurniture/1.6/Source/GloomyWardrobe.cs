@@ -11,7 +11,7 @@ namespace Gloomylynx
     /// <summary>
     /// 책장과 동일한 보관(ThingOwner) 패턴. IApparelSource + 기본 true로 의류 정책 자동 착용 허용, 지즈모로 끄면 저장 전용.
     /// </summary>
-    public class Building_GloomyWardrobeC : Building, IThingHolderEvents<Apparel>, IHaulEnroute, ILoadReferenceable,
+    public class Building_GloomyWardrobe : Building, IThingHolderEvents<Apparel>, IHaulEnroute, ILoadReferenceable,
         IStorageGroupMember, IHaulDestination, IStoreSettingsParent, IHaulSource, IThingHolder, IApparelSource,
         ISearchableContents, IBeautyContainer
     {
@@ -47,7 +47,7 @@ namespace Gloomylynx
             return this.innerContainer.Remove(apparel);
         }
 
-        public Building_GloomyWardrobeC()
+        public Building_GloomyWardrobe()
         {
             this.innerContainer = new ThingOwner<Apparel>(this, false, LookMode.Deep, true);
         }
@@ -239,10 +239,10 @@ namespace Gloomylynx
                     text += "(" + "OneBuilding".Translate() + ")\n";
                 }
             }
-            text += "GL_WardrobeCStoredInspect".Translate(this.HeldApparel.Count, this.MaximumApparel);
+            text += "GL_WardrobeStoredInspect".Translate(this.HeldApparel.Count, this.MaximumApparel);
             text += "\n" + (this.allowAutoWearFromWardrobe
-                ? "GL_WardrobeC_AutoWearOnInspect".Translate()
-                : "GL_WardrobeC_AutoWearOffInspect".Translate());
+                ? "GL_Wardrobe_AutoWearOnInspect".Translate()
+                : "GL_Wardrobe_AutoWearOffInspect".Translate());
             return text;
         }
 
@@ -267,8 +267,8 @@ namespace Gloomylynx
             {
                 yield return new Command_Toggle
                 {
-                    defaultLabel = "GL_WardrobeC_AutoWearLabel".Translate(),
-                    defaultDesc = "GL_WardrobeC_AutoWearDesc".Translate(),
+                    defaultLabel = "GL_Wardrobe_AutoWearLabel".Translate(),
+                    defaultDesc = "GL_Wardrobe_AutoWearDesc".Translate(),
                     icon = this.allowAutoWearFromWardrobe ? TexCommand.ForbidOff : TexCommand.ForbidOn,
                     isActive = () => this.allowAutoWearFromWardrobe,
                     toggleAction = delegate
@@ -318,7 +318,7 @@ namespace Gloomylynx
         }
     }
 
-    public class ITab_ContentsGloomyWardrobeC : ITab_ContentsBase
+    public class ITab_ContentsGloomyWardrobe : ITab_ContentsBase
     {
         private static readonly CachedTexture DropTex = new CachedTexture("UI/Buttons/Drop");
 
@@ -327,11 +327,11 @@ namespace Gloomylynx
 
         public override bool IsVisible => base.SelThing != null && base.IsVisible;
 
-        public Building_GloomyWardrobeC Wardrobe => base.SelThing as Building_GloomyWardrobeC;
+        public Building_GloomyWardrobe Wardrobe => base.SelThing as Building_GloomyWardrobe;
 
         public override bool VisibleInBlueprintMode => false;
 
-        public ITab_ContentsGloomyWardrobeC()
+        public ITab_ContentsGloomyWardrobe()
         {
             this.labelKey = "TabCasketContents";
             this.containedItemsKey = "TabCasketContents";

@@ -196,18 +196,18 @@
   <Frame_RKGWineRackB.description>ワインやお酒を保管するための棚です。</Frame_RKGWineRackB.description>
 
   <WardrobeA.label>ワードローブ</WardrobeA.label>
-  <WardrobeA.description>服を収納するための棚やタンスです。</WardrobeA.description>
+  <WardrobeA.description>ワードローブ内部に衣類を収納します（本棚の本と同様）。ストレージタブで優先度・フィルタ、内容物タブで取り出しができます。床に積む棚型の収納ではありません。</WardrobeA.description>
   <Blueprint_WardrobeA.label>ワードローブ(設計)</Blueprint_WardrobeA.label>
   <Blueprint_Install_WardrobeA.label>ワードローブ(移動先)</Blueprint_Install_WardrobeA.label>
   <Frame_WardrobeA.label>ワードローブ(施工)</Frame_WardrobeA.label>
-  <Frame_WardrobeA.description>服を収納するための棚やタンスです。</Frame_WardrobeA.description>
+  <Frame_WardrobeA.description>ワードローブ内部に衣類を収納します（本棚の本と同様）。ストレージタブで優先度・フィルタ、内容物タブで取り出しができます。床に積む棚型の収納ではありません。</Frame_WardrobeA.description>
 
   <WardrobeB.label>ワードローブ2</WardrobeB.label>
-  <WardrobeB.description>服を収納するための棚やタンスです。</WardrobeB.description>
+  <WardrobeB.description>ワードローブ内部に衣類を収納します（本棚の本と同様）。ストレージタブで優先度・フィルタ、内容物タブで取り出しができます。床に積む棚型の収納ではありません。</WardrobeB.description>
   <Blueprint_WardrobeB.label>ワードローブ2(設計)</Blueprint_WardrobeB.label>
   <Blueprint_Install_WardrobeB.label>ワードローブ2(移動先)</Blueprint_Install_WardrobeB.label>
   <Frame_WardrobeB.label>ワードローブ2(施工)</Frame_WardrobeB.label>
-  <Frame_WardrobeB.description>服を収納するための棚やタンスです。</Frame_WardrobeB.description>
+  <Frame_WardrobeB.description>ワードローブ内部に衣類を収納します（本棚の本と同様）。ストレージタブで優先度・フィルタ、内容物タブで取り出しができます。床に積む棚型の収納ではありません。</Frame_WardrobeB.description>
 
 
   <!-- Book Shelf -->

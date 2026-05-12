@@ -106,10 +106,10 @@
   <RKGWineRackB.description>Полка для вина или любого другого алкоголя.</RKGWineRackB.description>
 
   <WardrobeA.label>гардероб</WardrobeA.label>
-  <WardrobeA.description>Полки и ящики для хранения одежды.</WardrobeA.description>
+  <WardrobeA.description>Хранит одежду внутри шкафа, как книги в книжном шкафу. Вкладка склада — фильтры и приоритеты; вкладка содержимого — изъятие. Не полочное хранение на полу.</WardrobeA.description>
 
   <WardrobeB.label>резной гардероб</WardrobeB.label>
-  <WardrobeB.description>Полки и ящики для хранения одежды.</WardrobeB.description>
+  <WardrobeB.description>Хранит одежду внутри шкафа, как книги в книжном шкафу. Вкладка склада — фильтры и приоритеты; вкладка содержимого — изъятие. Не полочное хранение на полу.</WardrobeB.description>
 
 
   <!-- 책장 -->

@@ -192,18 +192,18 @@
   <RKGWineRackB_Frame.description>這個架子上能存放酒或酒精飲品。</RKGWineRackB_Frame.description>
 
   <WardrobeA.label>衣櫃</WardrobeA.label>
-  <WardrobeA.description>用於存放衣服的架子和抽屜。</WardrobeA.description>
+  <WardrobeA.description>將服裝收在衣櫃內部（類似書櫃藏書）。儲存標籤可設優先度與篩選；內容物標籤可取出。非在地面堆疊的普通層架。</WardrobeA.description>
   <WardrobeA_Blueprint.label>衣櫃（藍圖）</WardrobeA_Blueprint.label>
   <WardrobeA_Blueprint_Install.label>衣櫃（藍圖）</WardrobeA_Blueprint_Install.label>
   <WardrobeA_Frame.label>衣櫃（建造中）</WardrobeA_Frame.label>
-  <WardrobeA_Frame.description>用於存放衣服的架子和抽屜。</WardrobeA_Frame.description>
+  <WardrobeA_Frame.description>將服裝收在衣櫃內部（類似書櫃藏書）。儲存標籤可設優先度與篩選；內容物標籤可取出。非在地面堆疊的普通層架。</WardrobeA_Frame.description>
 
   <WardrobeB.label>衣櫥</WardrobeB.label>
-  <WardrobeB.description>用於存放衣服的架子和抽屜。</WardrobeB.description>
+  <WardrobeB.description>將服裝收在衣櫃內部（類似書櫃藏書）。儲存標籤可設優先度與篩選；內容物標籤可取出。非在地面堆疊的普通層架。</WardrobeB.description>
   <WardrobeB_Blueprint.label>衣櫥（藍圖）</WardrobeB_Blueprint.label>
   <WardrobeB_Blueprint_Install.label>衣櫥（藍圖）</WardrobeB_Blueprint_Install.label>
   <WardrobeB_Frame.label>衣櫥（建造中）</WardrobeB_Frame.label>
-  <WardrobeB_Frame.description>用於存放衣服的架子和抽屜。</WardrobeB_Frame.description>
+  <WardrobeB_Frame.description>將服裝收在衣櫃內部（類似書櫃藏書）。儲存標籤可設優先度與篩選；內容物標籤可取出。非在地面堆疊的普通層架。</WardrobeB_Frame.description>
 
   <RGK_Manger.label>飼料槽</RGK_Manger.label>
   <RGK_Manger.description>這是動物的飼料槽。 你可以儲存食物和乾草。</RGK_Manger.description>

@@ -164,17 +164,17 @@
   <RKGWineRackB_Frame.label>酒柜 (建造中)</RKGWineRackB_Frame.label>
   <RKGWineRackB_Frame.description>储存葡萄酒或酒精的架子。</RKGWineRackB_Frame.description>
   <WardrobeA.label>衣橱</WardrobeA.label>
-  <WardrobeA.description>用来存放衣服的架子和抽屉。</WardrobeA.description>
+  <WardrobeA.description>将服装收在衣柜内部（类似书柜存书）。用储存标签设置优先级和筛选；用内容物标签取出。不是在地面上堆叠的普通架子。</WardrobeA.description>
   <WardrobeA_Blueprint.label>衣橱 (蓝图)</WardrobeA_Blueprint.label>
   <WardrobeA_Blueprint_Install.label>衣橱 (蓝图)</WardrobeA_Blueprint_Install.label>
   <WardrobeA_Frame.label>衣橱 (建造中)</WardrobeA_Frame.label>
-  <WardrobeA_Frame.description>用来存放衣服的架子和抽屉。</WardrobeA_Frame.description>
+  <WardrobeA_Frame.description>将服装收在衣柜内部（类似书柜存书）。用储存标签设置优先级和筛选；用内容物标签取出。不是在地面上堆叠的普通架子。</WardrobeA_Frame.description>
   <WardrobeB.label>衣橱B</WardrobeB.label>
-  <WardrobeB.description>用来存放衣服的架子和抽屉。</WardrobeB.description>
+  <WardrobeB.description>将服装收在衣柜内部（类似书柜存书）。用储存标签设置优先级和筛选；用内容物标签取出。不是在地面上堆叠的普通架子。</WardrobeB.description>
   <WardrobeB_Blueprint.label>衣橱B (蓝图)</WardrobeB_Blueprint.label>
   <WardrobeB_Blueprint_Install.label>衣橱B (蓝图)</WardrobeB_Blueprint_Install.label>
   <WardrobeB_Frame.label>衣橱B (建造中)</WardrobeB_Frame.label>
-  <WardrobeB_Frame.description>用来存放衣服的架子和抽屉。</WardrobeB_Frame.description>
+  <WardrobeB_Frame.description>将服装收在衣柜内部（类似书柜存书）。用储存标签设置优先级和筛选；用内容物标签取出。不是在地面上堆叠的普通架子。</WardrobeB_Frame.description>
   <RGK_Manger.label>食槽</RGK_Manger.label>
   <RGK_Manger.description>一个动物用的食槽。你可以在中储存食物和干草。</RGK_Manger.description>
   <RGK_Manger_Blueprint.label>食槽 (蓝图)</RGK_Manger_Blueprint.label>

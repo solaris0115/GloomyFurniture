@@ -56,7 +56,7 @@
 
 모드 XML에는 **`bookendGraphicEast` / `bookendGraphicNorth` 블록이 없음** — 북엔드 그래픽은 선택적이라 없으면 `DrawAt`에서 해당 분기만 스킵되고, 책장 본체 텍스처 + 책 `VerticalGraphic`만 보인다.
 
-모드 쪽 옷장(`WardrobeC`) 주석에도 적혀 있듯이, **“슬롯 그룹 없이 `ThingOwner`에만 보관 + 저장 필터·저장 그룹·운반 목적지”** 패턴이 책장과 유사하다.
+모드 쪽 옷장(`WardrobeA`/`WardrobeB`) 주석에도 적혀 있듯이, **“슬롯 그룹 없이 `ThingOwner`에만 보관 + 저장 필터·저장 그룹·운반 목적지”** 패턴이 책장과 유사하다.
 
 ---
 

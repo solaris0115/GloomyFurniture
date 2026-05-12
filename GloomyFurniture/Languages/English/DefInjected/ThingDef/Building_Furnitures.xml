@@ -106,13 +106,10 @@
   <RKGWineRackB.description>A shelf that stores wine or alcohol.</RKGWineRackB.description>
 
   <WardrobeA.label>wardrobe</WardrobeA.label>
-  <WardrobeA.description>Shelves and drawers for storing clothes.</WardrobeA.description>
+  <WardrobeA.description>Stores apparel inside the cabinet like books in a bookcase. Use the storage tab for filters and priorities; open the contents tab to eject items. Not a ground-stack shelf.</WardrobeA.description>
 
   <WardrobeB.label>wardrobe</WardrobeB.label>
-  <WardrobeB.description>Shelves and drawers for storing clothes.</WardrobeB.description>
-
-  <WardrobeC.label>wardrobe (type C)</WardrobeC.label>
-  <WardrobeC.description>Stores apparel inside the cabinet like books in a bookcase. Use the storage tab for filters and priorities; open the contents tab to eject items. Not a ground-stack shelf.</WardrobeC.description>
+  <WardrobeB.description>Stores apparel inside the cabinet like books in a bookcase. Use the storage tab for filters and priorities; open the contents tab to eject items. Not a ground-stack shelf.</WardrobeB.description>
 
 
   <!-- 책장 -->
