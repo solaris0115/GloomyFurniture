@@ -111,6 +111,9 @@
   <WardrobeB.label>wardrobe</WardrobeB.label>
   <WardrobeB.description>Shelves and drawers for storing clothes.</WardrobeB.description>
 
+  <WardrobeC.label>wardrobe (type C)</WardrobeC.label>
+  <WardrobeC.description>Stores apparel inside the cabinet like books in a bookcase. Use the storage tab for filters and priorities; open the contents tab to eject items. Not a ground-stack shelf.</WardrobeC.description>
+
 
   <!-- 책장 -->
 

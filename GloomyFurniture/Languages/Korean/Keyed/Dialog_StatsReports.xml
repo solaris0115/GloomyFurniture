@@ -21,4 +21,13 @@
   <PassableObject_CantPass>통과 가능한 지형에 설치해야 합니다.</PassableObject_CantPass>
 
   <StandableObject_CantPass>서있을 수 있는 지형 위에 설치해야 합니다..</StandableObject_CantPass>
+
+  <GL_WardrobeCStoredInspect>보관 의류: {0} / {1}</GL_WardrobeCStoredInspect>
+
+  <GL_WardrobeC_AutoWearLabel>정책 자동 착용</GL_WardrobeC_AutoWearLabel>
+  <GL_WardrobeC_AutoWearDesc>켜 두면 정착민이 의복 정책에 맞는 옷을 이 옷장에서 꺼내 입을 수 있습니다(의상 거치대와 같은 개념). 작업 이상이 보이면 끄고 저장 전용으로 쓰세요.</GL_WardrobeC_AutoWearDesc>
+  <GL_WardrobeC_AutoWearOnInspect>의복 정책이 여기 보관 옷을 사용할 수 있음.</GL_WardrobeC_AutoWearOnInspect>
+  <GL_WardrobeC_AutoWearOffInspect>의복 정책이 이 옷장 안 옷을 무시함(저장 전용).</GL_WardrobeC_AutoWearOffInspect>
+
+  <EjectApparelTooltip>옷장에서 이 아이템을 꺼냅니다.</EjectApparelTooltip>
 </LanguageData>

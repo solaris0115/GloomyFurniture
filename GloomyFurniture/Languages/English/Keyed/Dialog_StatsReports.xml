@@ -22,4 +22,13 @@
 
   <StandableObject_CantPass>Must be placed on Standable</StandableObject_CantPass>
 
+  <GL_WardrobeCStoredInspect>Stored apparel: {0} / {1}</GL_WardrobeCStoredInspect>
+
+  <GL_WardrobeC_AutoWearLabel>Policy auto-wear</GL_WardrobeC_AutoWearLabel>
+  <GL_WardrobeC_AutoWearDesc>When on, colonists may take and wear suitable apparel from this wardrobe according to their outfit policy (same idea as the outfit stand). Turn off for storage-only if you see job issues.</GL_WardrobeC_AutoWearDesc>
+  <GL_WardrobeC_AutoWearOnInspect>Outfit policy may use stored apparel.</GL_WardrobeC_AutoWearOnInspect>
+  <GL_WardrobeC_AutoWearOffInspect>Outfit policy ignores apparel here (storage only).</GL_WardrobeC_AutoWearOffInspect>
+
+  <EjectApparelTooltip>Remove this item from the wardrobe.</EjectApparelTooltip>
+
 </LanguageData>

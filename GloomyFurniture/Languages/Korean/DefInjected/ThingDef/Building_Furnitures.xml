@@ -111,6 +111,9 @@
   <WardrobeB.label>옷장</WardrobeB.label>
   <WardrobeB.description>옷가지를 넣을 수 있는 옷장입니다.</WardrobeB.description>
 
+  <WardrobeC.label>옷장 C형</WardrobeC.label>
+  <WardrobeC.description>책장에 책을 넣듯 옷장 내부에 의류를 보관합니다. 저장 탭에서 우선순위·필터를, 내용물 탭에서 꺼내기를 할 수 있습니다. 바닥 겹쳐 쌓는 일반 선반형 저장이 아닙니다.</WardrobeC.description>
+
 
   <!-- 책장 -->
 

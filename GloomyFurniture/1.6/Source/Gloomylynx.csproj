@@ -64,12 +64,17 @@
       <HintPath>C:\Program Files (x86)\Steam\steamapps\common\RimWorld\RimWorldWin64_Data\Managed\UnityEngine.IMGUIModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="UnityEngine.TextRenderingModule">
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\RimWorld\RimWorldWin64_Data\Managed\UnityEngine.TextRenderingModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1.cs" />
     <Compile Include="Comp.cs" />
     <Compile Include="Locker.cs" />
     <Compile Include="Tantrum.cs" />
+    <Compile Include="WardrobeC.cs" />
     <Compile Include="WallLamp.cs" />
     <Compile Include="JukeBox.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

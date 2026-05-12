@@ -24,6 +24,7 @@
 					<li>RGK_EndTableWithLampE</li>
 					<li>WardrobeA</li>
 					<li>WardrobeB</li>
+					<li>WardrobeC</li>
 					<li>GL_Teddy</li>
 				</linkableFacilities>
 			</li>
@@ -82,6 +83,7 @@
 					<li>RGK_EndTableWithLampE</li>
 					<li>WardrobeA</li>
 					<li>WardrobeB</li>
+					<li>WardrobeC</li>
 					<li>GL_Teddy</li>
 				</linkableFacilities>
 			</li>
@@ -140,6 +142,7 @@
 					<li>RGK_EndTable</li>
 					<li>WardrobeA</li>
 					<li>WardrobeB</li>
+					<li>WardrobeC</li>
 					<li>GL_Teddy</li>
 				</linkableFacilities>
 			</li>
@@ -200,6 +203,7 @@
 					<li>RGK_EndTable</li>
 					<li>WardrobeA</li>
 					<li>WardrobeB</li>
+					<li>WardrobeC</li>
 					<li>GL_Teddy</li>
 				</linkableFacilities>
 			</li>
@@ -263,6 +267,7 @@
 					<li>RGK_EndTable</li>
 					<li>WardrobeA</li>
 					<li>WardrobeB</li>
+					<li>WardrobeC</li>
 					<li>GL_Teddy</li>
 				</linkableFacilities>
 			</li>						
@@ -1259,14 +1264,23 @@
 		<size>(1,1)</size>
 		<defaultPlacingRot>South</defaultPlacingRot>
 		<building>
+			<maxItemsInCell>3</maxItemsInCell>
 			<preventDeteriorationOnTop>true</preventDeteriorationOnTop>
 			<ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty>
+			<fixedStorageSettings>
+				<filter>
+					<categories>
+						<li>Drugs</li>
+					</categories>
+				</filter>
+			</fixedStorageSettings>
 			<defaultStorageSettings>
 				<priority>Important</priority>
 				<filter>
-					<categories>
-						<li>Alcohol</li>
-					</categories>
+					<categories></categories>
+					<thingDefs>
+						<li>Beer</li>
+					</thingDefs>
 				</filter>
 			</defaultStorageSettings>
 		</building>
@@ -1321,8 +1335,17 @@
 		<size>(1,1)</size>
 		<defaultPlacingRot>South</defaultPlacingRot>
 		<building>
+			<maxItemsInCell>5</maxItemsInCell>
 			<preventDeteriorationOnTop>true</preventDeteriorationOnTop>
 			<ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty>
+			<fixedStorageSettings>
+				<filter>
+					<disallowNotEverStorable>true</disallowNotEverStorable>
+					<categories Inherit="False">
+						<li>Apparel</li>
+					</categories>
+				</filter>
+			</fixedStorageSettings>
 			<defaultStorageSettings>
 				<priority>Important</priority>
 				<filter>
@@ -1395,8 +1418,17 @@
 		<size>(1,1)</size>
 		<defaultPlacingRot>South</defaultPlacingRot>
 		<building>
+			<maxItemsInCell>5</maxItemsInCell>
 			<preventDeteriorationOnTop>true</preventDeteriorationOnTop>
 			<ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty>
+			<fixedStorageSettings>
+				<filter>
+					<disallowNotEverStorable>true</disallowNotEverStorable>
+					<categories Inherit="False">
+						<li>Apparel</li>
+					</categories>
+				</filter>
+			</fixedStorageSettings>
 			<defaultStorageSettings>
 				<priority>Important</priority>
 				<filter>
@@ -1432,7 +1464,97 @@
 		</comps>
 	</ThingDef>	
 
-	<!-- 책장 -->
+	<!-- 옷장 C: 책장과 동일한 내부 ThingOwner 보관(바닥 슬롯 아님) -->
+	<ThingDef ParentName="FurnitureWithQualityBase">
+		<defName>WardrobeC</defName>
+		<label>wardrobe (type C)</label>
+		<description>Stores apparel inside the cabinet like books in a bookcase. Use the storage tab for filters and priorities; open the contents tab to eject items. Not a ground-stack shelf.</description>
+		<thingClass>Gloomylynx.Building_GloomyWardrobeC</thingClass>
+		<drawerType>RealtimeOnly</drawerType>
+		<preventDroppingThingsOn>true</preventDroppingThingsOn>
+		<deselectedSelectionBracketFactor>0.3</deselectedSelectionBracketFactor>
+		<graphicData>
+			<texPath>Things/Building/Furniture/RGK_DresserA</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(3,3)</drawSize>
+			<damageData>
+				<rectN>(0.25,0.234375,0.5,0.28125)</rectN>
+				<rectS>(0.25,0.234375,0.5,0.28125)</rectS>
+				<rectE>(0.28125,0.25,0.453125,0.25)</rectE>
+				<rectW>(0.28125,0.25,0.453125,0.25)</rectW>
+			</damageData>
+		</graphicData>
+		<uiIconScale>0.65</uiIconScale>
+		<uiIconOffset>(0, 0.15)</uiIconOffset>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>1</fillPercent>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<castEdgeShadows>true</castEdgeShadows>
+		<stuffCategories>
+			<li>Woody</li>
+		</stuffCategories>
+		<costStuffCount>120</costStuffCount>
+		<statBases>
+			<Beauty>8</Beauty>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Mass>8</Mass>
+			<WorkToBuild>3000</WorkToBuild>
+			<Flammability>1.0</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<building>
+			<storageGroupTag>GL_WardrobeC</storageGroupTag>
+			<maxItemsInCell>10</maxItemsInCell>
+			<blueprintClass>Blueprint_StorageWithRoomHighlight</blueprintClass>
+			<preventDeteriorationOnTop>true</preventDeteriorationOnTop>
+			<ignoreStoredThingsBeauty>false</ignoreStoredThingsBeauty>
+			<fixedStorageSettings>
+				<filter>
+					<disallowNotEverStorable>true</disallowNotEverStorable>
+					<categories Inherit="False">
+						<li>Apparel</li>
+					</categories>
+				</filter>
+			</fixedStorageSettings>
+			<defaultStorageSettings>
+				<priority>Important</priority>
+				<filter>
+					<categories>
+						<li>Apparel</li>
+					</categories>
+				</filter>
+			</defaultStorageSettings>
+		</building>
+		<inspectorTabs>
+			<li>ITab_Storage</li>
+			<li>Gloomylynx.ITab_ContentsGloomyWardrobeC</li>
+		</inspectorTabs>
+		<designationHotKey>Misc5</designationHotKey>
+		<staticSunShadowHeight>0.5</staticSunShadowHeight>
+		<surfaceType>None</surfaceType>
+		<canOverlapZones>false</canOverlapZones>
+		<researchPrerequisites>
+			<li>ComplexFurniture</li>
+		</researchPrerequisites>
+		<constructionSkillPrerequisite>6</constructionSkillPrerequisite>
+		<designationCategory>OldStyleFurniture</designationCategory>
+		<placeWorkers>
+			<li>PlaceWorker_ShowFacilitiesConnections</li>
+		</placeWorkers>
+		<comps>
+			<li Class="CompProperties_Facility">
+				<statOffsets>
+					<Comfort>0.02</Comfort>
+				</statOffsets>
+				<maxSimultaneous>1</maxSimultaneous>
+				<maxDistance>4</maxDistance>
+			</li>
+		</comps>
+	</ThingDef>
+
+	<!-- 책장 (바닐라 Bookcase와 동일하게 Book 보관 + 시설 연구 보너스) -->
 	<ThingDef ParentName="BuildingBase">
 		<defName>GL_Bookshelf</defName>
 		<label>bookshelf</label>
@@ -1443,14 +1565,18 @@
 			<drawSize>3</drawSize>
 			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
-		<thingClass>Building</thingClass>
+		<thingClass>Building_Bookcase</thingClass>
+		<drawerType>RealtimeOnly</drawerType>
+		<preventDroppingThingsOn>true</preventDroppingThingsOn>
+		<deselectedSelectionBracketFactor>0.3</deselectedSelectionBracketFactor>
 		<uiIconScale>0.65</uiIconScale>
 		<uiIconOffset>(0, 0.15)</uiIconOffset>
 		<size>(1,1)</size>
 		<altitudeLayer>Building</altitudeLayer>
+		<defaultPlacingRot>South</defaultPlacingRot>
 		<passability>PassThroughOnly</passability>
 		<castEdgeShadows>true</castEdgeShadows>
-		<fillPercent>0.6</fillPercent>
+		<fillPercent>0.4</fillPercent>
 		<designationCategory>OldStyleFurniture</designationCategory>
 		<minifiedDef>MinifiedThing</minifiedDef>
 		<canOverlapZones>false</canOverlapZones>
@@ -1473,6 +1599,28 @@
 			<li>Woody</li>
 		</stuffCategories>
 		<costStuffCount>150</costStuffCount>
+		<building>
+			<storageGroupTag>Bookcase</storageGroupTag>
+			<maxItemsInCell>10</maxItemsInCell>
+			<blueprintClass>Blueprint_StorageWithRoomHighlight</blueprintClass>
+			<preventDeteriorationOnTop>true</preventDeteriorationOnTop>
+			<ignoreStoredThingsBeauty>false</ignoreStoredThingsBeauty>
+			<fixedStorageSettings>
+				<filter>
+					<categories Inherit="False">
+						<li>Books</li>
+					</categories>
+				</filter>
+			</fixedStorageSettings>
+			<defaultStorageSettings>
+				<priority>Important</priority>
+				<filter>
+					<categories>
+						<li>Books</li>
+					</categories>
+				</filter>
+			</defaultStorageSettings>
+		</building>
 		<comps>
 			<li Class="CompProperties_Facility">
 				<statOffsets>
@@ -1484,7 +1632,13 @@
 		</comps>
 		<placeWorkers>
 			<li>PlaceWorker_ShowFacilitiesConnections</li>
+			<li>PlaceWorker_DrawLinesToResearchTablesInRoom</li>
 		</placeWorkers>
+		<inspectorTabs>
+			<li>ITab_ContentsBooks</li>
+		</inspectorTabs>
+		<staticSunShadowHeight>0.5</staticSunShadowHeight>
+		<surfaceType>None</surfaceType>
 		<constructionSkillPrerequisite>6</constructionSkillPrerequisite>
 	</ThingDef>
 	
@@ -1631,14 +1785,25 @@
 		<size>(2,1)</size>
 		<defaultPlacingRot>South</defaultPlacingRot>
 		<building>
+			<maxItemsInCell>3</maxItemsInCell>
 			<preventDeteriorationOnTop>true</preventDeteriorationOnTop>
 			<ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty>
+			<fixedStorageSettings>
+				<filter>
+					<disallowNotEverStorable>true</disallowNotEverStorable>
+					<categories Inherit="False">
+						<li>Foods</li>
+					</categories>
+				</filter>
+			</fixedStorageSettings>
 			<defaultStorageSettings>
 				<priority>Important</priority>
 				<filter>
-					<categories>
-						<li>AnimalFoods</li>
-					</categories>
+					<categories></categories>
+					<thingDefs>
+						<li>Hay</li>
+						<li>Kibble</li>
+					</thingDefs>
 				</filter>
 			</defaultStorageSettings>
 		</building>
@@ -1682,6 +1847,7 @@
 		<size>(2,1)</size>
 		<defaultPlacingRot>North</defaultPlacingRot>
 		<building>
+			<maxItemsInCell>3</maxItemsInCell>
 			<preventDeteriorationOnTop>true</preventDeteriorationOnTop>
 			<ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty>
 			<defaultStorageSettings>
@@ -1732,6 +1898,7 @@
 		<size>(1,1)</size>
 		<defaultPlacingRot>North</defaultPlacingRot>
 		<building>
+			<maxItemsInCell>3</maxItemsInCell>
 			<preventDeteriorationOnTop>true</preventDeteriorationOnTop>
 			<ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty>
 			<defaultStorageSettings>
