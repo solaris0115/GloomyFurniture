@@ -14,8 +14,37 @@
 			<SellPriceFactor>0.70</SellPriceFactor>
 		</statBases>
 	</ThingDef>
+
+	<!-- Core ThingDef[@Name="Wall"]/building/relatedBuildCommands 와 동일. 벽 선택 시 문·자동문·냉방기 등 연관 건설. -->
+	<ThingDef Abstract="True" Name="Gloomy_WallRelatedCommandsLayer" ParentName="BuildingBase">
+		<building>
+			<relatedBuildCommands>
+				<li>Door</li>
+				<li>Autodoor</li>
+				<li>OrnateDoor</li>
+				<li MayRequire="Ludeon.RimWorld.Anomaly">SecurityDoor</li>
+				<li MayRequire="Ludeon.RimWorld.Odyssey">VacBarrier</li>
+				<li>Cooler</li>
+				<li>Vent</li>
+			</relatedBuildCommands>
+		</building>
+	</ThingDef>
+	<ThingDef Abstract="True" Name="Gloomy_RKGFenceWallRelatedCommands" ParentName="RKGFence">
+		<building>
+			<relatedBuildCommands>
+				<li>Door</li>
+				<li>Autodoor</li>
+				<li>OrnateDoor</li>
+				<li MayRequire="Ludeon.RimWorld.Anomaly">SecurityDoor</li>
+				<li MayRequire="Ludeon.RimWorld.Odyssey">VacBarrier</li>
+				<li>Cooler</li>
+				<li>Vent</li>
+			</relatedBuildCommands>
+		</building>
+	</ThingDef>
+
 	<!--벽-->
-	<ThingDef ParentName="BuildingBase">
+	<ThingDef ParentName="Gloomy_WallRelatedCommandsLayer">
 		<defName>RGK_Wall</defName>
 		<label>wall</label>
 		<description>An impassable wall. Capable of holding up a roof.</description>
@@ -85,8 +114,6 @@
 			<blueprintGraphicData>
 				<texPath>Things/Building/Linked/RGK_Wall_Blueprint_Atlas</texPath>
 			</blueprintGraphicData>
-			<relatedBuildCommands>
-			</relatedBuildCommands>
 		</building>
 		<comps>
 			<li Class="CompProperties_MeditationFocus">
@@ -109,7 +136,7 @@
 	</ThingDef>
 
 	<!-- 신규 벽 -->
-	<ThingDef ParentName="BuildingBase">
+	<ThingDef ParentName="Gloomy_WallRelatedCommandsLayer">
 		<defName>GL_Wall</defName>
 		<label>wall</label>
 		<description>An impassable wall. Capable of holding up a roof.</description>
@@ -183,8 +210,6 @@
 			<blueprintGraphicData>
 				<texPath>Things/Building/Linked/RGK_Wall_Blueprint_Atlas</texPath>
 			</blueprintGraphicData>
-			<relatedBuildCommands>
-			</relatedBuildCommands>
 		</building>
 		<comps>
 			<li Class="CompProperties_MeditationFocus">
@@ -207,7 +232,7 @@
 	</ThingDef>
 
 	<!-- 환풍벽 -->
-	<ThingDef ParentName="RKGFence">
+	<ThingDef ParentName="Gloomy_RKGFenceWallRelatedCommands">
 		<defName>RGK_VentWall</defName>
 		<label>vent wall</label>
 		<thingClass>Building_Vent</thingClass>
@@ -285,7 +310,7 @@
 	</ThingDef>
 
 	<!-- 신규 환풍벽 -->	
-	<ThingDef ParentName="RKGFence">
+	<ThingDef ParentName="Gloomy_RKGFenceWallRelatedCommands">
 		<defName>GL_VentWall</defName>
 		<label>vent wall</label>
 		<thingClass>Building_Vent</thingClass>
@@ -412,7 +437,7 @@
 		<uiIconPath>Things/Building/Furniture/RGK_window_south</uiIconPath>
 		<description>It's a window where you can look outside.</description>
 	</ThingDef>
-	<ThingDef ParentName="RKGFence">
+	<ThingDef ParentName="Gloomy_RKGFenceWallRelatedCommands">
 		<defName>RGK_WindowWall</defName>
 		<label>window wall</label>
 		<thingClass>Gloomylynx.GL_Building</thingClass>
@@ -481,7 +506,7 @@
 	</ThingDef>
 
 	<!-- 신규 창문 -->
-	<ThingDef ParentName="RKGFence">
+	<ThingDef ParentName="Gloomy_RKGFenceWallRelatedCommands">
 		<defName>GL_WindowWall</defName>
 		<label>window wall</label>
 		<thingClass>Gloomylynx.GL_Building</thingClass>
@@ -624,7 +649,7 @@
 	
 	<!-- 2018 12 10 -->
 	<!-- 꽃벽 -->
-	<ThingDef ParentName="BuildingBase">
+	<ThingDef ParentName="Gloomy_WallRelatedCommandsLayer">
 		<defName>GL_FlowerWall</defName>
 		<label>Flower wall</label>
 		<description>Wall decorated with flowers.</description>
