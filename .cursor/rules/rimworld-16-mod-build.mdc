@@ -26,12 +26,9 @@ Windows에서는 Visual Studio 설치 경로의 MSBuild를 쓰는 것이 안전�
 
 ## 참조 DLL (csproj)
 
-`Gloomylynx.csproj`의 `HintPath`는 이 머신 기준으로 고정되어 있다.
-
-- RimWorld: `C:\Program Files (x86)\Steam\steamapps\common\RimWorld\RimWorldWin64_Data\Managed\`
-- Harmony: Workshop `2009463077` 경로의 `0Harmony.dll`
-
-경로가 다르면 컴파일 전에 `HintPath`를 수정하거나, 해당 DLL이 존재하는지 확인한다.
+- `RimWorldManagedPath` / `HarmonyAssembliesPath` 프로퍼티로 한 번만 경로를 잡는다. 설치 위치가 다르면 이 두 값만 수정한다.
+- **명시 참조**: `0Harmony.dll`, `Assembly-CSharp.dll` (게임 본체 어셈블리는 glob에 넣지 않음).
+- **Unity**: `$(RimWorldManagedPath)\UnityEngine*.dll` 한 줄로 `Managed` 아래 Unity 모듈 전부를 레퍼런스한다.
 
 ## RimWorld 1.6 API 변경 (자주 틀리는 부분)
 

@@ -12,8 +12,7 @@ alwaysApply: false
 
 ## 파일 관리 (이 csproj 형식)
 
-- 새 **`.cs`** 추가 시 `<ItemGroup>`에 `<Compile Include="경로\파일.cs" />`를 넣는다.
-- **`.cs` 삭제** 시 해당 `<Compile Include="..." />`도 제거한다.
+- 소스 트리의 **`**\*.cs`**가 자동으로 컴파일 대상이다(`bin`·`obj`는 csproj에서 제외). 새 `.cs`는 `1.6/Source` 아래 두면 된다.
 
 ## 빌드 참고 (요약)
 
