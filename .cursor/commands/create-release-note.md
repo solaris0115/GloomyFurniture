@@ -46,5 +46,5 @@ description: Daily 노트를 읽고 사용자향 릴리즈 노트 초안 작성 
 
 ## 참고
 
-- 이 저장소에는 `tools/release_notes.py`가 없다. Daily는 `99_ReleaseNote/` 아래 마크다운으로 관리한다.
+- Daily 원문·기계 집계는 `tools/release_notes.py`(`append-daily` / `create-release`)와 `99_ReleaseNote/*_DAILY.md`로 관리한다. 이 커맨드는 그걸 바탕으로 **사용자향 문장**을 다시 쓰는 단계다.
 - Daily 파일이 하나도 없으면 작성할 내용이 없다고 알린다.
