@@ -104,7 +104,7 @@
 		<defName>RGK_FireplaceE</defName>
 		<label>fire place E</label>
 		<description>It's a warm fireplace that warms the room. Works as electricity.</description>    
-		<thingClass>Building_Heater</thingClass>
+		<thingClass>Gloomylynx.Building_GloomyHeater</thingClass>
 		<category>Building</category>
 		<drawerType>RealtimeOnly</drawerType>
 		<graphicData>
