@@ -15,11 +15,11 @@
 		</statBases>
 	</ThingDef>
 
-	<!-- Core ThingDef[@Name="Wall"]/building/relatedBuildCommands 와 동일. 벽 선택 시 문·자동문·냉방기 등 연관 건설. -->
+	<!-- Core Wall relatedBuildCommands 기준. 수동문만 모드 문(RGK_DoorOld)으로, 자동문·기타는 바닐라 유지. -->
 	<ThingDef Abstract="True" Name="Gloomy_WallRelatedCommandsLayer" ParentName="BuildingBase">
 		<building>
 			<relatedBuildCommands>
-				<li>Door</li>
+				<li>RGK_DoorOld</li>
 				<li>Autodoor</li>
 				<li>OrnateDoor</li>
 				<li MayRequire="Ludeon.RimWorld.Anomaly">SecurityDoor</li>
@@ -32,7 +32,7 @@
 	<ThingDef Abstract="True" Name="Gloomy_RKGFenceWallRelatedCommands" ParentName="RKGFence">
 		<building>
 			<relatedBuildCommands>
-				<li>Door</li>
+				<li>RGK_DoorOld</li>
 				<li>Autodoor</li>
 				<li>OrnateDoor</li>
 				<li MayRequire="Ludeon.RimWorld.Anomaly">SecurityDoor</li>
@@ -42,16 +42,6 @@
 			</relatedBuildCommands>
 		</building>
 	</ThingDef>
-	<!-- Core ThingDef[Fence]/building/relatedBuildCommands 와 동일. 울타리 선택 시 우리 표시·울타리 문. -->
-	<ThingDef Abstract="True" Name="Gloomy_FenceRelatedCommandsLayer" ParentName="RKGFence">
-		<building>
-			<relatedBuildCommands>
-				<li>PenMarker</li>
-				<li>FenceGate</li>
-			</relatedBuildCommands>
-		</building>
-	</ThingDef>
-
 	<!--벽-->
 	<ThingDef ParentName="Gloomy_WallRelatedCommandsLayer">
 		<defName>RGK_Wall</defName>
@@ -584,26 +574,44 @@
 		<designationHotKey>Misc3</designationHotKey>
 	</ThingDef>
 
-	<!--울타리-->
-	<ThingDef ParentName="Gloomy_FenceRelatedCommandsLayer">
+	<!-- 울타리: ParentName은 ThingDef Name(abstract)만 유효 — Core Fence는 defName만 있어 부모 불가. BuildingBase + Core Fence와 동등 필드, 링크 Fences·연관 설치는 PenMarker+RGK_Door. -->
+	<ThingDef ParentName="BuildingBase">
 		<defName>RGK_WoodFence</defName>
 		<label>fence</label>
-		<thingClass>Gloomylynx.GL_Building</thingClass>
-		<category>Building</category>
 		<description>A fence to trap livestock or protect it from outside beasts.</description>
+		<thingClass>Building</thingClass>
+		<category>Building</category>
+		<replaceTags>
+			<li>Wall</li>
+		</replaceTags>
 		<graphicData>
 			<texPath>Things/Building/Linked/RGK_WoodFence</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<linkType>Asymmetric</linkType>
 			<linkFlags>
-				<li>Custom1</li>
+				<li>Fences</li>
 			</linkFlags>
 			<asymmetricLink>
 				<linkFlags>
-					<li>Custom1</li>
+					<li>Wall</li>
+					<li>Rock</li>
 				</linkFlags>
-				<linkToDoors>false</linkToDoors>
+				<linkToDoors>true</linkToDoors>
+				<drawDoorBorderEast>
+					<color>(0,0,0)</color>
+					<size>(0.04, 0.77)</size>
+					<offset>(0.5, 0, -0.08)</offset>
+				</drawDoorBorderEast>
+				<drawDoorBorderWest>
+					<color>(0,0,0)</color>
+					<size>(0.04, 0.77)</size>
+					<offset>(-0.5, 0, -0.08)</offset>
+				</drawDoorBorderWest>
 			</asymmetricLink>
+			<shadowData>
+				<volume>(0.3, 0.5, 0.3)</volume>
+				<offset>(0,0,-0.23)</offset>
+			</shadowData>
 			<damageData>
 				<cornerTL>Damage/Corner</cornerTL>
 				<cornerTR>Damage/Corner</cornerTR>
@@ -622,38 +630,43 @@
 			<WorkToBuild>180</WorkToBuild>
 			<Flammability>1.0</Flammability>
 		</statBases>
-		<stuffCategories>
+		<stuffCategories Inherit="False">
 			<li>Woody</li>
 		</stuffCategories>
 		<costStuffCount>5</costStuffCount>
 		<leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
-		<altitudeLayer>Building</altitudeLayer>
-		<passability>Impassable</passability>
-		<castEdgeShadows>true</castEdgeShadows>
+		<passability>PassThroughOnly</passability>
+		<pathCost>80</pathCost>
+		<blockWind>false</blockWind>
 		<fillPercent>0.25</fillPercent>
-		<coversFloor>false</coversFloor>
-		
+		<drawStyleCategory>Defenses</drawStyleCategory>
 		<tickerType>Never</tickerType>
 		<rotatable>false</rotatable>
 		<selectable>true</selectable>
 		<neverMultiSelect>true</neverMultiSelect>
-		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
-		<holdsRoof>true</holdsRoof>
-		<blockLight>false</blockLight>
-		<building>
+		<useStuffTerrainAffordance>true</useStuffTerrainAffordance>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<canOverlapZones>false</canOverlapZones>
+		<fertility>0</fertility>
+		<castEdgeShadows>true</castEdgeShadows>
+		<building Inherit="False">
 			<isInert>true</isInert>
 			<isFence>true</isFence>
 			<isPlaceOverableWall>true</isPlaceOverableWall>
 			<ai_chillDestination>false</ai_chillDestination>
 			<ai_neverTrashThis>true</ai_neverTrashThis>
+			<relatedBuildCommands>
+				<li>PenMarker</li>
+				<li>RGK_Door</li>
+			</relatedBuildCommands>
 			<blueprintGraphicData>
 				<texPath>Things/Building/Linked/RKG_WoodFence_Blueprint_Atlas</texPath>
 			</blueprintGraphicData>
-			<canPlaceOverWall>true</canPlaceOverWall>
+			<paintable>true</paintable>
 		</building>
 		<designationCategory>OldStyleFurniture</designationCategory>
+		<uiOrder>2020</uiOrder>
 		<designationHotKey>Misc3</designationHotKey>
-		<disableImpassableShotOverConfigError>true</disableImpassableShotOverConfigError>
 	</ThingDef>	
 	
 	<!-- 2018 12 10 -->
@@ -750,15 +763,19 @@
 		<designationCategory>OldStyleFurniture</designationCategory>
 	</ThingDef>
 
-	<!-- 울타리문 -->
+	<!-- 울타리문: ParentName은 defName이 아니라 ThingDef Name(abstract)만 가능해 Core FenceGate는 부모로 지정 불가 → DoorBase + Core FenceGate와 동등 필드 명시. -->
 	<ThingDef ParentName="DoorBase">
 		<defName>RGK_Door</defName>
 		<label>fence door</label>
 		<description>Divides rooms. Simple doors must be manually opened, which slows people down. The amount of slowdown depends on what the door is made of.</description>
 		<thingClass>Building_Door</thingClass>
+		<uiOrder>2030</uiOrder>
 		<graphicData>
 			<texPath>Things/Building/Furniture/WoodFenceGate_Mover</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
+			<shadowData>
+				<volume>(0.3, 0.5, 0.3)</volume>
+			</shadowData>
 			<damageData>
 				<enabled>false</enabled>
 			</damageData>
@@ -766,6 +783,7 @@
 		<statBases>
 			<MaxHitPoints>250</MaxHitPoints>
 			<WorkToBuild>1000</WorkToBuild>
+			<DoorOpenSpeed>1.15</DoorOpenSpeed>
 			<Flammability>0.2</Flammability>
 		</statBases>
 		<uiIconPath>Things/Building/Furniture/WoodFenceGate_icon</uiIconPath>
@@ -776,14 +794,31 @@
 		<costList>
 			<Steel>5</Steel>
 		</costList>
+		<holdsRoof>false</holdsRoof>
+		<blockWeather>true</blockWeather>
+		<staticSunShadowHeight>0</staticSunShadowHeight>
+		<blockWind>false</blockWind>
 		<designationHotKey>Misc12</designationHotKey>
-		<building>
-			<blueprintGraphicData>
-				<texPath>Things/Building/Furniture/RKG_WoodGate_Blueprint_Atlas</texPath>
-			</blueprintGraphicData>
-			<preferConnectingToFences>true</preferConnectingToFences>
+		<building Inherit="False">
+			<isInert>true</isInert>
+			<canPlaceOverWall>true</canPlaceOverWall>
+			<soundDoorOpenPowered>Door_OpenPowered</soundDoorOpenPowered>
+			<soundDoorClosePowered>Door_ClosePowered</soundDoorClosePowered>
 			<soundDoorOpenManual>Door_FenceGateManual</soundDoorOpenManual>
 			<soundDoorCloseManual>Door_FenceGateManual</soundDoorCloseManual>
+			<blueprintClass>Blueprint_Door</blueprintClass>
+			<blueprintGraphicData>
+				<texPath>Things/Building/Furniture/RKG_WoodGate_Blueprint_Atlas</texPath>
+				<graphicClass>Graphic_Multi</graphicClass>
+			</blueprintGraphicData>
+			<ai_chillDestination>false</ai_chillDestination>
+			<paintable>true</paintable>
+			<canExchangeVacuum>true</canExchangeVacuum>
+			<relatedBuildCommands>
+				<li>RGK_WoodFence</li>
+				<li>PenMarker</li>
+			</relatedBuildCommands>
+			<preferConnectingToFences>true</preferConnectingToFences>
 		</building>
 		<designationCategory>OldStyleFurniture</designationCategory>
 	</ThingDef>
@@ -1018,4 +1053,3 @@
 	</ThingDef>
 
 </Defs>
-
