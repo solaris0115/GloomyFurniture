@@ -42,6 +42,15 @@
 			</relatedBuildCommands>
 		</building>
 	</ThingDef>
+	<!-- Core ThingDef[Fence]/building/relatedBuildCommands 와 동일. 울타리 선택 시 우리 표시·울타리 문. -->
+	<ThingDef Abstract="True" Name="Gloomy_FenceRelatedCommandsLayer" ParentName="RKGFence">
+		<building>
+			<relatedBuildCommands>
+				<li>PenMarker</li>
+				<li>FenceGate</li>
+			</relatedBuildCommands>
+		</building>
+	</ThingDef>
 
 	<!--벽-->
 	<ThingDef ParentName="Gloomy_WallRelatedCommandsLayer">
@@ -576,7 +585,7 @@
 	</ThingDef>
 
 	<!--울타리-->
-	<ThingDef ParentName="RKGFence">
+	<ThingDef ParentName="Gloomy_FenceRelatedCommandsLayer">
 		<defName>RGK_WoodFence</defName>
 		<label>fence</label>
 		<thingClass>Gloomylynx.GL_Building</thingClass>
