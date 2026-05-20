@@ -53,13 +53,13 @@ namespace Gloomylynx
             {
                 if (oldDef.IsBlueprint || oldDef.IsFrame)
                 {
-                    if (!terrainDef.affordances.Contains(oldDef.entityDefToBuild.terrainAffordanceNeeded))
+                    if (oldDef.entityDefToBuild.terrainAffordanceNeeded != null && !terrainDef.affordances.Contains(oldDef.entityDefToBuild.terrainAffordanceNeeded))
                     {
                         __result = false;
                         return false;
                     }
                 }
-                else if (oldDef.category == ThingCategory.Building && !terrainDef.affordances.Contains(oldDef.terrainAffordanceNeeded))
+                else if (oldDef.category == ThingCategory.Building && oldDef.terrainAffordanceNeeded != null && !terrainDef.affordances.Contains(oldDef.terrainAffordanceNeeded))
                 {
                     __result = false;
                     return false;
