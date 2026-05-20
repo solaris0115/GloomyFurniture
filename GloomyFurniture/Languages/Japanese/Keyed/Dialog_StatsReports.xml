@@ -22,4 +22,13 @@
 
   <StandableObject_CantPass>建設可能な場所に設置する必要があります</StandableObject_CantPass>
 
+  <GL_WardrobeStoredInspect>保管された衣服:{0}/{1}</GL_WardrobeStoredInspect>
+
+  <GL_Wardrobe_AutoWearLabel>方針の自動着用</GL_Wardrobe_AutoWearLabel>
+  <GL_Wardrobe_AutoWearDesc>オンにすると,入植者は服装の方針に従ってこのワードローブから適切な衣服を取り出して着用できます(アウトフィットスタンドと同じ仕組みです).仕事に関する問題が発生した場合は,保管専用にするためにオフにしてください.</GL_Wardrobe_AutoWearDesc>
+  <GL_Wardrobe_AutoWearOnInspect>服装の方針は保管された衣服を使用できます.</GL_Wardrobe_AutoWearOnInspect>
+  <GL_Wardrobe_AutoWearOffInspect>服装の方針はここの衣服を無視します(保管専用).</GL_Wardrobe_AutoWearOffInspect>
+
+  <EjectApparelTooltip>このアイテムをワードローブから取り出します.</EjectApparelTooltip>
+
 </LanguageData>
