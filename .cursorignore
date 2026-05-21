@@ -2,3 +2,4 @@
 # https://cursor.com/docs/reference/ignore-file — gitignore 항목은 여기서 `!`로 무효화 가능.
 !RimworldData/
 !RimworldSource/
+!GloomyFix/
