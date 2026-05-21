@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Street White Lamp -->
+
+  <GL_Street_Lamp_L_White.label>街路灯 (白色)</GL_Street_Lamp_L_White.label>
+  <GL_Street_Lamp_L_White.description>屋外で使う街灯です。暗闇の中で道を照らします。</GL_Street_Lamp_L_White.description>
+
+  <GL_Street_Lamp_White.label>街路灯(電気) (白色)</GL_Street_Lamp_White.label>
+  <GL_Street_Lamp_White.description>屋外で使う街灯です。暗闇の中で道を照らします。電気が必要です。</GL_Street_Lamp_White.description>
+
+
+  <!-- Street White Lamp Seven -->
+
+  <GL_Street_Lamp_Seven_White.label>吊りランプ (白色)</GL_Street_Lamp_Seven_White.label>
+  <GL_Street_Lamp_Seven_White.description>屋外で使う街灯です。暗闇の中で道を照らします。</GL_Street_Lamp_Seven_White.description>
+
+  <GL_Street_Lamp_SevenE_White.label>吊りランプ (電気)(白色)</GL_Street_Lamp_SevenE_White.label>
+  <GL_Street_Lamp_SevenE_White.description>屋外で使う街灯です。暗闇の中で道を照らします。電気が必要です。</GL_Street_Lamp_SevenE_White.description>
+
+</LanguageData>
