@@ -41,6 +41,8 @@
 				<li>Vent</li>
 			</relatedBuildCommands>
 		</building>
+		<!-- 1.6: 벽형 설계 드로우(직선 드래그 등) — placingDraggableDimensions 필드 없음 -->
+		<drawStyleCategory>Walls</drawStyleCategory>
 	</ThingDef>
 	<!--벽-->
 	<ThingDef ParentName="Gloomy_WallRelatedCommandsLayer">
@@ -713,7 +715,7 @@
 		<castEdgeShadows>true</castEdgeShadows>
 		<fillPercent>0.5</fillPercent>
 		<constructEffect>ConstructWood</constructEffect>
-		
+		<drawStyleCategory>Walls</drawStyleCategory>
 		<tickerType>Never</tickerType>
 		<rotatable>false</rotatable>
 		<selectable>true</selectable>
