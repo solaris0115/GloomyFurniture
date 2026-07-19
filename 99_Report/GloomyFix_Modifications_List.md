@@ -2,7 +2,7 @@ GloomyFix GloomyFurniture Fix companion mod Xml Patch Def list 1.6 DefInject Roy
 
 # Gloomy Furniture Fix (`GloomyFix`) — 수정 대상·성격 요약
 
-**대상 모드**: `Solaris.FurnitureBase`(Gloomy Furniture), `Gloomy.Furniture.Continued`(선택) 이후 로드. **Harmony** 의존. 가구 ThingDef 등은 본편 **`Gloomylynx.*`**(어셈블리 `Gloomylynx.dll`)을 참조하고, Fix 모드는 **`Assemblies/Gloomy Furniture Fix.dll`**(내부 어셈블리명 `GloomyWallLampFix`)로 **추가 Harmony 패치**를 싣는다.
+**대상 모드**: `Solaris.FurnitureBase`(Gloomy Furniture), `Gloomy.Furniture.Continued`(선택) 이후 로드. **Harmony** 의존. 가구 ThingDef 등은 글루미 본모드 **`Gloomylynx.*`**(어셈블리 `Gloomylynx.dll`)을 참조하고, Fix 모드는 **`Assemblies/Gloomy Furniture Fix.dll`**(내부 어셈블리명 `GloomyWallLampFix`)로 **추가 Harmony 패치**를 싣는다.
 
 **방식 요약**: (1) Xml Patch로 원본 일부 Def 제거 (2) 동일 `defName`으로 `1.6/Defs`에서 ThingDef·TerrainDef·RecipeDef 등을 **통째 재정의**해 덮어씀 (3) 타 모드·DLC Def에 Xml Patch로 항목 추가 (4) 다국어 `DefInject` (5) Fix 전용 DLL로 **청사진 겹침** 등 일부 바닐라 로직을 Harmony로 조정.
 
@@ -21,11 +21,9 @@ GloomyFix GloomyFurniture Fix companion mod Xml Patch Def list 1.6 DefInject Roy
 | 항목 | 수정·개입 내용 |
 |------|----------------|
 | **Harmony ID** | `rabiosus.GloomyWallLampFix` — 시작 시 `PatchAll()`, 로그 `[GloomyWallLampFix]`. |
-| **`GenConstruct.CanPlaceBlueprintOver`** | **Prefix** + `[HarmonyBefore("com.Gloomylynx.rimworld.mod")]` → 본편 글루미(`com.Gloomylynx.rimworld.mod`)의 동일 메서드 패치보다 **먼저** 실행. |
+| **`GenConstruct.CanPlaceBlueprintOver`** | **Prefix** + `[HarmonyBefore("com.Gloomylynx.rimworld.mod")]` → `com.Gloomylynx.rimworld.mod` ID를 쓰는 다른 Harmony보다 **먼저** 실행. |
 | **조건** | 새 건축물 `BuildableDef.placeWorkers`에 **`Placeworker_AttachedToWall`**가 포함된 경우. |
 | **결과** | `__result = true`로 두고 **원본 메서드 및 이후 패치 체인을 건너뜀** → 벽 부착형 건물(벽 조명 등) **청사진이 다른 것과 겹칠 때 허용**되도록 우회하는 역할. |
-
-본편 `Gloomylynx`의 `CanPlaceBlueprintOver` 관련 Harmony와 **순서·의도가 겹칠 수 있으므로**, Fix DLL은 “벽 조명 청사진”류 이슈를 **앞단에서 한 번 더** 풀어 주는 얇은 레이어로 보면 된다.
 
 ---
 
@@ -37,12 +35,12 @@ GloomyFix GloomyFurniture Fix companion mod Xml Patch Def list 1.6 DefInject Roy
 | **Royalty** (`Patches/Royalty.xml`, 구조 유사) | 위와 유사하나 `disableImpassableShotOverConfigError` 없음(구버전용으로 추정). |
 | **Vanilla Expanded Framework** | 여러 `RoyalTitleDef`의 침실 요건에 `GL_ClassyDoubleBed`, 엔드테이블·드레서·옷장 계열 추가. |
 | **Hakuro Xenohuman** | 해당 모드 작위 침실의 침대 요건에 `RGK_bed*`·`GL_ClassyDoubleBed` 추가. |
-| **Core** (`Patches/Core.xml`) | `FermentingBarrel`에 UI 아이콘 스케일·오프셋 추가(글루미와 무관한 바닐라 티크). |
+| **Core** (`Patches/Core.xml`) | `FermentingBarrel`에 UI 아이콘 스케일·오프셋 추가. |
 | **New Ratkin Plus** | 설교단 UI 오프셋, 햄스터 휠 발전기 UI, 재봉대에 `Make_Patchleather` 레시피 추가. |
 
 ---
 
-## 4. `1.6/Defs` — 글루미 본편과 동일 이름으로 **재정의·대체**하는 범위(파일 단위)
+## 4. `1.6/Defs` — 글루미 원본과 동일 `defName`으로 **재정의·대체**하는 범위(파일 단위)
 
 | 파일 | 무엇을 다루는지 |
 |------|----------------|
@@ -65,7 +63,7 @@ GloomyFix GloomyFurniture Fix companion mod Xml Patch Def list 1.6 DefInject Roy
 ## 5. 재정의 Def들의 **공통·반복되는 수정 성격**(기능 리스트)
 
 - **도색**: 가구·벽·생산설비·선반·러그 등 `paintable` / 지형 `isPaintable`.
-- **재료**: 다수 건물에 나무·돌·금속 등 `stuffCategories` 확장 및 `costStuffCount` 조정(본편 대비 밸런스·제작 비용 변경).
+- **재료**: 다수 건물에 나무·돌·금속 등 `stuffCategories` 확장 및 `costStuffCount` 조정(원본 글루미 Def 대비 밸런스·제작 비용 변경).
 - **침대 연동**: `SleepAccelerator`(Ideology)를 침대 `linkableFacilities`에 포함.
 - **시설 거리·수치**: 예) `RGK_Dresser` 시설 `maxDistance` **6**(About의 “드레서 사거리” 변경과 일치).
 - **선반·책장 저장**: 선반 `maxItemsInCell` 등으로 **칸당 저장 밀도** 변경, `defaultStorageSettings`에 **여러 ThingCategory** 허용(선반 “여러 종류” 수납).
@@ -87,7 +85,7 @@ GloomyFix GloomyFurniture Fix companion mod Xml Patch Def list 1.6 DefInject Roy
 
 ## 7. About 설명만 있고, **이 레포 Xml만으로는 근거가 약한** 항목
 
-- **다리 위 벽/울타리 설치**, **장교/휘장 성격 변경**, 일부 **텍스처·그림자** 수정은 `About.xml`에 명시되어 있으나, Xml·Fix DLL만으로는 전부 입증되지 않는다. 벽 등은 **`Gloomylynx.GL_Building`**(본편 `Gloomylynx.dll`)과 **에셋**에 더 묶여 있다.
+- **다리 위 벽/울타리 설치**, **장교/휘장 성격 변경**, 일부 **텍스처·그림자** 수정은 `About.xml`에 명시되어 있으나, Xml·Fix DLL만으로는 전부 입증되지 않는다. 벽 등은 **`Gloomylynx.GL_Building`**(글루미 본모드 `Gloomylynx.dll`)과 **에셋**에 더 묶여 있다.
 - Fix 전용 **`Gloomy Furniture Fix.dll`**은 위 항목 전체가 아니라, 확인된 범위에서는 **`CanPlaceBlueprintOver` 한 지점**만 건드린다.
 
 ---
