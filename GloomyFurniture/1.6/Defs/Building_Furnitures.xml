@@ -1245,6 +1245,7 @@
 		<altitudeLayer>Pawn</altitudeLayer>
 		<passability>PassThroughOnly</passability>
 		<fillPercent>1</fillPercent>
+		<blockWeather>true</blockWeather>
 		<minifiedDef>MinifiedThing</minifiedDef>
 		<castEdgeShadows>true</castEdgeShadows>
 		<stuffCategories>
@@ -1321,6 +1322,7 @@
 		<altitudeLayer>Pawn</altitudeLayer>
 		<passability>PassThroughOnly</passability>
 		<fillPercent>1</fillPercent>
+		<blockWeather>true</blockWeather>
 		<minifiedDef>MinifiedThing</minifiedDef>
 		<castEdgeShadows>true</castEdgeShadows>
 		<stuffCategories>
@@ -1409,6 +1411,7 @@
 		<altitudeLayer>Pawn</altitudeLayer>
 		<passability>PassThroughOnly</passability>
 		<fillPercent>1</fillPercent>
+		<blockWeather>true</blockWeather>
 		<minifiedDef>MinifiedThing</minifiedDef>
 		<castEdgeShadows>true</castEdgeShadows>
 		<stuffCategories>
