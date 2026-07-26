@@ -15,8 +15,6 @@ namespace Gloomylynx
 
         protected override void DrawAt(Vector3 drawLoc, bool flip = false)
         {
-            drawLoc -= Altitudes.AltIncVect * 2f;
-
             if (this.def.drawerType == DrawerType.RealtimeOnly || !this.Spawned)
             {
                 this.Graphic.Draw(drawLoc, flip ? this.Rotation.Opposite : this.Rotation, this, 0f);

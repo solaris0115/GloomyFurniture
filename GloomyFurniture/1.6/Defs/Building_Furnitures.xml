@@ -1303,7 +1303,6 @@
 		<label>wardrobe</label>
 		<description>Stores apparel inside the cabinet like books in a bookcase. Use the storage tab for filters and priorities; open the contents tab to eject items. Not a ground-stack shelf.</description>
 		<thingClass>Gloomylynx.Building_GloomyWardrobe</thingClass>
-		<drawerType>RealtimeOnly</drawerType>
 		<preventDroppingThingsOn>true</preventDroppingThingsOn>
 		<deselectedSelectionBracketFactor>0.3</deselectedSelectionBracketFactor>
 		<graphicData>
@@ -1319,7 +1318,7 @@
 		</graphicData>
 		<uiIconScale>0.65</uiIconScale>
 		<uiIconOffset>(0, 0.15)</uiIconOffset>
-		<altitudeLayer>Building</altitudeLayer>
+		<altitudeLayer>Pawn</altitudeLayer>
 		<passability>PassThroughOnly</passability>
 		<fillPercent>1</fillPercent>
 		<minifiedDef>MinifiedThing</minifiedDef>
@@ -1392,7 +1391,6 @@
 		<label>wardrobe</label>
 		<description>Stores apparel inside the cabinet like books in a bookcase. Use the storage tab for filters and priorities; open the contents tab to eject items. Not a ground-stack shelf.</description>
 		<thingClass>Gloomylynx.Building_GloomyWardrobe</thingClass>
-		<drawerType>RealtimeOnly</drawerType>
 		<preventDroppingThingsOn>true</preventDroppingThingsOn>
 		<deselectedSelectionBracketFactor>0.3</deselectedSelectionBracketFactor>
 		<graphicData>
@@ -1408,7 +1406,7 @@
 		</graphicData>
 		<uiIconScale>0.65</uiIconScale>
 		<uiIconOffset>(0, 0.15)</uiIconOffset>
-		<altitudeLayer>Building</altitudeLayer>
+		<altitudeLayer>Pawn</altitudeLayer>
 		<passability>PassThroughOnly</passability>
 		<fillPercent>1</fillPercent>
 		<minifiedDef>MinifiedThing</minifiedDef>
@@ -1488,7 +1486,7 @@
 			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
 		<thingClass>Gloomylynx.Building_GloomyBookshelf</thingClass>
-		<drawerType>RealtimeOnly</drawerType>
+		<drawerType>MapMeshAndRealTime</drawerType>
 		<preventDroppingThingsOn>true</preventDroppingThingsOn>
 		<deselectedSelectionBracketFactor>0.3</deselectedSelectionBracketFactor>
 		<uiIconScale>0.65</uiIconScale>
